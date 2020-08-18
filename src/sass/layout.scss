@@ -1,0 +1,10 @@
+.container {
+    @apply max-w-7xl w-full mx-auto px-6;
+}
+
+.wrapper {   
+    @apply relative mb-20;
+    @screen md {
+        @apply mb-40;
+    }    
+}

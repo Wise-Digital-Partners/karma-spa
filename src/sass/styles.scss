@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+// Custom
+@import '../sass/global.scss';
+@import '../sass/typography.scss';
+@import '../sass/layout.scss';
+@import '../sass/forms.scss';
+
+@tailwind utilities;
