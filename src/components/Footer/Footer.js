@@ -44,15 +44,15 @@ const Footer = () => {
                 <Img className="mb-3" fixed={data.logo.childImageSharp.fixed} alt="Karma Spa Logo" />
                 <div className="flex items-center justify-center md:justify-start mt-10">
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-instagram text-white hover:text-primary_400 text-2xl mr-6 base-animation-ease"></i>
+                    <i className="fab fa-instagram text-white hover:text-primary_400 focus:text-primary_400 active:text-primary_400 text-2xl mr-6 base-animation-ease"></i>
                   </a>
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-facebook-f text-white hover:text-primary_400 text-xl base-animation-ease"></i>
+                    <i className="fab fa-facebook-f text-white hover:text-primary_400 focus:text-primary_400 active:text-primary_400 text-xl base-animation-ease"></i>
                   </a>   
                   <ul className="flex list-none md:ml-12">
-                    <li className="text-xsmall font-bold uppercase mb-1 md:mb-0 md:mr-8"><AniLink className="text-white no-underline" fade to="/faqs/">FAQs</AniLink></li>
-                    <li className="text-xsmall font-bold uppercase mb-1 md:mb-0 md:mr-8"><AniLink className="text-white no-underline" fade to="/join-our-team/">Join Our Team</AniLink></li>
-                    <li className="text-xsmall font-bold uppercase mb-1 md:mb-0"><a className="text-white no-underline" data-modal-open="modal-contact">Contact</a></li>
+                    <li className="text-xsmall font-bold uppercase mb-1 md:mb-0 md:mr-8"><AniLink className="text-white hover:text-primary_400 focus:text-primary_400 active:text-primary_400 no-underline" fade to="/faqs/">FAQs</AniLink></li>
+                    <li className="text-xsmall font-bold uppercase mb-1 md:mb-0 md:mr-8"><AniLink className="text-white hover:text-primary_400 focus:text-primary_400 active:text-primary_400 no-underline" fade to="/join-our-team/">Join Our Team</AniLink></li>
+                    <li className="text-xsmall font-bold uppercase mb-1 md:mb-0"><a className="text-white hover:text-primary_400 focus:text-primary_400 active:text-primary_400 no-underline" data-modal-open="modal-contact">Contact</a></li>
                   </ul>
                 </div>                 
               </div>
@@ -86,7 +86,7 @@ const Footer = () => {
               <ul className="flex items-center flex-col md:flex-row ">
                 <li className="text-small text-white opacity-75 mb-1 md:mb-0 md:mr-10">© {getYear()} Karma Spa</li>
               </ul>
-              <p className="flex items-center text-small text-white mb-0 powered-by-nest">Powered by <a className="flex items-center font-medium ml-1" href="https://www.wisedigitalpartners.com/affordable-web-design/" target="_blank" rel="noopener noreferrer">nest <Img className="ml-1" fixed={data.nestLogo.childImageSharp.fixed} alt="nest Logo" /></a></p>
+              <p className="flex items-center text-small text-white text-opacity-75 mb-0 powered-by-nest">Powered by <a className="text-white hover:text-primary_400 focus:text-primary_400 active:text-primary_400 text-opacity-100 font-bold flex items-center font-medium ml-1" href="https://www.wisedigitalpartners.com/affordable-web-design/" target="_blank" rel="noopener noreferrer">nest <Img className="ml-1" fixed={data.nestLogo.childImageSharp.fixed} alt="nest Logo" /></a></p>
             </div>
 
           </div>

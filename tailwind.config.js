@@ -41,6 +41,7 @@ module.exports = {
         secondary_100: '#F5F0E9',          
       },
       fontSize: {
+        '2xs': '.625rem',
         'md': '.9375rem',
         'xl': '1.25rem',
         '2xl': '1.375rem',
