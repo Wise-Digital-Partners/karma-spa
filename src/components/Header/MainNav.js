@@ -13,7 +13,10 @@ import ButtonSolid from '../Button/ButtonSolid'
 const StyledMainNav = styled.nav`
 	${({headerHasBorder}) => headerHasBorder ? 
 		tw`border-b border-solid border-white border-opacity-25` : null
-	};
+    };
+    ${({megaMenuHovering}) => megaMenuHovering ? 
+        tw`bg-white` : null
+    };
     &[data-fixed='true'] {
         ${tw`fixed top-0 left-0 w-full bg-white shadow z-20`}
         #navigation-desktop {
@@ -39,12 +42,22 @@ const StyledMainNav = styled.nav`
                 ${({headerLinkColor}) => headerLinkColor === 'white' ? 
                     tw`text-white` : tw`text-gray-900`
                 };
+                ${({megaMenuHovering}) => megaMenuHovering ? 
+                    tw`text-gray-900`: null
+                };
                 ${tw`relative text-xs font-bold no-underline uppercase tracking-widest pb-8`}
                 &:after {
                     content: '';
-                    ${tw`absolute left-0 bottom-0 h-2px bg-primary_400 w-0 transform -translate-y-6 transition-all duration-300 ease-linear`}
+                    ${tw`absolute left-0 bottom-0 h-px bg-primary_400 w-0 transform -translate-y-6 transition-all duration-300 ease-linear`}
                 }
                 &:hover {
+                    &:after {
+                        ${tw`w-full`}
+                    }
+                }
+            }
+            &.active {
+                > a {
                     &:after {
                         ${tw`w-full`}
                     }
@@ -54,8 +67,7 @@ const StyledMainNav = styled.nav`
         .is-submenu-parent {
             ${tw`relative`}
             .submenu {
-                ${tw`absolute flex flex-col w-auto bg-white px-8 pt-6 pb-10 opacity-0 invisible z-10 transform -translate-x-10 translate-y-12 transition-all duration-300 ease-linear`}
-                box-shadow: 0 4px 18px 0 rgba(0,0,0,0.06);
+                ${tw`absolute flex flex-col w-auto bg-white shadow-lg px-8 py-6 opacity-0 invisible z-10 transform -translate-x-10 translate-y-12 transition-all duration-300 ease-linear`}
                 .navigation-item {
                     ${tw`whitespace-no-wrap`}
                     &:not(:last-child) {
@@ -71,10 +83,21 @@ const StyledMainNav = styled.nav`
             }
             &:hover {
                 .submenu {
-                    ${tw`opacity-100 visible translate-y-6`}
+                    ${tw`opacity-100 visible translate-y-7`}
                 }
             }
         }
+        .is-mega-menu-parent {
+            ${tw`static`}
+            .mega-menu {
+                ${tw`absolute left-0 flex flex-col w-full bg-white shadow-lg pt-20 pb-12 opacity-0 invisible z-10 transform translate-y-12 transition-all duration-300 ease-linear`}
+            }
+            &:hover {
+                .mega-menu {
+                    ${tw`opacity-100 visible translate-y-7`}
+                }
+            }
+        }        
     }
 
     #navigation-mobile {
@@ -129,6 +152,19 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
 
     // determine if offcanvas is open
     const [open, setOpen] = useState(false);
+
+    // Hover on parent links
+    const [megaMenuHovering, setMegaMenuHovering] = useState(false);
+    const isHoveringMegaMenu = () => setMegaMenuHovering(true);
+    const notHoveringMegaMenu = () => setMegaMenuHovering(false);
+
+    const [subMenuHovering1, setSubMenuHovering1] = useState(false);
+    const isHoveringSubMenu1 = () => setSubMenuHovering1(true);
+    const notHoveringSubMenu1 = () => setSubMenuHovering1(false);
+
+    const [subMenuHovering2, setSubMenuHovering2] = useState(false);
+    const isHoveringSubMenu2 = () => setSubMenuHovering2(true);
+    const notHoveringSubMenu2 = () => setSubMenuHovering2(false);    
 
     // mobile submenu animate height variables
     const [submenuHeight1, submenuSetHeight1] = useState('initial');
@@ -206,10 +242,39 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                         ...GatsbyImageSharpFixed_withWebp_noBase64
                     }
                 }
+            }
+            massageServices: file(relativePath: {eq: "repeating/massage-services.jpg"}) {
+				childImageSharp {
+					fluid(maxWidth: 504, quality: 100) {
+						...GatsbyImageSharpFluid_withWebp
+					}
+				}
+			} 
+			specialPackages: file(relativePath: {eq: "repeating/special-packages.jpg"}) {
+				childImageSharp {
+					fluid(maxWidth: 504, quality: 100) {
+						...GatsbyImageSharpFluid_withWebp
+					}
+				}
+			} 
+			aestheticTreatments: file(relativePath: {eq: "repeating/aesthetic-treatments.jpg"}) {
+				childImageSharp {
+					fluid(maxWidth: 504, quality: 100) {
+						...GatsbyImageSharpFluid_withWebp
+					}
+				}
+			} 
+			skinCareServices: file(relativePath: {eq: "repeating/skin-care-services.jpg"}) {
+				childImageSharp {
+					fluid(maxWidth: 504, quality: 100) {
+						...GatsbyImageSharpFluid_withWebp
+					}
+				}
             }       
         }
     `)
 
+    // Define logos based on header style
     let desktopInitialLogo = null,
         desktopFixedLogo = null,
         mobileInitialLogo = null,
@@ -227,6 +292,11 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
         mobileFixedLogo = data.mobileLogoDark.childImageSharp.fixed;
     }
 
+    // Change logo on mega menu reveal
+    if (megaMenuHovering) {
+        desktopInitialLogo = data.desktopLogoDark.childImageSharp.fixed;
+    }
+
     return (
         <StyledMainNav 
             id="main-navigation"
@@ -237,6 +307,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
             headerStyle={headerStyle}
             headerHasBorder={headerHasBorder}
             headerLinkColor={headerLinkColor}
+            megaMenuHovering={megaMenuHovering}
         >
             <div className="container flex items-center">
                 <div className="flex-auto flex items-center">
@@ -261,29 +332,65 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                 </div>
                 <div className="flex items-center justify-end flex-auto">
                     <ul id="navigation-desktop" className="hidden lg:flex lg:items-center lg:justify-end mr-10">
-                        <li className="is-submenu-parent navigation-item">
+                        <li className={`is-mega-menu-parent navigation-item ${megaMenuHovering ? 'active' : ''}`} onMouseEnter={isHoveringMegaMenu} onMouseLeave={notHoveringMegaMenu}>
                             <AniLink fade to="#">Services</AniLink>
-                            <ul className="submenu">
-                            <li className="navigation-item"><AniLink fade to="/massage-services/">Massage</AniLink></li>
-                            <li className="navigation-item"><AniLink fade to="/massage-packages/">Packages</AniLink></li>
-                            <li className="navigation-item"><AniLink fade to="/aesthetic-treatments/">Treatments</AniLink></li>
-                            <li className="navigation-item"><AniLink fade to="/skin-care-services/">Skin Care</AniLink></li>
-                            </ul>
+                            <div className="mega-menu">
+                                <div className="container flex items-center">
+                                    <div className="grid grid-cols-1 md:grid-cols-4 row-gap-12 md:row-gap-0 md:col-gap-16">
+                                        <div className="group relative">
+                                            <Img className="mb-6" fluid={data.massageServices.childImageSharp.fluid} alt="Massage Services" />
+                                            <div className="flex justify-between items-center">
+                                                <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Massage Services</p>
+                                                <i class="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                            </div>
+                                            <p className="text-small mb-0">No matter your indulgence, we have a massage for you.</p>
+                                            <AniLink fade to="/massage-services/"><span className="link-overlay"></span></AniLink>
+                                        </div>
+                                        <div className="group relative">
+                                            <Img className="mb-6" fluid={data.specialPackages.childImageSharp.fluid} alt="Special Packages" />
+                                            <div className="flex justify-between items-center">
+                                                <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Special Packages</p>
+                                                <i class="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                            </div>
+                                            <p className="text-small mb-0">Our popular packages will pamper you with great value.</p>
+                                            <AniLink fade to="/massage-packages/"><span className="link-overlay"></span></AniLink>
+                                        </div>
+                                        <div className="group relative">
+                                            <Img className="mb-6" fluid={data.aestheticTreatments.childImageSharp.fluid} alt="Aesthetic Treatments" />
+                                            <div className="flex justify-between items-center">
+                                                <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Aesthetic Treatments</p>
+                                                <i class="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                            </div>
+                                            <p className="text-small mb-0">Karma Bella aesthetic treatments bring out your best self.</p>
+                                            <AniLink fade to="/aesthetic-treatments/"><span className="link-overlay"></span></AniLink>
+                                        </div>
+                                        <div className="group relative">
+                                            <Img className="mb-6" fluid={data.skinCareServices.childImageSharp.fluid} alt="Skin Care Services" />
+                                            <div className="flex justify-between items-center">
+                                                <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Skin Care Services</p>
+                                                <i class="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                            </div>
+                                            <p className="text-small mb-0">Facials, waxing, scrubs and saunas for the ultimate glow-up.</p>
+                                            <AniLink fade to="/skin-care-services/"><span className="link-overlay"></span></AniLink>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
-                        <li className="is-submenu-parent navigation-item">
+                        <li className={`is-submenu-parent navigation-item ${subMenuHovering1 ? 'active' : ''}`} onMouseEnter={isHoveringSubMenu1} onMouseLeave={notHoveringSubMenu1}>
                             <AniLink fade to="#">Locations</AniLink>
                             <ul className="submenu">
-                            <li className="navigation-item"><AniLink fade to="/hillcrest-massage/">Hillcrest</AniLink></li>
-                            <li className="navigation-item"><AniLink fade to="/carlsbad-massage/">Carlsbad</AniLink></li>
+                                <li className="navigation-item"><AniLink fade to="/hillcrest-massage/">Hillcrest</AniLink></li>
+                                <li className="navigation-item"><AniLink fade to="/carlsbad-massage/">Carlsbad</AniLink></li>
                             </ul>
                         </li>
-                        <li className="is-submenu-parent navigation-item">
+                        <li className={`is-submenu-parent navigation-item ${subMenuHovering2 ? 'active' : ''}`} onMouseEnter={isHoveringSubMenu2} onMouseLeave={notHoveringSubMenu2}>
                             <AniLink fade to="/about/">About</AniLink>
                             <ul className="submenu">
-                            <li className="navigation-item"><AniLink fade to="/about/">About</AniLink></li>
-                            <li className="navigation-item"><AniLink fade to="/gift-cards/">Gift Cards</AniLink></li>
-                            <li className="navigation-item"><AniLink fade to="/massage-membership/">Membership</AniLink></li>
-                            <li className="navigation-item"><AniLink fade to="/blog/">Blog</AniLink></li>
+                                <li className="navigation-item"><AniLink fade to="/about/">About</AniLink></li>
+                                <li className="navigation-item"><AniLink fade to="/gift-cards/">Gift Cards</AniLink></li>
+                                <li className="navigation-item"><AniLink fade to="/massage-membership/">Membership</AniLink></li>
+                                <li className="navigation-item"><AniLink fade to="/blog/">Blog</AniLink></li>
                             </ul>
                         </li>
                     </ul>

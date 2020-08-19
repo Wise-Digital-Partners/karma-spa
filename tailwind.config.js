@@ -101,6 +101,9 @@ module.exports = {
   variants: {
     width: ['responsive', 'hover', 'focus'],
     height: ['responsive', 'hover', 'focus'],
+    scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+    textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+    opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
   },
   corePlugins: {
     container: false

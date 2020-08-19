@@ -29,7 +29,7 @@ const Packages = ({className}) => {
 						<div className="md:col-end-13 md:col-span-4">
 							<h2 className="heading-three">Get the VIP Treatment. </h2>
 							<p>Karma Spa now offers basic and VIP membership plans for regular guests. Get exclusive specials and earn points towards free massages.</p>
-							<ButtonGhost href="#" text="Learn More" />
+							<ButtonGhost href="/massage-membership/" text="Learn More" />
 						</div>
 					</div>
 				</div>
