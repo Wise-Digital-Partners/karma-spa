@@ -93,22 +93,22 @@ export const Page = ({data}) => {
 					<div className="md:col-start-1 md:col-span-6 pt-10 md:pt-20 pb-10 md:pb-0 md:pr-6 border-b md:border-b-0 md:border-r border-solid border-gray-200 border-opacity-50">
 						<h3>Deep Tissue Massage Benefits</h3>
 						<ul className="styled-list">
-							<li>Relieve stress & tension</li>
-							<li>Reduce inflammation</li>
-							<li>Lessen aches & pains</li>
-							<li>Promote healing</li>
-							<li>Stimulate flexibility </li>
-							<li>Relax deeply</li>
+							<li className="text-xl text-gray-600">Relieve stress & tension</li>
+							<li className="text-xl text-gray-600">Reduce inflammation</li>
+							<li className="text-xl text-gray-600">Lessen aches & pains</li>
+							<li className="text-xl text-gray-600">Promote healing</li>
+							<li className="text-xl text-gray-600">Stimulate flexibility </li>
+							<li className="text-xl text-gray-600">Relax deeply</li>
 						</ul>
 					</div>
 					<div className="md:col-end-13 md:col-span-6 pt-10 md:pt-20 md:pl-10 lg:pl-16">
 						<h3>Found in These Packages:</h3>
 						<ul className="styled-list mb-8">
-							<li>The Premier Package</li>
-							<li>The President Package</li>
-							<li>The Vice President Package</li>
-							<li>The First Lady Package</li>
-							<li>The CEO Package</li>
+							<li className="text-xl text-gray-600">The Premier Package</li>
+							<li className="text-xl text-gray-600">The President Package</li>
+							<li className="text-xl text-gray-600">The Vice President Package</li>
+							<li className="text-xl text-gray-600">The First Lady Package</li>
+							<li className="text-xl text-gray-600">The CEO Package</li>
 						</ul>
 						<ButtonGhost href="" text="Browse Packages" />
 					</div>
