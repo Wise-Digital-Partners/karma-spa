@@ -14,11 +14,26 @@ const StyledMainNav = styled.nav`
 	${({headerHasBorder}) => headerHasBorder ? 
 		tw`border-b border-solid border-white border-opacity-25` : null
     };
-    ${({megaMenuHovering}) => megaMenuHovering ? 
-        tw`bg-white` : null
-    };
+    @media (min-width: 768px) {
+        ${({megaMenuHovering}) => megaMenuHovering ? 
+            tw`bg-white` : null
+        };
+    }
+    @media (max-width: 768px) {
+        ${({offcanvasOpen}) => offcanvasOpen ? 
+            tw`bg-gray-100` : null
+        };
+       	${({headerStyle}) => headerStyle ? 
+		    tw`border-b border-solid border-white border-opacity-25` : null
+        }; 
+    }    
     &[data-fixed='true'] {
         ${tw`fixed top-0 left-0 w-full bg-white shadow z-20`}
+        @media (max-width: 768px) {
+            ${({offcanvasOpen}) => offcanvasOpen ? 
+                tw`bg-gray-100` : null
+            };
+        }         
         #navigation-desktop {
             > .navigation-item {
                 > a {
@@ -101,14 +116,14 @@ const StyledMainNav = styled.nav`
     }
 
     #navigation-mobile {
-        ${tw`w-full`}
-        .navigation-item {
+        ${tw`w-full text-center`}
+        > .navigation-item {
             ${tw`relative`}
             &:not(:last-child) {
                 ${tw`mb-8`}
             }
-            a {
-                ${tw`text-gray-800 font-bold text-xl no-underline`}
+            > a {
+                ${tw`text-3xl font-heading text-gray-900 font-semibold no-underline`}
                 &:hover {
                     ${tw`text-primary_400`}
                 }
@@ -116,7 +131,7 @@ const StyledMainNav = styled.nav`
             &.is-submenu-parent {
                 > a {
                     ${tw`block`}
-                    &:after {
+                    /* &:after {
                         content: '\f078';
                         font-family: 'Font Awesome 5 Pro';
                         ${tw`absolute top-0 right-0 font-normal text-black transition-all duration-300 ease-linear`}
@@ -125,7 +140,7 @@ const StyledMainNav = styled.nav`
                         &:after {
                             content: '\f068';
                         }
-                    }
+                    } */
                 }
             }
         }
@@ -133,10 +148,13 @@ const StyledMainNav = styled.nav`
             ${tw`overflow-hidden flex-col transition-all duration-300 ease-linear`}
             li {
                 &:not(:last-child) {
-                    ${tw`mb-4`}
+                    ${tw`mb-6`}
                 }
                 a {
-                    ${tw`text-base font-medium`}
+                    ${tw`text-sm font-semibold text-gray-700 uppercase`}
+                    &:hover {
+                        ${tw`text-primary_400`}
+                    }                    
                 }
             } 
         }    
@@ -151,7 +169,7 @@ let submenuTempHeight1 = null,
 const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
 
     // determine if offcanvas is open
-    const [open, setOpen] = useState(false);
+    const [offcanvasOpen, setOffcanvasOpen] = useState(false);
 
     // Hover on parent links
     const [megaMenuHovering, setMegaMenuHovering] = useState(false);
@@ -184,7 +202,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
 
     // handle click of navigation items
     const clickHandler = () => {
-        setOpen(!open);
+        setOffcanvasOpen(!offcanvasOpen);
         submenuTempHeight1 = null;
         submenuTempHeight2 = null;
         submenuTempHeight3 = null;
@@ -192,7 +210,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
 
     // close offcanvas onclick outside
     const node = useRef();
-    useOnClickOutside(node, () => setOpen(false));
+    useOnClickOutside(node, () => setOffcanvasOpen(false));
     
     // calculate mobile submenu height
     useEffect(() => {
@@ -287,7 +305,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
             },
         ] 
         fixedLogo = [
-            data.desktopLogoLight.childImageSharp.fixed,
+            data.desktopLogoDark.childImageSharp.fixed,
             {
             ...data.mobileLogoDark.childImageSharp.fixed,
                 media: `(max-width: 767px)`,
@@ -315,6 +333,23 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
         initialLogo = data.desktopLogoDark.childImageSharp.fixed;
     }
 
+    if(offcanvasOpen) {
+        initialLogo = [
+            data.desktopLogoDark.childImageSharp.fixed,
+            {
+            ...data.mobileLogoDark.childImageSharp.fixed,
+                media: `(max-width: 767px)`,
+            },
+        ] 
+        fixedLogo = [
+            data.desktopLogoDark.childImageSharp.fixed,
+            {
+            ...data.mobileLogoDark.childImageSharp.fixed,
+                media: `(max-width: 767px)`,
+            },
+        ] 
+    }
+
     return (
         <StyledMainNav 
             id="main-navigation"
@@ -326,6 +361,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
             headerHasBorder={headerHasBorder}
             headerLinkColor={headerLinkColor}
             megaMenuHovering={megaMenuHovering}
+            offcanvasOpen={offcanvasOpen}
         >
             <div className="container flex items-center">
                 <div className="flex-auto flex items-center">
@@ -407,77 +443,85 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                     </div>
 
                     <div className="lg:hidden" ref={node}>
-                        <Burger open={open} setOpen={setOpen} headerStyle={headerStyle} scrolled={scrolled} aria-controls="mobile-menu"/>
-                        <OffCanvas open={open} setOpen={setOpen} id="mobile-menu" className="py-10">
-                        <ul id="navigation-mobile" className="mb-16 inline-block">
-                            <li className="navigation-item is-submenu-parent">
-                            <a aria-expanded={subMenuOpen1 === true ? "true" : "false"} onClick={() => {  
-                                if (submenuTempHeight1 === null) 
-                                    return;
-                                    submenuSetHeight1(submenuHeight1 === 0 ? submenuTempHeight1 : 0);
-                                    submenuSetPaddingTop1(submenuPaddingTop1 === 0 ? '20px' : 0);
-                                    setSubMenuOpen1(!subMenuOpen1);
-                                }}
-                            >Commercial Insurance</a>
-                            <ul className="submenu ml-6" ref={submenuRef1} style={{maxHeight: submenuHeight1, paddingTop: submenuPaddingTop1}}>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                        <Burger offcanvasOpen={offcanvasOpen} setOffcanvasOpen={setOffcanvasOpen} headerStyle={headerStyle} scrolled={scrolled} aria-controls="mobile-menu"/>
+                        <OffCanvas offcanvasOpen={offcanvasOpen} setOffcanvasOpen={setOffcanvasOpen} id="mobile-menu" className="py-10">
+                            <ul id="navigation-mobile" className="mb-16 inline-block">
+                                <li className="navigation-item is-submenu-parent">
+                                    <a aria-expanded={subMenuOpen1 === true ? "true" : "false"} onClick={() => {  
+                                        if (submenuTempHeight1 === null) 
+                                            return;
+                                            submenuSetHeight1(submenuHeight1 === 0 ? submenuTempHeight1 : 0);
+                                            submenuSetPaddingTop1(submenuPaddingTop1 === 0 ? '20px' : 0);
+                                            setSubMenuOpen1(!subMenuOpen1);
+                                        }}
+                                    >Services</a>
+                                    <ul className="submenu" ref={submenuRef1} style={{maxHeight: submenuHeight1, paddingTop: submenuPaddingTop1}}>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-services/">Massage</AniLink>
+                                        </li>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-packages/">Packages</AniLink>
+                                        </li>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/aesthetic-treatments/">Treatments</AniLink>
+                                        </li>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/skin-care-services/">Skin Care</AniLink>
+                                        </li>
+                                    </ul> 
                                 </li>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                <li className="navigation-item is-submenu-parent">
+                                    <a aria-expanded={subMenuOpen2 === true ? "true" : "false"} onClick={() => {  
+                                        if (submenuTempHeight2 === null) 
+                                            return;
+                                            submenuSetHeight2(submenuHeight2 === 0 ? submenuTempHeight2 : 0);
+                                            submenuSetPaddingTop2(submenuPaddingTop2 === 0 ? '20px' : 0);
+                                            setSubMenuOpen2(!subMenuOpen2);
+                                        }}
+                                    >Locations</a>
+                                    <ul className="submenu" ref={submenuRef2} style={{maxHeight: submenuHeight2, paddingTop: submenuPaddingTop2}}>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/hillcrest-massage/">Hillcrest</AniLink>
+                                        </li>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/carlsbad-massage/">Carlsbad</AniLink>
+                                        </li>
+                                    </ul> 
                                 </li>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
-                                </li>
-                            </ul> 
-                            </li>
-                            <li className="navigation-item is-submenu-parent">
-                            <a aria-expanded={subMenuOpen2 === true ? "true" : "false"} onClick={() => {  
-                                if (submenuTempHeight2 === null) 
-                                    return;
-                                    submenuSetHeight2(submenuHeight2 === 0 ? submenuTempHeight2 : 0);
-                                    submenuSetPaddingTop2(submenuPaddingTop2 === 0 ? '20px' : 0);
-                                    setSubMenuOpen2(!subMenuOpen2);
-                                }}
-                            >Personal</a>
-                            <ul className="submenu ml-6" ref={submenuRef2} style={{maxHeight: submenuHeight2, paddingTop: submenuPaddingTop2}}>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
-                                </li>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
-                                </li>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
-                                </li>
-                            </ul> 
-                            </li>
-                            <li className="navigation-item is-submenu-parent">
-                            <a aria-expanded={subMenuOpen3 === true ? "true" : "false"} onClick={() => {
-                                if (submenuTempHeight3 === null) 
-                                    return;
-                                    submenuSetHeight3(submenuHeight3 === 0 ? submenuTempHeight3 : 0);
-                                    submenuSetPaddingTop3(submenuPaddingTop3 === 0 ? '20px' : 0);
-                                    setSubMenuOpen3(!subMenuOpen3);
-                                }}
-                            >About</a>
-                            <ul className="submenu ml-6" ref={submenuRef3} style={{maxHeight: submenuHeight3, paddingTop: submenuPaddingTop3}}>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
-                                </li>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
-                                </li>
-                                <li className="navigation-item">
-                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
-                                </li>
-                            </ul> 
-                            </li> 
-                        </ul>
-                        <div className="grid grid-col-1 row-gap-5">
-                            <ButtonSolid as="button" data="modal-hillcrest" text="Book San Diego"/>
-                            <ButtonSolid as="button" data="modal-carlsbad" text="Book Carlsbad"/>
-                        </div>
+                                <li className="navigation-item is-submenu-parent">
+                                    <a aria-expanded={subMenuOpen3 === true ? "true" : "false"} onClick={() => {
+                                        if (submenuTempHeight3 === null) 
+                                            return;
+                                            submenuSetHeight3(submenuHeight3 === 0 ? submenuTempHeight3 : 0);
+                                            submenuSetPaddingTop3(submenuPaddingTop3 === 0 ? '20px' : 0);
+                                            setSubMenuOpen3(!subMenuOpen3);
+                                        }}
+                                    >About</a>
+                                    <ul className="submenu" ref={submenuRef3} style={{maxHeight: submenuHeight3, paddingTop: submenuPaddingTop3}}>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/about/">About</AniLink>
+                                        </li>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/gift-cards/">Gift Cards</AniLink>
+                                        </li>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-membership/">Membership</AniLink>
+                                        </li>
+                                        <li className="navigation-item">
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/blog/">Blog</AniLink>
+                                        </li>                                        
+                                    </ul> 
+                                </li> 
+                            </ul>
+
+                            <ul className="text-center mb-12">
+                                <li className="font-heading font-medium mb-5"><a className="text-gray-700 no-underline" href="tel:+1-619-299-9888">Hillcrest: <span className="italic">(619) 299-9888</span></a></li>
+                                <li className="font-heading font-medium"><a className="text-gray-700 no-underline" href="tel:+1-760-729-9888">Carlsbad: <span className="italic">(760) 729-9888</span></a></li>
+                            </ul>                        
+                            <div className="grid grid-col-1 row-gap-5">
+                                <ButtonSolid as="button" data="modal-hillcrest" text="Book San Diego"/>
+                                <ButtonSolid as="button" data="modal-carlsbad" text="Book Carlsbad"/>
+                            </div>
                         </OffCanvas>
                     </div>
                 </div>
