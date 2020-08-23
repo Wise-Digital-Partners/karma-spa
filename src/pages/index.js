@@ -9,7 +9,7 @@ import HeroAlignEnd from "../components/Hero/HeroAlignEnd"
 import Services from "../components/Repeating/Services"
 import TestimonialBackgroundImage from "../components/Testimonial/TestimonialBackgroundImage"
 import Packages from "../components/Repeating/Packages"
-import BlogRecentPosts from "../components/Blog/BlogRecentPosts"
+import BlogRecentPosts from "../components/Repeating/RecentBlogPosts"
 import Divider from "../components/Divider/Divider"
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage"
 
@@ -45,7 +45,7 @@ export const Page = ({data}) => {
       />
 
       <HeroAlignEnd 
-        backgroundImages={heroImages} 
+        backgroundImages={heroImages}
         backgroundSizeDesktop="cover" 
         backgroundSizeMobile="cover"
         backgroundPositionDesktop="50% 50%" 
@@ -86,7 +86,7 @@ export const Page = ({data}) => {
 
       <BlogRecentPosts />
 
-      <Divider />
+      <Divider className="mb-16 md:mb-28" />
 
       <CTABackgroundImage />
       

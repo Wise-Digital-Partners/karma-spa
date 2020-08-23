@@ -24,7 +24,7 @@ const StyledDivider = styled.section`
     }
 ` 
 
-const Divider = () => {
+const Divider = ({ className }) => {
    
 	const data = useStaticQuery(graphql`
 		{
@@ -39,7 +39,7 @@ const Divider = () => {
 	`)     
      
     return (
-        <StyledDivider className={`mb-28`}>
+        <StyledDivider className={className}>
             <div className="container">
                 <div className="divider-wrapper">
                     <Img fixed={data.flower.childImageSharp.fixed} alt="Karma Spa flower logo" />

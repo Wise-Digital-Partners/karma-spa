@@ -67,7 +67,7 @@ const StyledMainNav = styled.nav`
         .is-submenu-parent {
             ${tw`relative`}
             .submenu {
-                ${tw`absolute flex flex-col w-auto bg-white shadow-lg px-8 py-6 opacity-0 invisible z-10 transform -translate-x-10 translate-y-12 transition-all duration-300 ease-linear`}
+                ${tw`absolute flex flex-col w-auto bg-white shadow-lg px-8 pt-6 pb-10 opacity-0 invisible z-10 transform -translate-x-10 translate-y-12 transition-all duration-300 ease-linear`}
                 .navigation-item {
                     ${tw`whitespace-no-wrap`}
                     &:not(:last-child) {
@@ -275,26 +275,44 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
     `)
 
     // Define logos based on header style
-    let desktopInitialLogo = null,
-        desktopFixedLogo = null,
-        mobileInitialLogo = null,
-        mobileFixedLogo = null;
+    let initialLogo = null,
+        fixedLogo = null;
     
     if (headerStyle === 'overlap') {
-        desktopInitialLogo = data.desktopLogoLight.childImageSharp.fixed;
-        desktopFixedLogo = data.desktopLogoDark.childImageSharp.fixed;
-        mobileInitialLogo = data.mobileLogoLight.childImageSharp.fixed;
-        mobileFixedLogo = data.mobileLogoDark.childImageSharp.fixed;
+        initialLogo = [
+            data.desktopLogoLight.childImageSharp.fixed,
+            {
+            ...data.mobileLogoLight.childImageSharp.fixed,
+                media: `(max-width: 767px)`,
+            },
+        ] 
+        fixedLogo = [
+            data.desktopLogoLight.childImageSharp.fixed,
+            {
+            ...data.mobileLogoDark.childImageSharp.fixed,
+                media: `(max-width: 767px)`,
+            },
+        ]
     } else if (headerStyle === 'classic') {
-        desktopInitialLogo = data.desktopLogoDark.childImageSharp.fixed;
-        desktopFixedLogo = data.desktopLogoDark.childImageSharp.fixed;
-        mobileInitialLogo = data.mobileLogoDark.childImageSharp.fixed;
-        mobileFixedLogo = data.mobileLogoDark.childImageSharp.fixed;
+        initialLogo = [
+            data.desktopLogoDark.childImageSharp.fixed,
+            {
+            ...data.mobileLogoDark.childImageSharp.fixed,
+                media: `(max-width: 767px)`,
+            },
+        ] 
+        fixedLogo = [
+            data.desktopLogoDark.childImageSharp.fixed,
+            {
+            ...data.mobileLogoDark.childImageSharp.fixed,
+                media: `(max-width: 767px)`,
+            },
+        ]
     }
 
     // Change logo on mega menu reveal
     if (megaMenuHovering) {
-        desktopInitialLogo = data.desktopLogoDark.childImageSharp.fixed;
+        initialLogo = data.desktopLogoDark.childImageSharp.fixed;
     }
 
     return (
@@ -312,22 +330,12 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
             <div className="container flex items-center">
                 <div className="flex-auto flex items-center">
                     <AniLink fade to="/">
-                    <div className="hidden md:flex">
                         <div className="logo-initial">
-                            <Img fixed={desktopInitialLogo} alt="Karma Spa Logo" />
+                            <Img fixed={initialLogo} alt="Karma Spa Logo" />
                         </div>
                         <div className="logo-fixed hidden">
-                            <Img fixed={desktopFixedLogo} alt="Karma Spa Logo" />
+                            <Img fixed={fixedLogo} alt="Karma Spa Logo" />
                         </div>
-                    </div>
-                    <div className="flex md:hidden">
-                        <div className="logo-initial">
-                            <Img fixed={mobileInitialLogo} alt="Karma Spa Logo" />
-                        </div>
-                        <div className="logo-fixed hidden">
-                            <Img fixed={mobileFixedLogo} alt="Karma Spa Logo" />
-                        </div>
-                    </div>
                     </AniLink>
                 </div>
                 <div className="flex items-center justify-end flex-auto">
@@ -341,7 +349,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                                             <Img className="mb-6" fluid={data.massageServices.childImageSharp.fluid} alt="Massage Services" />
                                             <div className="flex justify-between items-center">
                                                 <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Massage Services</p>
-                                                <i class="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                                <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
                                             </div>
                                             <p className="text-small mb-0">No matter your indulgence, we have a massage for you.</p>
                                             <AniLink fade to="/massage-services/"><span className="link-overlay"></span></AniLink>
@@ -350,7 +358,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                                             <Img className="mb-6" fluid={data.specialPackages.childImageSharp.fluid} alt="Special Packages" />
                                             <div className="flex justify-between items-center">
                                                 <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Special Packages</p>
-                                                <i class="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                                <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
                                             </div>
                                             <p className="text-small mb-0">Our popular packages will pamper you with great value.</p>
                                             <AniLink fade to="/massage-packages/"><span className="link-overlay"></span></AniLink>
@@ -359,7 +367,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                                             <Img className="mb-6" fluid={data.aestheticTreatments.childImageSharp.fluid} alt="Aesthetic Treatments" />
                                             <div className="flex justify-between items-center">
                                                 <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Aesthetic Treatments</p>
-                                                <i class="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                                <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
                                             </div>
                                             <p className="text-small mb-0">Karma Bella aesthetic treatments bring out your best self.</p>
                                             <AniLink fade to="/aesthetic-treatments/"><span className="link-overlay"></span></AniLink>
@@ -368,7 +376,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                                             <Img className="mb-6" fluid={data.skinCareServices.childImageSharp.fluid} alt="Skin Care Services" />
                                             <div className="flex justify-between items-center">
                                                 <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Skin Care Services</p>
-                                                <i class="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                                <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
                                             </div>
                                             <p className="text-small mb-0">Facials, waxing, scrubs and saunas for the ultimate glow-up.</p>
                                             <AniLink fade to="/skin-care-services/"><span className="link-overlay"></span></AniLink>
@@ -413,13 +421,13 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                             >Commercial Insurance</a>
                             <ul className="submenu ml-6" ref={submenuRef1} style={{maxHeight: submenuHeight1, paddingTop: submenuPaddingTop1}}>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                             </ul> 
                             </li>
@@ -434,13 +442,13 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                             >Personal</a>
                             <ul className="submenu ml-6" ref={submenuRef2} style={{maxHeight: submenuHeight2, paddingTop: submenuPaddingTop2}}>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                             </ul> 
                             </li>
@@ -455,19 +463,20 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                             >About</a>
                             <ul className="submenu ml-6" ref={submenuRef3} style={{maxHeight: submenuHeight3, paddingTop: submenuPaddingTop3}}>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                                 <li className="navigation-item">
-                                <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
+                                    <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="#">Lorem Ipsum</AniLink>
                                 </li>
                             </ul> 
                             </li> 
                         </ul>
-                        <div className="grid grid-cols-2 col-gap-4">
-                            <ButtonSolid data="modal-choose-location" text="Book Appointment"/>
+                        <div className="grid grid-col-1 row-gap-5">
+                            <ButtonSolid as="button" data="modal-hillcrest" text="Book San Diego"/>
+                            <ButtonSolid as="button" data="modal-carlsbad" text="Book Carlsbad"/>
                         </div>
                         </OffCanvas>
                     </div>

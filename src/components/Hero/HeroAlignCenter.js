@@ -37,7 +37,7 @@ const Hero = (
 ) => (
 	<StyledHero 
 		className={className} 
-		fixed={backgroundImages} 
+		fixed={backgroundImages}
 		minHeightDesktop={minHeightDesktop} 
 		minHeightMobile={minHeightMobile} 
 		backgroundSizeDesktop={backgroundSizeDesktop} 

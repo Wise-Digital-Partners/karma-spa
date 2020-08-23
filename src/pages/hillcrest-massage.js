@@ -9,7 +9,7 @@ import HeroAlignEndCentered from "../components/Hero/HeroAlignEndCentered"
 import Services from "../components/Repeating/Services"
 import TestimonialBackgroundImage from "../components/Testimonial/TestimonialBackgroundImage"
 import Packages from "../components/Repeating/Packages"
-import BlogRecentPosts from "../components/Blog/BlogRecentPosts"
+import BlogRecentPosts from "../components/Repeating/RecentBlogPosts"
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage"
 
 export const Page = ({data}) => {
@@ -62,12 +62,12 @@ export const Page = ({data}) => {
         <div className="container flex justify-center">
           <div className="bg-white lg:shadow-2xl inline-flex flex-wrap lg:flex-no-wrap pt-12 lg:pt-0 pb-8 lg:pb-0 border-b border-solid border-gray-200 border-opacity-25 w-full lg:w-auto">
             <div className="lg:px-8 lg:py-6 flex items-center justify-center lg:justify-start text-center lg:text-left w-full lg:w-auto order-2 lg:order-1">
-              <i class="fal fa-map-marker-alt text-2xl lg:text-3xl text-black mr-3"></i>
+              <i className="fal fa-map-marker-alt text-2xl lg:text-3xl text-black mr-3"></i>
               <span className="text-large"><a className="text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400" href="https://goo.gl/maps/PNpCbZkE87YRjwLAA" target="_blank" rel="noopener noreferrer">3969 1st Ave, San Diego, CA 92103</a></span>
             </div>
             <div className="hidden lg:flex h-auto w-px bg-gray-200 bg-opacity-25 order-2"></div>
             <div className="lg:px-8 lg:py-6 flex items-center justify-center lg:justify-start text-center lg:text-left w-full lg:w-auto order-1 lg:order-2 mb-6 lg:mb-0">
-              <i class="fal fa-phone-alt text-2xl lg:text-3xl text-black mr-3"></i>
+              <i className="fal fa-phone-alt text-2xl lg:text-3xl text-black mr-3"></i>
               <span className="text-large"><a className="text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400" href="tel:+1-619-299-9888">(619) 299-9888</a></span>
             </div>
             <div className="hidden lg:flex h-auto w-px bg-gray-200 bg-opacity-25 order-4"></div>
