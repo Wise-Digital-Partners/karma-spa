@@ -5,10 +5,10 @@ import tw from 'twin.macro'
 
 const StyledBanner = styled(BackgroundImage)`
     ${tw`flex!`}
+    max-height: ${({minHeightMobile}) => { return minHeightMobile }};
     @media (min-width: 768px) {
         max-height: ${({minHeightDesktop}) => { return minHeightDesktop }};
-    }
-    max-height: ${({minHeightMobile}) => { return minHeightMobile }};
+    }    
 `
 
 const Banner = ({ images, children, className, backgroundPosition, minHeightDesktop, minHeightMobile }) => (

@@ -41,19 +41,19 @@ export const Post = ({data}) => {
 
                 <h2>5 Ways Massages Help Relieve Stress</h2>
 
-                <b>Muscle Relaxation</b>
+                <p><b>Muscle Relaxation</b></p>
                 <p>When stress is released throughout your body, it’s an automatic response for your muscles to tense up and contract. Not only does this cause your muscles to stay sore if you’re stressed long-term, but it can also lead to other negative repercussions such as headaches and chronic pain. During a massage, your therapist can focus on your pain points and lessen the tension that has built up over time.</p>
 
-                <b>Lowered Cortisol Levels</b>
+                <p><b>Lowered Cortisol Levels</b></p>
                 <p>In a recent clinical study it was found that participants that were massaged showed lowered cortisol levels. Cortisol is a hormone linked to stress, and when elevated it can lead to adrenal fatigue.  It was also noted that after a mere five minutes, massage also lowered the participants heart rate—and high heart rates are often linked to high stress.</p>
 
-                <b>Can Help or Treat Injuries</b>
+                <p><b>Can Help or Treat Injuries</b></p>
                 <p>When participating in a sports massage, our therapists particularly focus on techniques that help prevent injuries and treat current ones. Athletes need an extra focus on muscles since theirs work more than the average individual on a daily basis, so don’t worry—we’re here to help.</p>
 
-                <b>Increased Blood Flow</b>
+                <p><b>Increased Blood Flow</b></p>
                 <p>Massages can lead to increased blood flow and circulation throughout the body, which leads to improved function in your brain and other organs. According to Vital Proteins, increased blood flow also has cosmetic benefits such as healthier skin and nails.</p>
 
-                <b>Removes Toxins</b>
+                <p><b>Removes Toxins</b></p>
                 <p>Massages help remove toxins from the body, which means less illness across the board. Woohoo! Just don’t forget to drink a lot of water in the days after and leading up to your massage. During your treatment, the toxins are then released into the bloodstream, and the more water to help flush them out through the kidneys, the better.</p>
 
                 <p>Have more questions about the benefits of getting a massage? Contact us for more info below or to schedule your appointment!</p>

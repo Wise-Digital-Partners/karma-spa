@@ -29,13 +29,13 @@ export const Post = ({data}) => {
 
                 <h2>How Massage Can Help Your Fibromyalgia:</h2>
 
-                <b>Massages Reduce Pain</b>
+                <p><b>Massages Reduce Pain</b></p>
                 <p>When muscles are tense, not only can they cause immense pain, but they may also bring on other negative symptoms such as headaches and chronic pain. When you get a massage, your therapist will loosen these tense pain points, therefore decreasing your discomfort levels. It’s much needed for those dealing with fibromyalgia!</p>
 
-                <b>They Improve Mental Clarity</b>
+                <p><b>They Improve Mental Clarity</b></p>
                 <p>Cortisol, a hormone that can cause unneeded stress and anxiety, is lowered when getting a massage. The negative side of cortisol doesn’t stop there though: “Negative effects cortisol has include increased anxiety and depression, suppression of the immune system and a decrease in bone formation.” Decreasing cortisol means less stress, and that means more mental clarity and room for you to breathe again!</p>
 
-                <b>You’ll Get More Sleep</b>
+                <p><b>You’ll Get More Sleep</b></p>
                 <p>Lessened cortisol levels also mean more good quality sleep! Woohoo! Who doesn’t need a little (or a lot of extra) rest? A recent study sounded off on the sleep difference between those with and without massages: “The massage therapy group, as compared to the relaxation group, reported experiencing less pain, depression, anxiety and improved sleep. They also showed improved trunk and pain flexion performance, and their serotonin and dopamine levels were higher.” Better sleep can also help with stress levels and more relaxed joints as well. To learn more about how massages and stress levels are linked, you can check out this article.</p>
 
                 <p>Fibromyalgia is just one of the health conditions that frequent massages can soothe. Give us a call at Karma Spa to find out how we can bring you relief from a host of other health issues. Contact us for more info below or to schedule your appointment!</p>

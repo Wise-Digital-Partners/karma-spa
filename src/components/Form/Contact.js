@@ -135,7 +135,7 @@ export default class Form extends Component {
         <div className="field">
           <fieldset>
             <legend className="label">Select a Location</legend>
-            <div className="flex flex-col mt-2 mb-1">
+            <div className="inline-flex flex-col mt-2 mb-1">
               <label className="relative pl-8 mb-2 cursor-pointer">
                 <input
                   type="radio" 

@@ -15,7 +15,7 @@ const Button = styled.a`
         font-bold
         tracking-wider
         uppercase
-        px-8
+        px-6
         py-4
         no-underline
         cursor-pointer 
@@ -26,7 +26,7 @@ const Button = styled.a`
     `}
     @media (min-width: 768px){
         min-width: 186px;
-    }
+    }    
     &.is-light {
         ${tw`
             bg-white hover:bg-white focus:bg-white active:bg-white

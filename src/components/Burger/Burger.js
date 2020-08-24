@@ -17,14 +17,14 @@ const StyledBurger = styled.button`
         };
         ${tw`relative w-8 h-px z-10 transition-all duration-300 ease-linear`}
         transform-origin: 1px;
-        &:first-child {
+        &:first-of-type {
             transform: ${({offcanvasOpen}) => offcanvasOpen ? 'rotate(45deg)' : 'rotate(0)'};
         }
-        &:nth-child(2) {
+        &:nth-of-type(2) {
             opacity: ${({offcanvasOpen}) => offcanvasOpen ? '0' : '1'};
             transform: ${({offcanvasOpen}) => offcanvasOpen ? 'translateX(20px)' : 'translateX(0)'};
         }
-        &:nth-child(3) {
+        &:nth-of-type(3) {
             transform: ${({offcanvasOpen}) => offcanvasOpen ? 'translateY(6px) rotate(-45deg)' : 'rotate(0)'};
         }
     }
@@ -42,7 +42,7 @@ const Burger = ({ offcanvasOpen, setOffcanvasOpen, headerStyle, scrolled, ...pro
 }
 
 Burger.propTypes = {
-    open: bool.isRequired,
+    offcanvasOpen: bool.isRequired,
     setOffcanvasOpen: func.isRequired,
 };
 

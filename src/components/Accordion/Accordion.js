@@ -31,8 +31,8 @@ function Accordion(props) {
   
     return (
         <StyledAccordion className="flex flex-col bg-white rounded shadow-md mb-6 overflow-hidden">
-            <button className={`flex items-center justify-between px-4 py-3 border-b border-solid border-gray-200 border-opacity-25 focus:outline-none cursor-pointer ${setActive}`} onClick={toggleAccordion}>
-                <p className="font-heading md:text-lg text-gray-900 mb-0">{props.title}</p>
+            <button className={`flex items-center justify-between text-left px-4 py-3 border-b border-solid border-gray-200 border-opacity-25 focus:outline-none cursor-pointer ${setActive}`} onClick={toggleAccordion}>
+                <p className="font-heading md:text-lg font-medium text-gray-900 mb-0">{props.title}</p>
                 <i className={`${setIcon} text-black`} />
             </button>
             <div ref={content} className="overflow-auto transition-all duration-300 ease-linear" style={{ maxHeight: `${setHeight}` }}>

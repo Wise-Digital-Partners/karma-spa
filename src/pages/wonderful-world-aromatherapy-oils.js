@@ -29,34 +29,34 @@ export const Post = ({data}) => {
 
                 <h2>The Benefits of Various Essential Oils:</h2>
 
-                <b>Lavender</b>
+                <p><b>Lavender</b></p>
                 <p>Lavender is an essential oil often used to ease stress and relax the person partaking in it. It’s extremely versatile and has also been shown to reduce inflammation in the body.</p>
 
-                <b>Bergamot</b>
+                <p><b>Bergamot</b></p>
                 <p>Bergamot is a great essential oil that can help soothe those with skin ailments such as eczema or psoriasis. This oil has also been known to relieve stress and anxiety, and can be used to jumpstart the digestive tract in a healthy way.</p>
 
-                <b>Peppermint</b>
+                <p><b>Peppermint</b></p>
                 <p>Peppermint has been known to be a miracle worker for headache relief. Moreover, it has a cooling impact that results in increased mental awareness. This energy-boosting essential oil can also help lessen redness and cure congestion.</p>
 
-                <b>Anise</b>
+                <p><b>Anise</b></p>
                 <p>Anise is often utilized when the client has arthritis or recurring muscle spasms. This works effectively to ease the spasms, clear congestion, and lessen breathing difficulties.</p>
 
-                <b>Cedarwood</b>
+                <p><b>Cedarwood</b></p>
                 <p>Cedarwood works wonders for acne and also can help with dermatitis, dandruff and stress. A win-win-win in our book!</p>
 
-                <b>Frankincense</b>
+                <p><b>Frankincense</b></p>
                 <p>Not nearly as Halloween-y as it sounds, frankincense can help comfort those with anxiety. Beyond that, it can relieve symptoms of asthma and reduce the signs of scars and stretch marks.</p>
 
-                <b>Lemon</b>
+                <p><b>Lemon</b></p>
                 <p>We love a good lemon essential oil drop or three, and for good reason! Lemon essential oils help brighten dull skin and dry up oily skin. Also, they can help relieve stress and decrease perspiration.</p>
 
-                <b>Patchouli</b>
+                <p><b>Patchouli</b></p>
                 <p>Patchouli is wonderful because it helps assist in kicking acne to the curb, decreasing the appearance of cellulite and combatting dandruff.</p>
 
-                <b>Basil</b>
+                <p><b>Basil</b></p>
                 <p>Basil is for so much more than just putting on salads! This oil is often used as an antidepressant, an anti-inflammatory agent and a hormone influencer. Alright, alright, alright.</p>
 
-                <b>Lemongrass</b>
+                <p><b>Lemongrass</b></p>
                 <p>Lemongrass has antiviral and antifungal properties that also work to stimulate the body and mind.</p>
 
                 <p>Have you used essential oils before, or tried aromatherapy? In today’s stress-heavy world, now would be a great time to try. At Karma Spa, we know how to use essential oils to enhance your massage in appropriate ways. Contact us for more info below or to schedule your appointment!</p>

@@ -31,19 +31,19 @@ export const Post = ({data}) => {
 
                 <h2>Reasons to Try Reflexology</h2>
 
-                <b>It Improves Circulation</b>
+                <p><b>It Improves Circulation</b></p>
                 <p>The increase of circulation of blood flow is a key reason to try reflexology! Improved circulation helps increase the amount of oxygen being sent to your extremities, especially your heart and arteries. This means a healthier circulatory system and more energy (AKA chi!) A totally valid reason to try the therapy.</p>
 
-                <b>It Fights Stress</b>
+                <p><b>It Fights Stress</b></p>
                 <p>When you’re stressed, your muscles tend to tense-up and ache. During a reflexology session, your therapist can focus on specific points of pain and help lessen the tension that has built up over time in your contracted muscles. When your muscles feel better, you feel better.</p>
 
-                <b>It Leads to Better Sleep</b>
+                <p><b>It Leads to Better Sleep</b></p>
                 <p>As stated above, reflexology leads to improved circulation…which therefore leads to better sleep! Why? Because blood flow is increased, more oxygen is sent to your brain! There’s also a specific area on the foot that is often massaged for a minimum of one minute because it’s linked to better sleep rates in clients.</p>
 
-                <b>It Detoxes Your Body</b>
+                <p><b>It Detoxes Your Body</b></p>
                 <p>Much like a traditional massage, reflexology definitely helps detox your body. During your session, the toxins your muscles are carrying are released into your bloodstream and flushed out through your kidneys, so drinking plenty of water before and after your treatment is key! This also leads to a heightened immune system—not only because of the toxin removal process, but also because it sends self-healing energy to your cells. Cool, right?</p>
 
-                <b>Reduces the Effects of</b>
+                <p><b>Reduces the Effects of</b></p>
                 <p>According to the results of a 2013 study, “Reflexology could be as effective as painkillers as a method of pain relief. Researchers at the University of Portsmouth found that people who were undergoing reflexology felt about 40 percent less pain, and were able to stand pain for about 45 percent longer.” Dr. Carol Samuel explained, “It is likely that reflexology works in a similar manner to acupuncture by causing the brain to release chemicals that lessen pain signals.” Clearly, this is something that’s easy to get behind, and something that we recommend to all of our athletes and chronic pain sufferers.</p>
 
                 <p>Make sure to check out our reflexology sessions at both our Hillcrest and Carlsbad locations, and see what all the fuss is about! Contact us for more info below or to schedule your appointment!</p>

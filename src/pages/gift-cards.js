@@ -72,7 +72,7 @@ export default class Page extends Component {
 					onChange={this.handleChange}
 				>
 					<legend className="text-small text-gray-700 font-bold mb-3">Select a Location</legend>
-					<div className="flex flex-col mt-2 mb-1">
+					<div className="inline-flex flex-col mt-2 mb-1">
 						<label className="relative pl-8 mb-2 cursor-pointer">
 							<Radio value="Hillcrest" /> Hillcrest
 							<span className="radio-checkmark"></span>

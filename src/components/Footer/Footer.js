@@ -107,7 +107,7 @@ const Footer = () => {
               <ul className="flex items-center flex-col md:flex-row mb-4 md:mb-0">
                 <li className="text-small text-white opacity-75 mb-1 md:mb-0 md:mr-10">© {getYear()} Karma Spa</li>
               </ul>
-              <p className="flex items-center text-small text-white text-opacity-75 mb-0 powered-by-nest">Powered by <a className="text-white hover:text-white hover:text-opacity-50 text-opacity-100 font-bold flex items-center font-medium ml-1" href="https://www.wisedigitalpartners.com/affordable-web-design/" target="_blank" rel="noopener noreferrer">nest <Img className="ml-1" fixed={data.nestLogo.childImageSharp.fixed} alt="nest Logo" /></a></p>
+              <div className="flex items-center text-small text-white text-opacity-75">Powered by <a className="text-white hover:text-white hover:text-opacity-50 text-opacity-100 font-bold flex items-center font-medium ml-1" href="https://www.wisedigitalpartners.com/affordable-web-design/" target="_blank" rel="noopener noreferrer">nest <Img className="ml-1" fixed={data.nestLogo.childImageSharp.fixed} alt="nest Logo" /></a></div>
             </div>
 
           </div>

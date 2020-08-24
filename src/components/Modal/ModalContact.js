@@ -87,7 +87,7 @@ const Modal = () => {
                             </div>                            
 
                             <Contact />
-                            <i className="close fal fa-times absolute top-0 right-0 mr-12 mt-12 text-2xl text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400 cursor-pointer transition-all duration-300 ease-linear" data-modal-close></i>
+                            <i className="close fal fa-times absolute top-0 right-0 mr-8 mt-8 md:mr-12 md:mt-12 text-2xl text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400 cursor-pointer transition-all duration-300 ease-linear" data-modal-close></i>
                         </div>
                     </div>
                 </div>

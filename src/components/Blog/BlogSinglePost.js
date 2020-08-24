@@ -11,12 +11,20 @@ const StyledBlogPost = styled.div`
     h1, h2, h3, h4, h5, h6 {
         ${tw`mb-10`}
     }
-    p, b,  ol, ul, li {
-        ${tw`text-2xl`}
+    p, ol, ul {
+        ${tw`text-lg mb-12`}
     }
-    p, b, ol, ul {
-        ${tw`mb-16`}
+    p > b {
+        ${tw`block -mb-8`}
     }    
+    @media (min-width: 768px) {
+        p, ol, ul {
+            ${tw`text-2xl mb-16`}
+        }
+        p > b {
+            ${tw`block -mb-12`}
+        }              
+    }       
 `
 
 const Blog = ({featuredImage, ...props}) => {
@@ -30,7 +38,7 @@ const Blog = ({featuredImage, ...props}) => {
                         <p className="text-xsmall text-gray-600 tracking-widest uppercase mb-0">{props.date} <span className="mx-1">|</span> by {props.author}</p>
                     </header>
 
-                    <Img className="mb-18" fluid={featuredImage} alt={props.title} />
+                    <Img className="mb-12 md:mb-18" fluid={featuredImage} alt={props.title} />
 
                     <StyledBlogPost dangerouslySetInnerHTML={{ __html: props.content }} />
                 </div>

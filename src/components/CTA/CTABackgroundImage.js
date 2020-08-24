@@ -12,13 +12,15 @@ const StyledCTA = styled(BackgroundImage)`
 		tw`bg-gray-100` : null
 	};
     min-height: ${({minHeightMobile}) => { return minHeightMobile }};
-    &:before {
+    &:before,
+    &:after {
         background-position: ${({backgroundPositionMobile}) => { return backgroundPositionMobile }} !important;
         background-size: ${({backgroundSizeMobile}) => { return backgroundSizeMobile }} !important;
     }
     @media (min-width: 768px) {
         min-height: ${({minHeightDesktop}) => { return minHeightDesktop }};
-        &:before {
+        &:before,
+        &:after {
             background-position: ${({backgroundPositionDesktop}) => { return backgroundPositionDesktop }} !important;
             background-size: ${({backgroundSizeDesktop}) => { return backgroundSizeDesktop }} !important;
         }

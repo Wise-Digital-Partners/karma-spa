@@ -17,7 +17,7 @@ const Button = styled.a`
         border-solid
         border-black 
         bg-transparent hover:bg-black focus:bg-black active:bg-black
-        px-8
+        px-6
         py-4
         no-underline
         cursor-pointer
@@ -28,7 +28,7 @@ const Button = styled.a`
     `}
     @media (min-width: 768px){
         min-width: 178px;
-    }
+    }  
     &.is-light {
         ${tw`
             text-white hover:text-primary_400 focus:text-primary_400 active:text-primary_400

@@ -31,19 +31,19 @@ export const Post = ({data}) => {
 
                 <h2>Here’s why you should hydrate post-massage:</h2>
 
-                <b>It Aids in Detoxification</b>
+                <p><b>It Aids in Detoxification</b></p>
                 <p>Water helps purify your kidneys, and these organs help process key nutrients and toxins! The water flushes the free radicals released during a massage out and oxygenates your cells to help produce more of the good stuff. Drinking water post-massage = giving thanks to your immune system.</p>
 
-                <b>It Kicks Dehydration to the Curb</b>
+                <p><b>It Kicks Dehydration to the Curb</b></p>
                 <p>Massages are dehydrating, and our bodies are 60% water! The squeezing that the massage therapist does during your appointment releases fluids from your muscle tissues and into your vascular system. That means that you have to restock up on all of the water you lost during your massage. Best get to sippin’. Wondering how much to drink? One massage therapist recommends drinking half your body weight in ounces per day.</p>
 
-                <b>Metabolic Waste</b>
+                <p><b>Metabolic Waste</b></p>
                 <p>It sounds fancy, but really metabolic waste is just particles in our body that are of no use to us— and during a massage, they’re released at a much quicker rate than what our bodies are used to. Getting a lymphatic massage done? Take special note of this article, as otherwise you’re much more likely to feel unwell after. Metabolic waste can constrict our muscles and lead to improper flow of toxin flushing. When you drink water, you give your muscles a chance to loosen-up and therefore release the tense muscles that hold waste. Cool!</p>
 
-                <b>Drink Water Pre-Massage</b>
+                <p><b>Drink Water Pre-Massage</b></p>
                 <p>Yep. Pro tip! Drinking water before a massage can help just as much, if not more, than drinking post-massage! This will help your kidneys release the toxins as they work their way out of your muscles during your appointment, and move them out of your system in a healthy, productive manner. Nothing like electrolytes to aid in replenishing your immune system!</p>
 
-                <b>Prevent Excess Soreness</b>
+                <p><b>Prevent Excess Soreness</b></p>
                 <p>After a massage, it’s normal to feel a little sore in areas that the massage therapist focused on. Because of this, hydrating after a massage can help prevent excessive soreness. Do yourself a favor and add an extra glass or two to your normal post-massage amount if you’re still feeling super sluggish or ill</p>
 
                 <p>Make no mistake—there’s still nothing like a great massage to get your body retuned for life. Make an appointment with us at Karma Spa to feel refreshed and recover health in your muscles, tissues, and throughout your body. Just don’t forget the water afterward!</p>
