@@ -24,7 +24,9 @@ const Button = styled.a`
         duration-300 
         ease-in-out
     `}
-    min-width: 186px;
+    @media (min-width: 768px){
+        min-width: 186px;
+    }
     &.is-light {
         ${tw`
             bg-white hover:bg-white focus:bg-white active:bg-white

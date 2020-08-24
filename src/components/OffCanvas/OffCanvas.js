@@ -12,10 +12,14 @@ const OffCanvas = ({ children, offcanvasOpen, ...props }) => {
     
     const isHidden = offcanvasOpen ? true : false;
 
-    if(offcanvasOpen){
-        document.body.style.overflow = 'hidden';
-    } else {
-        document.body.style.overflow = '';
+    if (typeof window !== `undefined`) {
+        if(offcanvasOpen){
+            document.body.style.overflow = 'hidden';
+            document.getElementsByTagName('html')[0].style.overflow  = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+            document.getElementsByTagName('html')[0].style.overflow  = '';
+        }
     }
 
     return(

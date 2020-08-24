@@ -26,7 +26,9 @@ const Button = styled.a`
         duration-300
         ease-linear
     `}
-    min-width: 178px;
+    @media (min-width: 768px){
+        min-width: 178px;
+    }
     &.is-light {
         ${tw`
             text-white hover:text-primary_400 focus:text-primary_400 active:text-primary_400
