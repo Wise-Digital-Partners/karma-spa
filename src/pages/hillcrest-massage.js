@@ -96,7 +96,9 @@ export const Page = ({data}) => {
 				<div className="container">
 					<div className="grid grid-cols-1 md:grid-cols-12 row-gap-6 md:row-gap-0 items-center">
 						<div className="md:col-start-1 md:col-span-7">
-							<Img fluid={mapImages} alt="Map of Hillcrest location" />
+              <a href="https://goo.gl/maps/PNpCbZkE87YRjwLAA" target="_blank" rel="noopener noreferrer">
+							  <Img fluid={mapImages} alt="Map of Hillcrest location" />
+              </a>
 						</div>
 						<div className="md:col-end-13 md:col-span-4">
 							<h2 className="heading-three">About Karma Spa Hillcrest</h2>

@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import tw from 'twin.macro'
 
 const StyledHero = styled(BackgroundImage)`
-    ${tw`flex! items-end pb-32 md:pb-44`}
+    ${tw`flex! items-end pb-32 md:pb-48`}
     min-height: ${({minHeightMobile}) => { return minHeightMobile }};
     &:before {
         background-position: ${({backgroundPositionMobile}) => { return backgroundPositionMobile }} !important;

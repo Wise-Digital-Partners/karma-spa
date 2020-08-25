@@ -86,7 +86,7 @@ const ScrollNavigation = ({children}) => {
                     offset={-100}
                     currentClassName="is-current"
                     ref={scrollNavigationList}
-                    className="scrollspy overflow-auto transition-all duration-500 ease-linear"
+                    className="scrollspy overflow-auto transition-all duration-300 ease-linear"
                     style={{ maxHeight: `${setHeight}` }}
                 >
                     {children}

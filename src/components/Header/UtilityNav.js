@@ -2,7 +2,7 @@ import React from "react";
 
 const UtilityNav = () => {
     return(
-        <div id="utlity-navigation" className="bg-gray-100 py-3">
+        <div id="utlity-navigation" className="bg-gray-100 py-2">
             <div className="container">
                 <ul className="flex justify-around md:justify-end list-none md:ml-12">
                     <li className="text-small font-heading font-medium md:mr-12"><a className="text-gray-700 no-underline" href="tel:+1-619-299-9888">Hillcrest: <span className="italic">(619) 299-9888</span></a></li>

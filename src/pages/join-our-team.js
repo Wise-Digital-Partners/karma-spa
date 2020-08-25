@@ -67,28 +67,28 @@ export const Page = ({data}) => {
 					<h2>Open Career Opportunities</h2>
 				</header>
 				<div className="lg:table w-full mb-10 md:mb-32">
-						<div className="lg:table-row-group">
-						<div className="hidden lg:table-row">
+					<div className="lg:table-row-group">
+						{/* <div className="hidden lg:table-row">
 							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2">Job Title</div>
 							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2">Job Type</div>
 							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2">Location</div>
 							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2">Date</div>
 							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2"></div>
-						</div>
-						<div className="lg:table-row bg-white bg-opacity-75 shadow-lg rounded px-6 pt-6 pb-5">
-							<div className="text-lg lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0">
-								<span className="block lg:hidden text-xs text-gray-700 uppercase font-bold mb-2">Job Title</span> Front Desk Receptionist
+						</div> */}
+						<div className="lg:table-row bg-white bg-opacity-75 shadow-lg rounded px-6 py-5">
+							<div className="text-gray-900 lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0 lg:align-middle">
+								<span className="block text-xs text-gray-600 text-opacity-50 uppercase font-medium mb-1">Job Title</span> Front Desk Receptionist
 							</div>
-							<div className="text-lg lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0">
-								<span className="block lg:hidden text-xs text-gray-700 uppercase font-bold mb-2">Job Type</span> Part-Time | Full Time
+							<div className="text-gray-900 lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0 lg:align-middle">
+								<span className="block text-xs text-gray-600 text-opacity-50 uppercase font-medium mb-1">Job Type</span> Part-Time | Full Time
 							</div>
-							<div className="text-lg lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0">
-								<span className="block lg:hidden text-xs text-gray-700 uppercase font-bold mb-2">Location</span> Hillcrest | Carlsbad
+							<div className="text-gray-900 lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0 lg:align-middle">
+								<span className="block text-xs text-gray-600 text-opacity-50 uppercase font-medium mb-1">Location</span> Hillcrest | Carlsbad
 							</div>
-							<div className="text-lg lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0">
-								<span className="block lg:hidden text-xs text-gray-700 uppercase font-bold mb-2">Date</span> Jul 7
+							<div className="text-gray-900 lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0 lg:align-middle">
+								<span className="block text-xs text-gray-600 text-opacity-50 uppercase font-medium mb-1">Date</span> Jul 7
 							</div>
-							<div className="lg:table-cell lg:px-4 lg:py-3 lg:text-right">
+							<div className="lg:table-cell lg:px-4 lg:py-3 lg:text-right lg:align-middle">
 								<ButtonSolid className="w-full lg:w-auto" href="" text="View Description"/>
 							</div>
 						</div>
