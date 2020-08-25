@@ -113,21 +113,21 @@ export const query = graphql`
   }
   heroMobile: file(relativePath: {eq: "home/hero-mobile.jpg"}) {
     childImageSharp {
-      fixed(width: 750, height: 960, quality: 100) {
+      fixed(width: 414, height: 600, quality: 100) {
         ...GatsbyImageSharpFixed_withWebp
       }
     }
   }
   introDesktop: file(relativePath: {eq: "home/intro-desktop.jpg"}) {
     childImageSharp {
-      fluid(maxWidth: 1448, quality: 100) {
+      fluid(maxWidth: 1179, quality: 100) {
         ...GatsbyImageSharpFluid_withWebp
       }
     }
   }
   introMobile: file(relativePath: {eq: "home/intro-mobile.jpg"}) {
     childImageSharp {
-      fluid(maxWidth: 828, quality: 100) {
+      fluid(maxWidth: 760, quality: 100) {
         ...GatsbyImageSharpFluid_withWebp
       }
     }

@@ -14,14 +14,14 @@ const StyledMainNav = styled.nav`
 	${({headerHasBorder}) => headerHasBorder ? 
 		tw`border-b border-solid border-white border-opacity-25` : null
     };
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         ${({megaMenuHovering}) => megaMenuHovering ? 
             tw`bg-white` : null
         };
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         ${({offcanvasOpen}) => offcanvasOpen ? 
-            tw`bg-gray-100` : null
+            tw`bg-gray-100 border-gray-100` : null
         };
        	${({headerStyle}) => headerStyle ? 
 		    tw`border-b border-solid border-white border-opacity-25` : null
@@ -29,7 +29,7 @@ const StyledMainNav = styled.nav`
     }    
     &[data-fixed='true'] {
         ${tw`fixed top-0 left-0 w-full bg-white shadow z-20`}
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             ${({offcanvasOpen}) => offcanvasOpen ? 
                 tw`bg-gray-100` : null
             };
@@ -380,7 +380,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                             <AniLink fade to="#">Services</AniLink>
                             <div className="mega-menu">
                                 <div className="container flex items-center">
-                                    <div className="grid grid-cols-1 md:grid-cols-4 row-gap-12 md:row-gap-0 md:col-gap-16">
+                                    <div className="grid grid-cols-1 lg:grid-cols-4 row-gap-12 lg:row-gap-0 lg:col-gap-16">
                                         <div className="group relative">
                                             <Img className="mb-6" fluid={data.massageServices.childImageSharp.fluid} alt="Massage Services" />
                                             <div className="flex justify-between items-center">

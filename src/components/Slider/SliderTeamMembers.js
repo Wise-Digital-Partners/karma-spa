@@ -17,7 +17,7 @@ const StyledSlider = styled.div`
 			${tw`overflow-visible relative`}
 			&:before {
 				content: '';
-				${tw`absolute left-0 h-full w-full bg-gray-100 transform -translate-x-full  z-10`}
+				${tw`absolute left-0 h-full w-full bg-gray-100 transform -translate-x-full z-10`}
 			}
 		}
 	}

@@ -5,8 +5,8 @@ import { graphql } from 'gatsby';
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import HeroSplit from "../components/Hero/HeroSplit"
-import Scroll from "../components/Scroll/Scroll"
-// import ButtonGhost from "../components/Button/ButtonGhost"
+import ScrollWrapper from "../components/Scroll/ScrollWrapper"
+import ButtonGhost from "../components/Button/ButtonGhost"
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage"
 
 export const Page = ({data}) => {
@@ -49,7 +49,7 @@ export const Page = ({data}) => {
         <p>Relax. Reduce pain and stress. Improve circulation and flexibility. Prevent injury and facilitate healing. Massage has many benefits, and we have many options. Your next indulgence awaits.</p>
       </HeroSplit>
 
-    <Scroll />
+    <ScrollWrapper />
 
     <CTABackgroundImage />
       

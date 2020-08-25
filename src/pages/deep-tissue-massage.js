@@ -110,7 +110,7 @@ export const Page = ({data}) => {
 							<li className="text-xl text-gray-600">The First Lady Package</li>
 							<li className="text-xl text-gray-600">The CEO Package</li>
 						</ul>
-						<ButtonGhost href="" text="Browse Packages" />
+						<ButtonGhost href="#" text="Browse Packages" />
 					</div>
 				</div>
 			</div>
