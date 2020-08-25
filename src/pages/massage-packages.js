@@ -8,7 +8,7 @@ import HeroSplit from "../components/Hero/HeroSplit"
 import ScrollWrapper from "../components/Scroll/ScrollWrapper"
 import ScrollNavigation from "../components/Scroll/ScrollNavigation"
 import ScrollContent from "../components/Scroll/ScrollContent"
-import ButtonGhost from "../components/Button/ButtonGhost"
+// import ButtonGhost from "../components/Button/ButtonGhost"
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage"
 
 export const Page = ({data}) => {

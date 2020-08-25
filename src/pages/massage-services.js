@@ -71,7 +71,7 @@ export const Page = ({data}) => {
 			<li><AnchorLink to="/massage-services/#section-16" title="Craniosacral Massage Therapy" stripHash /></li>
 		</ScrollNavigation>		  
 		<ScrollContent>
-			<div id="section-1" className="mb-18 lg:mb-28">
+			<div id="section-1" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">01</span>
 				<h3 className="mb-1">Deep Tissue Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Firm pressure with amazing benefits</p>
@@ -84,7 +84,7 @@ export const Page = ({data}) => {
 				<ButtonGhost href="/deep-tissue-massage/" text="Learn More"/>
 			</div>
 
-			<div id="section-2" className="mb-18 lg:mb-28">
+			<div id="section-2" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">02</span>
 				<h3 className="mb-1">Couples Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Share your day of pampering</p>
@@ -100,7 +100,7 @@ export const Page = ({data}) => {
 				</p>
 			</div>
 
-			<div id="section-3" className="mb-18 lg:mb-28">
+			<div id="section-3" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">03</span>
 				<h3 className="mb-1">Hot Oil Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Great after a busy day</p>
@@ -112,7 +112,7 @@ export const Page = ({data}) => {
 				</p>
 			</div>
 
-			<div id="section-4" className="mb-18 lg:mb-28">
+			<div id="section-4" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
 				<h3 className="mb-1">Back/Shoulder Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Relieve stress in key areas</p>
@@ -124,7 +124,7 @@ export const Page = ({data}) => {
 				</p>
 			</div> 
 
-			<div id="section-5" className="mb-18 lg:mb-28">
+			<div id="section-5" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">05</span>
 				<h3 className="mb-1">Swedish Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Light pressure for easy relaxation</p>
@@ -136,7 +136,7 @@ export const Page = ({data}) => {
 				</p>
 			</div>  
 
-			<div id="section-6" className="mb-18 lg:mb-28">
+			<div id="section-6" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
 				<h3 className="mb-1">Thai Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Yoga without the work</p>
@@ -148,7 +148,7 @@ export const Page = ({data}) => {
 				</p>
 			</div>  
 
-			<div id="section-7" className="mb-18 lg:mb-28">
+			<div id="section-7" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
 				<h3 className="mb-1">Hot Stone Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Our Karma Spa specialty</p>
@@ -163,7 +163,7 @@ export const Page = ({data}) => {
 				</p>
 			</div>  
 
-			<div id="section-8" className="mb-18 lg:mb-28">
+			<div id="section-8" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
 				<h3 className="mb-1">Sports Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Perfect for athletic guests</p>
@@ -175,7 +175,7 @@ export const Page = ({data}) => {
 				</p>
 			</div>  
 
-			<div id="section-9" className="mb-18 lg:mb-28">
+			<div id="section-9" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
 				<h3 className="mb-1">Tuina Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Chinese massage without oil or lotion</p>
@@ -187,7 +187,7 @@ export const Page = ({data}) => {
 				</p>
 			</div>
 
-			<div id="section-10" className="mb-18 lg:mb-28">
+			<div id="section-10" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">10</span>
 				<h3 className="mb-1">Aromatherapy Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Enhance your massage with essential oils</p>
@@ -199,7 +199,7 @@ export const Page = ({data}) => {
 				</p>
 			</div> 
 
-			<div id="section-11" className="mb-18 lg:mb-28">
+			<div id="section-11" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">11</span>
 				<h3 className="mb-1">Acupressure</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Acupuncture without the needles</p>
@@ -211,7 +211,7 @@ export const Page = ({data}) => {
 				</p>
 			</div> 
 
-			<div id="section-12" className="mb-18 lg:mb-28">
+			<div id="section-12" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">12</span>
 				<h3 className="mb-1">Double Indulgence</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Two therapists, four hands</p>
@@ -223,7 +223,7 @@ export const Page = ({data}) => {
 				</p>
 			</div> 
 
-			<div id="section-13" className="mb-18 lg:mb-28">
+			<div id="section-13" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">13</span>
 				<h3 className="mb-1">Reflexology</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Stimulate your pressure points</p>
@@ -241,7 +241,7 @@ export const Page = ({data}) => {
 				</p>
 			</div> 
 
-			<div id="section-14" className="mb-18 lg:mb-28">
+			<div id="section-14" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">14</span>
 				<h3 className="mb-1">Foot & Body Fusion</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Treat your feet and entire body</p>
@@ -257,7 +257,7 @@ export const Page = ({data}) => {
 				</p>
 			</div> 
 
-			<div id="section-15" className="mb-18 lg:mb-28">
+			<div id="section-15" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">15</span>
 				<h3 className="mb-1">Prenatal Body Massage</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Get refreshed during pregnancy</p>

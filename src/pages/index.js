@@ -86,7 +86,7 @@ export const Page = ({data}) => {
 
       <BlogRecentPosts />
 
-      <Divider className="mb-16 md:mb-28" />
+      <Divider className="-mt-6 md:-mt-16 mb-16 md:mb-28" />
 
       <CTABackgroundImage />
       

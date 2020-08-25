@@ -1,12 +1,14 @@
 import React from "react";
 import { graphql } from 'gatsby';
-// import Img from "gatsby-image"
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import HeroSplit from "../components/Hero/HeroSplit"
 import ScrollWrapper from "../components/Scroll/ScrollWrapper"
-import ButtonGhost from "../components/Button/ButtonGhost"
+import ScrollNavigation from "../components/Scroll/ScrollNavigation"
+import ScrollContent from "../components/Scroll/ScrollContent"
+// import ButtonGhost from "../components/Button/ButtonGhost"
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage"
 
 export const Page = ({data}) => {
@@ -45,11 +47,94 @@ export const Page = ({data}) => {
         minHeightDesktop="680px" 
         minHeightMobile="480px"
       >
-        <h1>Massage Services</h1>
-        <p>Relax. Reduce pain and stress. Improve circulation and flexibility. Prevent injury and facilitate healing. Massage has many benefits, and we have many options. Your next indulgence awaits.</p>
+        <h1>Skin Care</h1>
+        <p className="mb-2 md:mb-0">Show yourself some extra love with our skin care services! Stress, free radicals, sun damage, and many other factors impact our skin. Find the right service for your needs today, whether it’s a facial, waxing session, scrubs, or sauna session.</p>
       </HeroSplit>
 
-    <ScrollWrapper />
+      <ScrollWrapper>
+		<ScrollNavigation>
+			<li><AnchorLink to="/skin-care-services/#section-1" title="Karma Spa Signature Facial" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-2" title="O2 Facial" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-3" title="Oxygen Facial" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-4" title="HydraFacial" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-5" title="Back Facial" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-6" title="Waxing" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-7" title="Full Spectrum Infrared Sauna" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-8" title="Sauna & Steam Room (SD)" stripHash /></li>
+		</ScrollNavigation>		  
+		<ScrollContent>
+			<div id="section-1" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">01</span>
+				<h3>Karma Spa Signature Facial</h3>
+				<p>Our Signature Facial is a relaxing deep cleansing facial. Cleanses, exfoliates, and nourishes the skin, promoting a clear, well-hydrated complexion.</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $79 (60 Minutes)</p>
+			</div>
+
+			<div id="section-2" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">02</span>
+				<h3>O2 Facial</h3>
+				<p>Rejuvenate skin with oxygen infusion, plant-derived stem cells, peptides, and a high concentration of enzymatic botanicals.</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">
+					Starts at $1,000 per treatment<br />
+					(minimum of 4 treatments)
+				</p>
+			</div>
+
+			<div id="section-3" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
+				<h3>Oxygen Facial</h3>
+				<p>Experience deep exfoliation without the downtime of a chemical peel! This exfoliating facial is not recommended for sensitive skin. Choose between lighting treatment for hyperpigmentation or rejuvenating treatment for fine lines and wrinkles.</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $109 (60 Minutes)</p>
+			</div> 
+
+			<div id="section-4" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">05</span>
+				<h3>HydraFacial</h3>
+				<p>Get clearer skin through hydradermabrasion, which combines cleansing, exfoliation, extraction, hydration and antioxidant protection all at once. This treatment is soothing, moisturizing, non-invasive and non-irritating.</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $135 (45 Minutes)</p>
+			</div>  
+
+			<div id="section-5" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
+				<h3>Back Facial</h3>
+				<p>We’ve got your back! Our back facial treatment includes Dr. Schwab Products, a steam session, cleansing, exfoliation, extractions, and finishing masks.</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $60 (30 Minutes)</p>
+			</div>  
+
+			<div id="section-6" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
+				<h3>Waxing</h3>
+				<p>Remove unwanted hair and enjoy smooth skin with our waxing services. </p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Starts at $125</p>
+			</div>  
+
+			<div id="section-7" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
+				<h3>Full Spectrum Infrared Sauna</h3>
+				<p>Spend some time in the sauna to look and feel great! Whether you want a traditional or infrared sauna experience, we’ve got you covered.</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">
+					Infrared Sauna: <br className="block lg:hidden" />
+					$15 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$25 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$40 (60 Minutes)<br/><br className="block lg:hidden" />
+					Traditional Sauna: <br className="block lg:hidden" />
+					$10 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$20 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$30 (60 Minutes)
+				</p>
+			</div> 
+			<div id="section-8" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">03</span>
+				<h3>Sauna & Steam Room (SD)</h3>
+				<p>Sweat, relax, and promote body detoxification at Karma Spa’s steam room. Sauna and  sessions help to relieve pain, relax muscles, and more.</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">
+					$11 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$21 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$31 (60 Minutes)
+				</p>
+			</div>			
+		</ScrollContent>
+	</ScrollWrapper>
 
     <CTABackgroundImage />
       
@@ -67,14 +152,14 @@ export const query = graphql`
   twitterOpenGraphImage: file(relativePath: {eq: "open-graph/twitter/skin-care-twitter.jpg"}) {
     publicURL
   }    
-  heroDesktop: file(relativePath: {eq: "services/massage/massage-services-hero-desktop.jpg"}) {
+  heroDesktop: file(relativePath: {eq: "services/skin-care/skin-care-hero-desktop.jpg"}) {
     childImageSharp {
       fixed(width: 1440, height: 1358, quality: 100) {
         ...GatsbyImageSharpFixed_withWebp
       }
     }
   }
-  heroMobile: file(relativePath: {eq: "services/massage/massage-services-hero-mobile.jpg"}) {
+  heroMobile: file(relativePath: {eq: "services/skin-care/skin-care-hero-mobile.jpg"}) {
     childImageSharp {
       fixed(width: 828, height: 956, quality: 100) {
         ...GatsbyImageSharpFixed_withWebp
