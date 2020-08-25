@@ -40,13 +40,7 @@ const StyledMainNav = styled.nav`
                     ${tw`text-gray-900`}
                 }
             }
-        }
-        .logo-initial {
-            ${tw`hidden`}
-        }
-        .logo-fixed {
-            ${tw`flex`}
-        }             
+        }           
     }
     #navigation-desktop {
         > .navigation-item {
