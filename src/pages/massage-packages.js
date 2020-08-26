@@ -128,9 +128,9 @@ export const Page = ({data}) => {
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Hydrate and detoxify your entire body with this lush package.</p>
 					<ul className="styled-list mb-8">
 						<li className="text-gray-600">Dry Brushing Scrub (30 Minutes)</li>
-						<li className="text-gray-600">Foot Massage (30 Minutes)</li>
-						<li className="text-gray-600">Infra-Slim Body Wrap</li>
-						<li className="text-gray-600">Body Detox (15 Minutes)</li>
+						<li className="text-gray-600">Aromatherapy Body Butter</li>
+						<li className="text-gray-600">Hydrating Body Wrap</li>
+						<li className="text-gray-600">Hydrating Body Wrap</li>
 					</ul>
 					<span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$200 Value — you save $75</span>
 				</div>

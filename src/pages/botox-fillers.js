@@ -79,7 +79,7 @@ export const Page = ({data}) => {
 						</div>
 						<div>
 							<span className="block text-xs font-bold text-gray-900 mb-2 md:mb-6">02</span>
-							<p className="font-heading text-2xlarge font-semibold text-gray-900 mb-2 md:mb-4">Minimize and Soften Wrinkles</p>
+							<p className="font-heading text-2xlarge font-semibold text-gray-900 mb-2 md:mb-4">Reduce Excessive Sweating</p>
 							<p className="mb-0">Botox can block sweat glands and reduce excessive sweating in areas like the armpit.</p>
 						</div>
 						<div>

@@ -1,9 +1,20 @@
 import React from "react";
 // import { graphql } from 'gatsby';
+import styled from '@emotion/styled';
+import tw from 'twin.macro'
 
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import Accordion from '../components/Accordion/Accordion'
+
+const StyledFAQContent = styled.div`
+    @media (min-width: 1024px){
+        &:after {
+            content: '';
+            ${tw`absolute top-0 right-0 h-full w-full bg-gray-100 transform translate-x-full`}
+        }
+    }
+` 
 
 export const Page = () => {
 
@@ -26,7 +37,7 @@ export const Page = () => {
 					<div className="md:col-start-1 md:col-span-3 md:mr-4 md:mt-24">
 						<h1 className="mb-0">FAQs</h1>
 					</div>
-					<div className="md:col-end-13 md:col-span-9 relative bg-gray-100 md:p-24">
+					<StyledFAQContent className="md:col-end-13 md:col-span-9 relative bg-gray-100 md:p-24">
 					<Accordion
 						title="Why should I choose Karma Spa over another massage spa?"
 						content="<p>We specialize in Affordable Indulgence. Karma Spa brings you the best services from the worlds of massage, skin care, and aesthetic treatments to bring you the ultimate relaxation experience. We have many five-star reviews and two convenient locations to choose from.</p>"
@@ -49,15 +60,15 @@ export const Page = () => {
 					/>										
 					<Accordion
 						title="What are your packages?"
-						content="<p>We have a wide variety of packages depending on your needs! Packages vary in length and type of services. Learn more about our packages <a href='#'>here</a>.</p>"
+						content="<p>We have a wide variety of packages depending on your needs! Packages vary in length and type of services. Learn more about our packages <a href='/massage-packages/'>here</a>.</p>"
 					/>	
 					<Accordion
 						title="Tell me more about your treatments."
-						content="<p>Our Karma Bella Aesthetic Treatments are available in both Hillcrest and Carlsbad locations. Treatments include Botox, EmSculpt, IV Hydration Drip, and others. Learn more about our treatments <a href='#'>here</a>.</p>"
+						content="<p>Our Karma Bella Aesthetic Treatments are available in both Hillcrest and Carlsbad locations. Treatments include Botox, EmSculpt, IV Hydration Drip, and others. Learn more about our treatments <a href='/aesthetic-treatments/'>here</a>.</p>"
 					/>	
 					<Accordion
 						title="Tell me more about your skin care services."
-						content="<p>We offer facials, waxing, scrubs, and sauna or steam room sessions as part of our skin care services. Learn more about each service <a href='#'>here</a>.</p>"
+						content="<p>We offer facials, waxing, scrubs, and sauna or steam room sessions as part of our skin care services. Learn more about each service <a href='/skin-care-services/'>here</a>.</p>"
 					/>	
 					<Accordion
 						title="How much should I tip for a massage?"
@@ -69,7 +80,7 @@ export const Page = () => {
 					/>
 					<Accordion
 						title="What is the best way to book an appointment?"
-						content="<p>You can book through our <a href='#'>online booking system</a> or by contacting our locations:</p>
+						content="<p>You can book through our <a data-modal-open='modal-choose-location'>online booking system</a> or by contacting our locations:</p>
 						<p><span class='underline'>San Diego</span><br/>
 						Call: <a href='tel:+1-619-299-9888'>619-299-9888</a><br/>
 						Text: <a href='tel:+1-619-359-8841'>619-359-8841</a><br/>
@@ -100,7 +111,7 @@ export const Page = () => {
 						title="Do you sell gift cards?"
 						content="<p>Yes! Gift cards are available online and in-store.</p>"
 					/>
-					</div>
+					</StyledFAQContent>
 				</div>
 			</div>
 		</section>

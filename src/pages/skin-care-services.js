@@ -74,10 +74,7 @@ export const Page = ({data}) => {
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">02</span>
 				<h3>O2 Facial</h3>
 				<p>Rejuvenate skin with oxygen infusion, plant-derived stem cells, peptides, and a high concentration of enzymatic botanicals.</p>
-				<p className="text-small font-medium tracking-wide text-gray-900">
-					Starts at $1,000 per treatment<br />
-					(minimum of 4 treatments)
-				</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $89 (60 Minutes)</p>
 			</div>
 
 			<div id="section-3" className="mb-20 lg:mb-40">
@@ -105,7 +102,25 @@ export const Page = ({data}) => {
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
 				<h3>Waxing</h3>
 				<p>Remove unwanted hair and enjoy smooth skin with our waxing services. </p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Starts at $125</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">
+					Brow: $25<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Nose: $20<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Upper Lip: $20<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Full Face: $50<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Underarm: $30<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Half Arm: $35<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Full Arm: $45<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Half Leg: $55<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Full Leg: $75<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Chest: $40<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Full Back: $70<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Lower Back: $30<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Stomach: $40<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Brazilian Wax: $60 (Includes back strip; trimming: add $20)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Bikini Line: $40<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Bikini Front: $50<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					Full Body: by consultation
+				</p>
 			</div>  
 
 			<div id="section-7" className="mb-20 lg:mb-40">

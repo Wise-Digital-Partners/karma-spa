@@ -44,7 +44,7 @@ const Services = ({className}) => {
         <div className="container">
           <header className="text-center md-8 md:mb-20">
             <h2>More than a Great Massage</h2>
-            <p className="text-2xlarge font-heading">At Karma Spa, massage is just the beginning of your ultimate relaxation journey.</p>
+            <p className="text-xl md:text-2xl font-heading text-gray-900 font-light">At Karma Spa, massage is just the beginning of your ultimate relaxation journey.</p>
           </header>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 row-gap-12 lg:row-gap-0 md:col-gap-12 xl:col-gap-16 text-center">
             <div className="group relative">

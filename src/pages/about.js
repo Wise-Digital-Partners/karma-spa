@@ -53,7 +53,7 @@ export const Page = ({data}) => {
 	<section className="bg-gray-100 py-18 md:pt-32 md:pb-36">
 		<div className="container">
 			<header className="max-w-2xl mb-10 md:mb-16">
-				<h2>About Karma Spa Hillcrest</h2>
+				<h2>Your Hillcrest Massage Spa</h2>
 				<p>Our 4,000 sq ft facility features nine massage rooms, including dedicated rooms for couples massage. We also have a large, open space for reflexology, a sauna and steam room, and a Vichy shower room. Most importantly, you’ll be rejuvenated in a comfortable, relaxing environment with our skilled massage therapists.</p>
 			</header>
 			<div className="grid grid-cols-1 md:grid-cols-12 mb-18 md:mb-32 shadow-xl">
@@ -87,7 +87,7 @@ export const Page = ({data}) => {
 			</div>
 
 			<header className="max-w-2xl mb-10 md:mb-16">
-				<h2>About Karma Spa Carlsbad</h2>
+				<h2>Your Carlsbad Massage Spa</h2>
 				<p>Our 5,000 sq ft facility features 16 massage rooms, including dedicated rooms for couples massage. We also have a spacious waiting area, both an infrared and traditional sauna, and two Vichy shower rooms. Above all, we bring you deep relaxation through our skilled massage therapists and popular spa packages.</p>
 			</header>
 			<div className="grid grid-cols-1 md:grid-cols-12 shadow-xl">
