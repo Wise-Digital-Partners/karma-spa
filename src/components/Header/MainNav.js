@@ -294,58 +294,58 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
 
     // Define logos based on header style
     let initialLogo = null,
-        fixedLogo = null;
+        stickyLogo = null;
     
     if (headerStyle === 'overlap') {
         initialLogo = [
-            data.desktopLogoLight.childImageSharp.fixed,
+            data.mobileLogoLight.childImageSharp.fixed,
             {
-            ...data.mobileLogoLight.childImageSharp.fixed,
-                media: `(max-width: 767px)`,
+            ...data.desktopLogoLight.childImageSharp.fixed,
+                media: `(min-width: 768px)`,
             },
         ] 
-        fixedLogo = [
-            data.desktopLogoDark.childImageSharp.fixed,
+        stickyLogo = [
+            data.mobileLogoDark.childImageSharp.fixed,
             {
-            ...data.mobileLogoDark.childImageSharp.fixed,
-                media: `(max-width: 767px)`,
+            ...data.desktopLogoDark.childImageSharp.fixed,
+                media: `(min-width: 768px)`,
             },
         ]
     } else if (headerStyle === 'classic') {
         initialLogo = [
-            data.desktopLogoDark.childImageSharp.fixed,
+            data.mobileLogoDark.childImageSharp.fixed,
             {
-            ...data.mobileLogoDark.childImageSharp.fixed,
-                media: `(max-width: 767px)`,
+            ...data.desktopLogoDark.childImageSharp.fixed,
+                media: `(min-width: 768px)`,
             },
         ] 
-        fixedLogo = [
-            data.desktopLogoDark.childImageSharp.fixed,
+        stickyLogo = [
+            data.mobileLogoDark.childImageSharp.fixed,
             {
-            ...data.mobileLogoDark.childImageSharp.fixed,
-                media: `(max-width: 767px)`,
+            ...data.desktopLogoDark.childImageSharp.fixed,
+                media: `(min-width: 768px)`,
             },
         ]
     }
 
     // Change logo on mega menu reveal
     if (megaMenuHovering) {
-        initialLogo = data.desktopLogoDark.childImageSharp.fixed;
+        initialLogo = data.desktopLogoDark.childImageSharp.fluid;
     }
 
     if(offcanvasOpen) {
         initialLogo = [
-            data.desktopLogoDark.childImageSharp.fixed,
+            data.mobileLogoDark.childImageSharp.fixed,
             {
-            ...data.mobileLogoDark.childImageSharp.fixed,
-                media: `(max-width: 767px)`,
+            ...data.desktopLogoDark.childImageSharp.fixed,
+                media: `(min-width: 768px)`,
             },
         ] 
-        fixedLogo = [
-            data.desktopLogoDark.childImageSharp.fixed,
+        stickyLogo = [
+            data.mobileLogoDark.childImageSharp.fixed,
             {
-            ...data.mobileLogoDark.childImageSharp.fixed,
-                media: `(max-width: 767px)`,
+            ...data.desktopLogoDark.childImageSharp.fixed,
+                media: `(min-width: 768px)`,
             },
         ] 
     }
@@ -370,7 +370,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                             <Img fixed={initialLogo} alt="Karma Spa Logo" />
                         </div>
                         <div className="logo-fixed hidden">
-                            <Img fixed={fixedLogo} alt="Karma Spa Logo" />
+                            <Img fixed={stickyLogo} alt="Karma Spa Logo" />
                         </div>
                     </AniLink>
                 </div>
