@@ -48,8 +48,7 @@ const StyledHero = styled.section`
 			tw`md:col-start-1 md:col-span-9 lg:pr-32` : null
 		};			
 		${({backgroundImageSide}) => backgroundImageSide === 'left' ? 
-			tw`order-2` :
-			tw`order-2 lg:order-1`
+			tw`order-2` : tw`order-2 lg:order-1`
 		};
 	}
 	.background-image-wrapper {
@@ -96,21 +95,18 @@ const StyledHero = styled.section`
 			tw`md:col-end-13 md:col-span-9` : null
 		};		
 		${({backgroundImageSide}) => backgroundImageSide === 'left' ?
-			tw`order-1` :
-			tw`order-1 lg:order-2`
+			tw`order-1` : tw`order-1 lg:order-2`
 		};
 	}	
 `
 
 const StyledBackgroundImage = styled(BackgroundImage)`
-	${tw`w-100vw transform -translate-x-6 overflow-hidden`}
+	${tw`w-100vw transform`}
 	${({hasContainer}) => hasContainer ?
-		tw`lg:w-full` :
-		tw`lg:w-50vw`
+		tw`lg:w-full` : tw`lg:w-50vw`
 	};
 	${({backgroundImageSide}) => backgroundImageSide === 'left' ?
-		tw`lg:-translate-x-full lg:left-full` : 
-		tw`lg:translate-x-0`
+		tw`lg:-translate-x-full lg:left-full` :  tw`lg:translate-x-0`
 	};
     min-height: ${({minHeightMobile}) => { return minHeightMobile }};
     &:before {
@@ -150,9 +146,9 @@ const Hero = (
 			backgroundImageWrapperWidth={backgroundImageWrapperWidth}
 			backgroundImageSide={backgroundImageSide}
 		>
-			<div className="container">
+			<div className="container px-0 lg:px-6">
 				<div className="grid grid-cols-1 lg:grid-cols-12 row-gap-10 lg:row-gap-0 items-center">
-					<div className="text-wrapper lg:row-start-1">
+					<div className="text-wrapper px-6 lg:px-0 lg:row-start-1">
 						{children}
 					</div>
 					<div className="background-image-wrapper lg:row-start-1">
