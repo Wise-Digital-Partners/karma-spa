@@ -25,8 +25,8 @@ export const Page = () => {
 			headerHasBorder={false}
 		>
 		<SEO
-			title=""
-			description=""
+			title="FAQs | Karma Spa | San Diego & Carlsbad Massage"
+			description="Why is Karma Spa a top massage spa in San Diego County? Get answers to this and more questions on our FAQs page. Book an appointment today!"
 			// openGraphImage={data.openGraphImage.publicURL}
 			// twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
 		/>

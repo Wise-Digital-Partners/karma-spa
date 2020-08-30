@@ -23,7 +23,7 @@ const StyledMainNav = styled.nav`
         ${({offcanvasOpen}) => offcanvasOpen ? 
             tw`bg-gray-100 border-gray-100` : null
         };
-       	${({headerStyle}) => headerStyle ? 
+       	${({headerStyle}) => headerStyle == 'overlap' ? 
 		    tw`border-b border-solid border-white border-opacity-25` : null
         }; 
     }    

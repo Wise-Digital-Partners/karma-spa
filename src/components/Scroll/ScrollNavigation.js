@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react'
-import { useStaticQuery, graphql } from "gatsby"
 import styled from '@emotion/styled';
 import tw from 'twin.macro'
 import Scrollspy from 'react-scrollspy'
@@ -7,7 +6,7 @@ import Scrollspy from 'react-scrollspy'
 const StyledScrollNavigation = styled.div`
     @media (max-width: 1023px){
         ${tw`relative sticky flex items-center justify-between bg-secondary_400 w-full h-12 px-6 cursor-pointer z-10 transform -translate-x-6`}
-        top: 65px;
+        top: 64px;
         width: calc(100% + 3rem);
         &:after {
             content: "\f078";

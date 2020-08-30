@@ -28,8 +28,8 @@ export const Page = ({data}) => {
       headerHasBorder={false}
     >
       <SEO
-        title=""
-        description=""
+        title="Massage Services in San Diego & Carlsbad | Karma Spa"
+        description="Ready for top massage services in San Diego? Karma Spa offers a wide variety of massages at its Hillcrest & Carlsbad locations. Book today!"
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -48,7 +48,7 @@ export const Page = ({data}) => {
         minHeightMobile="480px"
       >
         <h1>Massage Services</h1>
-        <p className="mb-2 md:mb-0">Relax. Reduce pain and stress. Improve circulation and flexibility. Prevent injury and facilitate healing. Massage has many benefits, and we have many options. Your next indulgence awaits.</p>
+        <p className="mb-2 md:mb-0">Relax. Reduce pain and stress. Improve circulation and flexibility. Prevent injury and facilitate healing. Massage has many benefits, and we have many options. Your next indulgence awaits with our Hillcrest and Carlsbad massage services.</p>
       </HeroSplit>
 
 	  <ScrollWrapper>

@@ -28,8 +28,8 @@ export const Page = ({data}) => {
       headerHasBorder={false}
     >
       <SEO
-        title=""
-        description=""
+        title="Aesthetic Treatments San Diego & Carlsbad | Karma Spa"
+        description="Karma Spa offers aesthetic treatments in San Diego courtesy of Karma Bella Medical Aesthetics. Browse our list of quality treatments here."
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -139,7 +139,7 @@ export const Page = ({data}) => {
 				</p>
 			</div>  
 
-			<div id="section-9" className="mb-20 lg:mb-40">
+			<div id="section-9">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
 				<h3>Latisse</h3>
 				<p>LATISSE® solution is the first FDA-approved and clinically proven growth treatment for hypotrichosis (inadequate or not enough eyelashes). Ditch the mascara and fake eyelashes with longer, fuller natural lashes. Experience the LATISSE® difference today!</p>

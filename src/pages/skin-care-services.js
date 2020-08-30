@@ -28,8 +28,8 @@ export const Page = ({data}) => {
       headerHasBorder={false}
     >
       <SEO
-        title=""
-        description=""
+        title="Skin Care Services San Diego & Carlsbad | Karma Spa"
+        description="Karma Spa offers San Diego skin care services at Hillcrest & Carlsbad locations. Book a facial, waxing session, scrubs, or sauna session today!"
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -47,7 +47,7 @@ export const Page = ({data}) => {
         minHeightDesktop="680px" 
         minHeightMobile="480px"
       >
-        <h1>Skin Care</h1>
+        <h1>Skin Care Services</h1>
         <p className="mb-2 md:mb-0">Show yourself some extra love with our skin care services! Stress, free radicals, sun damage, and many other factors impact our skin. Find the right service for your needs today, whether it’s a facial, waxing session, scrubs, or sauna session.</p>
       </HeroSplit>
 
@@ -78,28 +78,28 @@ export const Page = ({data}) => {
 			</div>
 
 			<div id="section-3" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">03</span>
 				<h3>Oxygen Facial</h3>
 				<p>Experience deep exfoliation without the downtime of a chemical peel! This exfoliating facial is not recommended for sensitive skin. Choose between lighting treatment for hyperpigmentation or rejuvenating treatment for fine lines and wrinkles.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">Price: $109 (60 Minutes)</p>
 			</div> 
 
 			<div id="section-4" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">05</span>
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
 				<h3>HydraFacial</h3>
 				<p>Get clearer skin through hydradermabrasion, which combines cleansing, exfoliation, extraction, hydration and antioxidant protection all at once. This treatment is soothing, moisturizing, non-invasive and non-irritating.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">Price: $135 (45 Minutes)</p>
 			</div>  
 
 			<div id="section-5" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">05</span>
 				<h3>Back Facial</h3>
 				<p>We’ve got your back! Our back facial treatment includes Dr. Schwab Products, a steam session, cleansing, exfoliation, extractions, and finishing masks.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">Price: $60 (30 Minutes)</p>
 			</div>  
 
 			<div id="section-6" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
 				<h3>Waxing</h3>
 				<p>Remove unwanted hair and enjoy smooth skin with our waxing services. </p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
@@ -124,7 +124,7 @@ export const Page = ({data}) => {
 			</div>  
 
 			<div id="section-7" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
 				<h3>Full Spectrum Infrared Sauna</h3>
 				<p>Spend some time in the sauna to look and feel great! Whether you want a traditional or infrared sauna experience, we’ve got you covered.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
@@ -138,8 +138,8 @@ export const Page = ({data}) => {
 					$30 (60 Minutes)
 				</p>
 			</div> 
-			<div id="section-8" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">03</span>
+			<div id="section-8">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
 				<h3>Sauna & Steam Room (SD)</h3>
 				<p>Sweat, relax, and promote body detoxification at Karma Spa’s steam room. Sauna and  sessions help to relieve pain, relax muscles, and more.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">

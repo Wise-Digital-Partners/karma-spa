@@ -23,8 +23,8 @@ export const Page = ({data}) => {
       headerHasBorder={true}
     >
 		<SEO
-			title=""
-			description=""
+			title="Join Our Team | Karma Spa | San Diego Massage"
+			description="Join our Karma Spa team and see why we're one of the best massage spas in San Diego County. We have two locations: Hillcrest and Carlsbad."
 			openGraphImage={data.openGraphImage.publicURL}
 			twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
 		/>

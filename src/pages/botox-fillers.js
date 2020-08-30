@@ -26,8 +26,8 @@ export const Page = ({data}) => {
 			headerHasBorder={false}
 		>
 			<SEO
-				title=""
-				description=""
+				title="Botox & Facial Fillers San Diego & Carlsbad | Karma Spa"
+				description="Looking for botox & facial fillers in San Diego County? The licensed aesthetic medicine team at Karma Spa within Hillcrest & Carlsbad can help!"
 				openGraphImage={data.openGraphImage.publicURL}
 				twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
 			/>

@@ -103,7 +103,7 @@ const StyledHero = styled.section`
 `
 
 const StyledBackgroundImage = styled(BackgroundImage)`
-	${tw`w-100vw transform -translate-x-6`}
+	${tw`w-100vw transform -translate-x-6 overflow-hidden`}
 	${({hasContainer}) => hasContainer ?
 		tw`lg:w-full` :
 		tw`lg:w-50vw`

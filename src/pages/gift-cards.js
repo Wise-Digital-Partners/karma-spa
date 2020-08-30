@@ -44,8 +44,8 @@ export default class Page extends Component {
 			headerHasBorder={false}
 			>
 			<SEO
-				title=""
-				description=""
+				title="Massage Spa Gift Cards | San Diego & Carlsbad | Karma Spa"
+				description="Give the gift of affordable indulgence with massage spa gift cards! Karma Spa gift cards are available for purchase online here. Get yours today!"
 				openGraphImage={this.props.data.openGraphImage.publicURL}
 				twitterOpenGraphImage={this.props.data.twitterOpenGraphImage.publicURL}
 			/>

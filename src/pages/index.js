@@ -38,8 +38,8 @@ export const Page = ({data}) => {
       headerHasBorder={true}
     >
       <SEO
-        title=""
-        description=""
+        title="Massage San Diego & Carlsbad | Karma Spa"
+        description="Karma Spa is a top San Diego massage spa with Hillcrest & Carlsbad locations. Plus skin care & aesthetic treatments. Enjoy affordable indulgence!"
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />

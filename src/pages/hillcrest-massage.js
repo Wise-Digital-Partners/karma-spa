@@ -37,8 +37,8 @@ export const Page = ({data}) => {
       headerHasBorder={true}
     >
       <SEO
-        title=""
-        description=""
+        title="Hillcrest Massage Spa in San Diego | Karma Spa"
+        description="Karma Spa is a top massage spa in Hillcrest. Experience affordable indulgence in the form of massage, skin care services, & more. Book today! "
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />

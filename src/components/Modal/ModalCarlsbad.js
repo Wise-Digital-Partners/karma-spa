@@ -108,7 +108,7 @@ const Modal = () => {
                             </div>
                             <div className="py-20 px-6 md:px-20">
                                 <div className="max-w-2xl mx-auto shadow-lg">
-                                    <iframe src="https://go.booker.com/location/karmaspa/service-menu" width="100%" height="535px" />
+                                    <iframe src="https://go.booker.com/location/karmarelaxationspa2" width="100%" height="535px" />
                                 </div>
                             </div>                            
                         </div>

@@ -15,8 +15,8 @@ export const Page = ({data}) => {
       headerHasBorder={false}
     >
 		<SEO
-			title=""
-			description=""
+			title="Blog | Karma Spa | Massage Spa in San Diego & Carlsbad"
+			description="Our Karma Spa blog connects you with all kinds of massage information and tips on living a life of total relaxation. We're a top San Diego massage spa."
 			// openGraphImage={data.openGraphImage.publicURL}
 			// twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
 		/>

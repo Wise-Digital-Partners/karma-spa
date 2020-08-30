@@ -26,8 +26,8 @@ export const Page = ({data}) => {
 		headerHasBorder={false}
 		>
 		<SEO
-			title=""
-			description=""
+			title="Deep Tissue Massage San Diego & Carlsbad | Karma Spa"
+			description="Karma Spa offers effective deep tissue massage in San Diego at two convenient locations: Hillcrest and Carlsbad. Book an appointment today!"
 			openGraphImage={data.openGraphImage.publicURL}
 			twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
 		/>
@@ -69,7 +69,7 @@ export const Page = ({data}) => {
 			<div className="container">
 				<div className="grid grid-cols-1 md:grid-cols-12 row-gap-8 md:row-gap-0 items-center">
 					<div className="md:col-start-1 md:col-span-7">
-						<img src="https://via.placeholder.com/720x560?text=FPO" />
+						<img src="https://via.placeholder.com/720x560?text=FPO" alt="Placeholder" />
 						{/* <Img fluid={data.packages.childImageSharp.fluid} alt="VIP Treatment" /> */}
 					</div>
 					<div className="md:col-end-13 md:col-span-4">

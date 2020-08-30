@@ -24,8 +24,8 @@ export const Page = ({data}) => {
       headerHasBorder={false}
     >
       <SEO
-        title=""
-        description=""
+        title="Massage Memberships in San Diego | Karma Spa"
+        description="Karma Spa membership offers multiple benefits. We offer two membership plans to bring you free massages and monthly specials for members only."
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -43,7 +43,7 @@ export const Page = ({data}) => {
         minHeightDesktop="560px" 
         minHeightMobile="320px"
       >
-        <h1>Karma Spa Membership</h1>
+        <h1>Massage Membership</h1>
         <p className="mb-0">Are you a Karma Spa regular, or do you want to be one? We offer two membership plans to bring you free massages and monthly specials for members only.</p>
       </HeroSplit>
 

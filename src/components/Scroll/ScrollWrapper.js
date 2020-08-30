@@ -38,7 +38,7 @@ const Scroll = ({children}) => {
     ]
  
     return (
-        <StyledScroll className="wrapper relative bg-gray-100 lg:bg-transparent z-0 pb-10 lg:pb-0 pt-24 lg:pt-0">
+        <StyledScroll className="wrapper relative bg-gray-100 lg:bg-transparent z-0 pb-20 lg:pb-0 pt-24 lg:pt-0">
             <div className="container">
                 <div className="absolute right-0 top-0 transform -translate-y-16 lg:-translate-y-28 z-10">
                     <Img fixed={flowerImages} alt="Flowers"/>
