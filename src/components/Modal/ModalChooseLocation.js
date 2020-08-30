@@ -81,7 +81,7 @@ const Modal = () => {
                     <div className="overlay fixed flex items-center justify-center top-0 right-0 left-0 bottom-0 bg-black bg-opacity-75 outline-none" tabIndex="-1" data-modal-close>
                         <div className="content-wrapper bg-white w-full h-screen overflow-auto max-w-3xl ml-auto py-20 px-6 md:px-20" role="dialog" aria-modal="true">
                             <p className="heading-three">Choose Your Location</p> 
-                            <div className="flex grid-cols-2 col-gap-4 md:col-gap-8 mt-12">
+                            <div className="grid grid-cols-2 col-gap-4 md:col-gap-8 mt-12 max-w-sm">
                                 <div className="w-full md:w-auto" onClick={closeClickHandler}><ButtonSolid as="button" className="w-full md:w-auto" data="modal-hillcrest" text="Hillcrest" /></div>
                                 <div className="w-full md:w-auto" onClick={closeClickHandler}><ButtonSolid as="button" className="w-full md:w-auto" data="modal-carlsbad" text="Carlsbad" /></div>
                             </div>

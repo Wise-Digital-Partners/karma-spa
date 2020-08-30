@@ -56,7 +56,7 @@ export const Page = ({data}) => {
         <div className="max-w-4xl m-auto text-center">
           <p className="text-white font-heading text-mobile7xl md:text-7xl leading-tight font-semibold mb-4">Affordable indulgence.</p>
           <p className="font-heading text-white font-display text-mobile3xl md:text-3xl leading-tight italic mb-12">San Diego massage at its finest.</p>
-          <div className="flex justify-center grid-cols-2 col-gap-4 md:col-gap-8">
+          <div className="grid grid-cols-2 col-gap-4 md:col-gap-8 max-w-sm mx-auto">
             <ButtonSolid as="button" className="is-light w-full md:w-auto" data="modal-hillcrest" text="Hillcrest"/>
             <ButtonSolid as="button" className="is-light w-full md:w-auto" data="modal-carlsbad" text="Carlsbad"/>
           </div>
