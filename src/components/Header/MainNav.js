@@ -443,8 +443,8 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                     </div>
 
                     <div className="lg:hidden" ref={node}>
-                        <Burger offcanvasOpen={offcanvasOpen} setOffcanvasOpen={setOffcanvasOpen} headerStyle={headerStyle} scrolled={scrolled} aria-controls="mobile-menu"/>
-                        <OffCanvas offcanvasOpen={offcanvasOpen} setOffcanvasOpen={setOffcanvasOpen} id="mobile-menu" className="py-10">
+                        <Burger offcanvasOpen={offcanvasOpen} setOffcanvasOpen={setOffcanvasOpen} headerStyle={headerStyle} scrolled={scrolled} aria-controls="offcanvas-navigation"/>
+                        <OffCanvas offcanvasOpen={offcanvasOpen} id="offcanvas-navigation" className="py-10">
                             <ul id="navigation-mobile" className="mb-16 inline-block">
                                 <li className="navigation-item is-submenu-parent">
                                     <a aria-expanded={subMenuOpen1 === true ? "true" : "false"} onClick={() => {  

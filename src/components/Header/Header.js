@@ -15,15 +15,29 @@ const Header = ({headerStyle, headerLinkColor, headerHasBorder}) => {
     const promoBar = document.querySelector('#promo-bar');
     const utilityNavigation = document.querySelector('#utlity-navigation');
     const mainNavigation = document.querySelector('#main-navigation');
-    const mobileNavigation = document.querySelector('#mobile-menu');
+    const offcanvasNavigation = document.querySelector('#offcanvas-navigation');
     const bodyContent = document.querySelector('#body-content');
+
+    // calculate #offcanvas-navigation menu offset top
+    offcanvasNavigation.style.top = siteNavigation.offsetHeight + 'px';
+
+    if (headerStyle === 'overlap') {
+      // calculate #body-content offset top
+      bodyContent.style.marginTop = '-' + mainNavigation.offsetHeight + 'px';
+    }       
     
     const handleResize = () => {
-      // recalculate mobile menu offset top on resize
-      mobileNavigation.style.top = siteNavigation.offsetHeight + 'px';
+      // recalculate #offcanvas-navigation offset top on resize
+      offcanvasNavigation.style.top = siteNavigation.offsetHeight + 'px';
+
+      // recalculate #body-content offset top on resize
+      bodyContent.style.marginTop = '-' + mainNavigation.offsetHeight + 'px';
     };    
     
     const handleScroll = () => {
+
+      // recalculate #offcanvas-navigation offset top on scroll
+      offcanvasNavigation.style.top = (siteNavigation.offsetHeight - window.scrollY ) + 'px' ;
 
       let isScrolled;
 
@@ -39,7 +53,10 @@ const Header = ({headerStyle, headerLinkColor, headerHasBorder}) => {
       
       if (isScrolled) {
         setScrolled(true);
-        mobileNavigation.style.top = mainNavigation.offsetHeight + 'px';
+        // recalculate #offcanvas-navigation offset top on scroll
+        offcanvasNavigation.style.top = mainNavigation.offsetHeight + 'px';
+
+        // recalculate #body-content offset top on scroll
         if (headerStyle === 'overlap') {
           bodyContent.style.marginTop = '0px';
         } else if (headerStyle === 'classic') {
@@ -47,6 +64,8 @@ const Header = ({headerStyle, headerLinkColor, headerHasBorder}) => {
         }
       } else {
         setScrolled(false);
+        
+        // recalculate #body-content offset top on scroll
         if (headerStyle === 'overlap') {
           bodyContent.style.marginTop = '-' + mainNavigation.offsetHeight + 'px';
         } else if (headerStyle === 'classic') {
@@ -54,14 +73,6 @@ const Header = ({headerStyle, headerLinkColor, headerHasBorder}) => {
         }
       }
     };
-
-    // calculate mobile menu offset top
-    mobileNavigation.style.top = siteNavigation.offsetHeight + 'px';
-
-    if (headerStyle === 'overlap') {
-      // calculate body content offset top
-      bodyContent.style.marginTop = '-' + mainNavigation.offsetHeight + 'px';
-    }    
 
     document.addEventListener('scroll', handleScroll, { passive: true });
     window.addEventListener('resize', handleResize, { passive: true });
