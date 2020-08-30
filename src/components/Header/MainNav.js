@@ -235,29 +235,33 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
         {
             desktopLogoDark: file(relativePath: {eq: "global/logo-color.png"}) {
                 childImageSharp {
-                    fixed(width: 153, quality: 100) {
-                        ...GatsbyImageSharpFixed_withWebp_noBase64
+                    fluid(maxWidth: 153, quality: 100) {
+                        ...GatsbyImageSharpFluid_withWebp_noBase64
+                        ...GatsbyImageSharpFluidLimitPresentationSize
                     }
                 }
             }
             desktopLogoLight: file(relativePath: {eq: "global/logo-white-orange.png"}) {
                 childImageSharp {
-                    fixed(width: 153, quality: 100) {
-                        ...GatsbyImageSharpFixed_withWebp_noBase64
+                    fluid(maxWidth: 153, quality: 100) {
+                        ...GatsbyImageSharpFluid_withWebp_noBase64
+                        ...GatsbyImageSharpFluidLimitPresentationSize
                     }
                 }
             }      
             mobileLogoDark: file(relativePath: {eq: "global/logo-color.png"}) {
                 childImageSharp {
-                    fixed(width: 114, quality: 100) {
-                        ...GatsbyImageSharpFixed_withWebp_noBase64
+                    fluid(maxWidth: 114, quality: 100) {
+                        ...GatsbyImageSharpFluid_withWebp_noBase64
+                        ...GatsbyImageSharpFluidLimitPresentationSize
                     }
                 }
             } 
             mobileLogoLight: file(relativePath: {eq: "global/logo-white-orange.png"}) {
                 childImageSharp {
-                    fixed(width: 114, quality: 100) {
-                        ...GatsbyImageSharpFixed_withWebp_noBase64
+                    fluid(maxWidth: 114, quality: 100) {
+                        ...GatsbyImageSharpFluid_withWebp_noBase64
+                        ...GatsbyImageSharpFluidLimitPresentationSize
                     }
                 }
             }
@@ -298,31 +302,31 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
     
     if (headerStyle === 'overlap') {
         initialLogo = [
-            data.mobileLogoLight.childImageSharp.fixed,
+            data.mobileLogoLight.childImageSharp.fluid,
             {
-            ...data.desktopLogoLight.childImageSharp.fixed,
+            ...data.desktopLogoLight.childImageSharp.fluid,
                 media: `(min-width: 768px)`,
             },
         ] 
         stickyLogo = [
-            data.mobileLogoDark.childImageSharp.fixed,
+            data.mobileLogoDark.childImageSharp.fluid,
             {
-            ...data.desktopLogoDark.childImageSharp.fixed,
+            ...data.desktopLogoDark.childImageSharp.fluid,
                 media: `(min-width: 768px)`,
             },
         ]
     } else if (headerStyle === 'classic') {
         initialLogo = [
-            data.mobileLogoDark.childImageSharp.fixed,
+            data.mobileLogoDark.childImageSharp.fluid,
             {
-            ...data.desktopLogoDark.childImageSharp.fixed,
+            ...data.desktopLogoDark.childImageSharp.fluid,
                 media: `(min-width: 768px)`,
             },
         ] 
         stickyLogo = [
-            data.mobileLogoDark.childImageSharp.fixed,
+            data.mobileLogoDark.childImageSharp.fluid,
             {
-            ...data.desktopLogoDark.childImageSharp.fixed,
+            ...data.desktopLogoDark.childImageSharp.fluid,
                 media: `(min-width: 768px)`,
             },
         ]
@@ -335,16 +339,16 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
 
     if(offcanvasOpen) {
         initialLogo = [
-            data.mobileLogoDark.childImageSharp.fixed,
+            data.mobileLogoDark.childImageSharp.fluid,
             {
-            ...data.desktopLogoDark.childImageSharp.fixed,
+            ...data.desktopLogoDark.childImageSharp.fluid,
                 media: `(min-width: 768px)`,
             },
         ] 
         stickyLogo = [
-            data.mobileLogoDark.childImageSharp.fixed,
+            data.mobileLogoDark.childImageSharp.fluid,
             {
-            ...data.desktopLogoDark.childImageSharp.fixed,
+            ...data.desktopLogoDark.childImageSharp.fluid,
                 media: `(min-width: 768px)`,
             },
         ] 
@@ -365,14 +369,16 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
         >
             <div className="container flex items-center">
                 <div className="flex-auto flex items-center">
-                    <AniLink fade to="/">
-                        <div className="logo-initial">
-                            <Img fixed={initialLogo} alt="Karma Spa Logo" />
-                        </div>
-                        <div className="logo-fixed hidden">
-                            <Img fixed={stickyLogo} alt="Karma Spa Logo" />
-                        </div>
-                    </AniLink>
+                    <div className="w-full">
+                        <AniLink fade to="/">
+                            <div className="logo-initial">
+                                <Img fluid={initialLogo} alt="Karma Spa Logo" />
+                            </div>
+                            <div className="logo-fixed hidden">
+                                <Img fluid={stickyLogo} alt="Karma Spa Logo" />
+                            </div>
+                        </AniLink>
+                    </div>
                 </div>
                 <div className="flex items-center justify-end flex-auto">
                     <ul id="navigation-desktop" className="hidden lg:flex lg:items-center lg:justify-end mr-10">
