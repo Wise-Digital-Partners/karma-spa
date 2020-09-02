@@ -58,21 +58,11 @@ const Footer = () => {
 
                 <Img className="mb-10 md:mb-0" fixed={logo} alt="Karma Spa Logo" />
 
-                <div className="flex flex-col md:flex-row items-center justify-center md:justify-start">
-                  <div className="order-2 md:order-1">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <i className="fab fa-instagram text-white hover:text-white hover:text-opacity-50 text-2xl mr-6 base-animation-ease"></i>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <i className="fab fa-facebook-f text-white hover:text-white hover:text-opacity-50 text-xl base-animation-ease"></i>
-                    </a> 
-                  </div>  
-                  <ul className="md:flex list-none md:ml-12 mb-12 md:mb-0 order-1 md:order-2">
-                    <li className="text-xsmall font-bold uppercase mb-8 md:mb-0 md:mr-8"><AniLink className="text-white hover:text-white hover:text-opacity-50 no-underline" fade to="/faqs/">FAQs</AniLink></li>
-                    <li className="text-xsmall font-bold uppercase mb-8 md:mb-0 md:mr-8"><AniLink className="text-white hover:text-white hover:text-opacity-50 no-underline" fade to="/join-our-team/">Join Our Team</AniLink></li>
-                    <li className="text-xsmall font-bold uppercase"><a className="text-white hover:text-white hover:text-opacity-50 no-underline" data-modal-open="modal-contact">Contact</a></li>
-                  </ul>
-                </div> 
+                <ul className="md:flex list-none mb-12 md:mb-0">
+                  <li className="text-xsmall font-bold uppercase mb-8 md:mb-0 md:mr-8"><AniLink className="text-white hover:text-white hover:text-opacity-50 no-underline" fade to="/faqs/">FAQs</AniLink></li>
+                  <li className="text-xsmall font-bold uppercase mb-8 md:mb-0 md:mr-8"><AniLink className="text-white hover:text-white hover:text-opacity-50 no-underline" fade to="/join-our-team/">Join Our Team</AniLink></li>
+                  <li className="text-xsmall font-bold uppercase"><a className="text-white hover:text-white hover:text-opacity-50 no-underline" data-modal-open="modal-contact">Contact</a></li>
+                </ul>
 
               </div>
 
@@ -87,6 +77,17 @@ const Footer = () => {
                     <br/>
                     <a className="text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-619-359-8841">Text: (619) 359-8841</a>
                   </p>
+                  <div className="flex items-center justify-center md:justify-start mt-4">
+                    <a href="https://www.instagram.com/karmaspahillcrest/" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-instagram text-white hover:text-white hover:text-opacity-50 text-xl mr-6 base-animation-ease"></i>
+                    </a>
+                    <a href="https://www.facebook.com/karmarelaxationspa/" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-facebook-f text-white hover:text-white hover:text-opacity-50 text-lg mr-6 base-animation-ease"></i>
+                    </a> 
+                    <a href="https://twitter.com/karma3969?lang=en" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-twitter text-white hover:text-white hover:text-opacity-50 text-xl base-animation-ease"></i>
+                    </a>                     
+                  </div> 
                 </div>
                 <div>
                   <p className="text-xl md:text-2xl font-heading text-white font-bold mb-4 md:mb-5">Carlsbad</p>
@@ -98,6 +99,14 @@ const Footer = () => {
                     <br/>
                     <a className="text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-760-729-9889">Text: (760) 729-9889</a>
                   </p>
+                  <div className="flex items-center justify-center md:justify-start mt-4">
+                    <a href="https://www.instagram.com/karmaspacarlsbad/" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-instagram text-white hover:text-white hover:text-opacity-50 text-xl mr-6 base-animation-ease"></i>
+                    </a>
+                    <a href="https://www.facebook.com/karmaspacarlsbad" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-facebook-f text-white hover:text-white hover:text-opacity-50 text-lg mr-6 base-animation-ease"></i>
+                    </a>                     
+                  </div>  
                 </div>  
 
               </div>

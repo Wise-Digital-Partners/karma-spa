@@ -70,7 +70,7 @@ const ScrollNavigation = ({children}) => {
     const clickHandler = () => {
         setActiveState(setActive === "" ? "active" : "");
         setHeightState(
-            setActive === "active" ? "0px" : "250px"
+            setActive === "active" ? "0px" : "400px"
         );
     }; 
  

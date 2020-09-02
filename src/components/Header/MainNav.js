@@ -45,7 +45,7 @@ const StyledMainNav = styled.nav`
             ${tw`hidden`}
         }
         .logo-fixed {
-            ${tw`flex`}
+            ${tw`block`}
         }             
     }
     #navigation-desktop {

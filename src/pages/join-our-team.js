@@ -98,7 +98,7 @@ export const Page = ({data}) => {
 				<div className="bg-white bg-opacity-50 text-center py-12 md:py-20 px-6">
 					<header className="max-w-lg mx-auto">
 						<h3 className="heading-two mb-8">Apply Today</h3>
-						<p className="mb-0"><a className="text-gray-900 hover:text-primary_400 font-bold underline" href="#">Download this application</a> and email it to <a className="text-gray-900 hover:text-primary_400 font-bold underline" href="mailto:hiring@karmaspa.com">hiring@karmaspa.com</a>.<br className="md:hidden"/> We look forward to hearing from you!</p>
+						<p className="mb-0">Interested in working with us? Send your resume to <a className="text-gray-900 hover:text-primary_400 font-bold underline" href="mailto:hiring@karmaspa.com">hiring@karmaspa.com</a>.<br className="md:hidden"/> We look forward to hearing from you!</p>
 					</header>
 				</div>
 			</div>

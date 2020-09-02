@@ -69,8 +69,7 @@ export const Page = ({data}) => {
 			<div className="container">
 				<div className="grid grid-cols-1 md:grid-cols-12 row-gap-8 md:row-gap-0 items-center">
 					<div className="md:col-start-1 md:col-span-7">
-						<img src="https://via.placeholder.com/720x560?text=FPO" alt="Placeholder" />
-						{/* <Img fluid={data.packages.childImageSharp.fluid} alt="VIP Treatment" /> */}
+						<Img fluid={data.whatToExpect.childImageSharp.fluid} alt="What to Expect" />
 					</div>
 					<div className="md:col-end-13 md:col-span-4">
 						<h3>What You Can Expect</h3>
@@ -145,6 +144,13 @@ export const query = graphql`
     childImageSharp {
       fixed(width: 1440, height: 1120, quality: 100) {
         ...GatsbyImageSharpFixed_withWebp
+      }
+    }
+  } 
+  whatToExpect: file(relativePath: {eq: "services/massage/deep-tissue/what-to-expect.jpg"}) {
+    childImageSharp {
+      fluid(maxWidth: 1440, quality: 100) {
+        ...GatsbyImageSharpFluid_withWebp
       }
     }
   } 

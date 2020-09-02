@@ -64,7 +64,7 @@ export const Page = ({data}) => {
                   <p className="font-heading text-2xlarge text-gray-900 mb-1 md:mb-3">Points System</p>
                   <p className="mb-6 md:mb-8">Spend $1, get 1 point. 500 points gets you a free 60 min massage!*</p>
                   <p className="italic text-small mb-8 md:mb-16">* The annual fee doesn’t count towards points accumulated—but gift cards do!</p>
-                  <ButtonGhost className="w-full" href="#" text="Get Basic Membership"/>
+                  <ButtonGhost className="w-full" href="#" target="_blank" rel="noopener noreferrer" text="Get Basic Membership"/>
                 </div>
             </div>
             <div className="shadow-xl text-center">
@@ -80,7 +80,7 @@ export const Page = ({data}) => {
                   <p className="font-heading text-2xlarge text-gray-900 mb-1 md:mb-3">Points System</p>
                   <p className="mb-6 md:mb-8">Spend $1, get 1 point. 500 points gets you a free 60 min massage!*</p>
                   <p className="italic text-small mb-8 md:mb-16">* The monthly fee doesn’t count towards points accumulated—but gift cards do!</p>
-                  <ButtonGhost className="w-full" href="#" text="Get VIP Membership"/>
+                  <ButtonGhost className="w-full" href="#" target="_blank" rel="noopener noreferrer" text="Get VIP Membership"/>
                 </div>                
             </div>
           </div>
