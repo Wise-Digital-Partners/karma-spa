@@ -130,7 +130,7 @@ const StyledMainNav = styled.nav`
             }
             &.is-submenu-parent {
                 > a {
-                    ${tw`block`}
+                    /* ${tw`block`} */
                     /* &:after {
                         content: '\f078';
                         font-family: 'Font Awesome 5 Pro';
