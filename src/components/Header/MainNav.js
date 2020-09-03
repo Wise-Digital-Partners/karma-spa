@@ -525,8 +525,8 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                                 <li className="font-heading font-medium"><a className="text-gray-700 no-underline" href="tel:+1-760-729-9888">Carlsbad: <span className="italic">(760) 729-9888</span></a></li>
                             </ul>                        
                             <div className="grid grid-col-1 row-gap-5">
-                                <ButtonSolid as="button" data="modal-hillcrest" text="Book San Diego"/>
-                                <ButtonSolid as="button" data="modal-carlsbad" text="Book Carlsbad"/>
+                                <ButtonSolid href="https://go.booker.com/location/karmaspa/service-menu"target="_blank" rel="noopener noreferrer" text="Book San Diego"/>
+                                <ButtonSolid href="https://go.booker.com/location/karmarelaxationspa2/service-menu"target="_blank" rel="noopener noreferrer" text="Book Carlsbad"/>
                             </div>
                         </OffCanvas>
                     </div>

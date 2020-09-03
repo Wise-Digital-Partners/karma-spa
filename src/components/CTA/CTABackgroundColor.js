@@ -23,8 +23,8 @@ const CTA = (
                     <h2 className="heading-one mb-6">Affordable Indulgence Starts Here.</h2>
                     <p className="font-heading text-xl md:text-2xl leading-8 text-gray-900 font-light max-w-xl mx-auto mb-12">Your ticket to bliss is moments away. Book an appointment at our San Diego massage spa today!</p>
                     <div className="grid grid-cols-2 col-gap-4 md:col-gap-8 max-w-sm mx-auto">
-                        <ButtonSolid data="modal-hillcrest" text="Book San Diego"/>
-                        <ButtonSolid data="modal-carlsbad" text="Book Carlsbad"/>
+                        <ButtonSolid href="https://go.booker.com/location/karmaspa/service-menu"target="_blank" rel="noopener noreferrer" text="Book San Diego"/>
+                        <ButtonSolid href="https://go.booker.com/location/karmarelaxationspa2/service-menu"target="_blank" rel="noopener noreferrer" text="Book Carlsbad"/>
                     </div>
                 </div>            
             </div>

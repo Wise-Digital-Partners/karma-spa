@@ -82,8 +82,12 @@ const Modal = () => {
                         <div className="content-wrapper bg-white w-full h-screen overflow-auto max-w-3xl ml-auto py-20 px-6 md:px-20" role="dialog" aria-modal="true">
                             <p className="heading-three">Choose Your Location</p> 
                             <div className="grid grid-cols-2 col-gap-4 md:col-gap-8 mt-12 max-w-sm">
-                                <div className="w-full md:w-auto" onClick={closeClickHandler}><ButtonSolid as="button" className="w-full md:w-auto" data="modal-hillcrest" text="Hillcrest" /></div>
-                                <div className="w-full md:w-auto" onClick={closeClickHandler}><ButtonSolid as="button" className="w-full md:w-auto" data="modal-carlsbad" text="Carlsbad" /></div>
+                                <div className="w-full md:w-auto" onClick={closeClickHandler}>
+                                    <ButtonSolid className="w-full md:w-auto" href="https://go.booker.com/location/karmaspa/service-menu"target="_blank" rel="noopener noreferrer" text="Hillcrest" />
+                                </div>
+                                <div className="w-full md:w-auto" onClick={closeClickHandler}>
+                                    <ButtonSolid className="w-full md:w-auto" href="https://go.booker.com/location/karmarelaxationspa2/service-menu"target="_blank" rel="noopener" text="Carlsbad" />
+                                </div>
                             </div>
                             <i className="close fal fa-times absolute top-0 right-0 mr-8 mt-8 md:mr-12 md:mt-12 text-2xl text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400 cursor-pointer transition-all duration-300 ease-linear" data-modal-close></i>
                         </div>

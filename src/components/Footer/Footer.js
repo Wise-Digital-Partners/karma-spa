@@ -18,15 +18,17 @@ const Footer = () => {
     {
       desktopLogo: file(relativePath: {eq: "global/logo-white.png"}) {
         childImageSharp {
-          fixed(width: 153, quality: 100) {
-            ...GatsbyImageSharpFixed_withWebp
+          fluid(maxWidth: 153, quality: 100) {
+            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluidLimitPresentationSize
           }
         }
       }
       mobileLogo: file(relativePath: {eq: "global/logo-white.png"}) {
         childImageSharp {
-          fixed(width: 117, quality: 100) {
-            ...GatsbyImageSharpFixed_withWebp
+          fluid(maxWidth: 117, quality: 100) {
+            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluidLimitPresentationSize
           }
         }
       } 
@@ -41,11 +43,11 @@ const Footer = () => {
   `)
   
   let logo = [
-    data.desktopLogo.childImageSharp.fixed,
+    data.mobileLogo.childImageSharp.fluid,
     {
-    ...data.mobileLogo.childImageSharp.fixed,
-        media: `(max-width: 767px)`,
-    },
+    ...data.desktopLogo.childImageSharp.fluid,
+      media: `(min-width: 768px)`,
+    },  
 ]   
 
   return (
@@ -56,7 +58,7 @@ const Footer = () => {
             <div className="md:flex md:justify-between mb-20 md:mb-28">
               <div className="md:flex md:flex-col md:justify-between mb-12 md:mb-0">
 
-                <Img className="mb-10 md:mb-0" fixed={logo} alt="Karma Spa Logo" />
+                <Img className="mb-10 md:mb-0" fluid={logo} alt="Karma Spa Logo" />
 
                 <ul className="md:flex list-none mb-12 md:mb-0">
                   <li className="text-xsmall font-bold uppercase mb-8 md:mb-0 md:mr-8"><AniLink className="text-white hover:text-white hover:text-opacity-50 no-underline" fade to="/faqs/">FAQs</AniLink></li>

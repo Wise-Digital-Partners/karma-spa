@@ -54,7 +54,7 @@ export const Page = ({data}) => {
       >
         <h1>Hillcrest Massage</h1>
         <div className="block mt-5 lg:hidden">
-          <ButtonSolid as="button" data="modal-hillcrest" text="Book Hillcrest" />
+          <ButtonSolid href="https://go.booker.com/location/karmaspa/service-menu"target="_blank" rel="noopener noreferrer" text="Book Hillcrest" />
         </div>
       </HeroAlignEndCentered>
 
@@ -72,7 +72,7 @@ export const Page = ({data}) => {
             </div>
             <div className="hidden lg:flex h-auto w-px bg-gray-200 bg-opacity-25 order-4"></div>
             <div className="hidden lg:flex px-8 py-6 order-5">
-              <ButtonSolid as="button" data="modal-hillcrest" text="Book Hillcrest" />
+              <ButtonSolid href="https://go.booker.com/location/karmaspa/service-menu"target="_blank" rel="noopener noreferrer" text="Book Hillcrest" />
             </div>
           </div>
         </div>

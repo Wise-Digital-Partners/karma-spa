@@ -81,7 +81,7 @@ export const Page = ({data}) => {
 						</div>
 						<p className="mb-8 md:mb-12"><a href="mailto:relax@karmamassagespa.com">relax@karmamassagespa.com</a></p>
 
-						<ButtonSolid as="button" data="modal-hillcrest" text="Book Online"/>
+						<ButtonSolid href="https://go.booker.com/location/karmaspa/service-menu"target="_blank" rel="noopener noreferrer" text="Book Online"/>
 					</div>
 				</div>
 			</div>
@@ -115,7 +115,7 @@ export const Page = ({data}) => {
 						</div>
 						<p className="mb-8 md:mb-12"><a href="mailto:carlsbad@karmamassagespa.com">carlsbad@karmamassagespa.com</a></p>
 
-						<ButtonSolid as="button" data="modal-carlsbad" text="Book Online"/>
+						<ButtonSolid href="https://go.booker.com/location/karmarelaxationspa2/service-menu"target="_blank" rel="noopener noreferrer" text="Book Online"/>
 					</div>
 				</div>
 			</div>			
