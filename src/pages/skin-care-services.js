@@ -67,35 +67,35 @@ export const Page = ({data}) => {
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">01</span>
 				<h3>Karma Spa Signature Facial</h3>
 				<p>Our Signature Facial is a relaxing deep cleansing facial. Cleanses, exfoliates, and nourishes the skin, promoting a clear, well-hydrated complexion.</p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Price: $79 (60 Minutes)</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $89 (60 Minutes)</p>
 			</div>
 
 			<div id="section-2" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">02</span>
 				<h3>O2 Facial</h3>
 				<p>Rejuvenate skin with oxygen infusion, plant-derived stem cells, peptides, and a high concentration of enzymatic botanicals.</p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Price: $89 (60 Minutes)</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $99 (60 Minutes)</p>
 			</div>
 
 			<div id="section-3" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">03</span>
 				<h3>Oxygen Facial</h3>
 				<p>Experience deep exfoliation without the downtime of a chemical peel! This exfoliating facial is not recommended for sensitive skin. Choose between lighting treatment for hyperpigmentation or rejuvenating treatment for fine lines and wrinkles.</p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Price: $109 (60 Minutes)</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $119 (60 Minutes)</p>
 			</div> 
 
 			<div id="section-4" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
 				<h3>HydraFacial</h3>
 				<p>Get clearer skin through hydradermabrasion, which combines cleansing, exfoliation, extraction, hydration and antioxidant protection all at once. This treatment is soothing, moisturizing, non-invasive and non-irritating.</p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Price: $135 (45 Minutes)</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $145 (45 Minutes)</p>
 			</div>  
 
 			<div id="section-5" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">05</span>
 				<h3>Back Facial</h3>
 				<p>We’ve got your back! Our back facial treatment includes Dr. Schwab Products, a steam session, cleansing, exfoliation, extractions, and finishing masks.</p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Price: $60 (30 Minutes)</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $75 (30 Minutes)</p>
 			</div>  
 
 			<div id="section-6" className="mb-20 lg:mb-40">
