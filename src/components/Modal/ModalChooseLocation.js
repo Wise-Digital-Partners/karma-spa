@@ -86,7 +86,7 @@ const Modal = () => {
                                     <ButtonSolid className="w-full md:w-auto" href="https://go.booker.com/location/karmaspa/service-menu"target="_blank" rel="noopener noreferrer" text="Hillcrest" />
                                 </div>
                                 <div className="w-full md:w-auto" onClick={closeClickHandler}>
-                                    <ButtonSolid className="w-full md:w-auto" href="https://go.booker.com/location/karmarelaxationspa2/service-menu"target="_blank" rel="noopener" text="Carlsbad" />
+                                    <ButtonSolid className="w-full md:w-auto" href="https://go.booker.com/location/karmarelaxationspa2/service-menu"target="_blank" rel="noopener noreferrer" text="Carlsbad" />
                                 </div>
                             </div>
                             <i className="close fal fa-times absolute top-0 right-0 mr-8 mt-8 md:mr-12 md:mt-12 text-2xl text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400 cursor-pointer transition-all duration-300 ease-linear" data-modal-close></i>

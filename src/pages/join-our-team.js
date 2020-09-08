@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import HeroAlignEndCentered from "../components/Hero/HeroAlignEndCentered"
 import ButtonSolid from "../components/Button/ButtonSolid"
+import ModalFrontDeskReceptionist from '../components/Modal/ModalFrontDeskReceptionist'
 
 export const Page = ({data}) => {
 
@@ -68,13 +69,6 @@ export const Page = ({data}) => {
 				</header>
 				<div className="lg:table w-full mb-10 md:mb-32">
 					<div className="lg:table-row-group">
-						{/* <div className="hidden lg:table-row">
-							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2">Job Title</div>
-							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2">Job Type</div>
-							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2">Location</div>
-							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2">Date</div>
-							<div className="lg:table-cell text-xs text-gray-700 uppercase text-left font-bold lg:px-4 lg:py-2"></div>
-						</div> */}
 						<div className="lg:table-row bg-white bg-opacity-75 shadow-lg rounded px-6 py-5">
 							<div className="text-gray-900 lg:table-cell lg:px-4 lg:py-3 mb-7 lg:mb-0 lg:align-middle">
 								<span className="block text-xs text-gray-600 text-opacity-50 uppercase font-medium mb-1">Job Title</span> Front Desk Receptionist
@@ -89,7 +83,7 @@ export const Page = ({data}) => {
 								<span className="block text-xs text-gray-600 text-opacity-50 uppercase font-medium mb-1">Date</span> Jul 7
 							</div>
 							<div className="lg:table-cell lg:px-4 lg:py-3 lg:text-right lg:align-middle">
-								<ButtonSolid className="w-full lg:w-auto" href="" text="View Description"/>
+								<ButtonSolid as="button" data="modal-front-desk-receptionist" className="w-full lg:w-auto" text="View Description" />
 							</div>
 						</div>
 					</div>
@@ -103,6 +97,8 @@ export const Page = ({data}) => {
 				</div>
 			</div>
 		</section>	  
+
+		<ModalFrontDeskReceptionist />
 
     </Layout>
   );
