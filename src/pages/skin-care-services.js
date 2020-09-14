@@ -129,13 +129,14 @@ export const Page = ({data}) => {
 				<p>Spend some time in the sauna to look and feel great! Whether you want a traditional or infrared sauna experience, we’ve got you covered.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
 					Infrared Sauna: <br className="block lg:hidden" />
-					$15 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$25 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$40 (60 Minutes)<br/><br className="block lg:hidden" />
+					$20 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$35 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$55 (60 Minutes)<br/><br className="block lg:hidden" />
 					Traditional Sauna: <br className="block lg:hidden" />
-					$10 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$20 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$30 (60 Minutes)
+					$15 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$30 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$40 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$50 (90 Minutes)
 				</p>
 			</div> 
 			<div id="section-8">

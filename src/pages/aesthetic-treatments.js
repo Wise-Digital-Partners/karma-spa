@@ -90,8 +90,8 @@ export const Page = ({data}) => {
 				<h3>Infra-Slim</h3>
 				<p>Reduce fat, improve circulation, and detoxify your body with Infra-Slim. This 50-minute treatment is painless, relaxing, and non-invasive with multiple benefits.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
-					$55 for individuals<br />
-					$100 for couples
+					$65 for individuals<br />
+					$130 for couples
 				</p>
 			</div>
 

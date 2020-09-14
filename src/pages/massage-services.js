@@ -94,9 +94,9 @@ export const Page = ({data}) => {
 					$180 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
 					$240 (2 Hours)<br/><br className="block lg:hidden" />
 					Four Hands: <br className="block lg:hidden" />
-					$175 (1 Hour)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$255 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$335 (2 Hours)
+					$240 (1 Hour)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$360 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$480 (2 Hours)
 				</p>
 			</div>
 
@@ -158,8 +158,9 @@ export const Page = ({data}) => {
 					$105 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
 					$135 (2 Hours)<br/><br className="block lg:hidden" />
 					Couples: <br className="block lg:hidden" />
-					$140 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$200 (90 Minutes)
+					$150 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$210 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$270 (2 Hours)
 				</p>
 			</div>  
 
