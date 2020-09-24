@@ -1,6 +1,6 @@
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://hoffman-hanono.netlify.app/',
+  URL: NETLIFY_SITE_URL = 'https://karma-spa.netlify.app/',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV
 } = process.env;
@@ -125,8 +125,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Hoffman Hanono`,
-        short_name: `Hoffman Hanono`,
+        name: `Karma Spa`,
+        short_name: `Karma Spa`,
         start_url: `/`,
         background_color: `#002191`,
         theme_color: `#002191`,
