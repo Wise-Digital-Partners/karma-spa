@@ -23,7 +23,7 @@ const Services = ({className}) => {
 					}
 				}
 			} 
-			aestheticTreatments: file(relativePath: {eq: "repeating/aesthetic-treatments.jpg"}) {
+			ivHydration: file(relativePath: {eq: "repeating/iv-hydration.jpg"}) {
 				childImageSharp {
 					fluid(maxWidth: 504, quality: 100) {
 						...GatsbyImageSharpFluid_withWebp
@@ -57,7 +57,7 @@ const Services = ({className}) => {
 				<p className="md:mb-0">No matter your indulgence, we have a massage for you.</p>
 				<AniLink fade to="/massage-services/"><span className="link-overlay hidden md:inline"></span></AniLink>
 				<div className="block md:hidden">
-					<ButtonGhost href="/massage-services/" text="Learn More"/>
+					<ButtonGhost href="/massage-services/" text="Browse Massages"/>
 				</div>
             </div>
             <div className="group relative">
@@ -68,19 +68,8 @@ const Services = ({className}) => {
               	<p className="md:mb-0">Our popular packages will pamper you with great value.</p>
 				<AniLink fade to="/massage-packages/"><span className="link-overlay hidden md:inline"></span></AniLink>
 				<div className="block md:hidden">
-					<ButtonGhost href="/massage-packages/" text="Learn More"/>
+					<ButtonGhost href="/massage-packages/" text="Browse Packages"/>
 				</div>				  
-            </div>
-            <div className="group relative">
-				<div className="overflow-hidden mb-6">
-					<Img className="transform scale-100 group-hover:scale-110 transition-all duration-500 ease-linear" fluid={data.aestheticTreatments.childImageSharp.fluid} alt="Aesthetic Treatments" />
-				</div>
-              	<h3 className="heading-four mb-4">Aesthetic Treatments</h3>
-              	<p className="md:mb-0">Karma Bella aesthetic treatments bring out your best self.</p>
-				<AniLink fade to="/aesthetic-treatments/"><span className="link-overlay hidden md:inline"></span></AniLink>
-				<div className="block md:hidden">
-					<ButtonGhost href="/aesthetic-treatments/" text="Learn More"/>
-				</div>
             </div>
             <div className="group relative">
 				<div className="overflow-hidden mb-6">
@@ -90,9 +79,20 @@ const Services = ({className}) => {
               	<p className="md:mb-0">Facials, waxing, scrubs and saunas for the ultimate glow-up.</p>
 				<AniLink fade to="/skin-care-services/"><span className="link-overlay hidden md:inline"></span></AniLink>
 				<div className="block md:hidden">
-					<ButtonGhost href="/skin-care-services/" text="Learn More"/>
+					<ButtonGhost href="/skin-care-services/" text="Browse Services"/>
 				</div>
             </div>
+            <div className="group relative">
+				<div className="overflow-hidden mb-6">
+					<Img className="transform scale-100 group-hover:scale-110 transition-all duration-500 ease-linear" fluid={data.ivHydration.childImageSharp.fluid} alt="Aesthetic Treatments" />
+				</div>
+              	<h3 className="heading-four mb-4">IV Hydration</h3>
+              	<p className="md:mb-0">Get needed nutrients through IV infusions and injections.</p>
+				<AniLink fade to="/iv-hydration-therapy/"><span className="link-overlay hidden md:inline"></span></AniLink>
+				<div className="block md:hidden">
+					<ButtonGhost href="/iv-hydration-therapy/" text="Browse Services"/>
+				</div>
+            </div>			
           </div>
         </div>
       </section>

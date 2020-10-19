@@ -68,7 +68,7 @@ export const Page = ({data}) => {
           <div className="grid grid-cols-1 md:grid-cols-12 row-gap-20 md:row-gap-0">
             <div className="md:col-start-1 md:col-end-7 md:pr-16">
                 <h1>Massage Spa in San Diego & Carlsbad</h1>
-                <p>Ready to relax? See why Karma Spa is one of the best massage spas in San Diego. We offer over a dozen massage styles to suit your tastes. But massage is just the beginning. Make the most of our day spas with quality skin care services and aesthetic treatments—or save money with a package that pampers you in style. Book your appointment at our Hillcrest or Carlsbad location today!</p>
+                <p>Ready to relax? See why Karma Spa is one of the best massage spas in San Diego. We offer over a dozen massage styles to suit your tastes. But massage is just the beginning. Make the most of our day spas with quality skin care services and IV hydration—or save money with a package that pampers you in style. Book your appointment at our Hillcrest or Carlsbad location today!</p>
                 <ButtonSolid as="button" data="modal-choose-location" text="Book Appointment"/>
             </div>
             <div className="md:col-end-13 md:col-span-6">

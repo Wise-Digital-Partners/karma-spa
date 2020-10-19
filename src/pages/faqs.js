@@ -63,8 +63,8 @@ export const Page = () => {
 						content="<p>We have a wide variety of packages depending on your needs! Packages vary in length and type of services. Learn more about our packages <a href='/massage-packages/'>here</a>.</p>"
 					/>	
 					<Accordion
-						title="Tell me more about your treatments."
-						content="<p>Our Karma Bella Aesthetic Treatments are available in both Hillcrest and Carlsbad locations. Treatments include Botox, EmSculpt, IV Hydration Drip, and others. Learn more about our treatments <a href='/aesthetic-treatments/'>here</a>.</p>"
+						title="Tell me about your IV hydration therapy services."
+						content="<p>Our IV hydration therapy delivers essential nutrients into your body. Benefits include increased energy, boosted immune system, improved alertness, quick hydration, and reduced stress. These IV infusions and injections are available at our Hillcrest and Carlsbad locations. Learn more <a href='/iv-hydration-therapy/'>here</a>!</p>"
 					/>	
 					<Accordion
 						title="Tell me more about your skin care services."

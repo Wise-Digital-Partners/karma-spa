@@ -279,7 +279,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
 					}
 				}
 			} 
-			aestheticTreatments: file(relativePath: {eq: "repeating/aesthetic-treatments.jpg"}) {
+			ivHydration: file(relativePath: {eq: "repeating/iv-hydration.jpg"}) {
 				childImageSharp {
 					fluid(maxWidth: 504, quality: 100) {
 						...GatsbyImageSharpFluid_withWebp
@@ -406,15 +406,6 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                                             <AniLink fade to="/massage-packages/"><span className="link-overlay"></span></AniLink>
                                         </div>
                                         <div className="group relative">
-                                            <Img className="mb-6" fluid={data.aestheticTreatments.childImageSharp.fluid} alt="Aesthetic Treatments" />
-                                            <div className="flex justify-between items-center">
-                                                <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Aesthetic Treatments</p>
-                                                <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
-                                            </div>
-                                            <p className="text-small mb-0">Karma Bella aesthetic treatments bring out your best self.</p>
-                                            <AniLink fade to="/aesthetic-treatments/"><span className="link-overlay"></span></AniLink>
-                                        </div>
-                                        <div className="group relative">
                                             <Img className="mb-6" fluid={data.skinCareServices.childImageSharp.fluid} alt="Skin Care Services" />
                                             <div className="flex justify-between items-center">
                                                 <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">Skin Care Services</p>
@@ -423,6 +414,15 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                                             <p className="text-small mb-0">Facials, waxing, scrubs and saunas for the ultimate glow-up.</p>
                                             <AniLink fade to="/skin-care-services/"><span className="link-overlay"></span></AniLink>
                                         </div>
+                                        <div className="group relative">
+                                            <Img className="mb-6" fluid={data.ivHydration.childImageSharp.fluid} alt="Aesthetic Treatments" />
+                                            <div className="flex justify-between items-center">
+                                                <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 base-animation-ease">IV Hydration</p>
+                                                <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 base-animation-ease"></i>
+                                            </div>
+                                            <p className="text-small mb-0">Get needed nutrients through IV infusions and injections.</p>
+                                            <AniLink fade to="/iv-hydration-therapy/"><span className="link-overlay"></span></AniLink>
+                                        </div> 
                                     </div>
                                 </div>
                             </div>
@@ -469,7 +469,7 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                                             <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-packages/">Packages</AniLink>
                                         </li>
                                         <li className="navigation-item">
-                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/aesthetic-treatments/">Treatments</AniLink>
+                                            <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/iv-hydration-therapy/">Treatments</AniLink>
                                         </li>
                                         <li className="navigation-item">
                                             <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/skin-care-services/">Skin Care</AniLink>
