@@ -61,10 +61,11 @@ export const Page = ({data}) => {
 				<div className="mb-20 lg:mb-40">
 					<span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $199</span>
 					<h3>Hangover</h3>
-					<p>Alleviate symptoms of hangover including dehydration, headache, and nausea. 500 ml of IV fluids.</p>
+					<p>Alleviate symptoms of hangover including dehydration, headache, and nausea.</p>
 					<p className="text-small font-medium tracking-wide text-gray-900">
 						Ketorolac (anti-inflammatory & analgesic)<br />
-						Ondansetron (anti-nausea)
+						Ondansetron (anti-nausea)<br />
+						500 ml of IV fluids
 					</p>
 				</div>
 				<div className="mb-20 lg:mb-40">
@@ -114,7 +115,7 @@ export const Page = ({data}) => {
 				<div className="mb-20 lg:mb-40">
 					<span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $25</span>
 					<h3>MICC Injection </h3>
-					<p>This is a weekly injection specially formulated to help the body turn fat into energy and are also powerful antioxidants. </p>
+					<p>This is a weekly injection specially formulated to help the body turn fat into energy. These nutrients are also powerful antioxidants.</p>
 					<p className="text-small font-medium tracking-wide text-gray-900">
 						Methionine: Helps break down sugars and carbohydrates and convert to energy.<br />
 						Inositol: Converts food to energy.<br />
@@ -124,7 +125,7 @@ export const Page = ({data}) => {
 				</div>
 				<div>
 					<span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $25</span>
-					<h3>Vitamin B12 injection</h3>
+					<h3>Vitamin B12 Injection</h3>
 					<p>This is a monthly injection to improve energy and brain function.</p>
 				</div>				
 			</div>
