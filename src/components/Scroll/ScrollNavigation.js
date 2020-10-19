@@ -76,7 +76,7 @@ const ScrollNavigation = ({children}) => {
  
     return (
         <StyledScrollNavigation className={`scroll-navigation-wrapper lg:col-start-1 lg:col-span-3 lg:mr-4 ${setActive}`} onKeyDown={clickHandler} onClick={clickHandler}>
-            <span className="inline text-white lg:hidden">Massage Menu</span>
+            <span className="inline text-white lg:hidden">Services Menu</span>
             <nav className="scroll-navigation lg:mt-20">
                 <Scrollspy
                     items={[
