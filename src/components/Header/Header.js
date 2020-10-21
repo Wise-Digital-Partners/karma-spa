@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-import PromoBar from '../Header/PromoBar'
+// import PromoBar from '../Header/PromoBar'
 import UtilityNav from '../Header/UtilityNav'
 import MainNav from '../Header/MainNav'
 
@@ -85,7 +85,7 @@ const Header = ({headerStyle, headerLinkColor, headerHasBorder}) => {
 
   return (
     <div id="site-navigation" className="relative z-10">
-      <PromoBar />
+      {/* <PromoBar /> */}
       <UtilityNav />
       <MainNav scrolled={scrolled} headerStyle={headerStyle} headerLinkColor={headerLinkColor} headerHasBorder={headerHasBorder} />
     </div>
