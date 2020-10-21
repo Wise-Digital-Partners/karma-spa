@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="md:flex md:justify-between mb-20 md:mb-28">
               <div className="md:flex md:flex-col md:justify-between mb-12 md:mb-0">
 
-                <Img className="mb-10 md:mb-0" fluid={logo} alt="Karma Spa Logo" />
+                <Img className="mb-10 md:mb-0 mx-auto mx-0" fluid={logo} alt="Karma Spa Logo" />
 
                 <ul className="md:flex list-none mb-12 md:mb-0">
                   <li className="text-xsmall font-bold uppercase mb-8 md:mb-0 md:mr-8"><AniLink className="text-white hover:text-white hover:text-opacity-50 no-underline" fade to="/faqs/">FAQs</AniLink></li>
