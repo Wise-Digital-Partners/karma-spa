@@ -78,7 +78,7 @@ export const Page = ({data}) => {
 						<li className="text-gray-600">Infra-Slim Body Wrap</li>
 						<li className="text-gray-600">Body Detox (15 Minutes)</li>
 					</ul>
-					<span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$150 Value — you save $25</span>
+					{/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$150 Value — you save $25</span> */}
 				</div>
 
 				<div id="section-2" className="mb-20 lg:mb-40">
@@ -91,7 +91,7 @@ export const Page = ({data}) => {
 						<li className="text-gray-600">Body Detox (15 Minutes)</li>
 						<li className="text-gray-600">Sauna Session</li>
 					</ul>
-					<span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$185 Value — you save $50</span>
+					{/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$185 Value — you save $50</span> */}
 				</div>
 
 				<div id="section-3" className="mb-20 lg:mb-40">
@@ -105,7 +105,7 @@ export const Page = ({data}) => {
 						<li className="text-gray-600">Fruit Skin Conditioner</li>
 						<li className="text-gray-600">Sauna or Steam Session</li>
 					</ul>
-					<span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$145 Value — you save $40</span>
+					{/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$145 Value — you save $40</span> */}
 				</div>
 
 				<div id="section-4" className="mb-20 lg:mb-40">
@@ -132,7 +132,7 @@ export const Page = ({data}) => {
 						<li className="text-gray-600">Hydrating Body Wrap</li>
 						<li className="text-gray-600">Hydrating Body Wrap</li>
 					</ul>
-					<span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$125 Value — you save $20</span>
+					{/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$125 Value — you save $20</span> */}
 				</div>
 
 				<div id="section-6" className="mb-20 lg:mb-40">
@@ -157,7 +157,7 @@ export const Page = ({data}) => {
 						<li className="text-gray-600">Vichy Shower with Fruit Skin Conditioner</li>
 						<li className="text-gray-600">Sauna Session</li>
 					</ul>
-					<span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$135 Value — you save $35</span>
+					{/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$135 Value — you save $35</span> */}
 				</div>
 
 				<div id="section-8" className="mb-20 lg:mb-40">
@@ -170,7 +170,7 @@ export const Page = ({data}) => {
 						<li className="text-gray-600">Vichy Shower with Fruit Skin Conditioner</li>
 						<li className="text-gray-600">Sauna Session</li>
 					</ul>
-					<span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$90 Value — you save $10</span>
+					{/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$90 Value — you save $10</span> */}
 				</div>
 
 				<div id="section-9" className="mb-20 lg:mb-40">
