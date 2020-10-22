@@ -144,9 +144,10 @@ export const Page = ({data}) => {
 				<h3>Sauna & Steam Room (SD)</h3>
 				<p>Sweat, relax, and promote body detoxification at Karma Spa’s steam room. Sauna and  sessions help to relieve pain, relax muscles, and more.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
-					$11 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$21 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$31 (60 Minutes)
+					$15 (15 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$20 (30 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$40 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$50 (90 Minutes)
 				</p>
 			</div>			
 		</ScrollContent>

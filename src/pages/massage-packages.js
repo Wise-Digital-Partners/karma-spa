@@ -69,7 +69,7 @@ export const Page = ({data}) => {
 			<ScrollContent>
 
 				<div id="section-1" className="mb-20 lg:mb-40">
-					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $125</span>
+					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $150</span>
 					<h3 className="mb-1">The Premier Package</h3>
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Want a well-rounded massage experience? The Premier Package is for you.</p>
 					<ul className="styled-list mb-8">
@@ -82,7 +82,7 @@ export const Page = ({data}) => {
 				</div>
 
 				<div id="section-2" className="mb-20 lg:mb-40">
-					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $135</span>
+					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $180</span>
 					<h3 className="mb-1">The Royal Package</h3>
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Feel like royalty with two therapists for maximum relaxation. </p>
 					<ul className="styled-list mb-8">
@@ -95,7 +95,7 @@ export const Page = ({data}) => {
 				</div>
 
 				<div id="section-3" className="mb-20 lg:mb-40">
-					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $105</span>
+					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $145</span>
 					<h3 className="mb-1">The President Package</h3>
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Stay on top of your game with a massage & sauna or steam session.</p>
 					<ul className="styled-list mb-8">
@@ -123,7 +123,7 @@ export const Page = ({data}) => {
 				</div>
 
 				<div id="section-5" className="mb-20 lg:mb-40">
-					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $105</span>
+					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $125</span>
 					<h3 className="mb-1">The Duchess Package</h3>
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Hydrate and detoxify your entire body with this lush package.</p>
 					<ul className="styled-list mb-8">
@@ -136,7 +136,7 @@ export const Page = ({data}) => {
 				</div>
 
 				<div id="section-6" className="mb-20 lg:mb-40">
-					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $120</span>
+					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $130</span>
 					<h3 className="mb-1">The Princess Package</h3>
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Ladies, get the royal treatment with this luxurious 90-minute package.</p>
 					<ul className="styled-list mb-8">
@@ -148,7 +148,7 @@ export const Page = ({data}) => {
 				</div>
 
 				<div id="section-7" className="mb-20 lg:mb-40">
-					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $100</span>
+					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $135</span>
 					<h3 className="mb-1">The CEO Package</h3>
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Make room in your busy schedule for some pampering.</p>
 					<ul className="styled-list mb-8">
@@ -161,7 +161,7 @@ export const Page = ({data}) => {
 				</div>
 
 				<div id="section-8" className="mb-20 lg:mb-40">
-					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $80</span>
+					<span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8"><i class="fas fa-tag text-primary_400 mr-2"></i> $90</span>
 					<h3 className="mb-1">The Vice President Package</h3>
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Experience the benefits of massage therapy and body detox in one session.</p>
 					<ul className="styled-list mb-8">

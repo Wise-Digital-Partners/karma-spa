@@ -172,7 +172,7 @@ export const Page = ({data}) => {
 				<p className="text-small font-medium tracking-wide text-gray-900">
 					$65 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
 					$95 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$135 (2 Hours)
+					$125 (2 Hours)
 				</p>
 			</div>  
 
@@ -196,7 +196,7 @@ export const Page = ({data}) => {
 				<p className="text-small font-medium tracking-wide text-gray-900">
 					$65 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
 					$95 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$135 (2 Hours)
+					$125 (2 Hours)
 				</p>
 			</div> 
 
@@ -234,9 +234,9 @@ export const Page = ({data}) => {
 					$65 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
 					$85 (2 Hours)<br/><br className="block lg:hidden" />
 					Prenatal: <br className="block lg:hidden" />
-					$45 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$65 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$85 (2 Hours)<br/><br className="block lg:hidden" />
+					$50 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$70 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$90 (2 Hours)<br/><br className="block lg:hidden" />
 					Add foot scrub for only $20<br/><br className="block lg:hidden" />
 					All Clothes On
 				</p>
