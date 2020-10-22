@@ -73,7 +73,7 @@ export const Page = ({data}) => {
 							<i className="far fa-phone-alt text-black text-2xl mr-3"></i>
 							<span className="font-heading text-2xlarge text-gray-900">Phone</span>
 						</div>
-						<p className="mb-4 md:mb-12">Call: <a href="tel:+1-619-299-9888">619-299-9888</a> <br/> Text: <a href="tel:+1-619-359-8841">619-359-8841</a></p>
+						<p className="mb-4 md:mb-12">Call: <a class="gtm-phone-number" href="tel:+1-619-299-9888">619-299-9888</a> <br/> Text: <a class="gtm-phone-number" href="tel:+1-619-359-8841">619-359-8841</a></p>
 
 						<div className="flex items-center mb-2">
 							<i className="far fa-envelope text-black text-2xl mr-3"></i>
@@ -107,7 +107,7 @@ export const Page = ({data}) => {
 							<i className="far fa-phone-alt text-black text-2xl mr-3"></i>
 							<span className="font-heading text-2xlarge text-gray-900">Phone</span>
 						</div>
-						<p className="mb-4 md:mb-12">Call: <a href="tel:+1-760-729-9888">760-729-9888</a> <br/> Text: <a href="tel:+1-760-729-9889">760-729-9889</a></p>
+						<p className="mb-4 md:mb-12">Call: <a class="gtm-phone-number" href="tel:+1-760-729-9888">760-729-9888</a> <br/> Text: <a class="gtm-phone-number" href="tel:+1-760-729-9889">760-729-9889</a></p>
 
 						<div className="flex items-center mb-2">
 							<i className="far fa-envelope text-black text-2xl mr-3"></i>

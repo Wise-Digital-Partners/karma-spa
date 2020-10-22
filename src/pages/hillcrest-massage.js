@@ -68,7 +68,7 @@ export const Page = ({data}) => {
             <div className="hidden lg:flex h-auto w-px bg-gray-200 bg-opacity-25 order-2"></div>
             <div className="lg:px-8 lg:py-6 flex items-center justify-center lg:justify-start text-center lg:text-left w-full lg:w-auto order-1 lg:order-2 mb-6 lg:mb-0">
               <i className="fal fa-phone-alt text-2xl lg:text-3xl text-black mr-3"></i>
-              <span className="text-large"><a className="text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400" href="tel:+1-619-299-9888">(619) 299-9888</a></span>
+              <span className="text-large"><a className="gtm-phone-number text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400" href="tel:+1-619-299-9888">(619) 299-9888</a></span>
             </div>
             <div className="hidden lg:flex h-auto w-px bg-gray-200 bg-opacity-25 order-4"></div>
             <div className="hidden lg:flex px-8 py-6 order-5">

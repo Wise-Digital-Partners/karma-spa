@@ -521,8 +521,8 @@ const MainNav = ({scrolled, headerStyle, headerLinkColor ,headerHasBorder}) => {
                             </ul>
 
                             <ul className="text-center mb-12">
-                                <li className="font-heading font-medium mb-5"><a className="text-gray-700 no-underline" href="tel:+1-619-299-9888">Hillcrest: <span className="italic">(619) 299-9888</span></a></li>
-                                <li className="font-heading font-medium"><a className="text-gray-700 no-underline" href="tel:+1-760-729-9888">Carlsbad: <span className="italic">(760) 729-9888</span></a></li>
+                                <li className="font-heading font-medium mb-5"><a className="gtm-phone-number text-gray-700 no-underline" href="tel:+1-619-299-9888">Hillcrest: <span className="italic">(619) 299-9888</span></a></li>
+                                <li className="font-heading font-medium"><a className="gtm-phone-number text-gray-700 no-underline" href="tel:+1-760-729-9888">Carlsbad: <span className="italic">(760) 729-9888</span></a></li>
                             </ul>                        
                             <div className="grid grid-col-1 row-gap-5">
                                 <ButtonSolid href="https://go.booker.com/location/karmaspa/service-menu"target="_blank" rel="noopener noreferrer" text="Book San Diego"/>

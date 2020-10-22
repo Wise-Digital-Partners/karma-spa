@@ -75,9 +75,9 @@ const Footer = () => {
                     <a className="text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="https://goo.gl/maps/zSEfN99mNfyrmzbD7" target="_blank" rel="noopener noreferrer">3969 1st Ave <br/> San Diego, CA 92103</a>
                   </address>
                   <p className="mb-0">
-                    <a className="text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-619-299-9888">Call: (619) 299-9888</a>
+                    <a className="gtm-phone-number text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-619-299-9888">Call: (619) 299-9888</a>
                     <br/>
-                    <a className="text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-619-359-8841">Text: (619) 359-8841</a>
+                    <a className="gtm-phone-number text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-619-359-8841">Text: (619) 359-8841</a>
                   </p>
                   <div className="flex items-center justify-center md:justify-start mt-4">
                     <a href="https://www.instagram.com/karmaspahillcrest/" target="_blank" rel="noopener noreferrer">
@@ -97,9 +97,9 @@ const Footer = () => {
                     <a className="text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="https://goo.gl/maps/aWKmP9w1CPpZvqcr5" target="_blank" rel="noopener noreferrer">2614 El Camino Real <br/> Carlsbad, CA 92008</a>
                   </address>
                   <p className="mb-0">
-                    <a className=" text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-760-729-9888">Call: (760) 729-9888</a>
+                    <a className="gtm-phone-number text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-760-729-9888">Call: (760) 729-9888</a>
                     <br/>
-                    <a className="text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-760-729-9889">Text: (760) 729-9889</a>
+                    <a className="gtm-phone-number text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline" href="tel:+1-760-729-9889">Text: (760) 729-9889</a>
                   </p>
                   <div className="flex items-center justify-center md:justify-start mt-4">
                     <a href="https://www.instagram.com/karmaspacarlsbad/" target="_blank" rel="noopener noreferrer">
