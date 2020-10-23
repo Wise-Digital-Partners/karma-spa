@@ -38,7 +38,7 @@ export const Page = ({data}) => {
     >
       <SEO
         title="Carlsbad Massage Spa & Skin Care | Karma Spa"
-        description="Karma Spa is your ticket to relaxation in Carlsbad. Our massage spa offers a variety of massage types, skin care services, aesthetic treatments, & more!"
+        description="Karma Spa is your ticket to relaxation in Carlsbad. Our massage spa offers a variety of massage types, skin care services, and more!"
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
