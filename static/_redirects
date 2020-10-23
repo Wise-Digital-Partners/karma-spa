@@ -1,1 +1,14 @@
-https://karma-spa.netlify.app/* https://www.karmamassagespa.com/:splat 301!
+https://karma-spa.netlify.app/* /:splat 301!
+
+/carlsbad-botox-fillers/ /botox-fillers/ 301!
+/carlsbad-packages/ /massage-packages/ 301!
+/carlsbad-services/ /massage-services/ 301!
+/local-press/ / 301!
+/locations/ / 301!
+/membership/ /massage-membership/ 301!
+/photo-gallery-carlsbad/ /carlsbad-massage/ 301!
+/photo-gallery-hillcrest/ /hillcrest-massage/ 301!
+/san-diego-botox-fillers/ /botox-fillers/ 301!
+/san-diego-packages/ /hillcrest-massage/ 301!
+/san-diego-services/ /massage-services/ 301!
+/skin_care/ /skin-care-services/ 301!
