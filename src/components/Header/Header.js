@@ -17,15 +17,15 @@ const Header = ({headerStyle, headerLinkColor, headerHasBorder}) => {
     const mainNavigation = document.querySelector('#main-navigation');
     const offcanvasNavigation = document.querySelector('#offcanvas-navigation');
     const bodyContent = document.querySelector('#body-content');
+
+    if (headerStyle === 'overlap') {
+      // calculate #body-content offset top
+      bodyContent.style.marginTop = '-' + mainNavigation.offsetHeight + 'px';
+    }   
     
     const handleLoad = () => {
       // calculate #offcanvas-navigation menu offset top
       offcanvasNavigation.style.top = siteNavigation.offsetHeight + 'px';
-
-      if (headerStyle === 'overlap') {
-        // calculate #body-content offset top
-        bodyContent.style.marginTop = '-' + mainNavigation.offsetHeight + 'px';
-      }         
     };     
     
     const handleResize = () => {
