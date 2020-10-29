@@ -17,14 +17,16 @@ const Header = ({headerStyle, headerLinkColor, headerHasBorder}) => {
     const mainNavigation = document.querySelector('#main-navigation');
     const offcanvasNavigation = document.querySelector('#offcanvas-navigation');
     const bodyContent = document.querySelector('#body-content');
+    
+    const handleLoad = () => {
+      // calculate #offcanvas-navigation menu offset top
+      offcanvasNavigation.style.top = siteNavigation.offsetHeight + 'px';
 
-    // calculate #offcanvas-navigation menu offset top
-    offcanvasNavigation.style.top = siteNavigation.offsetHeight + 'px';
-
-    if (headerStyle === 'overlap') {
-      // calculate #body-content offset top
-      bodyContent.style.marginTop = '-' + mainNavigation.offsetHeight + 'px';
-    }       
+      if (headerStyle === 'overlap') {
+        // calculate #body-content offset top
+        bodyContent.style.marginTop = '-' + mainNavigation.offsetHeight + 'px';
+      }         
+    };     
     
     const handleResize = () => {
       // recalculate #offcanvas-navigation offset top on resize
@@ -76,10 +78,12 @@ const Header = ({headerStyle, headerLinkColor, headerHasBorder}) => {
 
     document.addEventListener('scroll', handleScroll, { passive: true });
     window.addEventListener('resize', handleResize, { passive: true });
+    window.addEventListener('load', handleLoad, { passive: true });
 
     return () => {
       document.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
+      window.removeEventListener('load', handleLoad);
     };
   }, [scrolled]);
 
