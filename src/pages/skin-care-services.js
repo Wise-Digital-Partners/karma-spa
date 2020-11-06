@@ -58,13 +58,13 @@ export const Page = ({data}) => {
 			<li><AnchorLink to="/skin-care-services/#section-3" title="Oxygen Facial" stripHash /></li>
 			<li><AnchorLink to="/skin-care-services/#section-4" title="HydraFacial" stripHash /></li>
 			<li><AnchorLink to="/skin-care-services/#section-5" title="Back Facial" stripHash /></li>
-			<li><AnchorLink to="/skin-care-services/#section-6" title="Waxing" stripHash /></li>
-			<li><AnchorLink to="/skin-care-services/#section-7" title="Full Spectrum Infrared Sauna" stripHash /></li>
-			<li><AnchorLink to="/skin-care-services/#section-8" title="Sauna & Steam Room (SD)" stripHash /></li>
-			<li><AnchorLink to="/skin-care-services/#section-9" title="Clarity & Led Therapy (Hillcrest only)" stripHash /></li>
-			<li><AnchorLink to="/skin-care-services/#section-10" title="Customized Facial (Hillcrest only)" stripHash /></li>
-			<li><AnchorLink to="/skin-care-services/#section-11" title="Gentlemen’s Express Facial" stripHash /></li>
-			<li><AnchorLink to="/skin-care-services/#section-12" title="Skin Care Add-ons" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-6" title="Clarity & Led Therapy (Hillcrest only)" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-7" title="Customized Facial (Hillcrest only)" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-8" title="Gentlemen’s Express Facial" stripHash /></li>			
+			<li><AnchorLink to="/skin-care-services/#section-9" title="Waxing" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-10" title="Full Spectrum Infrared Sauna" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-11" title="Sauna & Steam Room (SD)" stripHash /></li>
+			<li><AnchorLink to="/skin-care-services/#section-12" title="Facial Add-ons" stripHash /></li>
 		</ScrollNavigation>		  
 		<ScrollContent>
 			<div id="section-1" className="mb-20 lg:mb-40">
@@ -104,6 +104,25 @@ export const Page = ({data}) => {
 
 			<div id="section-6" className="mb-20 lg:mb-40">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
+				<h3>Clarity & Led Therapy (Hillcrest only)</h3>
+				<p>Enjoy a full acne facial with pomegranate enzyme or cranberry turnover mask, and 20% salicylic acid. Full extractions with tea tree anti-acne jelly mask. 20 minutes LED acne light therapy.  </p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $140</p>
+			</div>
+			<div id="section-7" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
+				<h3>Customized Facial (Hillcrest only) </h3>
+				<p>Choose your mask and treatments! The facial comes with a double cleanse and customized treatment (pricing varies), extractions, facial massage, and customized mask. Choice of upgrading to add hydrojelly mask (pricing varies).</p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $69-$99 (45-50 Minutes)</p>
+			</div>
+			<div id="section-8" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
+				<h3>Gentlemen’s Express Facial</h3>
+				<p>Deep pore cleanse and facial scrub to remove dead skin build up and remove any blackheads and reduce ingrown hair.  </p>
+				<p className="text-small font-medium tracking-wide text-gray-900">Price: $69</p>
+			</div>			
+
+			<div id="section-9" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
 				<h3>Waxing</h3>
 				<p>Remove unwanted hair and enjoy smooth skin with our waxing services. </p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
@@ -127,8 +146,8 @@ export const Page = ({data}) => {
 				</p>
 			</div>  
 
-			<div id="section-7" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
+			<div id="section-10" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">10</span>
 				<h3>Full Spectrum Infrared Sauna</h3>
 				<p>Spend some time in the sauna to look and feel great! Whether you want a traditional or infrared sauna experience, we’ve got you covered.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
@@ -143,8 +162,8 @@ export const Page = ({data}) => {
 					$50 (90 Minutes)
 				</p>
 			</div> 
-			<div id="section-8" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
+			<div id="section-11" className="mb-20 lg:mb-40">
+				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">11</span>
 				<h3>Sauna & Steam Room (SD)</h3>
 				<p>Sweat, relax, and promote body detoxification at Karma Spa’s steam room. Sauna and  sessions help to relieve pain, relax muscles, and more.</p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
@@ -153,24 +172,6 @@ export const Page = ({data}) => {
 					$40 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
 					$50 (90 Minutes)
 				</p>
-			</div>
-			<div id="section-9" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
-				<h3>Clarity & Led Therapy (Hillcrest only)</h3>
-				<p>Enjoy a full acne facial with pomegranate enzyme or cranberry turnover mask, and 20% salicylic acid. Full extractions with tea tree anti-acne jelly mask. 20 minutes LED acne light therapy.  </p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Price: $140</p>
-			</div>
-			<div id="section-10" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">10</span>
-				<h3>Customized Facial (Hillcrest only) </h3>
-				<p>Choose your mask and treatments! The facial comes with a double cleanse and customized treatment (pricing varies), extractions, facial massage, and customized mask. Choice of upgrading to add hydrojelly mask (pricing varies).</p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Price: $69-$99 (45-50 Minutes)</p>
-			</div>
-			<div id="section-11" className="mb-20 lg:mb-40">
-				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">11</span>
-				<h3>Gentlemen’s Express Facial</h3>
-				<p>Deep pore cleanse and facial scrub to remove dead skin build up and remove any blackheads and reduce ingrown hair.  </p>
-				<p className="text-small font-medium tracking-wide text-gray-900">Price: $69</p>
 			</div>
 			<div id="section-12">
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">12</span>
@@ -189,11 +190,16 @@ export const Page = ({data}) => {
 					<p>Destroys acne causing bacteria to minimize future breakouts. Reduces redness and inflammation.</p>
 					<p className="text-small font-medium tracking-wide text-gray-900">Price: $20</p>
 				</div>
-				<div>
+				<div className="mb-20 lg:mb-40">
 					<h3>Red Led Light Therapy (Hillcrest only)</h3>
 					<p>Stimulates collagen and elasticity production to eliminate fine lines and wrinkles. Firm and tone for a youthful radiance.</p>
 					<p className="text-small font-medium tracking-wide text-gray-900">Price: $40 (20 Minutes)</p>
-				</div>									
+				</div>
+				<div>
+					<h3>Hydrojelly Mask</h3>
+					<p>Provides hydration, smoothing, moisturizing, cleansing, exfoliating, conditioning, toning, and reducing inflammation. Helps promote healthy skin and keep your pores from getting clogged.</p>
+					<p className="text-small font-medium tracking-wide text-gray-900">Price: $15</p>
+				</div>													
 			</div>											
 		</ScrollContent>
 	</ScrollWrapper>
