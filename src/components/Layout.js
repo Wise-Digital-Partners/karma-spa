@@ -9,7 +9,7 @@ const Layout = ({ children, headerStyle, headerLinkColor ,headerHasBorder }) => 
   return (
     <div>
       <Helmet>
-        <meta name="google-site-verification" content="wzt0TStiRMy-L7CUp0Iz5NQsQ7FzxvA2oGqUpxYAgI4" />
+        <meta name="google-site-verification" content="t2EFN3kQsk9CfHxTvwgktMYhNmiYQatcMUXWrO8rCOE" />
       </Helmet>
       <Header headerStyle={headerStyle} headerLinkColor={headerLinkColor} headerHasBorder={headerHasBorder} />
       <main id="body-content">
