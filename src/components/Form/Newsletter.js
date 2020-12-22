@@ -101,7 +101,7 @@ export default class Form extends Component {
         <div hidden>
             <label>
             Don’t fill this out:{' '}
-            <input name="bot-field" onBlur={this.handleChange} />
+            <input name="bot-field" onChange={this.handleChange} />
             </label>
         </div>
          
@@ -112,7 +112,7 @@ export default class Form extends Component {
                 className="input"
                 type={'email'}
                 name={'email'}
-                onBlur={this.handleChange}
+                onChange={this.handleChange}
                 id={'email'}
                 required={true}
                 placeholder={'Your Email'}

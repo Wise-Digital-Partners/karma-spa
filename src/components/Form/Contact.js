@@ -94,7 +94,7 @@ export default class Form extends Component {
         <div hidden>
             <label>
             Don’t fill this out:{' '}
-            <input name="bot-field" onBlur={this.handleChange} />
+            <input name="bot-field" onChange={this.handleChange} />
             </label>
         </div>
 
@@ -103,7 +103,7 @@ export default class Form extends Component {
             <input
                 type="text"
                 name="name"
-                onBlur={this.handleChange}
+                onChange={this.handleChange}
                 id="name"
                 required={true}
             />
@@ -115,7 +115,7 @@ export default class Form extends Component {
               <input
                   type="email"
                   name="email"
-                  onBlur={this.handleChange}
+                  onChange={this.handleChange}
                   id="email"
                   required={true}
               />
@@ -125,7 +125,7 @@ export default class Form extends Component {
               <input
                   type="tel"
                   name="phone"
-                  onBlur={this.handleChange}
+                  onChange={this.handleChange}
                   id="phone"
                   required={true}
               />
@@ -141,7 +141,7 @@ export default class Form extends Component {
                   type="radio" 
                   name="location" 
                   value="Hillcrest"
-                  onBlur={this.handleChange}
+                  onChange={this.handleChange}
                   required={true}
                 />
                 Hillcrest
@@ -151,7 +151,7 @@ export default class Form extends Component {
                 <input
                   type="radio"
                   name="location" 
-                  onBlur={this.handleChange}
+                  onChange={this.handleChange}
                   value="Carlsbad"
                 />
                 Carlsbad
