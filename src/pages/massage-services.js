@@ -228,17 +228,10 @@ export const Page = ({data}) => {
 				<span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">13</span>
 				<h3 className="mb-1">Reflexology</h3>
 				<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Stimulate your pressure points</p>
-				<p>Reflexology is a therapeutic method of relieving pain by stimulating predefined pressure points on the feet and hands. These pressure points are reputed to connect directly through the nervous system and affect the bodily organs and glands. At Karma Spa, we extend this technique to the whole body.</p>
+				<p>Reflexology is a therapeutic method of relieving pain by stimulating predefined pressure points on the feet and hands. These pressure points are reputed to connect directly through the nervous system and affect the bodily organs and glands. </p>
 				<p className="text-small font-medium tracking-wide text-gray-900">
-					$45 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$65 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$85 (2 Hours)<br/><br className="block lg:hidden" />
-					Prenatal: <br className="block lg:hidden" />
-					$50 (60 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$70 (90 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
-					$90 (2 Hours)<br/><br className="block lg:hidden" />
-					Add foot scrub for only $20<br/><br className="block lg:hidden" />
-					All Clothes On
+					$30 (45 Minutes)<br className="block lg:hidden" /><span className="hidden lg:inline lg:mx-1">•</span>
+					$35 (45 Minutes) With Foot Scrub
 				</p>
 			</div> 
 
