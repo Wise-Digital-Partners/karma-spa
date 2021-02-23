@@ -368,10 +368,10 @@ export const Page = ({ data }) => {
                      pressure points are reputed to connect directly through the nervous system and affect the bodily organs and glands.{" "}
                   </p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
-                     $30 (45 Minutes)
+                     $40 (45 Minutes)
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     $40 (45 Minutes) With Foot Scrub
+                     $50 (45 Minutes) With Foot Scrub
                   </p>
                </div>
 
