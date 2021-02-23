@@ -365,9 +365,9 @@ export const Page = ({ data }) => {
                   <div className="mb-20 lg:mb-40">
                      <h3>Anti Aging Serum with Hyaluronic Acid </h3>
                      <p>
-                        TreMATRIXYL 3000 + ARGIRELINE Peptide Serum + Organic Hyaluronic Acid, Wrinkle Aging Fighting, Powerful Line Remover and
-                        Collagen Booster. Liquid Face Lift in a Bottle. Our potent serum signals your skin to increase collagen production for firmer
-                        more youthful looking skin. It also creates smoother and tighter skin with our powerful argireline peptide, also known as the
+                        MATRIXYL 3000 + ARGIRELINE Peptide Serum + Organic Hyaluronic Acid, Wrinkle Aging Fighting, Powerful Line Remover and Collagen
+                        Booster. Liquid Face Lift in a Bottle. Our potent serum signals your skin to increase collagen production for firmer more
+                        youthful looking skin. It also creates smoother and tighter skin with our powerful argireline peptide, also known as the
                         natural botox. No oils, fragrances, parabens or sulfates. All natural and serums are never tested on animals.
                      </p>
                      <p className="mb-3">Benefits:</p>
