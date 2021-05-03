@@ -88,7 +88,7 @@ export const Page = ({ data }) => {
                   <AnchorLink to="/massage-services/#section-12" title="Double Indulgence" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-13" title="Reflexology (Carlsbad only)" stripHash />
+                  <AnchorLink to="/massage-services/#section-13" title="Foot Massage (Hillcrest only)" stripHash />
                </li>
                <li>
                   <AnchorLink to="/massage-services/#section-14" title="Foot & Body Fusion (Carlsbad only)" stripHash />
@@ -361,17 +361,16 @@ export const Page = ({ data }) => {
 
                <div id="section-13" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">13</span>
-                  <h3 className="mb-1">Reflexology (Carlsbad only)</h3>
+                  <h3 className="mb-1">Foot Massage (Hillcrest only)</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Stimulate your pressure points</p>
                   <p>
-                     Reflexology is a therapeutic method of relieving pain by stimulating predefined pressure points on the feet and hands. These
-                     pressure points are reputed to connect directly through the nervous system and affect the bodily organs and glands.{" "}
+                  Our relaxing clothes-on foot massage uses special pressure point techniques to relieve stress. It is not only revitalizing for tired feet and legs, but as the feet contain key energy and nerve points relating to the whole foot, it rebalances and relaxes the entire system. At Karma Spa we extend this technique to the entire body to improve blood circulation and reduce swelling and soreness. Add on foot scrub for only $10.{" "}
                   </p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
-                     $40 (45 Minutes)
+                     $40 (60 Minutes)
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     $50 (45 Minutes) With Foot Scrub
+                     $60 (90 Minutes)
                   </p>
                </div>
 
@@ -380,7 +379,7 @@ export const Page = ({ data }) => {
                   <h3 className="mb-1">Foot & Body Fusion (Carlsbad only)</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Treat your feet and entire body</p>
                   <p>
-                     Our massage therapists use reflexology to relieve pain and tension in your feet and body. We offer a few different options,
+                     Our massage therapists relieve pain and tension in your feet and body. We offer a few different options,
                      including a foot scrub for only $10 more, and a prenatal version of Foot & Body Fusion. Whatever you choose, your body will be
                      refreshed. This is a “clothes-on” service.
                   </p>
