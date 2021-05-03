@@ -192,7 +192,6 @@ export const Page = ({data}) => {
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Take a moment to loosen up, detox your body, and calm your mind.</p>
 					<ul className="styled-list mb-8">
 						<li className="text-gray-600">Clothes-On Upper Body Massage (30 Minutes)</li>
-						<li className="text-gray-600">Clothes-On Reflexology Session (30 Minutes)</li>
 						<li className="text-gray-600">Body Detox (15 Minutes)</li>
 						<li className="text-gray-600">Foot Mask Treatment</li>
 					</ul>
@@ -205,7 +204,6 @@ export const Page = ({data}) => {
 					<p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Recover well and run better with this package tailored just for runners.</p>
 					<ul className="styled-list mb-8">
 						<li className="text-gray-600">Clothes-On Body Massage (30 Minutes)</li>
-						<li className="text-gray-600">Clothes-On Reflexology Session (30 Minutes)</li>
 						<li className="text-gray-600">Stretching (15 Minutes)</li>
 					</ul>
 					{/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$200 Value — you save $75</span> */}
