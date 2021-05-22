@@ -57,13 +57,13 @@ export const Page = ({data}) => {
             <div className="shadow-xl text-center">
                 <div className="bg-gray-300 px-6 py-5 md:py-8">
                   <p className="heading-three text-white mb-2 md:mb-1">Basic Membership</p>
-                  <p className="text-medium text-white mb-0">$25/year</p>
+                  <p className="text-medium text-white mb-0">$35/year</p>
                 </div>
                 <div className="bg-white px-6 md:px-12 pt-6 pb-8 md:py-12">
                   <p className="font-heading text-2xlarge text-gray-900 mb-1 md:mb-3">Monthly Specials</p>
                   <p className="mb-6 md:mb-8">We offer a special rate on services that only members can enjoy.</p>
                   <p className="font-heading text-2xlarge text-gray-900 mb-1 md:mb-3">Points System</p>
-                  <p className="mb-6 md:mb-8">Spend $1, get 1 point. 500 points gets you a free 60 min massage!*</p>
+                  <p className="mb-6 md:mb-8">Spend $1, get 1 point. 600 points gets you a free 60 min massage!*</p>
                   <p className="italic text-small mb-8 md:mb-16">* The annual fee doesn’t count towards points accumulated—but gift cards do!</p>
                   <ButtonGhost as="button" data="modal-membership" className="w-full" text="Get Basic Membership"/>
                 </div>
@@ -71,7 +71,7 @@ export const Page = ({data}) => {
             <div className="shadow-xl text-center">
                 <div className="bg-gray-900 px-6 py-5 md:py-8">
                   <p className="heading-three text-white mb-2 md:mb-1">VIP Membership</p>
-                  <p className="text-medium text-white mb-0">$45/year</p>
+                  <p className="text-medium text-white mb-0">$55/year</p>
                 </div>
                 <div className="bg-white px-6 md:px-12 pt-6 pb-8 md:py-12">
                   <p className="font-heading text-2xlarge text-gray-900 mb-1 md:mb-3">Free Massage</p>
@@ -79,7 +79,7 @@ export const Page = ({data}) => {
                   <p className="font-heading text-2xlarge text-gray-900 mb-1 md:mb-3">Monthly Specials</p>
                   <p className="mb-6 md:mb-8">We offer a special rate on services that only members can enjoy.</p>
                   <p className="font-heading text-2xlarge text-gray-900 mb-1 md:mb-3">Points System</p>
-                  <p className="mb-6 md:mb-8">Spend $1, get 1 point. 500 points gets you a free 60 min massage!*</p>
+                  <p className="mb-6 md:mb-8">Spend $1, get 1 point. 600 points gets you a free 60 min massage!*</p>
                   <p className="italic text-small mb-8 md:mb-16">* The monthly fee doesn’t count towards points accumulated—but gift cards do!</p>
                   <ButtonGhost as="button" data="modal-membership" className="w-full" text="Get VIP Membership"/>
                 </div>                
