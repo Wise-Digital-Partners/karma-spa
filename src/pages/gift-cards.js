@@ -23,7 +23,7 @@ export default class Page extends Component {
 		if (value === 'Hillcrest'){
 			giftCardUrl = 'http://www.secure-booker.com/karmaspa/ShopOnline/GiftCertificate.aspx';
 		} else if (value === 'Carlsbad'){
-			giftCardUrl = 'http://www.secure-booker.com/karmarelaxationspa2/ShopOnline/GiftCertificate.aspx';
+			giftCardUrl = 'https://go.booker.com/location/karmarelaxationspa2/buy/gift-certificate';
 		}
 	}
 
