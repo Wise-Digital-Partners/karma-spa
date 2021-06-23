@@ -7,7 +7,7 @@
 // import ButtonGhost from '../Button/ButtonGhost'
 
 // const InstagramFeed = () => {
-    
+
 //     const InstagramPost = styled.a`
 //         ${tw`relative overflow-hidden cursor-pointer`}
 //         &:hover {
@@ -17,16 +17,16 @@
 //             .content {
 //                 ${tw`opacity-100 translate-y-0`}
 //             }
-//         }    
+//         }
 //         .overlay {
-//             ${tw`absolute bg-black bg-opacity-75 z-10 left-0 top-0 right-0 bottom-0 opacity-0 base-animation-ease`}
+//             ${tw`absolute bg-black bg-opacity-75 z-10 left-0 top-0 right-0 bottom-0 opacity-0 transition-all duration-300 ease-linear`}
 //         }
 //         .content {
-//             ${tw`absolute flex items-center justify-center z-20 left-0 top-0 right-0 bottom-0 text-white opacity-0 transform translate-y-12 base-animation-ease`}
+//             ${tw`absolute flex items-center justify-center z-20 left-0 top-0 right-0 bottom-0 text-white opacity-0 transform translate-y-12 transition-all duration-300 ease-linear`}
 //         }
 //         .post-details {
 //             ${tw`text-xl mx-4`}
-//         }        
+//         }
 //     `
 
 //     const data = useStaticQuery(graphql`
@@ -49,7 +49,7 @@
 //                 }
 //             }
 //         }
-//     `)   
+//     `)
 
 //     return (
 //         <section className="mb-24">
@@ -77,13 +77,13 @@
 //                                 </div>
 //                             </InstagramPost>
 //                         )
-//                     })}                                       
+//                     })}
 //                 </div>
 //                 <div className="text-center">
 //                     <ButtonGhost href="https://www.instagram.com/glamifypermanentmakeup/" text="Follow Us On Instagram"/>
 //                 </div>
 //             </div>
-//         </section> 
+//         </section>
 //     );
 // }
 

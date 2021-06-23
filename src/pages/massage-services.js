@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import SearchEngineOptimization from "../components/SEO";
 import HeroSplit from "../components/Hero/HeroSplit";
 import ScrollWrapper from "../components/Scroll/ScrollWrapper";
 import ScrollNavigation from "../components/Scroll/ScrollNavigation";
@@ -22,7 +22,7 @@ export const Page = ({ data }) => {
 
    return (
       <Layout headerStyle="overlap" headerLinkColor="black" headerHasBorder={false}>
-         <SEO
+         <SearchEngineOptimization
             title="Massage Services in San Diego & Carlsbad | Karma Spa"
             description="Ready for top massage services in San Diego? Karma Spa offers a wide variety of massages at its Hillcrest & Carlsbad locations. Book today!"
             openGraphImage={data.openGraphImage.publicURL}

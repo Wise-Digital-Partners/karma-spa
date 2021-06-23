@@ -1,26 +1,21 @@
 import React from "react";
-import { graphql } from 'gatsby';
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import SearchEngineOptimization from "../components/SEO";
 import BlogSinglePost from "../components/Blog/BlogSinglePost";
 
-export const Post = ({data}) => {
+export const Post = ({ data }) => {
+   return (
+      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+         <SearchEngineOptimization
+            title=""
+            description=""
+            // openGraphImage={data.openGraphImage.publicURL}
+            // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
+         />
 
-  return (
-    <Layout 
-      headerStyle="classic"
-      headerLinkColor="black"
-      headerHasBorder={false}
-    >
-		<SEO
-			title=""
-			description=""
-			// openGraphImage={data.openGraphImage.publicURL}
-			// twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
-		/>
-
-        <BlogSinglePost 
+         <BlogSinglePost
             title="Why Try Reflexology? 5 Good Reasons"
             date="February 10, 2017"
             author="Karma"
@@ -50,21 +45,20 @@ export const Post = ({data}) => {
             "
             featuredImage={data.featuredImage.childImageSharp.fluid}
          />
-
-    </Layout>
-  );
-}
+      </Layout>
+   );
+};
 
 export default Post;
 
 export const query = graphql`
-{
-	featuredImage: file(relativePath: {eq: "blog/why-try-reflexology-5-good-reasons.jpg"}) {
-		childImageSharp {
-			fluid(maxWidth: 1920, quality: 100) {
-			...GatsbyImageSharpFluid_withWebp
-			}
-		}
-	}
-}
-`
+   {
+      featuredImage: file(relativePath: { eq: "blog/why-try-reflexology-5-good-reasons.jpg" }) {
+         childImageSharp {
+            fluid(maxWidth: 1920, quality: 100) {
+               ...GatsbyImageSharpFluid_withWebp
+            }
+         }
+      }
+   }
+`;

@@ -1,22 +1,9 @@
 import "./node_modules/@fortawesome/fontawesome-pro/css/all.min.css";
-import './src/sass/styles.scss';
+import "./src/sass/styles.scss";
 
 import "typeface-cormorant-garamond";
-// import "typeface-josefin-sans";
-// import "typeface-lato";
-// import "typeface-merriweather";
-// import "typeface-montserrat";
-import "fontsource-mulish/300.css";
-import "fontsource-mulish/";
-import "fontsource-mulish/500.css";
+
 import "fontsource-mulish/700.css";
-// import "typeface-open-sans";
-// import "typeface-oswald";
-// import "typeface-playfair-display";
-// import "typeface-poppins";
-// import "typeface-raleway";
-// import "typeface-roboto";
-// import "typeface-roboto-slab";
-// import "typeface-source-sans-pro";
-// import "typeface-work-sans";
-// import "typeface-zilla-slab";
+import "fontsource-mulish/500.css";
+import "fontsource-mulish/";
+import "fontsource-mulish/300.css";

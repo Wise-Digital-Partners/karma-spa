@@ -1,26 +1,21 @@
 import React from "react";
-import { graphql } from 'gatsby';
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import SearchEngineOptimization from "../components/SEO";
 import BlogSinglePost from "../components/Blog/BlogSinglePost";
 
-export const Post = ({data}) => {
+export const Post = ({ data }) => {
+   return (
+      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+         <SearchEngineOptimization
+            title=""
+            description=""
+            // openGraphImage={data.openGraphImage.publicURL}
+            // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
+         />
 
-  return (
-    <Layout 
-      headerStyle="classic"
-      headerLinkColor="black"
-      headerHasBorder={false}
-    >
-		<SEO
-			title=""
-			description=""
-			// openGraphImage={data.openGraphImage.publicURL}
-			// twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
-		/>
-
-        <BlogSinglePost 
+         <BlogSinglePost
             title="8 Types of Massage: What’s the Difference?"
             date="December 20, 2016"
             author="Karma"
@@ -58,21 +53,20 @@ export const Post = ({data}) => {
             "
             featuredImage={data.featuredImage.childImageSharp.fluid}
          />
-
-    </Layout>
-  );
-}
+      </Layout>
+   );
+};
 
 export default Post;
 
 export const query = graphql`
-{
-	featuredImage: file(relativePath: {eq: "blog/8-types-of-massage-whats-the-difference.jpg"}) {
-		childImageSharp {
-			fluid(maxWidth: 1920, quality: 100) {
-			...GatsbyImageSharpFluid_withWebp
-			}
-		}
-	}
-}
-`
+   {
+      featuredImage: file(relativePath: { eq: "blog/8-types-of-massage-whats-the-difference.jpg" }) {
+         childImageSharp {
+            fluid(maxWidth: 1920, quality: 100) {
+               ...GatsbyImageSharpFluid_withWebp
+            }
+         }
+      }
+   }
+`;
