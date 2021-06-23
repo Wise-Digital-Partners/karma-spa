@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import SearchEngineOptimization from "../components/SEO";
 import ButtonSolid from "../components/Button/ButtonSolid";
 import HeroAlignEndCentered from "../components/Hero/HeroAlignEndCentered";
-import Services from "../components/Repeating/Services";
+import Services from "../components/Repeating/ServicesHillcrest";
 import TestimonialBackgroundImage from "../components/Testimonial/TestimonialBackgroundImage";
 import Packages from "../components/Repeating/Packages";
 import BlogRecentPosts from "../components/Repeating/RecentBlogPosts";
