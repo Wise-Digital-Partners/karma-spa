@@ -9,6 +9,7 @@ import tw from "twin.macro";
 import Burger from "../Burger/Burger";
 import OffCanvas from "../OffCanvas/OffCanvas";
 import ButtonSolid from "../Button/ButtonSolid";
+import Accordion from "./Accordion";
 
 const StyledMainNav = styled.nav`
    ${({ headerHasBorder }) => (headerHasBorder ? tw`border-b border-solid border-white border-opacity-25` : null)};
@@ -110,8 +111,9 @@ const StyledMainNav = styled.nav`
          &:not(:last-child) {
             ${tw`mb-8`}
          }
-         > a {
-            ${tw`text-3xl font-heading text-gray-900 font-semibold no-underline`}
+         > a,
+         button {
+            ${tw`text-3xl font-heading text-gray-900 font-semibold no-underline focus:outline-none cursor-pointer transition-all duration-300 ease-linear`}
             &:hover {
                ${tw`text-primary_400`}
             }
@@ -152,7 +154,8 @@ const StyledMainNav = styled.nav`
 // mobile submenu temporary height
 let submenuTempHeight1 = null,
    submenuTempHeight2 = null,
-   submenuTempHeight3 = null;
+   submenuTempHeight3 = null,
+   submenuTempHeight4 = null;
 
 const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) => {
    // determine if offcanvas is open
@@ -175,52 +178,14 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
    const isHoveringSubMenu2 = () => setSubMenuHovering2(true);
    const notHoveringSubMenu2 = () => setSubMenuHovering2(false);
 
-   // mobile submenu animate height variables
-   const [submenuHeight1, submenuSetHeight1] = useState("initial");
-   const [submenuHeight2, submenuSetHeight2] = useState("initial");
-   const [submenuHeight3, submenuSetHeight3] = useState("initial");
-   const [submenuPaddingTop1, submenuSetPaddingTop1] = useState("20px");
-   const [submenuPaddingTop2, submenuSetPaddingTop2] = useState("20px");
-   const [submenuPaddingTop3, submenuSetPaddingTop3] = useState("20px");
-   const submenuRef1 = useRef(null);
-   const submenuRef2 = useRef(null);
-   const submenuRef3 = useRef(null);
-
-   // determine if submenu is open
-   const [subMenuOpen1, setSubMenuOpen1] = useState(false);
-   const [subMenuOpen2, setSubMenuOpen2] = useState(false);
-   const [subMenuOpen3, setSubMenuOpen3] = useState(false);
-
    // handle click of navigation items
    const clickHandler = () => {
       setOffcanvasOpen(!offcanvasOpen);
-      submenuTempHeight1 = null;
-      submenuTempHeight2 = null;
-      submenuTempHeight3 = null;
    };
 
    // close offcanvas onclick outside
    const node = useRef();
    useOnClickOutside(node, () => setOffcanvasOpen(false));
-
-   // calculate mobile submenu height
-   useEffect(() => {
-      if (submenuRef1.current && submenuTempHeight1 === null) {
-         submenuTempHeight1 = submenuRef1.current.getBoundingClientRect().height + parseInt(submenuPaddingTop1);
-         submenuSetHeight1(0);
-         submenuSetPaddingTop1(0);
-      }
-      if (submenuRef2.current && submenuTempHeight2 === null) {
-         submenuTempHeight2 = submenuRef2.current.getBoundingClientRect().height + parseInt(submenuPaddingTop2);
-         submenuSetHeight2(0);
-         submenuSetPaddingTop2(0);
-      }
-      if (submenuRef3.current && submenuTempHeight3 === null) {
-         submenuTempHeight3 = submenuRef3.current.getBoundingClientRect().height + parseInt(submenuPaddingTop3);
-         submenuSetHeight3(0);
-         submenuSetPaddingTop3(0);
-      }
-   }, [submenuPaddingTop1, submenuPaddingTop2, submenuPaddingTop3]);
 
    const data = useStaticQuery(graphql`
       {
@@ -585,19 +550,8 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                   />
                   <OffCanvas offcanvasOpen={offcanvasOpen} id="offcanvas-navigation" className="py-10">
                      <ul id="navigation-mobile" className="mb-16 inline-block">
-                        <li className="navigation-item is-submenu-parent">
-                           <a
-                              aria-expanded={subMenuOpen1 === true ? "true" : "false"}
-                              onClick={() => {
-                                 if (submenuTempHeight1 === null) return;
-                                 submenuSetHeight1(submenuHeight1 === 0 ? submenuTempHeight1 : 0);
-                                 submenuSetPaddingTop1(submenuPaddingTop1 === 0 ? "20px" : 0);
-                                 setSubMenuOpen1(!subMenuOpen1);
-                              }}
-                           >
-                              Services
-                           </a>
-                           <ul className="submenu" ref={submenuRef1} style={{ maxHeight: submenuHeight1, paddingTop: submenuPaddingTop1 }}>
+                        <li className="flex justify-center navigation-item is-submenu-parent">
+                           <Accordion title="Hillcrest Services">
                               <li className="navigation-item">
                                  <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-therapy-hillcrest/">
                                     Massage
@@ -618,21 +572,10 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     Skin Care
                                  </AniLink>
                               </li>
-                           </ul>
+                           </Accordion>
                         </li>
-                        <li className="navigation-item is-submenu-parent">
-                           <a
-                              aria-expanded={subMenuOpen1 === true ? "true" : "false"}
-                              onClick={() => {
-                                 if (submenuTempHeight1 === null) return;
-                                 submenuSetHeight1(submenuHeight1 === 0 ? submenuTempHeight1 : 0);
-                                 submenuSetPaddingTop1(submenuPaddingTop1 === 0 ? "20px" : 0);
-                                 setSubMenuOpen1(!subMenuOpen1);
-                              }}
-                           >
-                              Services
-                           </a>
-                           <ul className="submenu" ref={submenuRef1} style={{ maxHeight: submenuHeight1, paddingTop: submenuPaddingTop1 }}>
+                        <li className="flex justify-center navigation-item is-submenu-parent">
+                           <Accordion title="Carlsbad Services">
                               <li className="navigation-item">
                                  <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-therapy-carlsbad/">
                                     Massage
@@ -648,21 +591,10 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     Skin Care
                                  </AniLink>
                               </li>
-                           </ul>
+                           </Accordion>
                         </li>
-                        <li className="navigation-item is-submenu-parent">
-                           <a
-                              aria-expanded={subMenuOpen2 === true ? "true" : "false"}
-                              onClick={() => {
-                                 if (submenuTempHeight2 === null) return;
-                                 submenuSetHeight2(submenuHeight2 === 0 ? submenuTempHeight2 : 0);
-                                 submenuSetPaddingTop2(submenuPaddingTop2 === 0 ? "20px" : 0);
-                                 setSubMenuOpen2(!subMenuOpen2);
-                              }}
-                           >
-                              Locations
-                           </a>
-                           <ul className="submenu" ref={submenuRef2} style={{ maxHeight: submenuHeight2, paddingTop: submenuPaddingTop2 }}>
+                        <li className="flex justify-center navigation-item is-submenu-parent">
+                           <Accordion title="Locations">
                               <li className="navigation-item">
                                  <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/hillcrest-massage/">
                                     Hillcrest
@@ -673,21 +605,10 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     Carlsbad
                                  </AniLink>
                               </li>
-                           </ul>
+                           </Accordion>
                         </li>
-                        <li className="navigation-item is-submenu-parent">
-                           <a
-                              aria-expanded={subMenuOpen3 === true ? "true" : "false"}
-                              onClick={() => {
-                                 if (submenuTempHeight3 === null) return;
-                                 submenuSetHeight3(submenuHeight3 === 0 ? submenuTempHeight3 : 0);
-                                 submenuSetPaddingTop3(submenuPaddingTop3 === 0 ? "20px" : 0);
-                                 setSubMenuOpen3(!subMenuOpen3);
-                              }}
-                           >
-                              About
-                           </a>
-                           <ul className="submenu" ref={submenuRef3} style={{ maxHeight: submenuHeight3, paddingTop: submenuPaddingTop3 }}>
+                        <li className="flex justify-center navigation-item is-submenu-parent">
+                           <Accordion title="About">
                               <li className="navigation-item">
                                  <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/about/">
                                     About
@@ -708,7 +629,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     Blog
                                  </AniLink>
                               </li>
-                           </ul>
+                           </Accordion>
                         </li>
                      </ul>
 
