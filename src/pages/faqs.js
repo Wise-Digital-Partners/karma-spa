@@ -18,7 +18,7 @@ const StyledFAQContent = styled.div`
 
 export const Page = () => {
    return (
-      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+      <Layout headerLinkColor="black">
          <SearchEngineOptimization
             title="FAQs | Karma Spa | San Diego & Carlsbad Massage"
             description="Why is Karma Spa a top massage spa in San Diego County? Get answers to this and more questions on our FAQs page. Book an appointment today!"

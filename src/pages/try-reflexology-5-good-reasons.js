@@ -7,7 +7,7 @@ import BlogSinglePost from "../components/Blog/BlogSinglePost";
 
 export const Post = ({ data }) => {
    return (
-      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+      <Layout headerLinkColor="black">
          <SearchEngineOptimization
             title=""
             description=""

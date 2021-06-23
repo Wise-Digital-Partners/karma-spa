@@ -19,7 +19,7 @@ export const Page = ({ data }) => {
    ];
 
    return (
-      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+      <Layout headerLinkColor="black">
          <SearchEngineOptimization
             title="Botox & Facial Fillers San Diego & Carlsbad | Karma Spa"
             description="Looking for botox & facial fillers in San Diego County? The licensed aesthetic medicine team at Karma Spa within Hillcrest & Carlsbad can help!"

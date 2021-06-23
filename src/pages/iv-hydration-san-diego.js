@@ -20,10 +20,12 @@ export const Page = ({ data }) => {
       },
    ];
 
+   const url = typeof window !== "undefined" ? window.location.pathname : "";
+
    return (
-      <Layout headerStyle="overlap" headerLinkColor="black" headerHasBorder={false}>
+      <Layout>
          <SearchEngineOptimization
-            title="IV Hydration Therapy San Diego & Carlsbad | Karma Spa"
+            title="San Diego IV Hydration Therapy | Karma Spa"
             description="At Karma Spa, our San Diego IV hydration therapy delivers essential nutrients into your body. Browse our IV infusion & injection packages today!"
             openGraphImage={data.openGraphImage.publicURL}
             twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
@@ -45,18 +47,18 @@ export const Page = ({ data }) => {
             <h1>IV Hydration Therapy</h1>
             <p className="mb-2 md:mb-0">
                Our San Diego IV hydration therapy delivers essential nutrients into your body. Benefits include increased energy, boosted immune
-               system, improved alertness, quick hydration, and reduced stress. These IV infusions and injections are available at our Hillcrest and
-               Carlsbad locations!
+               system, improved alertness, quick hydration, and reduced stress. These IV infusions and injections are available at our Hillcrest
+               location!
             </p>
          </HeroSplit>
 
          <ScrollWrapper>
             <ScrollNavigation>
                <li>
-                  <AnchorLink to="/iv-hydration-therapy/#section-1" title="IV Infusions" stripHash />
+                  <AnchorLink to={url + "#section-1"} title="IV Infusions" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/iv-hydration-therapy/#section-2" title="IV Injections" stripHash />
+                  <AnchorLink to={url + "#section-2"} title="IV Injections" stripHash />
                </li>
             </ScrollNavigation>
             <ScrollContent>

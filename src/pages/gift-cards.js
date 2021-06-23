@@ -37,7 +37,7 @@ export default class Page extends Component {
       ];
 
       return (
-         <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+         <Layout headerLinkColor="black">
             <SearchEngineOptimization
                title="Massage Spa Gift Cards | San Diego & Carlsbad | Karma Spa"
                description="Give the gift of affordable indulgence with massage spa gift cards! Karma Spa gift cards are available for purchase online here. Get yours today!"

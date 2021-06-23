@@ -8,7 +8,7 @@ import SearchEngineOptimization from "../components/SEO";
 
 export const Page = ({ data }) => {
    return (
-      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+      <Layout headerLinkColor="black">
          <SearchEngineOptimization
             title="Blog | Karma Spa | Massage Spa in San Diego & Carlsbad"
             description="Our Karma Spa blog connects you with all kinds of massage information and tips on living a life of total relaxation. We're a top San Diego massage spa."

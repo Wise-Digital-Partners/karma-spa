@@ -13,7 +13,8 @@ import ButtonSolid from "../Button/ButtonSolid";
 const StyledMainNav = styled.nav`
    ${({ headerHasBorder }) => (headerHasBorder ? tw`border-b border-solid border-white border-opacity-25` : null)};
    @media (min-width: 1024px) {
-      ${({ megaMenuHovering }) => (megaMenuHovering ? tw`bg-white` : null)};
+      ${({ megaMenuHovering1 }) => (megaMenuHovering1 ? tw`bg-white` : null)};
+      ${({ megaMenuHovering2 }) => (megaMenuHovering2 ? tw`bg-white` : null)};
    }
    @media (max-width: 1023px) {
       ${({ offcanvasOpen }) => (offcanvasOpen ? tw`bg-gray-100 border-gray-100` : null)};
@@ -45,7 +46,8 @@ const StyledMainNav = styled.nav`
          }
          > a {
             ${({ headerLinkColor }) => (headerLinkColor === "white" ? tw`text-white` : tw`text-gray-900`)};
-            ${({ megaMenuHovering }) => (megaMenuHovering ? tw`text-gray-900` : null)};
+            ${({ megaMenuHovering1 }) => (megaMenuHovering1 ? tw`text-gray-900` : null)};
+            ${({ megaMenuHovering2 }) => (megaMenuHovering2 ? tw`text-gray-900` : null)};
             ${tw`relative text-xs font-bold no-underline uppercase tracking-widest pb-8`}
             &:after {
                content: "";
@@ -157,9 +159,13 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
    const [offcanvasOpen, setOffcanvasOpen] = useState(false);
 
    // Hover on parent links
-   const [megaMenuHovering, setMegaMenuHovering] = useState(false);
-   const isHoveringMegaMenu = () => setMegaMenuHovering(true);
-   const notHoveringMegaMenu = () => setMegaMenuHovering(false);
+   const [megaMenuHovering1, setMegaMenuHovering1] = useState(false);
+   const isHoveringMegaMenu1 = () => setMegaMenuHovering1(true);
+   const notHoveringMegaMenu1 = () => setMegaMenuHovering1(false);
+
+   const [megaMenuHovering2, setMegaMenuHovering2] = useState(false);
+   const isHoveringMegaMenu2 = () => setMegaMenuHovering2(true);
+   const notHoveringMegaMenu2 = () => setMegaMenuHovering2(false);
 
    const [subMenuHovering1, setSubMenuHovering1] = useState(false);
    const isHoveringSubMenu1 = () => setSubMenuHovering1(true);
@@ -278,6 +284,27 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                }
             }
          }
+         massageServicesCarlsbad: file(relativePath: { eq: "repeating/Carlsbad Massage Services - Card.jpg" }) {
+            childImageSharp {
+               fluid(maxWidth: 504, quality: 100) {
+                  ...GatsbyImageSharpFluid_withWebp
+               }
+            }
+         }
+         specialPackagesCarlsbad: file(relativePath: { eq: "repeating/Carlsbad Special Packages - Card.jpg" }) {
+            childImageSharp {
+               fluid(maxWidth: 504, quality: 100) {
+                  ...GatsbyImageSharpFluid_withWebp
+               }
+            }
+         }
+         skinCareServicesCarlsbad: file(relativePath: { eq: "repeating/Carlsbad Skin Care - Card.jpg" }) {
+            childImageSharp {
+               fluid(maxWidth: 504, quality: 100) {
+                  ...GatsbyImageSharpFluid_withWebp
+               }
+            }
+         }
       }
    `);
 
@@ -302,7 +329,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
          },
       ];
       className = "absolute";
-   } else if (headerStyle === "classic") {
+   } else {
       initialLogo = [
          data.mobileLogoDark.childImageSharp.fluid,
          {
@@ -320,7 +347,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
    }
 
    // Change logo on mega menu reveal
-   if (megaMenuHovering) {
+   if (megaMenuHovering1 || megaMenuHovering2) {
       initialLogo = data.desktopLogoDark.childImageSharp.fluid;
    }
 
@@ -351,7 +378,8 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
          headerStyle={headerStyle}
          headerHasBorder={headerHasBorder}
          headerLinkColor={headerLinkColor}
-         megaMenuHovering={megaMenuHovering}
+         megaMenuHovering1={megaMenuHovering1}
+         megaMenuHovering2={megaMenuHovering2}
          offcanvasOpen={offcanvasOpen}
       >
          <div className="container flex items-center">
@@ -370,16 +398,16 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
             <div className="flex items-center justify-end flex-auto">
                <ul id="navigation-desktop" className="hidden lg:flex lg:items-center lg:justify-end mr-10">
                   <li
-                     className={`is-mega-menu-parent navigation-item ${megaMenuHovering ? "active" : ""}`}
-                     onMouseEnter={isHoveringMegaMenu}
-                     onMouseLeave={notHoveringMegaMenu}
+                     className={`is-mega-menu-parent navigation-item ${megaMenuHovering1 ? "active" : ""}`}
+                     onMouseEnter={isHoveringMegaMenu1}
+                     onMouseLeave={notHoveringMegaMenu1}
                   >
                      <AniLink fade to="#">
-                        Services
+                        Hillcrest Services
                      </AniLink>
                      <div className="mega-menu">
                         <div className="container flex items-center">
-                           <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-12 lg:gap-y-0 lg:gap-x-16">
+                           <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-12 lg:gap-y-0 lg:gap-x-10">
                               <div className="group relative">
                                  <Img className="mb-6" fluid={data.massageServices.childImageSharp.fluid} alt="Massage Services" />
                                  <div className="flex justify-between items-center">
@@ -389,7 +417,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
                                  </div>
                                  <p className="text-small mb-0">No matter your indulgence, we have a massage for you.</p>
-                                 <AniLink fade to="/massage-services/">
+                                 <AniLink fade to="/massage-therapy-hillcrest/">
                                     <span className="link-overlay"></span>
                                  </AniLink>
                               </div>
@@ -402,7 +430,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
                                  </div>
                                  <p className="text-small mb-0">Our popular packages will pamper you with great value.</p>
-                                 <AniLink fade to="/massage-packages/">
+                                 <AniLink fade to="/massage-packages-san-diego/">
                                     <span className="link-overlay"></span>
                                  </AniLink>
                               </div>
@@ -415,7 +443,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
                                  </div>
                                  <p className="text-small mb-0">Facials, waxing, scrubs and saunas for the ultimate glow-up.</p>
-                                 <AniLink fade to="/skin-care-services/">
+                                 <AniLink fade to="/skin-care-hillcrest/">
                                     <span className="link-overlay"></span>
                                  </AniLink>
                               </div>
@@ -428,7 +456,61 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
                                  </div>
                                  <p className="text-small mb-0">Get needed nutrients through IV infusions and injections.</p>
-                                 <AniLink fade to="/iv-hydration-therapy/">
+                                 <AniLink fade to="/iv-hydration-san-diego/">
+                                    <span className="link-overlay"></span>
+                                 </AniLink>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li
+                     className={`is-mega-menu-parent navigation-item ${megaMenuHovering2 ? "active" : ""}`}
+                     onMouseEnter={isHoveringMegaMenu2}
+                     onMouseLeave={notHoveringMegaMenu2}
+                  >
+                     <AniLink fade to="#">
+                        Carlsbad Services
+                     </AniLink>
+                     <div className="mega-menu">
+                        <div className="container flex items-center">
+                           <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-12 lg:gap-y-0 lg:gap-x-10">
+                              <div className="group relative">
+                                 <Img className="mb-6" fluid={data.massageServicesCarlsbad.childImageSharp.fluid} alt="Massage Services" />
+                                 <div className="flex justify-between items-center">
+                                    <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 transition-all duration-300 ease-linear">
+                                       Massage Services
+                                    </p>
+                                    <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
+                                 </div>
+                                 <p className="text-small mb-0">No matter your indulgence, we have a massage for you.</p>
+                                 <AniLink fade to="/massage-therapy-carlsbad/">
+                                    <span className="link-overlay"></span>
+                                 </AniLink>
+                              </div>
+                              <div className="group relative">
+                                 <Img className="mb-6" fluid={data.specialPackagesCarlsbad.childImageSharp.fluid} alt="Special Packages" />
+                                 <div className="flex justify-between items-center">
+                                    <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 transition-all duration-300 ease-linear">
+                                       Special Packages
+                                    </p>
+                                    <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
+                                 </div>
+                                 <p className="text-small mb-0">Our popular packages will pamper you with great value.</p>
+                                 <AniLink fade to="/massage-packages-carlsbad/">
+                                    <span className="link-overlay"></span>
+                                 </AniLink>
+                              </div>
+                              <div className="group relative">
+                                 <Img className="mb-6" fluid={data.skinCareServicesCarlsbad.childImageSharp.fluid} alt="Skin Care Services" />
+                                 <div className="flex justify-between items-center">
+                                    <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 transition-all duration-300 ease-linear">
+                                       Skin Care Services
+                                    </p>
+                                    <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
+                                 </div>
+                                 <p className="text-small mb-0">Facials, waxing, scrubs and saunas for the ultimate glow-up.</p>
+                                 <AniLink fade to="/skin-care-carlsbad/">
                                     <span className="link-overlay"></span>
                                  </AniLink>
                               </div>
@@ -517,22 +599,52 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                            </a>
                            <ul className="submenu" ref={submenuRef1} style={{ maxHeight: submenuHeight1, paddingTop: submenuPaddingTop1 }}>
                               <li className="navigation-item">
-                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-services/">
+                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-therapy-hillcrest/">
                                     Massage
                                  </AniLink>
                               </li>
                               <li className="navigation-item">
-                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-packages/">
+                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-packages-san-diego/">
                                     Packages
                                  </AniLink>
                               </li>
                               <li className="navigation-item">
-                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/iv-hydration-therapy/">
+                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/iv-hydration-san-diego/">
                                     Treatments
                                  </AniLink>
                               </li>
                               <li className="navigation-item">
-                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/skin-care-services/">
+                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/skin-care-hillcrest/">
+                                    Skin Care
+                                 </AniLink>
+                              </li>
+                           </ul>
+                        </li>
+                        <li className="navigation-item is-submenu-parent">
+                           <a
+                              aria-expanded={subMenuOpen1 === true ? "true" : "false"}
+                              onClick={() => {
+                                 if (submenuTempHeight1 === null) return;
+                                 submenuSetHeight1(submenuHeight1 === 0 ? submenuTempHeight1 : 0);
+                                 submenuSetPaddingTop1(submenuPaddingTop1 === 0 ? "20px" : 0);
+                                 setSubMenuOpen1(!subMenuOpen1);
+                              }}
+                           >
+                              Services
+                           </a>
+                           <ul className="submenu" ref={submenuRef1} style={{ maxHeight: submenuHeight1, paddingTop: submenuPaddingTop1 }}>
+                              <li className="navigation-item">
+                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-therapy-carlsbad/">
+                                    Massage
+                                 </AniLink>
+                              </li>
+                              <li className="navigation-item">
+                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/massage-packages-carlsbad/">
+                                    Packages
+                                 </AniLink>
+                              </li>
+                              <li className="navigation-item">
+                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/skin-care-carlsbad/">
                                     Skin Care
                                  </AniLink>
                               </li>

@@ -20,10 +20,12 @@ export const Page = ({ data }) => {
       },
    ];
 
+   const url = typeof window !== "undefined" ? window.location.pathname : "";
+
    return (
-      <Layout headerStyle="overlap" headerLinkColor="black" headerHasBorder={false}>
+      <Layout>
          <SearchEngineOptimization
-            title="Massage Services in San Diego & Carlsbad | Karma Spa"
+            title="Carlsbad Massage Therapy Services | Karma Spa"
             description="Ready for top massage services in San Diego? Karma Spa offers a wide variety of massages at its Hillcrest & Carlsbad locations. Book today!"
             openGraphImage={data.openGraphImage.publicURL}
             twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
@@ -42,62 +44,56 @@ export const Page = ({ data }) => {
             minHeightDesktop="680px"
             minHeightMobile="480px"
          >
-            <h1>Massage Services</h1>
+            <h1>Carlsbad Massage Therapy</h1>
             <p className="mb-2 md:mb-0">
                Relax. Reduce pain and stress. Improve circulation and flexibility. Prevent injury and facilitate healing. Massage has many benefits,
-               and we have many options. Your next indulgence awaits with our Hillcrest and Carlsbad massage services.
+               and we have many options. Your next indulgence awaits with our Carlsbad massage therapy services.
             </p>
          </HeroSplit>
 
          <ScrollWrapper>
             <ScrollNavigation>
                <li>
-                  <AnchorLink to="/massage-services/#section-1" title="Deep Tissue Massage" stripHash />
+                  <AnchorLink to={url + "#section-1"} title="Deep Tissue Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-2" title="Couples Massage" stripHash />
+                  <AnchorLink to={url + "#section-2"} title="Couples Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-3" title="Hot Oil Massage" stripHash />
+                  <AnchorLink to={url + "#section-3"} title="Hot Oil Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-4" title="Back/Shoulder Massage" stripHash />
+                  <AnchorLink to={url + "#section-4"} title="Back/Shoulder Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-5" title="Swedish Massage" stripHash />
+                  <AnchorLink to={url + "#section-5"} title="Swedish Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-6" title="Thai Massage" stripHash />
+                  <AnchorLink to={url + "#section-6"} title="Thai Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-7" title="Hot Stone Massage" stripHash />
+                  <AnchorLink to={url + "#section-7"} title="Hot Stone Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-8" title="Sports Massage" stripHash />
+                  <AnchorLink to={url + "#section-8"} title="Sports Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-9" title="Tuina Massage" stripHash />
+                  <AnchorLink to={url + "#section-9"} title="Tuina Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-10" title="Aromatherapy" stripHash />
+                  <AnchorLink to={url + "#section-10"} title="Aromatherapy" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-11" title="Acupressure" stripHash />
+                  <AnchorLink to={url + "#section-11"} title="Acupressure" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-12" title="Double Indulgence" stripHash />
+                  <AnchorLink to={url + "#section-12"} title="Double Indulgence" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-13" title="Foot Massage (Hillcrest only)" stripHash />
+                  <AnchorLink to={url + "#section-13"} title="Foot & Body Fusion" stripHash />
                </li>
                <li>
-                  <AnchorLink to="/massage-services/#section-14" title="Foot & Body Fusion (Carlsbad only)" stripHash />
-               </li>
-               <li>
-                  <AnchorLink to="/massage-services/#section-15" title="Prenatal Body Massage" stripHash />
-               </li>
-               <li>
-                  <AnchorLink to="/massage-services/#section-16" title="Add-Ons" stripHash />
+                  <AnchorLink to={url + "#section-15"} title="Add-Ons" stripHash />
                </li>
             </ScrollNavigation>
             <ScrollContent>
@@ -142,13 +138,13 @@ export const Page = ({ data }) => {
                      couples room—prices may vary.
                   </p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
-                     $120 (60 Minutes)
+                     $100 (60 Minutes)
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     $180 (90 Minutes)
+                     $135 (90 Minutes)
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     $240 (2 Hours)
+                     $175 (2 Hours)
                      <br />
                      <br className="block lg:hidden" />
                      Four Hands: <br className="block lg:hidden" />
@@ -458,22 +454,7 @@ export const Page = ({ data }) => {
 
                <div id="section-13" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">13</span>
-                  <h3 className="mb-1">Foot Massage (Hillcrest only)</h3>
-                  <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Boost your circulation!</p>
-                  <p>
-                     Foot massage improves circulation, stimulates muscles, reduces tension, and eases foot pain. Plus, it’s just plain ol’ relaxing.
-                  </p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">
-                     $45 (30 Minutes) a la carte
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $30 (30 Minutes) when added to any 60 Minute or 90 Minute Body Massage
-                  </p>
-               </div>
-
-               <div id="section-14" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">14</span>
-                  <h3 className="mb-1">Foot & Body Fusion (Carlsbad only)</h3>
+                  <h3 className="mb-1">Foot & Body Fusion</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Relax from head to toe!</p>
                   <p>
                      Soothe your aching feet in a relaxing foot soak while your head, shoulders, back, hands, and feet are massaged to help you relax
@@ -502,26 +483,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-15" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">15</span>
-                  <h3 className="mb-1">Prenatal Body Massage</h3>
-                  <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Let us relieve some of your physical discomfort!</p>
-                  <p>
-                     The recommended side-lying position for expectant mothers helps minimize risk to the mother and offers maximum safety for both
-                     mother and baby. While lying on either the right or left side optimizes maternal cardiac function and oxygen delivery to the
-                     fetus. We provide a pregnancy pillow for extra support to mother and baby. Consider adding on a foot massage to the last 30
-                     minutes of your massage. You won’t regret it.
-                  </p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">
-                     $65 (1 Hour)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $95 (90 Minutes)
-                  </p>
-               </div>
-
-               <div id="section-16" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">16</span>
+               <div id="section-14" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">14</span>
                   <h3 className="mb-1">Add-Ons</h3>
                   <p className="text-small font-medium tracking-wide text-gray-900">
                      Prenatal Add-on +$5
@@ -565,14 +528,14 @@ export const query = graphql`
       twitterOpenGraphImage: file(relativePath: { eq: "open-graph/twitter/massage-services-twitter.jpg" }) {
          publicURL
       }
-      heroDesktop: file(relativePath: { eq: "services/massage/massage-services-hero-desktop.jpg" }) {
+      heroDesktop: file(relativePath: { eq: "services/massage/Massage Services.jpg" }) {
          childImageSharp {
             fixed(width: 1440, height: 1358, quality: 100) {
                ...GatsbyImageSharpFixed_withWebp
             }
          }
       }
-      heroMobile: file(relativePath: { eq: "services/massage/massage-services-hero-mobile.jpg" }) {
+      heroMobile: file(relativePath: { eq: "services/massage/Massage Services.jpg" }) {
          childImageSharp {
             fixed(width: 828, height: 956, quality: 100) {
                ...GatsbyImageSharpFixed_withWebp

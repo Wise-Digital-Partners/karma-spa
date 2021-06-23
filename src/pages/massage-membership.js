@@ -18,7 +18,7 @@ export const Page = ({ data }) => {
    ];
 
    return (
-      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+      <Layout headerLinkColor="black">
          <SearchEngineOptimization
             title="Massage Memberships in San Diego | Karma Spa"
             description="Karma Spa membership offers multiple benefits. We offer two membership plans to bring you free massages and monthly specials for members only."

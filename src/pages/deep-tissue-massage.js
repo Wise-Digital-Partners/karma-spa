@@ -19,7 +19,7 @@ export const Page = ({ data }) => {
    ];
 
    return (
-      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+      <Layout headerLinkColor="black">
          <SearchEngineOptimization
             title="Deep Tissue Massage San Diego & Carlsbad | Karma Spa"
             description="Karma Spa offers effective deep tissue massage in San Diego at two convenient locations: Hillcrest and Carlsbad. Book an appointment today!"

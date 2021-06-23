@@ -20,7 +20,7 @@ export const Page = ({ data }) => {
    ];
 
    return (
-      <Layout headerStyle="classic" headerLinkColor="black" headerHasBorder={false}>
+      <Layout headerLinkColor="black">
          <SearchEngineOptimization
             title="About Karma Spa | Massage Spa in San Diego & Carlsbad"
             description="Karma Spa offers you affordable indulgence in two San Diego locations: Hillcrest and Carlsbad. Learn more about our massage spas. Book today!"
