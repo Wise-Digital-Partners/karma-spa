@@ -17,28 +17,22 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
       const offcanvasNavigation = document.querySelector("#offcanvas-navigation");
       const bodyContent = document.querySelector("#body-content");
 
-      if (headerStyle === "overlap") {
-         // calculate #body-content offset top
-         bodyContent.style.marginTop = "-" + mainNavigation.offsetHeight + "px";
-      }
+      // if (headerStyle === "overlap") {
+      //    // calculate #body-content offset top
+      //    bodyContent.style.marginTop = "-" + siteNavigation.offsetHeight + "px";
+      // }
 
       const handleLoad = () => {
          // calculate #offcanvas-navigation menu offset top
-         offcanvasNavigation.style.top = siteNavigation.offsetHeight + "px";
+         offcanvasNavigation.style.top = siteNavigation.offsetHeight + mainNavigation.offsetHeight + "px";
       };
 
       const handleResize = () => {
          // recalculate #offcanvas-navigation offset top on resize
-         offcanvasNavigation.style.top = siteNavigation.offsetHeight + "px";
-
-         // recalculate #body-content offset top on resize
-         bodyContent.style.marginTop = "-" + mainNavigation.offsetHeight + "px";
+         offcanvasNavigation.style.top = siteNavigation.offsetHeight + mainNavigation.offsetHeight + "px";
       };
 
       const handleScroll = () => {
-         // recalculate #offcanvas-navigation offset top on scroll
-         offcanvasNavigation.style.top = siteNavigation.offsetHeight - window.scrollY + "px";
-
          let isScrolled;
 
          if (utilityNavigation !== null && promoBar !== null) {
@@ -59,16 +53,23 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
             // recalculate #body-content offset top on scroll
             if (headerStyle === "overlap") {
                bodyContent.style.marginTop = "0px";
-            } else if (headerStyle === "classic") {
-               bodyContent.style.marginTop = mainNavigation.offsetHeight + "px";
+               bodyContent.style.paddingTop = null;
+            } else {
+               bodyContent.style.paddingTop = mainNavigation.offsetHeight + "px";
+               bodyContent.style.marginTop = null;
             }
          } else {
             setScrolled(false);
 
+            // calculate #offcanvas-navigation menu offset top
+            offcanvasNavigation.style.top = siteNavigation.offsetHeight + "px";
+
             // recalculate #body-content offset top on scroll
             if (headerStyle === "overlap") {
-               bodyContent.style.marginTop = "-" + mainNavigation.offsetHeight + "px";
-            } else if (headerStyle === "classic") {
+               // bodyContent.style.marginTop = "-" + mainNavigation.offsetHeight + "px";
+               bodyContent.style.paddingTop = null;
+            } else {
+               bodyContent.style.paddingTop = null;
                bodyContent.style.marginTop = null;
             }
          }
@@ -76,7 +77,12 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
 
       document.addEventListener("scroll", handleScroll, { passive: true });
       window.addEventListener("resize", handleResize, { passive: true });
-      window.addEventListener("load", handleLoad, { passive: true });
+
+      if (document.readyState === "complete") {
+         handleLoad();
+      } else {
+         window.addEventListener("load", handleLoad, { passive: true });
+      }
 
       return () => {
          document.removeEventListener("scroll", handleScroll);

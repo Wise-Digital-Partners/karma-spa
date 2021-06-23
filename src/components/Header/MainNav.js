@@ -283,7 +283,8 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
 
    // Define logos based on header style
    let initialLogo = null,
-      stickyLogo = null;
+      stickyLogo = null,
+      className = null;
 
    if (headerStyle === "overlap") {
       initialLogo = [
@@ -300,6 +301,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
             media: `(min-width: 768px)`,
          },
       ];
+      className = "absolute";
    } else if (headerStyle === "classic") {
       initialLogo = [
          data.mobileLogoDark.childImageSharp.fluid,
@@ -342,7 +344,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
    return (
       <StyledMainNav
          id="main-navigation"
-         className="py-2 transition-all duration-300 ease-linear"
+         className={`py-2 w-full h-16 md:h-auto transition-all duration-300 ease-linear ${className}`}
          role="navigation"
          aria-label="main-navigation"
          data-fixed={scrolled}

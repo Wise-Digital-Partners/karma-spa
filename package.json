@@ -32,7 +32,6 @@
     "gatsby-remark-images": "^5.5.0",
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-source-filesystem": "^3.8.0",
-    "gatsby-source-instagram": "^0.9.0",
     "gatsby-transformer-remark": "^4.5.0",
     "gatsby-transformer-sharp": "^3.8.0",
     "gsap": "file:gsap-bonus.tgz",
