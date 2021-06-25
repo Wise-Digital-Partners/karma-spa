@@ -57,43 +57,40 @@ export const Page = ({ data }) => {
                   <AnchorLink to={url + "#section-1"} title="Deep Tissue Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-2"} title="Couples Massage" stripHash />
+                  <AnchorLink to={url + "#section-2"} title="Hot Oil Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-3"} title="Hot Oil Massage" stripHash />
+                  <AnchorLink to={url + "#section-3"} title="Back/Shoulder Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-4"} title="Back/Shoulder Massage" stripHash />
+                  <AnchorLink to={url + "#section-4"} title="Swedish Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-5"} title="Swedish Massage" stripHash />
+                  <AnchorLink to={url + "#section-5"} title="Thai Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-6"} title="Thai Massage" stripHash />
+                  <AnchorLink to={url + "#section-6"} title="Hot Stone Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-7"} title="Hot Stone Massage" stripHash />
+                  <AnchorLink to={url + "#section-7"} title="Sports Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-8"} title="Sports Massage" stripHash />
+                  <AnchorLink to={url + "#section-8"} title="Tuina Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-9"} title="Tuina Massage" stripHash />
+                  <AnchorLink to={url + "#section-9"} title="Aromatherapy" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-10"} title="Aromatherapy" stripHash />
+                  <AnchorLink to={url + "#section-10"} title="Acupressure" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-11"} title="Acupressure" stripHash />
+                  <AnchorLink to={url + "#section-11"} title="Double Indulgence" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-12"} title="Double Indulgence" stripHash />
+                  <AnchorLink to={url + "#section-12"} title="Foot & Body Fusion" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-13"} title="Foot & Body Fusion" stripHash />
-               </li>
-               <li>
-                  <AnchorLink to={url + "#section-15"} title="Add-Ons" stripHash />
+                  <AnchorLink to={url + "#section-13"} title="Add-Ons" stripHash />
                </li>
             </ScrollNavigation>
             <ScrollContent>
@@ -130,36 +127,6 @@ export const Page = ({ data }) => {
 
                <div id="section-2" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">02</span>
-                  <h3 className="mb-1">Couples Massage</h3>
-                  <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Share your day of pampering</p>
-                  <p>
-                     Two people are massaged in the same room at the same time by two different massage therapists. Great for dates or for catching up
-                     with a friend. Share a relaxing Swedish massage or deep tissue experience side-by-side. Many of our services can be done in our
-                     couples room—prices may vary.
-                  </p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">
-                     $100 (60 Minutes)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $135 (90 Minutes)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $175 (2 Hours)
-                     <br />
-                     <br className="block lg:hidden" />
-                     Four Hands: <br className="block lg:hidden" />
-                     $240 (1 Hour)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $360 (90 Minutes)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $480 (2 Hours)
-                  </p>
-               </div>
-
-               <div id="section-3" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">03</span>
                   <h3 className="mb-1">Hot Oil Massage</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Reduce tension and swelling in the muscles!</p>
                   <p>
@@ -188,8 +155,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-4" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
+               <div id="section-3" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">03</span>
                   <h3 className="mb-1">Back/Shoulder Massage</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Too much computer?</p>
                   <p>
@@ -218,8 +185,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-5" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">05</span>
+               <div id="section-4" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
                   <h3 className="mb-1">Swedish Massage</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Lighter pressure for easy relaxation!</p>
                   <p>
@@ -248,8 +215,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-6" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
+               <div id="section-5" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">05</span>
                   <h3 className="mb-1">Thai Massage</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Yoga without the work!</p>
                   <p>
@@ -278,8 +245,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-7" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
+               <div id="section-6" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
                   <h3 className="mb-1">Hot Stone Massage</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Our most popular modality!</p>
                   <p>
@@ -309,8 +276,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-8" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
+               <div id="section-7" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
                   <h3 className="mb-1">Sports Massage</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Perfect for athletes</p>
                   <p>
@@ -339,8 +306,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-9" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
+               <div id="section-8" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
                   <h3 className="mb-1">Tuina Massage</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Chinese massage without oil or lotion!</p>
                   <p>
@@ -369,8 +336,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-10" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">10</span>
+               <div id="section-9" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
                   <h3 className="mb-1">Aromatherapy Massage</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Enhance your massage with essential oils!</p>
                   <p>
@@ -398,8 +365,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-11" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">11</span>
+               <div id="section-10" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">10</span>
                   <h3 className="mb-1">Acupressure</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Acupuncture without the needles!</p>
                   <p>
@@ -428,8 +395,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-12" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">12</span>
+               <div id="section-11" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">11</span>
                   <h3 className="mb-1">Double Indulgence</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Two therapists, four hands</p>
                   <p>
@@ -452,8 +419,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-13" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">13</span>
+               <div id="section-12" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">12</span>
                   <h3 className="mb-1">Foot & Body Fusion</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Relax from head to toe!</p>
                   <p>
@@ -483,8 +450,8 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-14" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">14</span>
+               <div id="section-13" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">13</span>
                   <h3 className="mb-1">Add-Ons</h3>
                   <p className="text-small font-medium tracking-wide text-gray-900">
                      Prenatal Add-on +$5
@@ -507,7 +474,7 @@ export const Page = ({ data }) => {
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span> 30 Minute Sauna Session +$20
                      <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span> 30 Minute Couple’s Sauna Session +$40 $95 (90 Minutes)
+                     <span className="hidden lg:inline lg:mx-1">•</span> 30 Minute Couple’s Sauna Session +$40
                   </p>
                </div>
             </ScrollContent>

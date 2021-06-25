@@ -63,7 +63,7 @@ export const Page = ({ data }) => {
                   <AnchorLink to={url + "#section-3"} title="Oxygen Facial" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-4"} title="HydraFacial" stripHash />
+                  <AnchorLink to={url + "#section-4"} title="Hydra-Dermabrasion Facial" stripHash />
                </li>
                <li>
                   <AnchorLink to={url + "#section-5"} title="Back Facial" stripHash />
@@ -113,8 +113,7 @@ export const Page = ({ data }) => {
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">02</span>
                   <h3>O2 Facial</h3>
                   <p>
-                     Rejuvenate skin with oxygen infusion, plant-derived stem cells, peptides, and a high concentration of enzymatic botanicals. 60
-                     minutes.
+                     Rejuvenate skin with oxygen infusion, plant-derived stem cells, peptides, and a high concentration of enzymatic botanicals.
                   </p>
                   <p className="mb-3">Signature Facial that incorporates</p>
                   <ul className="styled-list mb-8">
@@ -160,7 +159,7 @@ export const Page = ({ data }) => {
 
                <div id="section-4" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
-                  <h3>HydraFacial</h3>
+                  <h3>Hydra-Dermabrasion Facial</h3>
                   <p>
                      Get clearer skin through hydradermabrasion, which combines cleansing, exfoliation, extraction, hydration and antioxidant
                      protection all at once. This treatment is soothing, moisturizing, non-invasive and non-irritating.
@@ -199,8 +198,6 @@ export const Page = ({ data }) => {
                      <li>Skin analysis</li>
                      <li>Cleanse</li>
                      <li>Exfoliation</li>
-                     <li>Facial Massage</li>
-                     <li>Mask Treatment</li>
                      <li>Sunscreen</li>
                      <li>Toner & Moisturizer</li>
                      <li>Lip & Eye Treatment</li>
@@ -344,7 +341,7 @@ export const Page = ({ data }) => {
                         <li>Improves skin texture by reducing skin problems due to age</li>
                         <li>Deeply moisturizes to hydrate dry, dull skin</li>
                      </ul>
-                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $15</p>
+                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $10</p>
                   </div>
                </div>
             </ScrollContent>

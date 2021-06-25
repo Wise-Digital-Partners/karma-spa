@@ -19,6 +19,7 @@ module.exports = {
       `gatsby-plugin-postcss`,
       `gatsby-plugin-robots-txt`,
       `gatsby-plugin-transition-link`,
+      `gatsby-plugin-image`,
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
       {

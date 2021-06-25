@@ -46,8 +46,7 @@ export const Page = ({ data }) => {
          >
             <h1>Carlsbad Massage Packages</h1>
             <p className="mb-2 md:mb-0">
-               Get the most out of your relaxation journey with our massage packages. Experience multiple benefits in a single indulgent session that
-               will pamper you properly when you need it most. Our Carlsbad massage spas is ready to deliver.
+            Get the most out of your relaxation journey with our massage packages. Experience multiple benefits in a single indulgent session that will pamper you properly when you need it most. Our Carlsbad massage spa is ready to deliver.
             </p>
          </HeroSplit>
 
@@ -83,14 +82,14 @@ export const Page = ({ data }) => {
                   </span>
                   <h3 className="mb-1">The President Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
-                     Stay on top of your game with a massage & sauna or steam session.
+                  Experience the benefits of massage therapy and body detox in one session.
                   </p>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Clothes-On Foot & Body Fusion Massage (60 Minutes)</li>
-                     <li className="text-gray-600">Body Massage (60 Minutes)</li>
-                     <li className="text-gray-600">Vichy Shower</li>
-                     <li className="text-gray-600">Fruit Skin Conditioner</li>
-                     <li className="text-gray-600">Sauna or Steam Session</li>
+                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
+                     <li className="text-gray-600">Foot & Body Fusion (Clothes-on) (60 Minutes)</li>
+                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
+                     <li className="text-gray-600">Hot Towels</li>
+                     <li className="text-gray-600">15 Minute Sauna Session</li>
                   </ul>
                   {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$145 Value — you save $40</span> */}
                </div>
@@ -101,13 +100,13 @@ export const Page = ({ data }) => {
                   </span>
                   <h3 className="mb-1">The Vice President Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
-                     Experience the benefits of massage therapy and body detox in one session.
+                     Ease your stress with a massage & sauna or steam session.
                   </p>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Body Massage (60 Minutes)</li>
-                     <li className="text-gray-600">Vichy Shower with Fruit Skin Conditioner</li>
-                     <li className="text-gray-600">Sauna Session</li>
+                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
+                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
+                     <li className="text-gray-600">Hot Towels</li>
+                     <li className="text-gray-600">Sauna Session (15 Minutes)</li>
                   </ul>
                   {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$90 Value — you save $10</span> */}
                </div>
@@ -119,10 +118,10 @@ export const Page = ({ data }) => {
                   <h3 className="mb-1">The CEO Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Make room in your busy schedule for some pampering.</p>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Body Massage (90 Minutes)</li>
-                     <li className="text-gray-600">Vichy Shower with Fruit Skin Conditioner</li>
-                     <li className="text-gray-600">Sauna Session</li>
+                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
+                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (90 Minutes)</li>
+                     <li className="text-gray-600">Hot Towels</li>
+                     <li className="text-gray-600">Sauna Session (15 Minutes)</li>
                   </ul>
                   {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$135 Value — you save $35</span> */}
                </div>
@@ -136,10 +135,11 @@ export const Page = ({ data }) => {
                      Want a well-rounded massage experience? The Premier Package is for you.
                   </p>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Body Massage (60 Minutes)</li>
+                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
                      <li className="text-gray-600">Foot Massage (30 Minutes)</li>
-                     <li className="text-gray-600">Infra-Slim Body Wrap</li>
-                     <li className="text-gray-600">Body Detox (15 Minutes)</li>
+                     <li className="text-gray-600">Hot Towels</li>
+                     <li className="text-gray-600">Infra-Slim Body Wrap (50 Minutes)</li>
+                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
                   </ul>
                   {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$150 Value — you save $25</span> */}
                </div>
@@ -150,31 +150,30 @@ export const Page = ({ data }) => {
                   </span>
                   <h3 className="mb-1">The Royal Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
-                     Feel like royalty with two therapists for maximum relaxation.{" "}
+                     Feel like royalty with two therapists for maximum relaxation.
                   </p>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Body Massage (60 Minutes)</li>
-                     <li className="text-gray-600">Body Scrub (15 Minutes)</li>
-                     <li className="text-gray-600">Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Sauna Session</li>
+                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
+                     <li className="text-gray-600">Double Indulgence (Two Therapists, Four Hands) (60 Minutes)</li>
+                     <li className="text-gray-600">Hot Towels</li>
+                     <li className="text-gray-600">Sauna Session (15 Minutes)</li>
                   </ul>
                   {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$185 Value — you save $50</span> */}
                </div>
 
                <div id="section-6" className="mb-20 lg:mb-40">
                   <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i> $165
+                     <i class="fas fa-tag text-primary_400 mr-2"></i> $155
                   </span>
                   <h3 className="mb-1">The First Lady Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                      Get pampered from head to toe with two and a half hours of indulgence.
                   </p>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Facial (60 Minutes)</li>
-                     <li className="text-gray-600">Body Massage (60 Minutes)</li>
-                     <li className="text-gray-600">Body Scrub (15 Minutes)</li>
-                     <li className="text-gray-600">Sauna Session</li>
-                     <li className="text-gray-600">Optional: Sea Salt Scrub with Aromatherapy </li>
+                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
+                     <li className="text-gray-600">Signature Facial (60 Minutes)</li>
+                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
+                     <li className="text-gray-600">Sauna (15 Minutes)</li>
                   </ul>
                   {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$170</span> */}
                </div>
@@ -188,9 +187,9 @@ export const Page = ({ data }) => {
                      Ladies, get the royal treatment with this luxurious 90-minute package.
                   </p>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">French Facial with Mini Scalp & Shoulder Massage (60 Minutes)</li>
+                     <li className="text-gray-600">Signature Facial (60 Minutes)</li>
+                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
                      <li className="text-gray-600">Leg & Foot Massage (15 Minutes)</li>
-                     <li className="text-gray-600">Body Detox (15 Minutes)</li>
                   </ul>
                   {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$90</span> */}
                </div>

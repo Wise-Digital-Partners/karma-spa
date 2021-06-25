@@ -384,7 +384,7 @@ export const Page = ({ data }) => {
                         <li>Improves skin texture by reducing skin problems due to age</li>
                         <li>Deeply moisturizes to hydrate dry, dull skin</li>
                      </ul>
-                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $15</p>
+                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $10</p>
                   </div>
 
                   <div className="mb-20 lg:mb-40">

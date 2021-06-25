@@ -129,9 +129,7 @@ export const Page = ({ data }) => {
                   <div className="md:col-end-13 md:col-span-4">
                      <h2 className="heading-three">About Karma Spa Carlsbad</h2>
                      <p className="mb-0">
-                        Our 5,000 sq ft facility features 16 massage rooms, including dedicated rooms for couples massage, and a spacious waiting room
-                        for guests. We have both traditional and infrared sauna & steam rooms depending on your preference, and two Vichy shower
-                        rooms. Most importantly, you’ll be rejuvenated in a comfortable, relaxing environment with our skilled massage therapists.
+                     Jessika and Conrad Bester are the new owners of Karma Spa Carlsbad. We will continue to offer a comfortable, clean and relaxing environment with our skilled massage therapists and talented estheticians. Our 5,000 sq ft facility features 16 spa rooms, including dedicated rooms for couples massage, facials and a spacious waiting room for guests. We have a traditional dry sauna and a shower room. We look forward to helping you improve health, beauty and relaxation through personal care treatments from Karma Spa.
                      </p>
                   </div>
                </div>
