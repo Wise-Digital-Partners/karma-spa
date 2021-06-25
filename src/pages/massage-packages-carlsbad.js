@@ -89,7 +89,7 @@ export const Page = ({ data }) => {
                      <li className="text-gray-600">Foot & Body Fusion (Clothes-on) (60 Minutes)</li>
                      <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
                      <li className="text-gray-600">Hot Towels</li>
-                     <li className="text-gray-600">15 Minute Sauna Session</li>
+                     <li className="text-gray-600">Sauna Session (15 Minutes)</li>
                   </ul>
                   {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$145 Value — you save $40</span> */}
                </div>
