@@ -138,13 +138,13 @@ export const Page = ({ data }) => {
                      couples room—prices may vary.
                   </p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
-                     $100 (60 Minutes)
+                     $120 (60 Minutes)
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     $135 (90 Minutes)
+                     $180 (90 Minutes)
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     $175 (2 Hours)
+                     $240 (2 Hours)
                      <br />
                      <br className="block lg:hidden" />
                      Four Hands: <br className="block lg:hidden" />
