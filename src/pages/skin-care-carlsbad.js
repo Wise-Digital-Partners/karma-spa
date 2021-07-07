@@ -104,7 +104,7 @@ export const Page = ({ data }) => {
                   <p>*Steam & hot towels are used throughout entire treatment</p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
                      Add ons: <b>Pumpkin Peel Mask</b> (+$20). Stubborn acne? Add on <b>High Frequency</b> (+$15).{" "}
-                     <b>Anti Aging Serum with Hyaluronic Acid</b> (+$15).
+                     <b>Anti Aging Serum with Hyaluronic Acid</b> (+$10).
                   </p>
                   <p className="text-small font-medium tracking-wide text-gray-900">Price: $75 (60 Minutes)</p>
                </div>
