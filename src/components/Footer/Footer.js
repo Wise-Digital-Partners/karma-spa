@@ -167,7 +167,11 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                      >
-                        nest <Img className="ml-1" fixed={data.nestLogo.childImageSharp.fixed} alt="nest Logo" />
+                        NEST{" "}
+                        <sup className="text-3xs" style={{ paddingLeft: "2px" }}>
+                           TM
+                        </sup>{" "}
+                        <Img className="ml-1" fixed={data.nestLogo.childImageSharp.fixed} alt="nest Logo" />
                      </a>
                   </div>
                </div>
