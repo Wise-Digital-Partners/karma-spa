@@ -71,7 +71,7 @@ export const Page = ({ data }) => {
                   <div className="shadow-xl text-center">
                      <div className="bg-gray-900 px-6 py-5 md:py-8">
                         <p className="heading-three text-white mb-2 md:mb-1">VIP Membership</p>
-                        <p className="text-medium text-white mb-0">$55/year</p>
+                        <p className="text-medium text-white mb-0">$55/month</p>
                      </div>
                      <div className="bg-white px-6 md:px-12 pt-6 pb-8 md:py-12">
                         <p className="font-heading text-2xlarge text-gray-900 mb-1 md:mb-3">Free Massage</p>
