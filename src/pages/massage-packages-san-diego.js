@@ -68,12 +68,12 @@ export const Page = ({ data }) => {
                <li>
                   <AnchorLink to={url + "#section-5"} title="The Royal Package" stripHash />
                </li>
-               <li>
+               {/* <li>
                   <AnchorLink to={url + "#section-6"} title="The First Lady Package" stripHash />
-               </li>
-               <li>
+               </li> */}
+               {/* <li>
                   <AnchorLink to={url + "#section-7"} title="The Princess Package" stripHash />
-               </li>
+               </li> */}
                <li>
                   <AnchorLink to={url + "#section-8"} title="The Doctor Package" stripHash />
                </li>
@@ -172,7 +172,7 @@ export const Page = ({ data }) => {
                   </span>
                </div>
 
-               <div id="section-6" className="mb-20 lg:mb-40">
+               {/* <div id="section-6" className="mb-20 lg:mb-40">
                   <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
                      <i class="fas fa-tag text-primary_400 mr-2"></i> $175
                   </span>
@@ -186,11 +186,11 @@ export const Page = ({ data }) => {
                      <li className="text-gray-600">Body Scrub (15 Minutes)</li>
                      <li className="text-gray-600">Sauna Session</li>
                      <li className="text-gray-600">Optional: Sea Salt Scrub with Aromatherapy </li>
-                  </ul>
-                  {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$170</span> */}
-               </div>
+                  </ul> */}
+               {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$170</span> */}
+               {/* </div> */}
 
-               <div id="section-7" className="mb-20 lg:mb-40">
+               {/* <div id="section-7" className="mb-20 lg:mb-40">
                   <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
                      <i class="fas fa-tag text-primary_400 mr-2"></i> $120
                   </span>
@@ -202,9 +202,9 @@ export const Page = ({ data }) => {
                      <li className="text-gray-600">French Facial with Mini Scalp & Shoulder Massage (60 Minutes)</li>
                      <li className="text-gray-600">Leg & Foot Massage (15 Minutes)</li>
                      <li className="text-gray-600">Body Detox (15 Minutes)</li>
-                  </ul>
-                  {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$90</span> */}
-               </div>
+                  </ul> */}
+               {/* <span className="bg-white rounded-xl text-primary_400 text-xsmall font-medium tracking-wide px-3 py-1">$90</span> */}
+               {/* </div> */}
 
                <div id="section-8" className="mb-20 lg:mb-40">
                   <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
