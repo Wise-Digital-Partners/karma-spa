@@ -399,7 +399,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     <span className="link-overlay"></span>
                                  </AniLink>
                               </div>
-                              {/* <div className="group relative">
+                              <div className="group relative">
                                  <Img className="mb-6" fluid={data.skinCareServices.childImageSharp.fluid} alt="Skin Care Services" />
                                  <div className="flex justify-between items-center">
                                     <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 transition-all duration-300 ease-linear">
@@ -411,12 +411,12 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                  <AniLink fade to="/skin-care-hillcrest/">
                                     <span className="link-overlay"></span>
                                  </AniLink>
-                              </div> */}
+                              </div>
                               <div className="group relative">
                                  <Img className="mb-6" fluid={data.ivHydration.childImageSharp.fluid} alt="Aesthetic Treatments" />
                                  <div className="flex justify-between items-center">
                                     <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 transition-all duration-300 ease-linear">
-                                       Med Spa Services
+                                       IV Hydration
                                     </p>
                                     <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
                                  </div>

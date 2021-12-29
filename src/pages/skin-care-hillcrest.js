@@ -63,7 +63,7 @@ export const Page = ({ data }) => {
                   <AnchorLink to={url + "#section-3"} title="Oxygen Facial" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-4"} title="HydraFacial" stripHash />
+                  <AnchorLink to={url + "#section-4"} title="Hydra-Dermabrasion Facial" stripHash />
                </li>
                <li>
                   <AnchorLink to={url + "#section-5"} title="Back Facial" stripHash />
@@ -71,21 +71,21 @@ export const Page = ({ data }) => {
                <li>
                   <AnchorLink to={url + "#section-6"} title="Mini Facial" stripHash />
                </li>
-               <li>
+               {/* <li>
                   <AnchorLink to={url + "#section-7"} title="Clarity & Led Therapy (Hillcrest only)" stripHash />
                </li>
                <li>
                   <AnchorLink to={url + "#section-8"} title="Customized Facial (Hillcrest only)" stripHash />
-               </li>
+               </li> */}
                <li>
                   <AnchorLink to={url + "#section-9"} title="Gentleman’s Facial" stripHash />
                </li>
                <li>
                   <AnchorLink to={url + "#section-10"} title="Waxing" stripHash />
                </li>
-               <li>
+               {/* <li>
                   <AnchorLink to={url + "#section-11"} title="Steam Room" stripHash />
-               </li>
+               </li> */}
                <li>
                   <AnchorLink to={url + "#section-12"} title="Facial Add-ons" stripHash />
                </li>
@@ -96,7 +96,7 @@ export const Page = ({ data }) => {
                   <h3>Signature Facial</h3>
                   <p>
                      Our Signature Facial is customizable to all skin types. It promotes a clear, well-hydrated complexion utilizing all-natural Dr.
-                     Schwab products. 60 minutes.
+                     Schwab products.
                   </p>
                   <ul className="styled-list mb-8">
                      <li>Skin analysis</li>
@@ -111,20 +111,61 @@ export const Page = ({ data }) => {
                      <li>Lip & Eye Treatment</li>
                   </ul>
                   <p>*Steam & hot towels are used throughout entire treatment</p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">
-                     Add ons: <b>Pumpkin Peel Mask</b> (+$20). Stubborn acne? Add on <b>High Frequency</b> (+$15).{" "}
-                     <b>Anti Aging Serum with Hyaluronic Acid</b> (+$15).
+                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $85 (60 minutes)</p>
+
+                  <p className="text-small font-medium tracking-wide text-gray-900 mb-4">
+                     <b>Add on Microdermabrasion</b> (+$20)
+                     <br />
+                     Performed within the 60-minute Facial. No extra time is added!
                   </p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $89 (Hillcrest)</p>
+                  <p className="mb-3">Benefits:</p>
+                  <ul className="styled-list mb-12">
+                     <li>Fresher-looking skin</li>
+                     <li>Diminished wrinkles</li>
+                     <li>Minimized fine lines</li>
+                     <li>Smoother skin</li>
+                     <li>Brighter skin tone</li>
+                     <li>Better skin color</li>
+                     <li>Shrunken pores</li>
+                     <li>Reduced age spots</li>
+                  </ul>
+
+                  <p className="text-small font-medium tracking-wide text-gray-900 mb-4">
+                     <b>Add on Pumpkin Peel Mask</b> (+$25)
+                  </p>
+                  <p className="mb-3">Benefits:</p>
+                  <ul className="styled-list mb-12">
+                     <li>Exfoliates surface cells</li>
+                     <li>Helps destroy surface area bacteria </li>
+                     <li>Binds moisture to the skin</li>
+                     <li>Softens the appearance of fine lines and wrinkles</li>
+                     <li>Improves texture & pliability of the corneum layer</li>
+                     <li>
+                        Helps drive highly refined extracted ingredients that have been added to (h2t) Pumpkin Peel (anti-oxidants, vitamins &
+                        nutrients) into the skin
+                     </li>
+                  </ul>
+
+                  <p className="text-small font-medium tracking-wide text-gray-900 mb-4">
+                     <b>Add on High Frequency for Stubborn Acne!</b> (+$20)
+                     <br />
+                     The primary action of high-frequency current is thermal (heat producing) and oxygen with disinfecting properties that help with
+                     breakouts.
+                  </p>
+                  <p className="mb-3">Benefits:</p>
+                  <ul className="styled-list">
+                     <li>Assists in killing stubborn acne bacteria under the skin</li>
+                     <li>Relieves cystic acne</li>
+                     <li>Reduces the severity and duration of breakouts</li>
+                     <li>Shrinks enlarged pores</li>
+                     <li>Reduces inflammation</li>
+                  </ul>
                </div>
 
                <div id="section-2" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">02</span>
                   <h3>O2 Facial</h3>
-                  <p>
-                     Rejuvenate skin with oxygen infusion, plant-derived stem cells, peptides, and a high concentration of enzymatic botanicals. 60
-                     minutes.
-                  </p>
+                  <p>Rejuvenate skin with oxygen infusion, plant-derived stem cells, peptides, and a high concentration of enzymatic botanicals.</p>
                   <p className="mb-3">Signature Facial that incorporates</p>
                   <ul className="styled-list mb-8">
                      <li>Image O2 Facial Products</li>
@@ -132,7 +173,7 @@ export const Page = ({ data }) => {
                      <li>Mask treatment </li>
                   </ul>
                   <p>*Steam & hot towels are used throughout entire treatment.</p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $99 (Hillcrest)</p>
+                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $95 (60 minutes)</p>
                </div>
 
                <div id="section-3" className="mb-20 lg:mb-40">
@@ -141,7 +182,7 @@ export const Page = ({ data }) => {
                   <p>
                      Experience deep exfoliation without the downtime of a chemical peel! This exfoliating facial is{" "}
                      <b>not recommended for sensitive skin</b>. Choose between NeoBright for a lighting treatment for hyper-pigmentation or NewRevive
-                     for rejuvenating treatment for fine lines and wrinkles. 60 minutes.
+                     for rejuvenating treatment for fine lines and wrinkles.
                   </p>
                   <p className="mb-3">Includes:</p>
                   <ul className="styled-list mb-8">
@@ -164,15 +205,15 @@ export const Page = ({ data }) => {
                      <br />
                      Hyaluronic acid: Wrinkle reducer • Peptides: Skin repair • Retinol: Anti-aging
                   </p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $119 (Hillcrest) • $100 (Carlsbad)</p>
+                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $110 (60 minutes)</p>
                </div>
 
                <div id="section-4" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
-                  <h3>HydraFacial</h3>
+                  <h3>Hydra-Dermabrasion Facial</h3>
                   <p>
                      Get clearer skin through hydra-dermabrasion, which combines cleansing, exfoliation, extraction, hydration and antioxidant
-                     protection all at once. This treatment is soothing, moisturizing, non-invasive and non-irritating. 60 minutes.
+                     protection all at once. This treatment is soothing, moisturizing, non-invasive and non-irritating.
                   </p>
                   <p className="mb-3">Includes:</p>
                   <ul className="styled-list mb-8">
@@ -182,7 +223,7 @@ export const Page = ({ data }) => {
                      <li>Hydration and Antioxidant Protection</li>
                   </ul>
                   <p>*Steam & hot towels are used throughout entire treatment</p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $145 (Hillcrest) • $120 (Carlsbad)</p>
+                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $130 (60 minutes)</p>
                </div>
 
                <div id="section-5" className="mb-20 lg:mb-40">
@@ -193,7 +234,7 @@ export const Page = ({ data }) => {
                      include getting rid of back acne, reducing oiliness, and softening the skin and an overall soothing experience. Consider adding
                      on our Mini Facial to experience 60 minutes of relaxation.
                   </p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $75 (Hillcrest)</p>
+                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $70 (30 minutes)</p>
                </div>
 
                <div id="section-6" className="mb-20 lg:mb-40">
@@ -215,10 +256,10 @@ export const Page = ({ data }) => {
                      <li>Lip & Eye Treatment</li>
                   </ul>
                   <p>*Steam & hot towels are used throughout entire treatment</p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $45 (30 Minutes)</p>
+                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $55 (30 Minutes)</p>
                </div>
 
-               <div id="section-7" className="mb-20 lg:mb-40">
+               {/* <div id="section-7" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
                   <h3>Clarity & Led Therapy (Hillcrest only)</h3>
                   <p>
@@ -235,10 +276,10 @@ export const Page = ({ data }) => {
                      facial massage, and customized mask. Choice of upgrading to add hydrojelly mask (pricing varies).
                   </p>
                   <p className="text-small font-medium tracking-wide text-gray-900">Price: $69-$99 (45-50 Minutes)</p>
-               </div>
+               </div> */}
                <div id="section-9" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
-                  <h3>Gentleman’s Facial </h3>
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
+                  <h3>Gentleman’s Facial</h3>
                   <p>
                      Men need pampering too! This relaxing treatment helps repair the damage caused by daily shaving, skin sensitivity, dullness, and
                      aging.
@@ -257,11 +298,11 @@ export const Page = ({ data }) => {
                      <li>Lip & Eye Treatment</li>
                   </ul>
                   <p>*Steam & hot towels are used throughout entire treatment</p>
-                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $75 (60 Minutes)</p>
+                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $85 (60 Minutes)</p>
                </div>
 
                <div id="section-10" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">10</span>
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">08</span>
                   <h3>Waxing</h3>
                   <p>Remove unwanted hair and enjoy smooth skin with our waxing services.</p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
@@ -271,7 +312,7 @@ export const Page = ({ data }) => {
                      Nose: $10
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     Upper Lip: $12
+                     Upper Lip: $15
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      Full Face: $50
@@ -295,10 +336,10 @@ export const Page = ({ data }) => {
                      Chest: $40
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     Full Back: $70
+                     Full Back: $75
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
-                     Lower Back: $30
+                     Lower Back: $35
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      Stomach: $40
@@ -317,7 +358,7 @@ export const Page = ({ data }) => {
                   </p>
                </div>
 
-               <div id="section-11" className="mb-20 lg:mb-40">
+               {/* <div id="section-11" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">11</span>
                   <h3>Steam Room</h3>
                   <p>
@@ -325,9 +366,9 @@ export const Page = ({ data }) => {
                      and more.
                   </p>
                   <p className="text-small font-medium tracking-wide text-gray-900">Price: $11 (15 Minutes) • $21 (30 Minutes) • $31 (60 Minutes)</p>
-               </div>
+               </div> */}
                <div id="section-12">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">12</span>
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
                   <div className="mb-20 lg:mb-40">
                      <h3>Pumpkin Peel Mask</h3>
                      <p>
@@ -342,7 +383,7 @@ export const Page = ({ data }) => {
                         <li>Softens the appearance of fine lines and wrinkles</li>
                         <li>Improves texture & pliability of the corneum layer</li>
                      </ul>
-                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $20</p>
+                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $25</p>
                   </div>
                   <div className="mb-20 lg:mb-40">
                      <h3>Glycolic Chemical Peel (Hillcrest Only)</h3>
@@ -363,7 +404,7 @@ export const Page = ({ data }) => {
                         <li>Shrinks enlarged pores</li>
                         <li>Reduces inflammation</li>
                      </ul>
-                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $15</p>
+                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $20</p>
                   </div>
 
                   <div className="mb-20 lg:mb-40">
