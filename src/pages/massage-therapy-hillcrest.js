@@ -519,8 +519,8 @@ export const Page = ({ data }) => {
                   <div className="mb-12 lg:mb-24">
                      <h3>Foot Massage</h3>
                      <ul className="styled-list mb-8">
-                        <li>Add-on to any body massage: 30 Minute Foot Massage +$30 (No $5 off with cash)</li>
-                        <li>Add-on to any body massage: 30 Minute Couple’s Foot Massage +$60 (No $5 off with cash)</li>
+                        <li>Add-on to any body massage: 30 Minute Foot Massage +$30 (Now $5 off with cash)</li>
+                        <li>Add-on to any body massage: 30 Minute Couple’s Foot Massage +$60 (Now $5 off with cash)</li>
                         <li>A la carte: 30 Minute Foot Massage ($45)</li>
                         <li>A la carte: 30 Minute Couple’s Foot Massage ($90)</li>
                      </ul>
