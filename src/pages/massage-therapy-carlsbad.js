@@ -8,7 +8,6 @@ import HeroSplit from "../components/Hero/HeroSplit";
 import ScrollWrapper from "../components/Scroll/ScrollWrapper";
 import ScrollNavigation from "../components/Scroll/ScrollNavigation";
 import ScrollContent from "../components/Scroll/ScrollContent";
-import ButtonGhost from "../components/Button/ButtonGhost";
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 
 export const Page = ({ data }) => {
@@ -96,7 +95,12 @@ export const Page = ({ data }) => {
                   <AnchorLink to={url + "#section-14"} title="Aromatherapy Massage" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-15"} title="Foot & Body Fusion-Clothes on" stripHash />
+                  <AnchorLink
+                     to={url + "#section-15"}
+                     title="Foot & Body Fusion
+"
+                     stripHash
+                  />
                </li>
                <li>
                   <AnchorLink to={url + "#section-16"} title="CBD Body Massage" stripHash />
@@ -161,11 +165,7 @@ export const Page = ({ data }) => {
                <div id="section-3" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">03</span>
                   <h3>Chair/Body Massage</h3>
-                  <p>
-                     “Chair” means clothes on and is done in foot massage room or we can perform in chair where therapist stands behind customer while
-                     they are sitting upright in chair. Can NOT be full body. Customer must emphasize which area they wish to focus on. NO LONGER THAN
-                     30 MINUTES IN CHAIR.
-                  </p>
+                  <p>“Chair” means clothes on and is done in a foot massage room or performed in a chair.</p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
                      $25 (15 Minutes)
                      <br className="block lg:hidden" />
@@ -177,10 +177,7 @@ export const Page = ({ data }) => {
                <div id="section-4" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">04</span>
                   <h3>Hot Oil Massage</h3>
-                  <p>
-                     Doesn’t affect pressure, can be deep or light pressure, they just warm the oil. Hot oil is used in almost every massage modality
-                     we offer.
-                  </p>
+                  <p>Doesn’t affect pressure, can be deep or light pressure. Hot oil is used in almost every massage modality we offer.</p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
                      $70 (1 Hour)
                      <br className="block lg:hidden" />
@@ -305,7 +302,7 @@ export const Page = ({ data }) => {
                <div id="section-9" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">09</span>
                   <h3>Sports Massage</h3>
-                  <p>Doesn’t affect pressure, they just incorporate stretching through-out the massage. Can receive deep or light pressure.</p>
+                  <p>This massage is perfect for athletes and those who train regularly.</p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
                      $75 (1 Hour)
                      <br className="block lg:hidden" />
@@ -402,7 +399,7 @@ export const Page = ({ data }) => {
                <div id="section-13" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">13</span>
                   <h3>Double Indulgence</h3>
-                  <p>2 Therapists, 4 Hands massaging customer at once. Very relaxing and worth the extra $$.</p>
+                  <p>2 Therapists, 4 Hands massaging the customer at once. *standard gratuity encouraged for all 4 reserved therapists* </p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
                      $140 (1 Hour)
                      <br className="block lg:hidden" />
@@ -448,12 +445,8 @@ export const Page = ({ data }) => {
 
                <div id="section-15" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">15</span>
-                  <h3>Foot & Body Fusion-Clothes on</h3>
-                  <p>
-                     1 Hour = 30 min. foot + 30 min. upper body with warm water foot soak in foot massage room
-                     <br />
-                     <br /> 90 Minutes = 45 min. foot + 45 min. upper body with warm water foot soak in foot massage room.
-                  </p>
+                  <h3>Foot & Body Fusion</h3>
+                  <p>Client keeps clothes on for this massage.</p>
                   <p className="text-small font-medium tracking-wide text-gray-900">
                      $60 (1 Hour)
                      <br className="block lg:hidden" />

@@ -8,7 +8,6 @@ import HeroSplit from "../components/Hero/HeroSplit";
 import ScrollWrapper from "../components/Scroll/ScrollWrapper";
 import ScrollNavigation from "../components/Scroll/ScrollNavigation";
 import ScrollContent from "../components/Scroll/ScrollContent";
-// import ButtonGhost from "../components/Button/ButtonGhost"
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 
 export const Page = ({ data }) => {
@@ -77,13 +76,13 @@ export const Page = ({ data }) => {
             </ScrollNavigation>
             <ScrollContent>
                <div id="section-1" className="mb-20 lg:mb-40">
-                  <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i> $140 (2 Hours 15 Minutes)
-                  </span>
                   <h3 className="mb-1">The President Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                      Experience the benefits of massage therapy and body detox in one session.
                   </p>
+                  <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+                     <i class="fas fa-tag text-primary_400 mr-2"></i> (2 Hours 15 Minutes) $140
+                  </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
                      <li className="text-gray-600">Foot & Body Fusion (Clothes-on) (60 Minutes)</li>
@@ -94,11 +93,11 @@ export const Page = ({ data }) => {
                </div>
 
                <div id="section-2" className="mb-20 lg:mb-40">
-                  <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i> $85 (90 Minutes)
-                  </span>
                   <h3 className="mb-1">The Vice President Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Ease your stress with a massage & sauna or steam session.</p>
+                  <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+                     <i class="fas fa-tag text-primary_400 mr-2"></i> (90 Minutes) $85
+                  </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
                      <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
@@ -108,11 +107,11 @@ export const Page = ({ data }) => {
                </div>
 
                <div id="section-3" className="mb-20 lg:mb-40">
-                  <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i> $115 (2 Hours)
-                  </span>
                   <h3 className="mb-1">The CEO Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Make room in your busy schedule for some pampering.</p>
+                  <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+                     <i class="fas fa-tag text-primary_400 mr-2"></i> (2 Hours) $115
+                  </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
                      <li className="text-gray-600">Hot Stone Massage (90 Minutes)</li>
@@ -122,13 +121,13 @@ export const Page = ({ data }) => {
                </div>
 
                <div id="section-4" className="mb-20 lg:mb-40">
-                  <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i> $165 (2 Hours 45 Minutes)
-                  </span>
                   <h3 className="mb-1">The Premier Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                      Want a well-rounded massage experience? The Premier Package is for you.
                   </p>
+                  <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+                     <i class="fas fa-tag text-primary_400 mr-2"></i> (2 Hours 45 Minutes) $165
+                  </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
                      <li className="text-gray-600">Foot Massage (30 Minutes) Same room as body massage, 90 minute massage total</li>
@@ -139,13 +138,13 @@ export const Page = ({ data }) => {
                </div>
 
                <div id="section-5" className="mb-20 lg:mb-40">
-                  <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i> $150 (90 Minutes)
-                  </span>
                   <h3 className="mb-1">The Royal Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                      Feel like royalty with two therapists for maximum relaxation.
                   </p>
+                  <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+                     <i class="fas fa-tag text-primary_400 mr-2"></i> (90 Minutes) $150
+                  </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
                      <li className="text-gray-600">Double Indulgence (2 Therapists, 4 Hands – Deep Tissue or Swedish) (60 Minutes)</li>
@@ -155,13 +154,13 @@ export const Page = ({ data }) => {
                </div>
 
                <div id="section-6" className="mb-20 lg:mb-40">
-                  <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i> $165 (2 Hours 30 Minutes)
-                  </span>
                   <h3 className="mb-1">The First Lady Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                      Get pampered from head to toe with two and a half hours of indulgence.
                   </p>
+                  <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+                     <i class="fas fa-tag text-primary_400 mr-2"></i> (2 Hours 30 Minutes) $165
+                  </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
                      <li className="text-gray-600">Signature Facial (60 Minutes)</li>
@@ -171,13 +170,13 @@ export const Page = ({ data }) => {
                </div>
 
                <div id="section-7" className="mb-20 lg:mb-40">
-                  <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i> $105 (90 Minutes)
-                  </span>
                   <h3 className="mb-1">The Princess Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                      Ladies, get the royal treatment with this luxurious 90-minute package.
                   </p>
+                  <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+                     <i class="fas fa-tag text-primary_400 mr-2"></i> (90 Minutes) $105
+                  </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">Signature Facial (60 Minutes)</li>
                      <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
