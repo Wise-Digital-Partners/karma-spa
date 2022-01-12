@@ -84,11 +84,11 @@ export const Page = ({ data }) => {
                      <i class="fas fa-tag text-primary_400 mr-2"></i> (2 Hours 15 Minutes) $140
                   </span>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Foot & Body Fusion (Clothes-on) (60 Minutes)</li>
-                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Ionic Body Detox</li>
+                     <li className="text-gray-600">60 Minute Foot & Body Fusion (Clothes-on)</li>
+                     <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
                      <li className="text-gray-600">Hot Towels</li>
-                     <li className="text-gray-600">Sauna Session (15 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Sauna Session</li>
                   </ul>
                </div>
 
@@ -99,10 +99,10 @@ export const Page = ({ data }) => {
                      <i class="fas fa-tag text-primary_400 mr-2"></i> (90 Minutes) $85
                   </span>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Ionic Body Detox</li>
+                     <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
                      <li className="text-gray-600">Hot Towels</li>
-                     <li className="text-gray-600">Sauna Session (15 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Sauna Session</li>
                   </ul>
                </div>
 
@@ -113,10 +113,10 @@ export const Page = ({ data }) => {
                      <i class="fas fa-tag text-primary_400 mr-2"></i> (2 Hours) $115
                   </span>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Hot Stone Massage (90 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Ionic Body Detox</li>
+                     <li className="text-gray-600">90 Minute Hot Stone Massage</li>
                      <li className="text-gray-600">Hot Towels</li>
-                     <li className="text-gray-600">Sauna Session (15 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Sauna Session</li>
                   </ul>
                </div>
 
@@ -129,11 +129,11 @@ export const Page = ({ data }) => {
                      <i class="fas fa-tag text-primary_400 mr-2"></i> (2 Hours 45 Minutes) $165
                   </span>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
-                     <li className="text-gray-600">Foot Massage (30 Minutes) Same room as body massage, 90 minute massage total</li>
+                     <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
+                     <li className="text-gray-600">30 Minute Foot Massage Same room as body massage, 90 minute massage total</li>
                      <li className="text-gray-600">Hot Towels</li>
                      <li className="text-gray-600">Infra-Slim Body Wrap (50 Minutes, performed in same foot room as detox)</li>
-                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Ionic Body Detox</li>
                   </ul>
                </div>
 
@@ -146,10 +146,10 @@ export const Page = ({ data }) => {
                      <i class="fas fa-tag text-primary_400 mr-2"></i> (90 Minutes) $150
                   </span>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Double Indulgence (2 Therapists, 4 Hands – Deep Tissue or Swedish) (60 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Ionic Body Detox</li>
+                     <li className="text-gray-600">60 Minute Double Indulgence (2 Therapists, 4 Hands – Deep Tissue or Swedish)</li>
                      <li className="text-gray-600">Hot Towels</li>
-                     <li className="text-gray-600">Sauna Session (15 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Sauna Session</li>
                   </ul>
                </div>
 
@@ -162,10 +162,10 @@ export const Page = ({ data }) => {
                      <i class="fas fa-tag text-primary_400 mr-2"></i> (2 Hours 30 Minutes) $165
                   </span>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Signature Facial (60 Minutes)</li>
-                     <li className="text-gray-600">Body Massage (Deep Tissue or Swedish) (60 Minutes)</li>
-                     <li className="text-gray-600">Sauna (15 Minutes)</li>
+                     <li className="text-gray-600">15 Minute Ionic Body Detox</li>
+                     <li className="text-gray-600">60 Minute Signature Facial</li>
+                     <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
+                     <li className="text-gray-600">15 Minute Sauna</li>
                   </ul>
                </div>
 
@@ -178,9 +178,9 @@ export const Page = ({ data }) => {
                      <i class="fas fa-tag text-primary_400 mr-2"></i> (90 Minutes) $105
                   </span>
                   <ul className="styled-list mb-8">
-                     <li className="text-gray-600">Signature Facial (60 Minutes)</li>
-                     <li className="text-gray-600">Ionic Body Detox (15 Minutes)</li>
-                     <li className="text-gray-600">Leg & Foot Massage (15 Minutes)</li>
+                     <li className="text-gray-600">60 Minute Signature Facial</li>
+                     <li className="text-gray-600">15 Minute Ionic Body Detox</li>
+                     <li className="text-gray-600">15 Minute Leg & Foot Massage</li>
                   </ul>
                </div>
             </ScrollContent>
