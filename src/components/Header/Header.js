@@ -36,7 +36,7 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
          let isScrolled;
 
          if (utilityNavigation !== null && promoBar !== null) {
-            isScrolled = window.scrollY > utilityNavigation.offsetHeight + promoBar.offsetHeight;
+            isScrolled = window.scrollY > utilityNavigation.offsetHeight;
          } else if (promoBar !== null) {
             isScrolled = window.scrollY > promoBar.offsetHeight;
          } else if (utilityNavigation !== null) {
@@ -48,14 +48,17 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
          if (isScrolled) {
             setScrolled(true);
             // recalculate #offcanvas-navigation offset top on scroll
-            offcanvasNavigation.style.top = mainNavigation.offsetHeight + "px";
+            offcanvasNavigation.style.top = promoBar.offsetHeight + mainNavigation.offsetHeight + "px";
+
+            // recalculate #main-navigation offset top on scroll
+            mainNavigation.style.top = promoBar.offsetHeight + "px";
 
             // recalculate #body-content offset top on scroll
             if (headerStyle === "overlap") {
-               bodyContent.style.marginTop = "0px";
+               bodyContent.style.marginTop = promoBar.offsetHeight + "px";
                bodyContent.style.paddingTop = null;
             } else {
-               bodyContent.style.paddingTop = mainNavigation.offsetHeight + "px";
+               bodyContent.style.paddingTop = promoBar.offsetHeight + mainNavigation.offsetHeight + "px";
                bodyContent.style.marginTop = null;
             }
          } else {
@@ -64,9 +67,12 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
             // calculate #offcanvas-navigation menu offset top
             offcanvasNavigation.style.top = siteNavigation.offsetHeight + "px";
 
+            // recalculate #main-navigation offset top on scroll
+            mainNavigation.style.top = null;
+
             // recalculate #body-content offset top on scroll
             if (headerStyle === "overlap") {
-               // bodyContent.style.marginTop = "-" + mainNavigation.offsetHeight + "px";
+               bodyContent.style.marginTop = null;
                bodyContent.style.paddingTop = null;
             } else {
                bodyContent.style.paddingTop = null;
@@ -93,8 +99,8 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
 
    return (
       <div id="site-navigation" className="relative z-10">
-         <PromoBar />
          <UtilityNav />
+         <PromoBar scrolled={scrolled} />
          <MainNav scrolled={scrolled} headerStyle={headerStyle} headerLinkColor={headerLinkColor} headerHasBorder={headerHasBorder} />
       </div>
    );
