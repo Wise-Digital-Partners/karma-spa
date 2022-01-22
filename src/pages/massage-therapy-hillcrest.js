@@ -527,7 +527,9 @@ export const Page = ({ data }) => {
 
                   <div className="mb-12 lg:mb-24">
                      <h3>Ionic Body Detox</h3>
+                     <p>**No $5 off with cash**</p>
                      <ul className="styled-list mb-8">
+                        <li>15 Minute Ionic Body Detox ($15)</li>
                         <li>15 Minute Couple’s Ionic Body Detox ($30)</li>
                         <li>30 Minute Ionic Body Detox ($30)</li>
                         <li>30 Minute Couple’s Ionic Body Detox ($60)</li>
