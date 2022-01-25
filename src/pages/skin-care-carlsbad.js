@@ -103,54 +103,6 @@ export const Page = ({ data }) => {
                   </ul>
                   <p>*Steam & hot towels are used throughout entire treatment</p>
                   <p className="text-small font-medium tracking-wide text-gray-900">Price: $85 (60 Minutes)</p>
-
-                  <p className="text-small font-medium tracking-wide text-gray-900 mb-4">
-                     <b>Add on Microdermabrasion</b> (+$20)
-                     <br />
-                     Performed within the 60-minute Facial. No extra time is added!
-                  </p>
-                  <p className="mb-3">Benefits:</p>
-                  <ul className="styled-list mb-12">
-                     <li>Fresher-looking skin</li>
-                     <li>Diminished wrinkles</li>
-                     <li>Minimized fine lines</li>
-                     <li>Smoother skin</li>
-                     <li>Brighter skin tone</li>
-                     <li>Better skin color</li>
-                     <li>Shrunken pores</li>
-                     <li>Reduced age spots</li>
-                  </ul>
-
-                  <p className="text-small font-medium tracking-wide text-gray-900 mb-4">
-                     <b>Add on Pumpkin Peel Mask</b> (+$25)
-                  </p>
-                  <p className="mb-3">Benefits:</p>
-                  <ul className="styled-list mb-12">
-                     <li>Exfoliates surface cells</li>
-                     <li>Helps destroy surface area bacteria </li>
-                     <li>Binds moisture to the skin</li>
-                     <li>Softens the appearance of fine lines and wrinkles</li>
-                     <li>Improves texture & pliability of the corneum layer</li>
-                     <li>
-                        Helps drive highly refined extracted ingredients that have been added to (h2t) Pumpkin Peel (anti-oxidants, vitamins &
-                        nutrients) into the skin
-                     </li>
-                  </ul>
-
-                  <p className="text-small font-medium tracking-wide text-gray-900 mb-4">
-                     <b>Add on High Frequency for Stubborn Acne!</b> (+$20)
-                     <br />
-                     The primary action of high-frequency current is thermal (heat producing) and oxygen with disinfecting properties that help with
-                     breakouts.
-                  </p>
-                  <p className="mb-3">Benefits:</p>
-                  <ul className="styled-list">
-                     <li>Assists in killing stubborn acne bacteria under the skin</li>
-                     <li>Relieves cystic acne</li>
-                     <li>Reduces the severity and duration of breakouts</li>
-                     <li>Shrinks enlarged pores</li>
-                     <li>Reduces inflammation</li>
-                  </ul>
                </div>
 
                <div id="section-2" className="mb-20 lg:mb-40">
@@ -337,7 +289,7 @@ export const Page = ({ data }) => {
                      <h3>Pumpkin Peel Mask</h3>
                      <p>
                         This add-on helps drive highly refined extracted ingredients that have been added to (h2t) Pumpkin Peel (anti-oxidants,
-                        vitamins & nutrients) into the skin.
+                        vitamins & nutrients) into the skin. *No $5 off when paying cash*
                      </p>
                      <p className="mb-3">Benefits:</p>
                      <ul className="styled-list mb-8">
@@ -347,14 +299,14 @@ export const Page = ({ data }) => {
                         <li>Softens the appearance of fine lines and wrinkles</li>
                         <li>Improves texture & pliability of the corneum layer</li>
                      </ul>
-                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $25</p>
+                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $20</p>
                   </div>
 
                   <div className="mb-20 lg:mb-40">
                      <h3>High Frequency</h3>
                      <p>
                         Treat and prevent stubborn acne, shrink enlarged pores, reduce inflammation, and decongest puffy eyes. The primary action of
-                        high-frequency current is thermal (heat producing) and oxygen. Add to any facial.
+                        high-frequency current is thermal (heat producing) and oxygen. Add to any facial. *No $5 off when paying cash*
                      </p>
                      <p className="mb-3">Benefits:</p>
                      <ul className="styled-list mb-8">
@@ -364,10 +316,10 @@ export const Page = ({ data }) => {
                         <li>Shrinks enlarged pores</li>
                         <li>Reduces inflammation</li>
                      </ul>
-                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $20</p>
+                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $15</p>
                   </div>
 
-                  <div>
+                  <div className="mb-20 lg:mb-40">
                      <h3>Anti Aging Serum with Hyaluronic Acid </h3>
                      <p>
                         MATRIXYL 3000 + ARGIRELINE Peptide Serum + Organic Hyaluronic Acid, Wrinkle Aging Fighting, Powerful Line Remover and Collagen
@@ -389,6 +341,23 @@ export const Page = ({ data }) => {
                         <li>Deeply moisturizes to hydrate dry, dull skin</li>
                      </ul>
                      <p className="text-small font-medium tracking-wide text-gray-900">Price: $10</p>
+                  </div>
+
+                  <div>
+                     <h3>Add on Microdermabrasion</h3>
+                     <p>Performed within the 60-minute Facial. No extra time is added! *No $5 off when paying cash*</p>
+                     <p className="mb-3">Benefits:</p>
+                     <ul className="styled-list mb-8">
+                        <li>Fresher-looking skin</li>
+                        <li>Diminished wrinkles</li>
+                        <li>Minimized fine lines</li>
+                        <li>Smoother skin</li>
+                        <li>Brighter skin tone</li>
+                        <li>Better skin color</li>
+                        <li>Shrunken pores</li>
+                        <li>Reduced age spots</li>
+                     </ul>
+                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $15</p>
                   </div>
                </div>
             </ScrollContent>
