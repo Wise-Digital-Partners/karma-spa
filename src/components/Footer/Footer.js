@@ -92,9 +92,9 @@ const Footer = () => {
                         <p className="mb-0">
                            <a
                               className="gtm-phone-number text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline"
-                              href="tel:+1-619-299-9888"
+                              href="tel:+1-619-916-1608"
                            >
-                              Call: (619) 299-9888
+                              Call: (619) 916-1608
                            </a>
                            <br />
                            <a

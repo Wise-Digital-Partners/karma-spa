@@ -635,8 +635,8 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
 
                      <ul className="text-center mb-12">
                         <li className="font-heading font-medium mb-5">
-                           <a className="gtm-phone-number text-gray-700 no-underline" href="tel:+1-619-299-9888">
-                              Hillcrest: <span className="italic">(619) 299-9888</span>
+                           <a className="gtm-phone-number text-gray-700 no-underline" href="tel:+1-619-916-1608">
+                              Hillcrest: <span className="italic">(619) 916-1608</span>
                            </a>
                         </li>
                         <li className="font-heading font-medium">

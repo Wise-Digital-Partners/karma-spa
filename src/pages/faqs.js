@@ -74,7 +74,7 @@ export const Page = () => {
                         title="What is the best way to book an appointment?"
                         content="<p>You can book through our <a data-modal-open='modal-choose-location'>online booking system</a> or by contacting our locations:</p>
 						<p><span class='underline'>San Diego</span><br/>
-						Call: <a href='tel:+1-619-299-9888'>619-299-9888</a><br/>
+						Call: <a href='tel:+1-619-916-1608'>619-916-1608</a><br/>
 						Text: <a href='tel:+1-619-359-8841'>619-359-8841</a><br/>
 						Email: <a href='mailto:relax@karmamassagespa.com'>relax@karmamassagespa.com</a></p>
 

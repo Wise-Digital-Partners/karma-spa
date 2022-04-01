@@ -89,7 +89,7 @@ const Modal = () => {
                         <p className="mb-0">Do you have any questions or comments? Please reach out to us using the form below.</p>
                      </header>
                      <div className="flex flex-wrap md:flex-no-wrap md:grid-cols-2 gap-y-6 md:gap-y-0 gap-x-6 mb-10 md:mb-12">
-                        <ButtonGhost className="gtm-phone-number w-full" href="tel:+1-619-299-9888" text="Hillcrest: (619) 299-9888" />
+                        <ButtonGhost className="gtm-phone-number w-full" href="tel:+1-619-916-1608" text="Hillcrest: (619) 916-1608" />
                         <ButtonGhost className="gtm-phone-number w-full" href="tel:+1-760-729-9888" text="Carlsbad: (760) 729-9888" />
                      </div>
 
