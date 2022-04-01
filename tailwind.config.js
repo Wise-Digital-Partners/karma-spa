@@ -1,6 +1,6 @@
 module.exports = {
    mode: "jit",
-   purge: ["./src/**/*.js"],
+   content: ["./src/**/*.js"],
    theme: {
       fontFamily: {
          heading: ['"Cormorant Garamond", serif'],
