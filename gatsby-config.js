@@ -22,6 +22,7 @@ module.exports = {
       `gatsby-plugin-image`,
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
+      `gatsby-plugin-emotion`,
       {
          resolve: "gatsby-plugin-robots-txt",
          options: {
@@ -47,31 +48,6 @@ module.exports = {
          resolve: "gatsby-plugin-anchor-links",
          options: {
             offset: -100,
-         },
-      },
-      {
-         resolve: `gatsby-transformer-remark`,
-         options: {
-            plugins: [
-               {
-                  resolve: `gatsby-remark-relative-images`,
-                  options: {
-                     name: `uploads`,
-                  },
-               },
-               {
-                  resolve: `gatsby-remark-images`,
-                  options: {
-                     maxWidth: 2048,
-                  },
-               },
-               {
-                  resolve: `gatsby-remark-copy-linked-files`,
-                  options: {
-                     destinationDir: `static`,
-                  },
-               },
-            ],
          },
       },
       {
@@ -101,12 +77,6 @@ module.exports = {
          },
       },
       {
-         resolve: `gatsby-plugin-emotion`,
-         options: {
-            // Accepts all options defined by `babel-plugin-emotion` plugin.
-         },
-      },
-      {
          resolve: `gatsby-plugin-purgecss`,
          options: {
             tailwind: true,
@@ -129,20 +99,7 @@ module.exports = {
          resolve: "gatsby-plugin-google-tagmanager",
          options: {
             id: "GTM-TMHN6D6",
-
-            // Include GTM in development.
-            // Defaults to false meaning GTM will only be loaded in production.
             includeInDevelopment: false,
-
-            // datalayer to be set before GTM is loaded
-            // should be an object or a function that is executed in the browser
-            // Defaults to null
-            // defaultDataLayer: { platform: "gatsby" },
-
-            // Specify optional GTM environment details.
-            // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
-            // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
-            // dataLayerName: "YOUR_DATA_LAYER_NAME",
          },
       },
       `gatsby-plugin-offline`,
