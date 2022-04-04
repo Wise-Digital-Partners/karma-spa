@@ -8,7 +8,7 @@ import ButtonGhost from "../components/Button/ButtonGhost";
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 import ModalMembership from "../components/Modal/ModalMembership";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    const heroImages = [
       data.heroDesktop.childImageSharp.fixed,
       {

@@ -50,13 +50,6 @@
     "styled-components": "^5.0.1",
     "typeface-cormorant-garamond": "^1.1.13"
   },
-  "keywords": [
-    "gatsby",
-    "tailwind",
-    "tailwindcss",
-    "purgecss"
-  ],
-  "license": "MIT",
   "scripts": {
     "analyze:prettier": "prettier --list-different \"**/*.{css,js,jsx,json,md}\"",
     "analyze": "npm run analyze:prettier",

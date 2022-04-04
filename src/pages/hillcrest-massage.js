@@ -12,7 +12,7 @@ import Packages from "../components/Repeating/Packages";
 import BlogRecentPosts from "../components/Repeating/RecentBlogPosts";
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    const heroImages = [
       data.heroDesktop.childImageSharp.fixed,
       {

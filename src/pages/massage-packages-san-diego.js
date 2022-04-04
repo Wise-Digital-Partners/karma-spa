@@ -10,7 +10,7 @@ import ScrollNavigation from "../components/Scroll/ScrollNavigation";
 import ScrollContent from "../components/Scroll/ScrollContent";
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    const heroImages = [
       data.heroDesktop.childImageSharp.fixed,
       {

@@ -1,5 +1,6 @@
-import "./node_modules/@fortawesome/fontawesome-pro/css/all.min.css";
 import "./src/sass/styles.scss";
+
+import "./node_modules/@fortawesome/fontawesome-pro/css/all.min.css";
 
 import "typeface-cormorant-garamond";
 

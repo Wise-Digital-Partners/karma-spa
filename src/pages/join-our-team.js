@@ -7,7 +7,7 @@ import HeroAlignEndCentered from "../components/Hero/HeroAlignEndCentered";
 import ButtonSolid from "../components/Button/ButtonSolid";
 import ModalFrontDeskReceptionist from "../components/Modal/ModalFrontDeskReceptionist";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    const heroImages = [
       data.heroDesktop.childImageSharp.fixed,
       {

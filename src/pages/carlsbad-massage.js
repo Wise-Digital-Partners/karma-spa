@@ -12,7 +12,7 @@ import Packages from "../components/Repeating/Packages";
 import BlogRecentPosts from "../components/Repeating/RecentBlogPosts";
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    const heroImages = [
       data.heroDesktop.childImageSharp.fixed,
       {
@@ -129,7 +129,11 @@ export const Page = ({ data }) => {
                   <div className="md:col-end-13 md:col-span-4">
                      <h2 className="heading-three">About Karma Spa Carlsbad</h2>
                      <p className="mb-0">
-                     Jessika and Conrad Bester are the new owners of Karma Spa Carlsbad. We will continue to offer a comfortable, clean and relaxing environment with our skilled massage therapists and talented estheticians. Our 5,000 sq ft facility features 16 spa rooms, including dedicated rooms for couples massage, facials and a spacious waiting room for guests. We have a traditional dry sauna and a shower room. We look forward to helping you improve health, beauty and relaxation through personal care treatments from Karma Spa.
+                        Jessika and Conrad Bester are the new owners of Karma Spa Carlsbad. We will continue to offer a comfortable, clean and
+                        relaxing environment with our skilled massage therapists and talented estheticians. Our 5,000 sq ft facility features 16 spa
+                        rooms, including dedicated rooms for couples massage, facials and a spacious waiting room for guests. We have a traditional
+                        dry sauna and a shower room. We look forward to helping you improve health, beauty and relaxation through personal care
+                        treatments from Karma Spa.
                      </p>
                   </div>
                </div>

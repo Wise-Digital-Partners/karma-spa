@@ -10,7 +10,7 @@ import HeroSplit from "../components/Hero/HeroSplit";
 import TestimonialBackgroundImage from "../components/Testimonial/TestimonialBackgroundImage";
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    const heroImages = [
       data.heroDesktop.childImageSharp.fixed,
       {

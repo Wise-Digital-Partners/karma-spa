@@ -13,7 +13,7 @@ import BlogRecentPosts from "../components/Repeating/RecentBlogPosts";
 import Divider from "../components/Divider/Divider";
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    const heroImages = [
       data.heroDesktop.childImageSharp.fixed,
       {

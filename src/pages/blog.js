@@ -6,7 +6,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 import Layout from "../components/Layout";
 import SearchEngineOptimization from "../components/SEO";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization

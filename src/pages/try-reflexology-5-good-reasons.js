@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import SearchEngineOptimization from "../components/SEO";
 import BlogSinglePost from "../components/Blog/BlogSinglePost";
 
-export const Post = ({ data }) => {
+const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization

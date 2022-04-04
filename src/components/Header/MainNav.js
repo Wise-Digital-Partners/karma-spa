@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { useOnClickOutside } from "../../hooks";
 import Img from "gatsby-image";
@@ -152,10 +152,10 @@ const StyledMainNav = styled.nav`
 `;
 
 // mobile submenu temporary height
-let submenuTempHeight1 = null,
-   submenuTempHeight2 = null,
-   submenuTempHeight3 = null,
-   submenuTempHeight4 = null;
+// let submenuTempHeight1 = null,
+//    submenuTempHeight2 = null,
+//    submenuTempHeight3 = null,
+//    submenuTempHeight4 = null;
 
 const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) => {
    // determine if offcanvas is open

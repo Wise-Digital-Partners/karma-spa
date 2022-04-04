@@ -11,7 +11,7 @@ import ScrollContent from "../components/Scroll/ScrollContent";
 // import ButtonGhost from "../components/Button/ButtonGhost"
 import CTABackgroundImage from "../components/CTA/CTABackgroundImage";
 
-export const Page = ({ data }) => {
+const Page = ({ data }) => {
    const heroImages = [
       data.heroDesktop.childImageSharp.fixed,
       {

@@ -16,7 +16,7 @@ const StyledFAQContent = styled.div`
    }
 `;
 
-export const Page = () => {
+const Page = () => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization

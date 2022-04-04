@@ -2,6 +2,15 @@ module.exports = {
    mode: "jit",
    content: ["./src/**/*.js"],
    theme: {
+      container: {
+         center: true,
+         padding: {
+            DEFAULT: "1rem",
+         },
+         screens: {
+            DEFAULT: "77rem",
+         },
+      },
       fontFamily: {
          heading: ['"Cormorant Garamond", serif'],
          // 'display': [''],
@@ -92,14 +101,7 @@ module.exports = {
             44: "11rem",
             60: "15rem",
          },
-         inset: {
-            "1/2": "50%",
-            full: "100%",
-         },
       },
-   },
-   corePlugins: {
-      container: false,
    },
    plugins: [require("@tailwindcss/custom-forms")],
 };

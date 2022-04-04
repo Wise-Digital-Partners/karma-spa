@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import SearchEngineOptimization from "../components/SEO";
 import BlogSinglePost from "../components/Blog/BlogSinglePost";
 
-export const Post = ({ data }) => {
+const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
@@ -47,8 +47,6 @@ export const Post = ({ data }) => {
    );
 };
 
-export default Post;
-
 export const query = graphql`
    {
       featuredImage: file(relativePath: { eq: "blog/benefits-to-infrared-light-therapy.jpg" }) {
@@ -60,3 +58,5 @@ export const query = graphql`
       }
    }
 `;
+
+export default Post;
