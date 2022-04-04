@@ -74,13 +74,13 @@ export const Page = () => {
                         title="What is the best way to book an appointment?"
                         content="<p>You can book through our <a data-modal-open='modal-choose-location'>online booking system</a> or by contacting our locations:</p>
 						<p><span class='underline'>San Diego</span><br/>
-						Call: <a href='tel:+1-619-916-1608'>619-916-1608</a><br/>
-						Text: <a href='tel:+1-619-359-8841'>619-359-8841</a><br/>
+						Call: <a href='tel:+1-619-299-9888'>619-299-9888</a><br/>
+						Text: <a href='sms:+1-619-916-1608'>619-916-1608</a><br/>
 						Email: <a href='mailto:relax@karmamassagespa.com'>relax@karmamassagespa.com</a></p>
 
 						<p><span class='underline'>Carlsbad</span><br/>
 						Call: <a href='tel:+1-760-729-9888'>760-729-9888</a><br/>
-						Text: <a href='tel:+1-760-729-9889'>760-729-9889</a><br/>
+						Text: <a href='sms:+1-760-729-9889'>760-729-9889</a><br/>
 						Email: <a href='mailto:carlsbad@karmamassagespa.com'>carlsbad@karmamassagespa.com</a></p>"
                      />
                      <Accordion title="Can I request a specific therapist? " content="<p>Yes.</p>" />

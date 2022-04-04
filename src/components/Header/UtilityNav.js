@@ -6,8 +6,8 @@ const UtilityNav = () => {
          <div className="container">
             <ul className="flex justify-around md:justify-end list-none md:ml-12">
                <li className="text-small font-heading font-medium md:mr-12">
-                  <a className="gtm-phone-number text-gray-700 no-underline" href="tel:+1-619-916-1608">
-                     Hillcrest: <span className="italic">(619) 916-1608</span>
+                  <a className="gtm-phone-number text-gray-700 no-underline" href="tel:+1-619-299-9888">
+                     Hillcrest: <span className="italic">(619) 299-9888</span>
                   </a>
                </li>
                <li className="text-small font-heading font-medium">

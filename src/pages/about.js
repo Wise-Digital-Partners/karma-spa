@@ -77,12 +77,12 @@ export const Page = ({ data }) => {
                         </div>
                         <p className="mb-4 md:mb-12">
                            Call:{" "}
-                           <a class="gtm-phone-number" href="tel:+1-619-916-1608">
-                              619-916-1608
+                           <a class="gtm-phone-number" href="tel:+1-619-299-9888">
+                              619-299-9888
                            </a>{" "}
                            <br /> Text:{" "}
-                           <a class="gtm-phone-number" href="tel:+1-619-359-8841">
-                              619-359-8841
+                           <a class="gtm-phone-number" href="sms:+1-619-916-1608">
+                              619-916-1608
                            </a>
                         </p>
 
@@ -135,7 +135,7 @@ export const Page = ({ data }) => {
                               760-729-9888
                            </a>{" "}
                            <br /> Text:{" "}
-                           <a class="gtm-phone-number" href="tel:+1-760-729-9889">
+                           <a class="gtm-phone-number" href="sms:+1-760-729-9889">
                               760-729-9889
                            </a>
                         </p>

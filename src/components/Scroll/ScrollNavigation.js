@@ -22,7 +22,7 @@ const StyledScrollNavigation = styled.div`
    .scroll-navigation {
       ${tw`md:sticky`}
       @media (min-width: 1024px) {
-         top: 7rem;
+         top: 10rem;
       }
       .scrollspy {
          ${tw`md:max-h-full!`}

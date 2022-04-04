@@ -92,16 +92,16 @@ const Footer = () => {
                         <p className="mb-0">
                            <a
                               className="gtm-phone-number text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline"
-                              href="tel:+1-619-916-1608"
+                              href="tel:+1-619-299-9888"
                            >
-                              Call: (619) 916-1608
+                              Call: (619) 299-9888
                            </a>
                            <br />
                            <a
                               className="gtm-phone-number text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline"
-                              href="tel:+1-619-359-8841"
+                              href="sms:+1-619-916-1608"
                            >
-                              Text: (619) 359-8841
+                              Text: (619) 916-1608
                            </a>
                         </p>
                         <div className="flex items-center justify-center md:justify-start mt-4">
@@ -138,7 +138,7 @@ const Footer = () => {
                            <br />
                            <a
                               className="gtm-phone-number text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline"
-                              href="tel:+1-760-729-9889"
+                              href="sms:+1-760-729-9889"
                            >
                               Text: (760) 729-9889
                            </a>

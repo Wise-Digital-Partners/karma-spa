@@ -80,9 +80,9 @@ export const Page = ({ data }) => {
                      <span className="text-large">
                         <a
                            className="gtm-phone-number text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400"
-                           href="tel:+1-619-916-1608"
+                           href="tel:+1-619-299-9888"
                         >
-                           (619) 916-1608
+                           (619) 299-9888
                         </a>
                      </span>
                   </div>
