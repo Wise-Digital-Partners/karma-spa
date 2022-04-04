@@ -24,6 +24,7 @@ module.exports = {
       `gatsby-plugin-sharp`,
       `gatsby-plugin-emotion`,
       `gatsby-plugin-gatsby-cloud`,
+      `gatsby-plugin-offline`,
       {
          resolve: "gatsby-plugin-robots-txt",
          options: {
@@ -103,6 +104,5 @@ module.exports = {
             includeInDevelopment: false,
          },
       },
-      `gatsby-plugin-offline`,
    ],
 };

@@ -101,6 +101,5 @@ module.exports = {
    corePlugins: {
       container: false,
    },
-   // https://github.com/tailwindcss/custom-forms
    plugins: [require("@tailwindcss/custom-forms")],
 };
