@@ -9,7 +9,7 @@
     "babel-plugin-styled-components": "^2.0.6",
     "core-js": "^3.6.5",
     "fontsource-mulish": "^4.0.0",
-    "gatsby": "^4.11.1",
+    "gatsby": "4.7.2",
     "gatsby-background-image": "^1.1.2",
     "gatsby-cli": "^4.11.1",
     "gatsby-image": "^3.8.0",
