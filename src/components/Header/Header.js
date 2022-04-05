@@ -18,20 +18,44 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
          bodyContent = document.querySelector("#body-content");
 
       if (offcanvasNavigation) {
-         offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+         if (utilityNavigation !== null && promoBar !== null) {
+            offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+         } else if (utilityNavigation && promoBar !== null) {
+            offcanvasNavigation.style.top = mainNavigation.offsetHeight + utilityNavigation.offsetHeight + "px";
+         } else if (utilityNavigation !== null && promoBar) {
+            offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + "px";
+         } else {
+            offcanvasNavigation.style.top = mainNavigation.offsetHeight + "px";
+         }
       }
 
       const handleLoad = () => {
          // calculate #offcanvas-navigation menu offset top
          if (offcanvasNavigation) {
-            offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+            if (utilityNavigation !== null && promoBar !== null) {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+            } else if (utilityNavigation && promoBar !== null) {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + utilityNavigation.offsetHeight + "px";
+            } else if (utilityNavigation !== null && promoBar) {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + "px";
+            } else {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + "px";
+            }
          }
       };
 
       const handleResize = () => {
          // calculate #offcanvas-navigation offset top on resize
          if (offcanvasNavigation) {
-            offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+            if (utilityNavigation !== null && promoBar !== null) {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+            } else if (utilityNavigation && promoBar !== null) {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + utilityNavigation.offsetHeight + "px";
+            } else if (utilityNavigation !== null && promoBar) {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + "px";
+            } else {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + "px";
+            }
          }
       };
 
@@ -56,11 +80,9 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
 
                // recalculate #body-content offset top on scroll
                if (headerStyle === "overlap") {
-                  bodyContent.style.marginTop = promoBar.offsetHeight + "px";
-                  bodyContent.style.paddingTop = null;
+                  bodyContent.style.paddingTop = promoBar.offsetHeight + "px";
                } else {
                   bodyContent.style.paddingTop = mainNavigation.offsetHeight + promoBar.offsetHeight + "px";
-                  bodyContent.style.marginTop = null;
                }
             }
          } else {
@@ -72,11 +94,9 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
 
                // recalculate #body-content offset top on scroll
                if (headerStyle === "overlap") {
-                  bodyContent.style.marginTop = "0px";
-                  bodyContent.style.paddingTop = null;
+                  bodyContent.style.paddingTop = "0px";
                } else {
                   bodyContent.style.paddingTop = null;
-                  bodyContent.style.marginTop = null;
                }
             }
          }
