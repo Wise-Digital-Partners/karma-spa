@@ -105,7 +105,7 @@ const Modal = () => {
                   data-modal-close
                >
                   <div className="content-wrapper bg-white max-w-2xl mx-6 w-full overflow-auto py-16 md:py-28 px-6" role="dialog" aria-modal="true">
-                     <p class="heading-three mb-6 text-center">Choose Your Location</p>
+                     <p className="heading-three mb-6 text-center">Choose Your Location</p>
                      <div className="grid grid-cols-2 gap-x-4 md:gap-x-8 justify-center mt-12 max-w-sm mx-auto">
                         <ButtonSolid
                            className="w-full md:w-auto"

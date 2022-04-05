@@ -80,8 +80,8 @@ const Page = ({ data }) => {
 
                <div id="section-2">
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $250
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $250
                      </span>
                      <h3>Microdermal Needling</h3>
                      <p>
@@ -90,15 +90,15 @@ const Page = ({ data }) => {
                      </p>
                   </div>
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $300
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $300
                      </span>
                      <h3>Microdermal Needling with Growth Factor</h3>
                      <p>Growth factor enhances hydration and accelerates healing.</p>
                   </div>
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $199
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $199
                      </span>
                      <h3>Hydr8 Plus</h3>
                      <p>Replenish and rehydrate the body to improve overall health and energy.</p>
@@ -116,8 +116,8 @@ const Page = ({ data }) => {
 
                <div id="section-3">
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $150
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $150
                      </span>
                      <h3>Hangover</h3>
                      <p>Alleviate symptoms of hangover including dehydration, headache, and nausea.</p>
@@ -130,8 +130,8 @@ const Page = ({ data }) => {
                      </p>
                   </div>
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $100
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $100
                      </span>
                      <h3>Hydr8</h3>
                      <p>Recover from heat exhaustion, dehydration, and muscle fatigue. </p>
@@ -142,8 +142,8 @@ const Page = ({ data }) => {
                      </p>
                   </div>
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $150
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $150
                      </span>
                      <h3>Hydr8 Plus</h3>
                      <p>Replenish and rehydrate the body to improve overall health and energy.</p>
@@ -158,8 +158,8 @@ const Page = ({ data }) => {
                      </p>
                   </div>
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $150
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $150
                      </span>
                      <h3>Beauty</h3>
                      <p>Enhance beauty from within and improve hair, skin, and nails.</p>
@@ -174,8 +174,8 @@ const Page = ({ data }) => {
                      </p>
                   </div>
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $100
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $100
                      </span>
                      <h3>Simply C </h3>
                      <p>Infused with Vitamin C to boost the immune system.</p>
@@ -189,8 +189,8 @@ const Page = ({ data }) => {
 
                <div id="section-4">
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $25
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $25
                      </span>
                      <h3>Lipo-Mino Mix</h3>
                      <p>
@@ -200,8 +200,8 @@ const Page = ({ data }) => {
                   </div>
 
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $20
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $20
                      </span>
                      <h3>MICC Injection </h3>
                      <p>
@@ -219,16 +219,16 @@ const Page = ({ data }) => {
                   </div>
 
                   <div className="mb-20 lg:mb-40">
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $20
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $20
                      </span>
                      <h3>Vitamin B12 Injection</h3>
                      <p>A monthly injection to improve energy and brain function.</p>
                   </div>
 
                   <div>
-                     <span class="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
-                        <i class="fas fa-tag text-primary_400 mr-2"></i> $20
+                     <span className="inline-flex items-center bg-white rounded text-gray-900 text-lg font-medium px-3 py-2 mb-8">
+                        <i className="fas fa-tag text-primary_400 mr-2"></i> $20
                      </span>
                      <h3>Vitamin C Injection</h3>
                      <p>

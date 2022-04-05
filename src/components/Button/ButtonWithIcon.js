@@ -25,6 +25,6 @@ export default (props) => (
       data-modal-open={props.data}
    >
       {props.text}
-      <i class="fal fa-arrow-right ml-3"></i>
+      <i className="fal fa-arrow-right ml-3"></i>
    </Button>
 );

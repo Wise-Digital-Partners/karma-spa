@@ -81,7 +81,7 @@ const Page = ({ data }) => {
                      Experience the benefits of massage therapy and body detox in one session.
                   </p>
                   <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i>$155
+                     <i className="fas fa-tag text-primary_400 mr-2"></i>$155
                   </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">15 Minute Ionic Body Detox</li>
@@ -96,7 +96,7 @@ const Page = ({ data }) => {
                   <h3 className="mb-1">The Vice President Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Ease your stress with a massage & sauna or steam session.</p>
                   <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i>$95
+                     <i className="fas fa-tag text-primary_400 mr-2"></i>$95
                   </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">15 Minute Ionic Body Detox</li>
@@ -110,7 +110,7 @@ const Page = ({ data }) => {
                   <h3 className="mb-1">The CEO Package</h3>
                   <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">Make room in your busy schedule for some pampering.</p>
                   <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i>$140
+                     <i className="fas fa-tag text-primary_400 mr-2"></i>$140
                   </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">15 Minute Ionic Body Detox</li>
@@ -126,7 +126,7 @@ const Page = ({ data }) => {
                      Want a well-rounded massage experience? The Premier Package is for you.
                   </p>
                   <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i>$170
+                     <i className="fas fa-tag text-primary_400 mr-2"></i>$170
                   </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
@@ -143,7 +143,7 @@ const Page = ({ data }) => {
                      Feel like royalty with two therapists for maximum relaxation.
                   </p>
                   <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i>$165
+                     <i className="fas fa-tag text-primary_400 mr-2"></i>$165
                   </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">15 Minute Ionic Body Detox</li>
@@ -159,7 +159,7 @@ const Page = ({ data }) => {
                      Get pampered from head to toe with two and a half hours of indulgence.
                   </p>
                   <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i>$180
+                     <i className="fas fa-tag text-primary_400 mr-2"></i>$180
                   </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">15 Minute Ionic Body Detox</li>
@@ -175,7 +175,7 @@ const Page = ({ data }) => {
                      Ladies, get the royal treatment with this luxurious 90-minute package.
                   </p>
                   <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-                     <i class="fas fa-tag text-primary_400 mr-2"></i>$105
+                     <i className="fas fa-tag text-primary_400 mr-2"></i>$105
                   </span>
                   <ul className="styled-list mb-8">
                      <li className="text-gray-600">60 Minute Signature Facial</li>
