@@ -128,7 +128,7 @@ const Services = ({ className }) => {
                         </AniLink>
                         <ButtonWithIcon href="/iv-hydration-san-diego/" text="Hillcrest IV Hydration" />
                      </div>
-                     <div className="group relative">
+                     {/* <div className="group relative">
                         <div className="relative overflow-hidden mb-4">
                            <Img
                               className="transform scale-100 group-hover:scale-110 transition-all duration-500 ease-linear"
@@ -145,7 +145,7 @@ const Services = ({ className }) => {
                            <span className="link-overlay hidden md:inline"></span>
                         </AniLink>
                         <ButtonWithIcon href="/skin-care-hillcrest/" text="Hillcrest Skin Care" />
-                     </div>
+                     </div> */}
                   </div>
                </div>
                <div label="Carlsbad">

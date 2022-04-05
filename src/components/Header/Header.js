@@ -10,26 +10,29 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
 
    // change state on scroll
    useEffect(() => {
-      const siteNavigation = document.querySelector("#site-navigation");
-      const promoBar = document.querySelector("#promo-bar");
-      const utilityNavigation = document.querySelector("#utlity-navigation");
-      const mainNavigation = document.querySelector("#main-navigation");
-      const offcanvasNavigation = document.querySelector("#offcanvas-navigation");
-      const bodyContent = document.querySelector("#body-content");
+      const // siteNavigation = document.querySelector("#site-navigation"),
+         promoBar = document.querySelector("#promo-bar"),
+         utilityNavigation = document.querySelector("#utlity-navigation"),
+         mainNavigation = document.querySelector("#main-navigation"),
+         offcanvasNavigation = document.querySelector("#offcanvas-navigation"),
+         bodyContent = document.querySelector("#body-content");
 
-      // if (headerStyle === "overlap") {
-      //    // calculate #body-content offset top
-      //    bodyContent.style.marginTop = "-" + siteNavigation.offsetHeight + "px";
-      // }
+      if (offcanvasNavigation) {
+         offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+      }
 
       const handleLoad = () => {
          // calculate #offcanvas-navigation menu offset top
-         offcanvasNavigation.style.top = siteNavigation.offsetHeight + mainNavigation.offsetHeight + "px";
+         if (offcanvasNavigation) {
+            offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+         }
       };
 
       const handleResize = () => {
-         // recalculate #offcanvas-navigation offset top on resize
-         offcanvasNavigation.style.top = siteNavigation.offsetHeight + mainNavigation.offsetHeight + "px";
+         // calculate #offcanvas-navigation offset top on resize
+         if (offcanvasNavigation) {
+            offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
+         }
       };
 
       const handleScroll = () => {
@@ -48,54 +51,47 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder }) => {
          if (isScrolled) {
             setScrolled(true);
             // recalculate #offcanvas-navigation offset top on scroll
-            offcanvasNavigation.style.top = promoBar.offsetHeight + mainNavigation.offsetHeight + "px";
+            if (offcanvasNavigation) {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + "px";
 
-            // recalculate #main-navigation offset top on scroll
-            mainNavigation.style.top = promoBar.offsetHeight + "px";
-
-            // recalculate #body-content offset top on scroll
-            if (headerStyle === "overlap") {
-               bodyContent.style.marginTop = promoBar.offsetHeight + "px";
-               bodyContent.style.paddingTop = null;
-            } else {
-               bodyContent.style.paddingTop = promoBar.offsetHeight + mainNavigation.offsetHeight + "px";
-               bodyContent.style.marginTop = null;
+               // recalculate #body-content offset top on scroll
+               if (headerStyle === "overlap") {
+                  bodyContent.style.marginTop = promoBar.offsetHeight + "px";
+                  bodyContent.style.paddingTop = null;
+               } else {
+                  bodyContent.style.paddingTop = mainNavigation.offsetHeight + promoBar.offsetHeight + "px";
+                  bodyContent.style.marginTop = null;
+               }
             }
          } else {
             setScrolled(false);
 
             // calculate #offcanvas-navigation menu offset top
-            offcanvasNavigation.style.top = siteNavigation.offsetHeight + "px";
+            if (offcanvasNavigation) {
+               offcanvasNavigation.style.top = mainNavigation.offsetHeight + promoBar.offsetHeight + utilityNavigation.offsetHeight + "px";
 
-            // recalculate #main-navigation offset top on scroll
-            mainNavigation.style.top = null;
-
-            // recalculate #body-content offset top on scroll
-            if (headerStyle === "overlap") {
-               bodyContent.style.marginTop = null;
-               bodyContent.style.paddingTop = null;
-            } else {
-               bodyContent.style.paddingTop = null;
-               bodyContent.style.marginTop = null;
+               // recalculate #body-content offset top on scroll
+               if (headerStyle === "overlap") {
+                  bodyContent.style.marginTop = "0px";
+                  bodyContent.style.paddingTop = null;
+               } else {
+                  bodyContent.style.paddingTop = null;
+                  bodyContent.style.marginTop = null;
+               }
             }
          }
       };
 
       document.addEventListener("scroll", handleScroll, { passive: true });
       window.addEventListener("resize", handleResize, { passive: true });
-
-      if (document.readyState === "complete") {
-         handleLoad();
-      } else {
-         window.addEventListener("load", handleLoad, { passive: true });
-      }
+      window.addEventListener("load", handleLoad, { passive: true });
 
       return () => {
          document.removeEventListener("scroll", handleScroll);
          window.removeEventListener("resize", handleResize);
          window.removeEventListener("load", handleLoad);
       };
-   }, [scrolled]);
+   }, [scrolled, headerStyle]);
 
    return (
       <div id="site-navigation" className="relative z-10">

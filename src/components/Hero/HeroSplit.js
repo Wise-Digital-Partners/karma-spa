@@ -6,72 +6,69 @@ import tw from "twin.macro";
 const StyledHero = styled.section`
    .text-wrapper {
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "1/4" && backgroundImageSide === "left" ? tw`md:col-end-13 md:col-span-3 lg:pl-20` : null};
+         textWrapperWidth === "1/4" && backgroundImageSide === "left" ? tw`lg:col-end-13 lg:col-span-3 lg:pl-20` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "1/4" && backgroundImageSide === "right" ? tw`md:col-start-1 md:col-span-3 lg:pr-20` : null};
+         textWrapperWidth === "1/4" && backgroundImageSide === "right" ? tw`lg:col-start-1 lg:col-span-3 lg:pr-20` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "1/3" && backgroundImageSide === "left" ? tw`md:col-end-13 md:col-span-4 lg:pl-24` : null};
+         textWrapperWidth === "1/3" && backgroundImageSide === "left" ? tw`lg:col-end-13 lg:col-span-4 lg:pl-24` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "1/3" && backgroundImageSide === "right" ? tw`md:col-start-1 md:col-span-4 lg:pr-24` : null};
+         textWrapperWidth === "1/3" && backgroundImageSide === "right" ? tw`lg:col-start-1 lg:col-span-4 lg:pr-24` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "2/5" && backgroundImageSide === "left" ? tw`md:col-end-13 md:col-span-5 lg:pl-24` : null};
+         textWrapperWidth === "2/5" && backgroundImageSide === "left" ? tw`lg:col-end-13 lg:col-span-5 lg:pl-24` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "2/5" && backgroundImageSide === "right" ? tw`md:col-start-1 md:col-span-5 lg:pr-24` : null};
+         textWrapperWidth === "2/5" && backgroundImageSide === "right" ? tw`lg:col-start-1 lg:col-span-5 lg:pr-24` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "1/2" && backgroundImageSide === "left" ? tw`md:col-end-13 md:col-span-6 lg:pl-32` : null};
+         textWrapperWidth === "1/2" && backgroundImageSide === "left" ? tw`lg:col-end-13 lg:col-span-6 lg:pl-32` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "1/2" && backgroundImageSide === "right" ? tw`md:col-start-1 md:col-span-6 lg:pr-32` : null};
+         textWrapperWidth === "1/2" && backgroundImageSide === "right" ? tw`lg:col-start-1 lg:col-span-6 lg:pr-32` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "3/5" && backgroundImageSide === "left" ? tw`md:col-end-13 md:col-span-7 lg:pl-32` : null};
+         textWrapperWidth === "3/5" && backgroundImageSide === "left" ? tw`lg:col-end-13 lg:col-span-7 lg:pl-32` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "3/5" && backgroundImageSide === "right" ? tw`md:col-start-1 md:col-span-7 lg:pr-32` : null};
+         textWrapperWidth === "3/5" && backgroundImageSide === "right" ? tw`lg:col-start-1 lg:col-span-7 lg:pr-32` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "2/3" && backgroundImageSide === "left" ? tw`md:col-end-13 md:col-span-8 lg:pl-32` : null};
+         textWrapperWidth === "2/3" && backgroundImageSide === "left" ? tw`lg:col-end-13 lg:col-span-8 lg:pl-32` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "2/3" && backgroundImageSide === "right" ? tw`md:col-start-1 md:col-span-8 lg:pr-32` : null};
+         textWrapperWidth === "2/3" && backgroundImageSide === "right" ? tw`lg:col-start-1 lg:col-span-8 lg:pr-32` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "3/4" && backgroundImageSide === "left" ? tw`md:col-end-13 md:col-span-9 lg:pl-32` : null};
+         textWrapperWidth === "3/4" && backgroundImageSide === "left" ? tw`lg:col-end-13 lg:col-span-9 lg:pl-32` : null};
       ${({ textWrapperWidth, backgroundImageSide }) =>
-         textWrapperWidth === "3/4" && backgroundImageSide === "right" ? tw`md:col-start-1 md:col-span-9 lg:pr-32` : null};
+         textWrapperWidth === "3/4" && backgroundImageSide === "right" ? tw`lg:col-start-1 lg:col-span-9 lg:pr-32` : null};
       ${({ backgroundImageSide }) => (backgroundImageSide === "left" ? tw`order-2` : tw`order-2 lg:order-1`)};
    }
    .background-image-wrapper {
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "1/4" && backgroundImageSide === "left" ? tw`md:col-start-1 md:col-span-3` : null};
+         backgroundImageWrapperWidth === "1/4" && backgroundImageSide === "left" ? tw`lg:col-start-1 lg:col-span-3` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "1/4" && backgroundImageSide === "right" ? tw`md:col-end-13 md:col-span-3` : null};
+         backgroundImageWrapperWidth === "1/4" && backgroundImageSide === "right" ? tw`lg:col-end-13 lg:col-span-3` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "1/3" && backgroundImageSide === "left" ? tw`md:col-start-1 md:col-span-4` : null};
+         backgroundImageWrapperWidth === "1/3" && backgroundImageSide === "left" ? tw`lg:col-start-1 lg:col-span-4` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "1/3" && backgroundImageSide === "right" ? tw`md:col-end-13 md:col-span-4` : null};
+         backgroundImageWrapperWidth === "1/3" && backgroundImageSide === "right" ? tw`lg:col-end-13 lg:col-span-4` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "2/5" && backgroundImageSide === "left" ? tw`md:col-start-1 md:col-span-5` : null};
+         backgroundImageWrapperWidth === "2/5" && backgroundImageSide === "left" ? tw`lg:col-start-1 lg:col-span-5` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "2/5" && backgroundImageSide === "right" ? tw`md:col-end-13 md:col-span-5` : null};
+         backgroundImageWrapperWidth === "2/5" && backgroundImageSide === "right" ? tw`lg:col-end-13 lg:col-span-5` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "1/2" && backgroundImageSide === "left" ? tw`md:col-start-1 md:col-span-6` : null};
+         backgroundImageWrapperWidth === "1/2" && backgroundImageSide === "left" ? tw`lg:col-start-1 lg:col-span-6` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "1/2" && backgroundImageSide === "right" ? tw`md:col-end-13 md:col-span-6` : null};
+         backgroundImageWrapperWidth === "1/2" && backgroundImageSide === "right" ? tw`lg:col-end-13 lg:col-span-6` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "3/5" && backgroundImageSide === "left" ? tw`md:col-start-1 md:col-span-7` : null};
+         backgroundImageWrapperWidth === "3/5" && backgroundImageSide === "left" ? tw`lg:col-start-1 lg:col-span-7` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "3/5" && backgroundImageSide === "right" ? tw`md:col-end-13 md:col-span-7` : null};
+         backgroundImageWrapperWidth === "3/5" && backgroundImageSide === "right" ? tw`lg:col-end-13 lg:col-span-7` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "2/3" && backgroundImageSide === "left" ? tw`md:col-start-1 md:col-span-8` : null};
+         backgroundImageWrapperWidth === "2/3" && backgroundImageSide === "left" ? tw`lg:col-start-1 lg:col-span-8` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "2/3" && backgroundImageSide === "right" ? tw`md:col-end-13 md:col-span-8` : null};
+         backgroundImageWrapperWidth === "2/3" && backgroundImageSide === "right" ? tw`lg:col-end-13 lg:col-span-8` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "3/4" && backgroundImageSide === "left" ? tw`md:col-start-1 md:col-span-9` : null};
+         backgroundImageWrapperWidth === "3/4" && backgroundImageSide === "left" ? tw`lg:col-start-1 lg:col-span-9` : null};
       ${({ backgroundImageWrapperWidth, backgroundImageSide }) =>
-         backgroundImageWrapperWidth === "3/4" && backgroundImageSide === "right" ? tw`md:col-end-13 md:col-span-9` : null};
+         backgroundImageWrapperWidth === "3/4" && backgroundImageSide === "right" ? tw`lg:col-end-13 lg:col-span-9` : null};
       ${({ backgroundImageSide }) => (backgroundImageSide === "left" ? tw`order-1` : tw`order-1 lg:order-2`)};
    }
 `;
 
 const StyledBackgroundImage = styled(BackgroundImage)`
-   ${tw`w-100vw transform`}
-   ${({ hasContainer }) => (hasContainer ? tw`lg:w-full` : tw`lg:w-50vw`)};
-   ${({ backgroundImageSide }) => (backgroundImageSide === "left" ? tw`lg:-translate-x-full lg:left-full` : tw`lg:translate-x-0`)};
    min-height: ${({ minHeightMobile }) => {
       return minHeightMobile;
    }};
@@ -125,7 +122,9 @@ const Hero = ({
                <div className="text-wrapper px-6 lg:px-0 lg:row-start-1">{children}</div>
                <div className="background-image-wrapper lg:row-start-1">
                   <StyledBackgroundImage
-                     className={className}
+                     className={`transform w-100vw ${hasContainer ? "lg:w-full" : "lg:w-50vw"} ${
+                        backgroundImageSide === "left" ? "lg:-translate-x-full lg:left-full" : "lg:translate-x-0"
+                     } ${className}`}
                      hasContainer={hasContainer}
                      fixed={backgroundImages}
                      backgroundImageSide={backgroundImageSide}

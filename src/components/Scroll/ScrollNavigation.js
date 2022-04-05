@@ -5,9 +5,8 @@ import Scrollspy from "react-scrollspy";
 
 const StyledScrollNavigation = styled.div`
    @media (max-width: 1023px) {
-      ${tw`relative sticky flex items-center justify-between bg-secondary_400 w-full h-12 px-6 cursor-pointer z-10 transform -translate-x-6`}
-      top: 64px;
-      width: calc(100% + 3rem);
+      ${tw`relative sticky flex items-center justify-between bg-secondary_400 w-full h-12 px-6 cursor-pointer z-10 transform -translate-x-6 w-full`}
+      top: 104px;
       &:after {
          content: "\f078";
          font-family: "Font Awesome 5 Pro";
@@ -20,34 +19,34 @@ const StyledScrollNavigation = styled.div`
       }
    }
    .scroll-navigation {
-      ${tw`md:sticky`}
+      ${tw`lg:sticky`}
       @media (min-width: 1024px) {
          top: 10rem;
       }
       .scrollspy {
-         ${tw`md:max-h-full!`}
+         ${tw`lg:max-h-full!`}
       }
       ul {
          li {
-            ${tw`text-sm text-gray-900 text-opacity-50 md:text-opacity-50 flex items-center mt-6 md:mt-0`}
+            ${tw`text-sm text-gray-900 text-opacity-50 lg:text-opacity-50 flex items-center mt-6 lg:mt-0`}
             &.is-current {
-               ${tw`md:text-opacity-100`}
+               ${tw`lg:text-opacity-100`}
                &:before {
-                  ${tw`md:w-8 md:mr-3`}
+                  ${tw`lg:w-8 lg:mr-3`}
                }
             }
             &:before {
                content: "";
-               ${tw`md:h-px md:w-0 md:bg-primary_400 transition-all duration-300 ease-linear`}
+               ${tw`lg:h-px lg:w-0 lg:bg-primary_400 transition-all duration-300 ease-linear`}
             }
             &:not(:last-child) {
-               ${tw`md:mb-3`}
+               ${tw`lg:mb-3`}
             }
             &:last-child {
-               ${tw`mb-6 md:mb-0`}
+               ${tw`mb-6 lg:mb-0`}
             }
             a {
-               ${tw`block w-full px-6 md:px-0 no-underline`}
+               ${tw`block w-full px-6 lg:px-0 no-underline`}
                &:hover {
                   ${tw`text-primary_400`}
                }
@@ -102,7 +101,7 @@ const ScrollNavigation = ({ children }) => {
                offset={-100}
                currentClassName="is-current"
                ref={scrollNavigationList}
-               className="scrollspy absolute md:relative top-0 left-0 p-0 m-0 w-full bg-white md:bg-transparent shadow-lg md:shadow-none list-none transform translate-y-12 md:transform-none overflow-auto transition-all duration-300 ease-linear"
+               className="scrollspy absolute lg:relative top-0 left-0 p-0 m-0 w-full bg-white lg:bg-transparent shadow-lg lg:shadow-none list-none transform translate-y-12 lg:transform-none overflow-auto transition-all duration-300 ease-linear"
                style={{ maxHeight: `${setHeight}` }}
             >
                {children}

@@ -42,9 +42,6 @@ const StyledMainNav = styled.nav`
    }
    #navigation-desktop {
       > .navigation-item {
-         &:not(:last-child) {
-            ${tw`mr-10`}
-         }
          > a {
             ${({ headerLinkColor }) => (headerLinkColor === "white" ? tw`text-white` : tw`text-gray-900`)};
             ${({ megaMenuHovering1 }) => (megaMenuHovering1 ? tw`text-gray-900` : null)};
@@ -69,36 +66,14 @@ const StyledMainNav = styled.nav`
          }
       }
       .is-submenu-parent {
-         ${tw`relative`}
          .submenu {
-            ${tw`absolute flex flex-col w-auto bg-white shadow-lg px-8 pt-6 pb-10 opacity-0 invisible z-10 transform -translate-x-10 translate-y-12 transition-all duration-300 ease-linear`}
             .navigation-item {
-               ${tw`whitespace-nowrap`}
-               &:not(:last-child) {
-                  ${tw`mb-4`}
-               }
                a {
                   ${tw`text-gray-800 font-normal no-underline`}
                   &:hover {
                      ${tw`text-primary_400`}
                   }
                }
-            }
-         }
-         &:hover {
-            .submenu {
-               ${tw`opacity-100 visible translate-y-7`}
-            }
-         }
-      }
-      .is-mega-menu-parent {
-         ${tw`static`}
-         .mega-menu {
-            ${tw`absolute left-0 flex flex-col w-full bg-white shadow-lg pt-20 pb-12 opacity-0 invisible z-10 transform translate-y-12 transition-all duration-300 ease-linear`}
-         }
-         &:hover {
-            .mega-menu {
-               ${tw`opacity-100 visible translate-y-7`}
             }
          }
       }
@@ -118,21 +93,6 @@ const StyledMainNav = styled.nav`
                ${tw`text-primary_400`}
             }
          }
-         &.is-submenu-parent {
-            > a {
-               /* ${tw`block`} */
-               /* &:after {
-                        content: '\f078';
-                        font-family: 'Font Awesome 5 Pro';
-                        ${tw`absolute top-0 right-0 font-normal text-black transition-all duration-300 ease-linear`}
-                    }
-                    &[aria-expanded="true"] {
-                        &:after {
-                            content: '\f068';
-                        }
-                    } */
-            }
-         }
       }
       .submenu {
          ${tw`overflow-hidden flex-col transition-all duration-300 ease-linear`}
@@ -150,12 +110,6 @@ const StyledMainNav = styled.nav`
       }
    }
 `;
-
-// mobile submenu temporary height
-// let submenuTempHeight1 = null,
-//    submenuTempHeight2 = null,
-//    submenuTempHeight3 = null,
-//    submenuTempHeight4 = null;
 
 const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) => {
    // determine if offcanvas is open
@@ -361,16 +315,16 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                </div>
             </div>
             <div className="flex items-center justify-end flex-auto">
-               <ul id="navigation-desktop" className="hidden lg:flex lg:items-center lg:justify-end mr-10">
+               <ul id="navigation-desktop" className="hidden lg:flex lg:items-center lg:justify-end mr-10 space-x-10">
                   <li
-                     className={`is-mega-menu-parent navigation-item ${megaMenuHovering1 ? "active" : ""}`}
+                     className={`is-mega-menu-parent navigation-item static group ${megaMenuHovering1 ? "active" : ""}`}
                      onMouseEnter={isHoveringMegaMenu1}
                      onMouseLeave={notHoveringMegaMenu1}
                   >
                      <AniLink fade to="#">
                         Hillcrest Services
                      </AniLink>
-                     <div className="mega-menu">
+                     <div className="mega-menu absolute left-0 flex flex-col w-full bg-white shadow-lg pt-20 pb-12 opacity-0 invisible z-10 transform translate-y-12 transition-all duration-300 ease-linear group-hover:opacity-100 group-hover:visible group-hover:translate-y-7">
                         <div className="container flex items-center">
                            <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-12 lg:gap-y-0 lg:gap-x-10">
                               <div className="group relative">
@@ -399,7 +353,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     <span className="link-overlay"></span>
                                  </AniLink>
                               </div>
-                              <div className="group relative">
+                              {/* <div className="group relative">
                                  <Img className="mb-6" fluid={data.skinCareServices.childImageSharp.fluid} alt="Skin Care Services" />
                                  <div className="flex justify-between items-center">
                                     <p className="font-heading text-2xlarge text-gray-900 group-hover:text-primary_400 mb-1 transition-all duration-300 ease-linear">
@@ -411,7 +365,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                  <AniLink fade to="/skin-care-hillcrest/">
                                     <span className="link-overlay"></span>
                                  </AniLink>
-                              </div>
+                              </div> */}
                               <div className="group relative">
                                  <Img className="mb-6" fluid={data.ivHydration.childImageSharp.fluid} alt="Aesthetic Treatments" />
                                  <div className="flex justify-between items-center">
@@ -430,14 +384,14 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                      </div>
                   </li>
                   <li
-                     className={`is-mega-menu-parent navigation-item ${megaMenuHovering2 ? "active" : ""}`}
+                     className={`is-mega-menu-parent navigation-item static group ${megaMenuHovering2 ? "active" : ""}`}
                      onMouseEnter={isHoveringMegaMenu2}
                      onMouseLeave={notHoveringMegaMenu2}
                   >
                      <AniLink fade to="#">
                         Carlsbad Services
                      </AniLink>
-                     <div className="mega-menu">
+                     <div className="mega-menu absolute left-0 flex flex-col w-full bg-white shadow-lg pt-20 pb-12 opacity-0 invisible z-10 transform translate-y-12 transition-all duration-300 ease-linear group-hover:opacity-100 group-hover:visible group-hover:translate-y-7">
                         <div className="container flex items-center">
                            <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-12 lg:gap-y-0 lg:gap-x-10">
                               <div className="group relative">
@@ -484,20 +438,20 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                      </div>
                   </li>
                   <li
-                     className={`is-submenu-parent navigation-item ${subMenuHovering1 ? "active" : ""}`}
+                     className={`is-submenu-parent navigation-item relative group ${subMenuHovering1 ? "active" : ""}`}
                      onMouseEnter={isHoveringSubMenu1}
                      onMouseLeave={notHoveringSubMenu1}
                   >
                      <AniLink fade to="#">
                         Locations
                      </AniLink>
-                     <ul className="submenu">
-                        <li className="navigation-item">
+                     <ul className="submenu absolute flex flex-col w-auto bg-white shadow-lg px-8 pt-6 pb-10 opacity-0 invisible z-10 transform -translate-x-10 translate-y-12 transition-all duration-300 ease-linear space-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-7">
+                        <li className="navigation-item whitespace-nowrap">
                            <AniLink fade to="/hillcrest-massage/">
                               Hillcrest
                            </AniLink>
                         </li>
-                        <li className="navigation-item">
+                        <li className="navigation-item whitespace-nowrap">
                            <AniLink fade to="/carlsbad-massage/">
                               Carlsbad
                            </AniLink>
@@ -505,30 +459,30 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                      </ul>
                   </li>
                   <li
-                     className={`is-submenu-parent navigation-item ${subMenuHovering2 ? "active" : ""}`}
+                     className={`is-submenu-parent navigation-item relative group ${subMenuHovering2 ? "active" : ""}`}
                      onMouseEnter={isHoveringSubMenu2}
                      onMouseLeave={notHoveringSubMenu2}
                   >
                      <AniLink fade to="/about/">
                         About
                      </AniLink>
-                     <ul className="submenu">
-                        <li className="navigation-item">
+                     <ul className="submenu absolute flex flex-col w-auto bg-white shadow-lg px-8 pt-6 pb-10 opacity-0 invisible z-10 transform -translate-x-10 translate-y-12 transition-all duration-300 ease-linear space-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-7">
+                        <li className="navigation-itemm whitespace-nowrap">
                            <AniLink fade to="/about/">
                               About
                            </AniLink>
                         </li>
-                        <li className="navigation-item">
+                        <li className="navigation-itemm whitespace-nowrap">
                            <AniLink fade to="/gift-cards/">
                               Gift Cards
                            </AniLink>
                         </li>
-                        <li className="navigation-item">
+                        <li className="navigation-itemm whitespace-nowrap">
                            <AniLink fade to="/massage-membership/">
                               Membership
                            </AniLink>
                         </li>
-                        <li className="navigation-item">
+                        <li className="navigation-itemm whitespace-nowrap">
                            <AniLink fade to="/blog/">
                               Blog
                            </AniLink>
@@ -536,7 +490,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                      </ul>
                   </li>
                </ul>
-               <div className="hidden lg:inline-block inline-flex items-center">
+               <div className="hidden lg:inline-block items-center">
                   <ButtonSolid data="modal-choose-location" text="Book Appointment" />
                </div>
 
@@ -567,11 +521,11 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                                     Treatments
                                  </AniLink>
                               </li>
-                              <li className="navigation-item">
+                              {/* <li className="navigation-item">
                                  <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/skin-care-hillcrest/">
                                     Skin Care
                                  </AniLink>
-                              </li>
+                              </li> */}
                            </Accordion>
                         </li>
                         <li className="flex justify-center navigation-item is-submenu-parent">
