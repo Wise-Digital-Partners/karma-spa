@@ -66,10 +66,13 @@ const Page = ({ data }) => {
                   <AnchorLink to={url + "#section-4"} title="Hydra-Dermabrasion Facial" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-5"} title="Back Facial" stripHash />
+                  <AnchorLink to={url + "#section-5"} title="Dermaplane Facial" stripHash />
                </li>
                <li>
-                  <AnchorLink to={url + "#section-6"} title="Mini Facial" stripHash />
+                  <AnchorLink to={url + "#section-6"} title="Back Facial" stripHash />
+               </li>
+               <li>
+                  <AnchorLink to={url + "#section-7"} title="Mini Facial" stripHash />
                </li>
                <li>
                   <AnchorLink to={url + "#section-8"} title="Gentleman’s Facial" stripHash />
@@ -171,6 +174,19 @@ const Page = ({ data }) => {
 
                <div id="section-5" className="mb-20 lg:mb-40">
                   <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">05</span>
+                  <h3>Dermaplane Facial</h3>
+                  <p>
+                     Dermaplaning is an exfoliation treatment that involves gently scraping the face with a medical-grade scalpel to remove the very
+                     top layer of skin. The shave removes both dead skin cells and the fine vellus hairs known as peach fuzz, leaving the surface of
+                     the face ultra-smooth. By stimulating the development of new skin cells, this type of exfoliation helps new skin rise to the
+                     surface. It leaves clients with a more youthful and dewy face without harsh chemicals, excessive downtime, or pain.
+                  </p>
+
+                  <p className="text-small font-medium tracking-wide text-gray-900">Price: $125 (60 Minutes)</p>
+               </div>
+
+               <div id="section-6" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
                   <h3>Back Facial</h3>
                   <p>
                      We’ve got your back! Benefit from our 30-minute signature back facial that utilizes all-natural Dr. Schwab Products. Benefits
@@ -180,8 +196,8 @@ const Page = ({ data }) => {
                   <p className="text-small font-medium tracking-wide text-gray-900">Price: $70 (30 Minutes)</p>
                </div>
 
-               <div id="section-6" className="mb-20 lg:mb-40">
-                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">06</span>
+               <div id="section-7" className="mb-20 lg:mb-40">
+                  <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">07</span>
                   <h3>Mini Facial</h3>
                   <p>
                      A mini facial treatment is an abbreviated version of our signature facial treatment. Typically provided in 30 minutes, it’s short
@@ -343,7 +359,7 @@ const Page = ({ data }) => {
                      <p className="text-small font-medium tracking-wide text-gray-900">Price: $10</p>
                   </div>
 
-                  <div>
+                  <div className="mb-20 lg:mb-40">
                      <h3>Add on Microdermabrasion</h3>
                      <p>Performed within the 60-minute Facial. No extra time is added! *No $5 off when paying cash*</p>
                      <p className="mb-3">Benefits:</p>
@@ -358,6 +374,22 @@ const Page = ({ data }) => {
                         <li>Reduced age spots</li>
                      </ul>
                      <p className="text-small font-medium tracking-wide text-gray-900">Price: $15</p>
+                  </div>
+
+                  <div>
+                     <h3>Dermaplane Add on</h3>
+                     <p>Performed within the 60-minute Facial. No extra time is added! *No $5 off when paying cash*</p>
+                     <p className="mb-3">Benefits:</p>
+                     <ul className="styled-list mb-8">
+                        <li>Immediate results</li>
+                        <li>Reduces fine lines</li>
+                        <li>Exposes younger-looking skin</li>
+                        <li>Promotes collagen production</li>
+                        <li>Makeup applies and looks smoother</li>
+                        <li>Triggers regeneration</li>
+                        <li>Prevents breakouts</li>
+                     </ul>
+                     <p className="text-small font-medium tracking-wide text-gray-900">Price: $65 (20-30 Minutes)</p>
                   </div>
                </div>
             </ScrollContent>

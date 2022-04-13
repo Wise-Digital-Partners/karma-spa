@@ -111,7 +111,7 @@ const StyledMainNav = styled.nav`
    }
 `;
 
-const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) => {
+const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offcanvasOffset }) => {
    // determine if offcanvas is open
    const [offcanvasOpen, setOffcanvasOpen] = useState(false);
 
@@ -502,7 +502,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder }) =>
                      scrolled={scrolled}
                      aria-controls="offcanvas-navigation"
                   />
-                  <OffCanvas offcanvasOpen={offcanvasOpen} id="offcanvas-navigation" className="py-10">
+                  <OffCanvas offcanvasOpen={offcanvasOpen} offcanvasOffset={offcanvasOffset} id="offcanvas-navigation" className="py-10">
                      <ul id="navigation-mobile" className="mb-16 inline-block">
                         <li className="flex justify-center navigation-item is-submenu-parent">
                            <Accordion title="Hillcrest Services">
