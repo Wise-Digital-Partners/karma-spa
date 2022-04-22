@@ -77,7 +77,8 @@ const Page = () => {
                      <Accordion title="Can I request a specific therapist? " content="<p>Yes.</p>" />
                      <Accordion
                         title="What if I have to cancel my appointment?"
-                        content="<p>Oh no! We understand that life happens. To cancel your appointment or to reschedule, please reach out to the location you booked with.</p>"
+                        content="<p>Oh no! We understand that life happens. To cancel your appointment or to reschedule, please reach out to the location you booked with. </p>
+                        <p>All no shows will be charged 50% of spa service regardless of no show reason. YOUR CREDIT CARD WILL NOT BE CHARGED UNTIL TIME OF VISIT. Please do not consider your service paid until you have signed a receipt with one of our front desk staff. We ask that if you need to cancel or make any modifications to your appointment that you give us a courtesy call/text directly at 760-729-9889 -OR- 760-729-9888 NO LATER THAN 3 HOURS PRIOR TO START TIME OF APPOINTMENT so that we can open up the appointment time to another interested patron. If failed to do so, you will be charged 50% of spa service regardless of cancellation reason. Select services, receive $5 off when you pay cash. Gratuity not included but encouraged.</p>"
                      />
                      <Accordion title="Do you have parking at both locations?" content="<p>Yes, parking is available.</p>" />
                      <Accordion
