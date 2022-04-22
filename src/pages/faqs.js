@@ -7,15 +7,6 @@ import Layout from "../components/Layout";
 import SearchEngineOptimization from "../components/SEO";
 import Accordion from "../components/Accordion/Accordion";
 
-const StyledFAQContent = styled.div`
-   @media (min-width: 1024px) {
-      &:after {
-         content: "";
-         ${tw`absolute top-0 right-0 h-full w-full bg-gray-100 transform translate-x-full`}
-      }
-   }
-`;
-
 const Page = () => {
    return (
       <Layout headerLinkColor="black">
@@ -32,7 +23,7 @@ const Page = () => {
                   <div className="md:col-start-1 md:col-span-3 md:mr-4 md:mt-24">
                      <h1 className="mb-0">FAQs</h1>
                   </div>
-                  <StyledFAQContent className="md:col-end-13 md:col-span-9 relative bg-gray-100 md:p-24">
+                  <div className="md:col-end-13 md:col-span-9 relative bg-gray-100 md:p-24 md:after:absolute md:after:top-0 md:after:right-0 md:after:h-full md:after:w-full md:after:bg-gray-100 md:after:transform md:after:translate-x-full">
                      <Accordion
                         title="Why should I choose Karma Spa over another massage spa?"
                         content="<p>We specialize in Affordable Indulgence. Karma Spa brings you the best services from the worlds of massage, skin care, and aesthetic treatments to bring you the ultimate relaxation experience. We have many five-star reviews and two convenient locations to choose from.</p>"
@@ -94,7 +85,7 @@ const Page = () => {
                         content="<p>We offer two membership plans to bring you free massages and monthly specials for members only. As a member you can also earn points for each $1 spent. Basic membership is $25/year and comes with member-only monthly specials. VIP membership is $45/month and comes with a free basic body massage.</p>"
                      />
                      <Accordion title="Do you sell gift cards?" content="<p>Yes! Gift cards are available online and in-store.</p>" />
-                  </StyledFAQContent>
+                  </div>
                </div>
             </div>
          </section>
