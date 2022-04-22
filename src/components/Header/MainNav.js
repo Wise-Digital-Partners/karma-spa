@@ -487,6 +487,11 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                               Blog
                            </AniLink>
                         </li>
+                        <li className="navigation-itemm whitespace-nowrap">
+                           <AniLink fade to="/faqs/">
+                              FAQs
+                           </AniLink>
+                        </li>
                      </ul>
                   </li>
                </ul>
@@ -581,6 +586,11 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                               <li className="navigation-item">
                                  <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/blog/">
                                     Blog
+                                 </AniLink>
+                              </li>
+                              <li className="navigation-item">
+                                 <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/faqs/">
+                                    FAQs
                                  </AniLink>
                               </li>
                            </Accordion>
