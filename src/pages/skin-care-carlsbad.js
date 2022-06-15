@@ -378,7 +378,7 @@ const Page = ({ data }) => {
 
                   <div>
                      <h3>Dermaplane Add on</h3>
-                     <p>Performed within the 60-minute Facial. No extra time is added! *No $5 off when paying cash*</p>
+                     <p>Performed within the 60-minute Facial. No extra time is added!</p>
                      <p className="mb-3">Benefits:</p>
                      <ul className="styled-list mb-8">
                         <li>Immediate results</li>
