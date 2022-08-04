@@ -54,10 +54,10 @@ const Footer = () => {
          <footer className="bg-gray-900 pt-18 md:pt-32 pb-8 text-center md:text-left">
             <div className="container">
                <div className="md:flex md:justify-between mb-20 md:mb-28">
-                  <div className="md:flex md:flex-col md:justify-between mb-12 md:mb-0">
+                  <div className="md:flex md:flex-col md:justify-around mb-12 md:mb-0">
                      <Img className="mb-10 md:mb-0 mx-auto md:mx-0" fluid={logo} alt="Karma Spa Logo" />
 
-                     <ul className="md:flex list-none mb-12 md:mb-0">
+                     <ul className="mt-4 mb-12 md:mb-0">
                         <li className="text-xsmall font-bold uppercase mb-8 md:mb-0 md:mr-8">
                            <AniLink className="text-white hover:text-white hover:text-opacity-50 no-underline" fade to="/faqs/">
                               FAQs
@@ -77,6 +77,36 @@ const Footer = () => {
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-y-0 md:gap-x-12 lg:gap-x-32 md:mt-8">
+                     {/* <div>
+                        <p className="text-xl md:text-2xl font-heading text-white font-bold mb-4 md:mb-5">Resources</p>
+                        <ul className="">
+                           <li className="navigation-itemm whitespace-nowrap">
+                              <AniLink className="hover:text-white" fade to="/about/">
+                                 About
+                              </AniLink>
+                           </li>
+                           <li className="navigation-itemm whitespace-nowrap">
+                              <AniLink className="hover:text-white" fade to="/gift-cards/">
+                                 Gift Cards
+                              </AniLink>
+                           </li>
+                           <li className="navigation-itemm whitespace-nowrap">
+                              <AniLink className="hover:text-white" fade to="/massage-membership/">
+                                 Membership
+                              </AniLink>
+                           </li>
+                           <li className="navigation-itemm whitespace-nowrap">
+                              <AniLink className="hover:text-white" fade to="/blog/">
+                                 Blog
+                              </AniLink>
+                           </li>
+                           <li className="navigation-itemm whitespace-nowrap">
+                              <AniLink className="hover:text-white" fade to="/faqs/">
+                                 FAQs
+                              </AniLink>
+                           </li>
+                        </ul>
+                     </div> */}
                      <div>
                         <p className="text-xl md:text-2xl font-heading text-white font-bold mb-4 md:mb-5">San Diego (Hillcrest)</p>
                         <address className="mb-3 not-italic">
