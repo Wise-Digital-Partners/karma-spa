@@ -78,7 +78,7 @@ const Footer = () => {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-y-0 md:gap-x-12 lg:gap-x-32 md:mt-8">
                      <div>
-                        <p className="text-xl md:text-2xl font-heading text-white font-bold mb-4 md:mb-5">San Diego</p>
+                        <p className="text-xl md:text-2xl font-heading text-white font-bold mb-4 md:mb-5">San Diego (Hillcrest)</p>
                         <address className="mb-3 not-italic">
                            <a
                               className="text-small text-white hover:text-white opacity-75 hover:opacity-100 no-underline"

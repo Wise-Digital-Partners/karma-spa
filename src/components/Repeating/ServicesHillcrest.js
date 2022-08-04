@@ -88,12 +88,12 @@ const Services = ({ className }) => {
                         alt="Aesthetic Treatments"
                      />
                   </div>
-                  <h3 className="heading-four mb-1">IV Hydration</h3>
-                  <p className="mb-3">Get needed nutrients through IV infusions and injections.</p>
+                  <h3 className="heading-four mb-1">Med Spa Services</h3>
+                  <p className="mb-3">Explore Hillcrest Med Spa Services</p>
                   <AniLink fade to="/iv-hydration-san-diego/">
                      <span className="link-overlay hidden md:inline"></span>
                   </AniLink>
-                  <ButtonWithIcon href="/iv-hydration-san-diego/" text="Hillcrest IV Hydration" />
+                  <ButtonWithIcon href="/iv-hydration-san-diego/" text="Hillcrest Med Spa Services" />
                </div>
                {/* <div className="group relative">
                   <div className="relative overflow-hidden mb-4">
