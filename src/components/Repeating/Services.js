@@ -23,7 +23,7 @@ const Services = ({ className }) => {
                }
             }
          }
-         ivHydration: file(relativePath: { eq: "repeating/iv-hydration.jpg" }) {
+         ivHydration: file(relativePath: { eq: "repeating/med-spa-service.jpg" }) {
             childImageSharp {
                fluid(maxWidth: 504, quality: 100) {
                   ...GatsbyImageSharpFluid_withWebp
