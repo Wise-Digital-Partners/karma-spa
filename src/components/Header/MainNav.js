@@ -189,7 +189,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                }
             }
          }
-         ivHydration: file(relativePath: { eq: "repeating/iv-hydration.jpg" }) {
+         ivHydration: file(relativePath: { eq: "repeating/med-spa-service.jpg" }) {
             childImageSharp {
                fluid(maxWidth: 504, quality: 100) {
                   ...GatsbyImageSharpFluid_withWebp
@@ -374,7 +374,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                                     </p>
                                     <i className="fal fa-long-arrow-right text-3xl opacity-0 group-hover:text-primary_400 group-hover:opacity-100 transition-all duration-300 ease-linear"></i>
                                  </div>
-                                 <p className="text-small mb-0">Get needed nutrients through IV infusions and injections.</p>
+                                 <p className="text-small mb-0">Explore Hillcrest Med Spa Services</p>
                                  <AniLink fade to="/iv-hydration-san-diego/">
                                     <span className="link-overlay"></span>
                                  </AniLink>
