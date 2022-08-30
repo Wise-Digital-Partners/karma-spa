@@ -492,6 +492,11 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                               FAQs
                            </AniLink>
                         </li>
+                        <li className="navigation-itemm whitespace-nowrap">
+                           <AniLink fade to="/reviews/">
+                              Customer Reviews
+                           </AniLink>
+                        </li>
                      </ul>
                   </li>
                </ul>
