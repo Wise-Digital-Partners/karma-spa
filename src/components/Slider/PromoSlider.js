@@ -69,7 +69,7 @@ const Slider = ({ slideIndex }) => {
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 1550,
+    speed: 2250,
     autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
