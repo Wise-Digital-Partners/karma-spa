@@ -46,6 +46,17 @@ const Page = ({ data }) => {
                Our mission is your relaxation. At Karma Spa, we offer “Affordable Indulgence” at our two massage spa locations in Hillcrest and
                Carlsbad. We offer a wide variety of services and packages to bring you great value and refreshment.
             </p>
+            {/* <div className="flex gap-x-6 text-center pt-8 justify-items-center md:justify-start">
+               <p>
+                  <span className="block font-bold text-heading  font-heading">VIP Membership</span>
+                  <span className="text-sm"><b>$65<small>/Monthly</small></b> (was $60)</span> 
+                  </p>
+               <p>
+                  <span className="block font-bold text-heading  font-heading">Basic Membership</span>
+                  <span className="text-sm"><b>$40<small>/Annually</small></b> (Was $35)</span> 
+               </p> 
+                  </div> */}
+
          </HeroSplit>
 
          <section className="bg-gray-100 py-18 md:pt-32 md:pb-36">

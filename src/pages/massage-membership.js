@@ -55,7 +55,7 @@ const Page = ({ data }) => {
                   <div className="shadow-xl">
                      <div className="bg-gray-300 px-6 py-5 md:py-8 text-center">
                         <p className="heading-three text-white mb-2 md:mb-1">Basic Membership</p>
-                        <p className="text-medium text-white mb-0">$35/Annually</p>
+                        <p className="text-medium text-white mb-0">$40/Annually</p>
                      </div>
                      <div className="bg-white px-6 md:px-8 pt-6 pb-8 md:py-12">
                         <ul className="styled-list space-y-3 pl-0 mb-8 text-small">
@@ -80,7 +80,7 @@ const Page = ({ data }) => {
                   <div className="shadow-xl">
                      <div className="bg-gray-900 px-6 py-5 md:py-8 text-center">
                         <p className="heading-three text-white mb-2 md:mb-1">VIP Membership</p>
-                        <p className="text-medium text-white mb-0">$60/Monthly</p>
+                        <p className="text-medium text-white mb-0">$65/Monthly</p>
                      </div>
                      <div className="bg-white px-6 md:px-8 pt-6 pb-8 md:py-12">
                         <div className="text-center mb-6">
