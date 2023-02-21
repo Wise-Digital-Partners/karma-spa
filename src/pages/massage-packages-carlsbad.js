@@ -254,7 +254,7 @@ const Page = ({ data }) => {
 
           <div id="section-7" className="mb-20 lg:mb-40">
             <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-2 mt-4">
-              <i className="fas fa-tag text-primary_400 mr-2"></i>$120
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$155 (1 Hours, 45 Minutes)
             </span>
             <h3 className="mb-4">The Crown Package</h3>
             {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">

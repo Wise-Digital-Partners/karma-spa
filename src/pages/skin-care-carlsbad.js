@@ -458,7 +458,7 @@ const Page = ({ data }) => {
                 </li>
               </ul>
               <p className="font-semibold text-sm text-gray-800">
-                $55 (30 Minutes)
+                $60 (30 Minutes)
               </p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
