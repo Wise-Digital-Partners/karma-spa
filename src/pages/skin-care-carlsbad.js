@@ -547,11 +547,11 @@ const Page = ({ data }) => {
                 </li>
               </ul>
 
-              <p className="font-semibold text-sm text-gray-800">
+              {/* <p className="font-semibold text-sm text-gray-800">
                 $130 (60 Minutes) ADD on just Dermaplaning to Signature Facial +
                 $65 card/$60 cash (Add additional 20-30 Minutes to 60 Minute
                 Signature Facial)
-              </p>
+              </p> */}
             </div>
             {/* END OF SECTION 1 CONTENT */}
                       <div className="block w-full text-center mt-24">
