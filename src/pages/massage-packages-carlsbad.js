@@ -254,7 +254,7 @@ const Page = ({ data }) => {
 
           <div id="section-7" className="mb-20 lg:mb-40">
             <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-2 mt-4">
-              <i className="fas fa-tag text-primary_400 mr-2"></i>$155 (1 Hours, 45 Minutes)
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$155
             </span>
             <h3 className="mb-4">The Crown Package</h3>
             {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
@@ -275,8 +275,8 @@ const Page = ({ data }) => {
               </li>
             </ul>
           </div>
-
-          <div id="section-8" className="mb-20 lg:mb-40" >
+{/* MEMBERSHIPS */}
+          {/* <div id="section-8" className="mb-20 lg:mb-40" >
             <div className="text-center mt-40">
               <h2>Memberships</h2>
             </div>
@@ -404,7 +404,8 @@ const Page = ({ data }) => {
                 </p>
               </ul>
             </div>
-          </div>
+          </div> */}
+{/*END OF MEMBERSHIPS */}
 
           <div id="section-9" className="mb-20 lg:mb-40">
 

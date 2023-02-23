@@ -40,19 +40,19 @@ const Page = () => {
                         title="I’m new to massage. What should I choose?"
                         content="<p>We recommend the <a href='#'>Swedish massage</a> to first timers.</p>"
                      />
-                     <Accordion
+                     {/* <Accordion
                         title="Are there add-ons available for massage services?"
                         content="<p> Yes!  Add-ons include:  Hot Stones, Aromatherapy, CBD Oil, Masks, Facials (Carlsbad only), foot massage, sauna, and steam (Hillcrest only)</p>"
-                     />
+                     /> */}
                      <Accordion
                         title="What are your packages?"
                         content="<p>We have a wide variety of packages depending on your needs! Packages vary in length and type of services. Learn more about our packages <a href='/massage-packages/'>here</a>.</p>"
                      />
 
-                     <Accordion
+                     {/* <Accordion
                         title="Tell me more about your skin care services."
                         content="<p>We offer facials (Carlsbad), waxing (Carlsbad), scrubs, and sauna or steam (Hillcrest) room sessions as part of our skin care services. Learn more about each service <a href='/skin-care-services/'>here</a>.</p>"
-                     />
+                     /> */}
                      <Accordion title="How much should I tip for a massage?" content="<p>The menu prices do not include gratuity.  General gratuity guidelines are 15%-20%</p>" />
 
                      <Accordion

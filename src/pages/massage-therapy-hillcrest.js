@@ -790,27 +790,7 @@ const Page = ({ data }) => {
                </ul>
              </div> */}
 
-             <div className="mb-12 lg:mb-24">
-               <h3>Sauna</h3>
-               <p>**No $5 off with cash**</p>
-               <ul className="styled-list mb-8">
-                 <li>15 Minute Sauna Session $20</li>
-                 <li>30 Minute Sauna Session $35</li>
-                 <li>30 Minute Couple’s Sauna Session $40</li>
-                 <li>30 Minute Couple’s Sauna Session $70</li>
-               </ul>
-             </div>
 
-             <div className="mb-12 lg:mb-24">
-               <h3>Ionic Body Detox</h3>
-               <p>**No $5 off with cash**</p>
-               <ul className="styled-list mb-8">
-                 <li>15 Minute Detox $20</li>
-                 <li>30 Minute Detox $35</li>
-                 <li>30 Minute Couple’s Detox $40</li>
-                 <li>30 Minute Couple’s Detox $70</li>
-               </ul>
-             </div>
            </div>
          </ScrollContent>
        </ScrollWrapper>

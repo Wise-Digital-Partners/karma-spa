@@ -151,13 +151,6 @@ const Page = ({ data }) => {
               <div className="mb-20">
                 {" "}
                 <h3>Microdermabrasion</h3>
-                <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                  <span className="mb-4 inline-block">Exfoliating!</span>
-                  <br></br> Performed within the 60-minute Facial. No extra time
-                  is added!  Can be added to a 30-minute Mini Facial, but client
-                  should be informed the cleanse + mask treatment will be
-                  drastically shortened!
-                </p>{" "}
                 <ul className="mb-10">
                   <li className="mb-1.5">Benefits:</li>
                   <li className="mb-1.5">-Fresher looking skin</li>
@@ -554,32 +547,7 @@ const Page = ({ data }) => {
               </p> */}
             </div>
             {/* END OF SECTION 1 CONTENT */}
-                      <div className="block w-full text-center mt-24">
-            <h2>Dermaplane Facial Add-ons</h2>
-          </div>
-          <div className="mt-10">
-            {/* service sub section */}
-            <div className="mb-20">
-              {" "}
-              <h3>Sauna</h3>
-              <p className="font-semibold text-sm text-gray-800">
-                (NO $5 off with cash)<br></br>
-                $20 (15 Minute) Sauna Session • $35 (30 Minute) Sauna Session
-                <br></br>
-                $40 (15 Minute) Couple’s Sauna Session • $70 (30 Minute)
-                Couple’s Sauna Session
-              </p>
-            </div>
-            <div className="mb-20">
-              {" "}
-              <h3>Ionic Body Detox</h3>
-              <p className="font-semibold text-sm text-gray-800">
-                (NO $5 off with cash)<br></br>
-                $20 (15 Minute) Detox • $35 (30 Minute) Detox<br></br>
-                $40 (15 Minute) Couple’s Detox • $70 (30 Minute) Couple’s Detox
-              </p>
-            </div>
-          </div>
+
           </div>
 
         </ScrollContent>
