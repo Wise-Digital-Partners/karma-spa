@@ -81,7 +81,7 @@ Failing to do so will result in a charge for 50% of spa service regardless of ca
                      <Accordion title="Do you have parking at both locations?" content="<p>Yes, free parking is available on a first come first served basis.</p>" />
                      <Accordion
                         title="Do you offer memberships?"
-                        content="<p>We offer two membership plans to bring you free massages and monthly specials for members only. As a member you can also earn points for each $1 spent. <a href='/massage-membership/'>Basic</a> membership is $35/year and comes with member-only monthly specials. <a href='/massage-packages/'>VIP membership</a> is $60/month and comes with a free basic body massage.</p>"
+                        content="<p>We offer two membership plans to bring you free massages and monthly specials for members only. As a member you can also earn points for each $1 spent. <a href='/massage-membership/'>Basic</a> membership is $40/year and comes with member-only monthly specials. <a href='/massage-packages/'>VIP membership</a> is $65/month and comes with a free basic body massage.</p>"
                      />
                      <Accordion title="Do you sell gift cards?" content="<p>Yes! Gift cards are available in-store and email delivered gift certificates are available <a href='https://www.karmamassagespa.com/gift-cards/'>online</a>.</p>" />
                   </div>
