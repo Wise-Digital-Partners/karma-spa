@@ -163,8 +163,7 @@ const Page = ({ data }) => {
                   <li className="mb-1.5">-Reduced age spots</li>
                 </ul>
                 <p className="font-semibold text-sm text-gray-800">
-                  +$65 card/$60 cash (Add additional 20-30 Minutes to 60 Minute
-                  Signature Facial)
+                  +$20 Cash or Card (NO $5 OFF WITH CASH as it’s an add-on)
                 </p>
               </div>
               {/* END SERBICE SUB SECTION */}

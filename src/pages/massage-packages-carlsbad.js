@@ -103,9 +103,9 @@ const Page = ({ data }) => {
               stripHash
             />
           </li>
-          <li>
+          {/* <li>
             <AnchorLink to={url + "#section-8"} title="Memberships" stripHash />
-          </li>
+          </li> */}
           <li>
             <AnchorLink
               to={url + "#section-9"}

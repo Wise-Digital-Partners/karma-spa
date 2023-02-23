@@ -639,7 +639,7 @@ $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
              <div className="mb-12 lg:mb-24">
                <h3>Ionic Body Detox</h3>
                <p>**No $5 off with cash**</p>
-               <ul className=" mb-8">
+               <ul className="text-small font-medium tracking-wide text-gray-900 mb-8">
                  <li>15 Minute Detox $20</li>
                  <li>30 Minute Detox $35</li>
                  <li>30 Minute Couple’s Detox $40</li>
