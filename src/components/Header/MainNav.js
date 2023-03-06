@@ -22,7 +22,7 @@ const StyledMainNav = styled.nav`
       ${({ headerStyle }) => (headerStyle === "overlap" ? tw`border-b border-solid border-white border-opacity-25` : null)};
    }
    &[data-fixed="true"] {
-      ${tw`fixed left-0 w-full bg-white shadow z-20`}
+      ${tw`fixed left-0 w-full bg-white shadow z-20 top-0`}
       @media (max-width: 1023px) {
          ${({ offcanvasOpen }) => (offcanvasOpen ? tw`bg-gray-100` : null)};
       }

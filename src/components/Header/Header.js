@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import PromoBar from "../Header/PromoBar";
+import PromoBar from "../Header/PromoBarPh";
 import UtilityNav from "../Header/UtilityNav";
 import MainNav from "../Header/MainNav";
 
@@ -13,7 +13,7 @@ const Header = ({ headerStyle, headerLinkColor, headerHasBorder, setBodyOffset }
 
    // change state on scroll
    useEffect(() => {
-      const promoBar = document.querySelector("#promo-bar"),
+      const promoBar = document.querySelector("#promo-bar-ph"),
          utilityNavigation = document.querySelector("#utlity-navigation"),
          mainNavigation = document.querySelector("#main-navigation");
 
