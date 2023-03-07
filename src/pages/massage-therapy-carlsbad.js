@@ -166,22 +166,16 @@ const Page = ({ data }) => {
               stripHash
             />
           </li>
+
           <li>
             <AnchorLink
               to={url + "#section-17"}
-            title="Chair/Body Massage"
-              stripHash
-            />
-          </li>
-          <li>
-            <AnchorLink
-              to={url + "#section-18"}
               title="Foot Massage al-la-carte"
               stripHash
             />
           </li>
           <li>
-            <AnchorLink to={url + "#section-19"} title="Add-Ons" stripHash />
+            <AnchorLink to={url + "#section-18"} title="Add-Ons" stripHash />
           </li>
         </ScrollNavigation>
         <ScrollContent>
@@ -495,8 +489,7 @@ $90 (60 Minutes) • $115 (90 Minutes) •  $150 (2 Hours) <br></br>Couples: $18
             <h3>Neck & Shoulder Relief</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
               Performed clothes-on in the massage chair where therapist stands
-              behind client while they are sitting upright in chair. Have
-              therapist prepare massage chair BEFORE taking client back to room.
+              behind client while they are sitting upright in chair.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
 $30 (15 Minutes)<br></br>Couples: $60 (15 Minutes)
@@ -508,79 +501,27 @@ $30 (15 Minutes)<br></br>Couples: $60 (15 Minutes)
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               17
             </span>
-            <h3>Chair/Body Massage</h3>
-            <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-              “Chair” is always clothes-on and the client has the option (ask at
-              booking) to receive massage in foot massage room while lying face
-              down or in the chair (same as Neck & Shoulder Relief above).
-            </p>
-            <p className="text-small font-medium tracking-wide text-gray-900">
-              {/* $85 (1 Hour)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $115 (90 Minutes)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $145 (2 Hours)
-                     <br />
-                     <br className="block lg:hidden" />
-                     Couples: <br className="block lg:hidden" />
-                     $170 (1 Hour)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $230 (90 Minutes)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $290 (2 Hours) */}
- $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
-            </p>
-          </div>
-
-          <div id="section-18" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
-              18
-            </span>
             <h3>30 Minute Foot Massage al-la-carte</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
 $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
             </p>
-          </div>
-
-          <div id="section-19" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
-              19
-            </span>
-            <h3>
+                        <h3>
               Add-on to any 60 Minute or <br></br> 90 Minute Body Massage
             </h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light"></p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-              {/* $85 (1 Hour)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $115 (90 Minutes)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $145 (2 Hours)
-                     <br />
-                     <br className="block lg:hidden" />
-                     Couples: <br className="block lg:hidden" />
-                     $170 (1 Hour)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $230 (90 Minutes)
-                     <br className="block lg:hidden" />
-                     <span className="hidden lg:inline lg:mx-1">•</span>
-                     $290 (2 Hours) */}
+  
               $30 (30 Minutes)<br></br>Couples: $60 (30 Minutes)
             </p>
           </div>
 
-          <div id="section-17" className="mb-20 lg:mb-40">
+
+
+          <div id="section-18" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
-              17
+              18
             </span>
             <h3>Add-ons</h3>
             <p className="text-small font-medium tracking-wide text-gray-900">
