@@ -513,7 +513,7 @@ $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light"></p>
             <p className="text-small font-medium tracking-wide text-gray-900">
   
-              $30 (30 Minutes)<br></br>Couples: $60 (30 Minutes)
+              $35 (30 Minutes)<br></br>Couples: $70 (30 Minutes)
             </p>
           </div>
 

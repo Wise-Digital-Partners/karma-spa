@@ -76,41 +76,49 @@ const Page = ({ data }) => {
               stripHash
             />
           </li>
-          <li>
+                    <li>
             <AnchorLink
               to={url + "#section-4"}
+              title="Hydra-Dermabrasion Facial"
+              stripHash
+            />
+          </li>
+          <li>
+            <AnchorLink
+              to={url + "#section-5"}
               title="Deep Pore Cleansing Facial"
               stripHash
             />
           </li>          
           <li>
             <AnchorLink
-              to={url + "#section-5"}
+              to={url + "#section-6"}
               title="Signature Facial"
               stripHash
             />
           </li>          
           <li>
             <AnchorLink
-              to={url + "#section-6"}
+              to={url + "#section-7"}
               title="Mini Facial"
               stripHash
             />
           </li>          
           <li>
             <AnchorLink
-              to={url + "#section-7"}
+              to={url + "#section-8"}
               title="Dermaplaning Facial"
               stripHash
             />
           </li>
           <li>
             <AnchorLink
-              to={url + "#section-8"}
+              to={url + "#section-9"}
               title="Dermaplane Express"
               stripHash
             />
-          </li>
+          </li>          
+
         </ScrollNavigation>
         <ScrollContent>
           <div id="section-0" className="mb-10 ">
@@ -178,10 +186,40 @@ $110 (60 Minutes)
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
-
           <div id="section-4" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               04
+            </span>
+
+            <div>
+              <h3>Hydra-Dermabrasion Facial</h3>
+              <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
+                Get clearer skin through hydra-dermabrasion, which combines
+                cleansing, exfoliation, extraction, hydration and antioxidant
+                protection all at once. This treatment is soothing,
+                moisturizing, non-invasive and non-irritating because there is
+                no incisions or punctures to the skin.
+              </p>
+              <ul className="mb-10">
+                <li className="mb-1.5">Includes:</li>
+                <li className="mb-1.5">-Cleanse</li>
+                <li className="mb-1.5">-Exfoliation</li>
+                <li className="mb-1.5">
+                  -Hydration and Antioxidant Protection
+                </li>
+                <li className="mb-1.5">
+                  *Steam & hot towels are used throughout entire treatment
+                </li>
+              </ul>
+              <p className="font-semibold text-sm text-gray-800">
+                $135 (60 Minutes)
+              </p>
+            </div>
+
+          </div>
+          <div id="section-5" className="mb-20 lg:mb-40">
+            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+              05
             </span>
             {/* SECTION 1 CONTENT */}
             <div>
@@ -200,9 +238,9 @@ $110 (60 Minutes)
             {/* END OF SECTION 1 CONTENT */}
           </div>
 
-          <div id="section-5" className="mb-20 lg:mb-40">
+          <div id="section-6" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
-              05
+              06
             </span>
             {/* SECTION 1 CONTENT */}
             <div>
@@ -221,9 +259,9 @@ $110 (60 Minutes)
             {/* END OF SECTION 1 CONTENT */}
           </div>
 
-          <div id="section-6" className="mb-20 lg:mb-40">
+          <div id="section-7" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
-              06
+              07
             </span>
             {/* SECTION 1 CONTENT */}
             <div>
@@ -235,15 +273,15 @@ $110 (60 Minutes)
                 décolleté massage, mask, moisturizer & sunscreen
               </p>
               <p className="font-semibold text-sm text-gray-800">
-                $55 (30 Minutes)
+                $75 (30 Minutes)
               </p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
 
-          <div id="section-7" className="mb-20 lg:mb-40">
+          <div id="section-8" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
-              07
+              08
             </span>
             {/* SECTION 1 CONTENT */}
             <div>
@@ -279,9 +317,9 @@ $110 (60 Minutes)
             {/* END OF SECTION 1 CONTENT */}
           </div>
 
-          <div id="section-8" className="mb-20 lg:mb-40">
+          <div id="section-9" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
-              08
+              09
             </span>
             {/* SECTION 1 CONTENT */}
             <div>

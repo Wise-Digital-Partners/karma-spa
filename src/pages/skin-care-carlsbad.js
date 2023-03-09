@@ -354,12 +354,12 @@ const Page = ({ data }) => {
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
-
+            {/* SECTION 4 CONTENT */}
           <div id="section-4" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               04
             </span>
-            {/* SECTION 1 CONTENT */}
+
             <div>
               <h3>Hydra-Dermabrasion Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
@@ -384,9 +384,9 @@ const Page = ({ data }) => {
                 $135 (60 Minutes)
               </p>
             </div>
-            {/* END OF SECTION 1 CONTENT */}
-          </div>
 
+          </div>
+            {/* END OF SECTION 1 CONTENT */}
           <div id="section-5" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               05
