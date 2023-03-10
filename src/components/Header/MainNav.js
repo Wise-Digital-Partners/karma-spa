@@ -531,11 +531,11 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                                     Treatments
                                  </AniLink>
                               </li>
-                              {/* <li className="navigation-item">
+                              <li className="navigation-item">
                                  <AniLink onKeyDown={clickHandler} onClick={clickHandler} fade to="/skin-care-hillcrest/">
                                     Skin Care
                                  </AniLink>
-                              </li> */}
+                              </li>
                            </Accordion>
                         </li>
                         <li className="flex justify-center navigation-item is-submenu-parent">
