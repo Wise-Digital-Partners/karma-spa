@@ -533,23 +533,23 @@ const Page = ({ data }) => {
                full body massage.
              </p>
              <p className="text-small font-medium tracking-wide text-gray-900">
-               $80 (60 Minutes)
+               $90 (60 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $120 (90 Minutes)
+               $125 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $165 (2 Hours)
+               $160 (2 Hours)
                <br />
                <br className="block lg:hidden" />
                Couples: <br className="block lg:hidden" />
                $180 (60 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $240 (90 Minutes)
+               $250 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $330 (2 Hours)
+               $320 (2 Hours)
              </p>
            </div>
 
