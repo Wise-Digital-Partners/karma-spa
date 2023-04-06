@@ -51,8 +51,13 @@ const Footer = () => {
 
    return (
       <div>
-         <footer className="bg-gray-900 pt-18 md:pt-32 pb-8 text-center md:text-left">
+         <footer className="bg-gray-900 pb-8 text-center md:text-left">
             <div className="container">
+            <div className="py-10 mx-auto  max-w-[950px] ">
+               <p className="mb-0 pb-0 text-sm leading-6 text-center font-heading text-white text-opacity-80">
+               <b className="text-opacity-1">Disclaimer:</b> Please call us if you think you’ll arrive late for your appointment. We provide a 5-minute grace period, but anything beyond that will shorten your massage time. If you cancel within two hours of your scheduled time slot or do not show up, you will be charged a 50% cancellation fee.
+               </p>
+            </div>
                <div className="md:flex md:justify-between mb-20 md:mb-28">
                   <div className="md:flex md:flex-col md:justify-around mb-12 md:mb-0">
                      <Img className="mb-10 md:mb-0 mx-auto md:mx-0" fluid={logo} alt="Karma Spa Logo" />
