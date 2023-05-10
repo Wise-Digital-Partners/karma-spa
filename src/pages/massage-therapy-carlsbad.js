@@ -306,10 +306,15 @@ Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </span>
             <h3>Tuina Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-              No oil, No lotion. Great for clients with knots or clients or
-              clients who like deep pressure. (This modality is not for
-              everyone.. it can feel like Indian Burn at times -LOL-).
-            </p>
+               Chinese massage without oil or lotion!
+             </p>
+             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
+               Our massage therapist, while avoiding oil or lotion, will brush,
+               knead, roll/press, and rub the areas between each of the joints,
+               to attempt to open the body’s defensive chi and get the energy
+               moving in the muscles. This is recommended for our most
+               experienced massage clients.
+             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
 $75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>
 Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
