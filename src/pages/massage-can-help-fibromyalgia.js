@@ -16,7 +16,7 @@ const Post = ({ data }) => {
          />
 
          <BlogSinglePost
-            title="How Message Can Help Your Fibromyalgia"
+            title="How Massage Can Help Your Fibromyalgia"
             date="January 10, 2017"
             author="Karma"
             content="                        

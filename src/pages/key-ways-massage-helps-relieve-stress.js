@@ -16,7 +16,7 @@ const Post = ({ data }) => {
          />
 
          <BlogSinglePost
-            title="Key Ways That Message Helps Relieve Stress"
+            title="Key Ways That Massage Helps Relieve Stress"
             date="February 20, 2017"
             author="Karma"
             content="                        
