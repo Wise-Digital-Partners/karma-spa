@@ -9,8 +9,8 @@ const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
-            title=""
-            description=""
+            title="Best Ways to Prepare for a Massage | Karma Spa"
+            description="Looking to get the most out of your massage experience? Check out our blog for tips and tricks on how you can prepare for your next massage."
             // openGraphImage={data.openGraphImage.publicURL}
             // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
          />

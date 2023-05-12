@@ -9,8 +9,8 @@ const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
-            title=""
-            description=""
+            title="5 Reasons to Try Reflexology | Karma Spa"
+            description="Discover the benefits of reflexology. Read more to learn how this ancient practice can improve your circulation, reduce stress, ease pain, & promote relaxation."
             // openGraphImage={data.openGraphImage.publicURL}
             // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
          />

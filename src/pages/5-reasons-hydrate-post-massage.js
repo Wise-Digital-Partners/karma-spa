@@ -9,8 +9,8 @@ const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
-            title=""
-            description=""
+            title="5 Reason to Hydrate Post-Massage | Karma Spa"
+            description="Looking for reasons to hydrate post-massage? Read our blog to learn more about why you should hydrate after a massage as it provides many benefits to your body."
             // openGraphImage={data.openGraphImage.publicURL}
             // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
          />

@@ -27,8 +27,8 @@ const Page = ({ data }) => {
   return (
     <Layout headerHasBorder={true}>
       <SearchEngineOptimization
-        title="Reviews"
-        description=""
+        title="Reviews | Karma Spa | San Diego & Carlsbad Massage"
+        description="Discover authentic & insightful reviews on a wide range of services & experiences. Get valuable feedback to make informed decisions. Explore our reviews today!"
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />

@@ -9,8 +9,8 @@ const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
-            title=""
-            description=""
+            title="5 Benefits to Infrared Light Therapy | Karma Spa"
+            description="Discover the amazing benefits of infrared light therapy. Read on to uncover the many physical and cosmetic benefits of this powerful therapy."
             // openGraphImage={data.openGraphImage.publicURL}
             // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
          />

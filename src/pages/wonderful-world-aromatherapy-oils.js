@@ -9,8 +9,8 @@ const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
-            title=""
-            description=""
+            title="Benefits of Various Essential Oils | Karma Spa "
+            description="Uncover the amazing benefits of essential oils on our latest blog post. Read how these natural oils can promote relaxation, boost immunity& relieve headaches."
             // openGraphImage={data.openGraphImage.publicURL}
             // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
          />

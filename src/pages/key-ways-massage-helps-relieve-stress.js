@@ -9,8 +9,8 @@ const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
-            title=""
-            description=""
+            title="5 Ways Massages Help Relieve Stress | Karma Spa"
+            description="Discover the powerful ways massages can help relieve stress. It can help relieve headaches, muscle tension, anxiety, and much more. Read to learn more!"
             // openGraphImage={data.openGraphImage.publicURL}
             // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
          />

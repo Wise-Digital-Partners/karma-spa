@@ -9,8 +9,8 @@ const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
-            title=""
-            description=""
+            title="8 Types of Massage: What's the Difference? | Karma Spa"
+            description="Learn about the different types of massage techniques and the benefits of each. Whether you're seeking relaxation or pain relief, our blog will help you choose."
             // openGraphImage={data.openGraphImage.publicURL}
             // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
          />

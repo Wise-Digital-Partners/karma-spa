@@ -9,8 +9,8 @@ const Post = ({ data }) => {
    return (
       <Layout headerLinkColor="black">
          <SearchEngineOptimization
-            title=""
-            description=""
+            title="How Can Massage Help Fibromyalgia | Karma Spa"
+            description="Looking for relief from the pain and fatigue of fibromyalgia? Discover how massage therapy can help your fibromyalgia by reducing pain & improve your sleep!"
             // openGraphImage={data.openGraphImage.publicURL}
             // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
          />
