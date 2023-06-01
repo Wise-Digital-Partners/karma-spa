@@ -121,10 +121,10 @@ const Page = ({ data }) => {
             </span>
             <h3 className="mb-4">The President Package</h3>
 
-            {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+           <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                Experience the benefits of massage therapy and body detox in one
                session.
-             </p> */}
+             </p>
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">
               Includes:
             </p>
@@ -147,9 +147,9 @@ const Page = ({ data }) => {
               <i className="fas fa-tag text-primary_400 mr-2"></i>$100
             </span>
             <h3 className="mb-4">The Vice President Package</h3>
-            {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+            <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                Ease your stress with a massage & sauna or steam session.
-             </p> */}
+             </p> 
 
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">
               Includes:
@@ -170,9 +170,9 @@ const Page = ({ data }) => {
               <i className="fas fa-tag text-primary_400 mr-2"></i>$145
             </span>
             <h3 className="mb-4">The CEO Package</h3>
-            {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                Make room in your busy schedule for some pampering.
-             </p> */}
+             </p> 
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">
               Includes:
             </p>
@@ -191,10 +191,10 @@ const Page = ({ data }) => {
               <i className="fas fa-tag text-primary_400 mr-2"></i>$175
             </span>
             <h3 className="mb-4">The Premier Package</h3>
-            {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                Want a well-rounded massage experience? The Premier Package is
                for you.
-             </p> */}
+             </p> 
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">
               Includes:
             </p>
@@ -214,9 +214,9 @@ const Page = ({ data }) => {
               <i className="fas fa-tag text-primary_400 mr-2"></i>$170
             </span>
             <h3 className="mb-4">The Royal Package</h3>
-            {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
                Feel like royalty with two therapists for maximum relaxation.
-             </p> */}
+             </p> 
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">
               Includes:
             </p>
@@ -235,10 +235,10 @@ const Page = ({ data }) => {
               <i className="fas fa-tag text-primary_400 mr-2"></i>$185
             </span>
             <h3 className="mb-4">First Lady Package</h3>
-            {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
-               Want a well-rounded massage experience? The Premier Package is
-               for you.
-             </p> */}
+            <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+               Get pampered from head to toe with two and a half hours of indulgence.
+
+             </p> 
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">
               Includes:
             </p>
@@ -257,9 +257,9 @@ const Page = ({ data }) => {
               <i className="fas fa-tag text-primary_400 mr-2"></i>$155
             </span>
             <h3 className="mb-4">The Crown Package</h3>
-            {/* <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
-               Feel like royalty with two therapists for maximum relaxation.
-             </p> */}
+          <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+               Get the royal treatment with this luxurious 1 hour 45 minute package.
+             </p>
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">
               Includes:
             </p>

@@ -125,6 +125,7 @@ const Page = ({ data }) => {
                 <li>-Sunscreen</li>
                 <li>-Toner & Moisturizer</li>
                 <li>-Lip & Eye Treatment</li>
+                <li></li>
                 <li>
                   *Steam & hot towels are used throughout entire treatment
                 </li>
@@ -151,6 +152,9 @@ const Page = ({ data }) => {
               <div className="mb-20">
                 {" "}
                 <h3>Microdermabrasion</h3>
+                <p>Exfoliating!</p>
+                <p>Performed within the 60-minute Facial. No extra time is added! 
+Can be added to a 30-minute Mini Facial, but client should be informed the cleanse + mask treatment will be drastically shortened!</p>
                 <ul className="mb-10">
                   <li className="mb-1.5">Benefits:</li>
                   <li className="mb-1.5">-Fresher looking skin</li>
@@ -313,9 +317,9 @@ const Page = ({ data }) => {
               <h3>Oxygen Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
                 Experience deep exfoliation without the downtime of a chemical
-                peel! This exfoliating facial is not recommended for sensitive
-                skin types. Choose between NeoBright for a lighting treatment
-                for hyper-pigmentation or NewRevive for rejuvenating treatment
+                peel! This exfoliating facial is <span className="underline">not recommended for sensitive
+                skin types</span>. Choose between <span className="font-bold">NeoBright</span> for a lighting treatment
+                for hyper-pigmentation or <span className="font-bold">NewRevive</span> for rejuvenating treatment
                 for fine lines and wrinkles.
               </p>
               <ul className="mb-10">
@@ -363,11 +367,7 @@ const Page = ({ data }) => {
             <div>
               <h3>Hydra-Dermabrasion Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                Get clearer skin through hydra-dermabrasion, which combines
-                cleansing, exfoliation, extraction, hydration and antioxidant
-                protection all at once. This treatment is soothing,
-                moisturizing, non-invasive and non-irritating because there is
-                no incisions or punctures to the skin.
+              Get clearer skin through hydra-dermabrasion, which combines cleansing, exfoliation, extraction, hydration, and antioxidant protection all at once. This treatment is soothing, moisturizing, non-invasive, and non-irritating.
               </p>
               <ul className="mb-10">
                 <li className="mb-1.5">Includes:</li>
@@ -395,10 +395,7 @@ const Page = ({ data }) => {
             <div>
               <h3>Back Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                We’ve got your back! Benefit from our signature back facial that
-                utilizes all-natural Dr. Schwab Products on this hard-to-reach
-                area. Consider adding on our Mini Facial to experience a full 60
-                minutes of relaxation!
+              We’ve got your back! Benefit from our signature back facial that utilizes all-natural Dr. Schwab products. Benefits include getting rid of back acne, reducing oiliness, and softening the skin and an overall soothing experience. Consider adding on our Mini Facial to experience 60 minutes of relaxation.
               </p>
               <ul className="mb-10">
                 <li className="mb-1.5">-Getting rid of back acne</li>
@@ -500,10 +497,7 @@ const Page = ({ data }) => {
             <div>
               <h3>Dermaplane Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                Dermaplaning is an exfoliation treatment that involves gently
-                scraping the face with a medical-grade scalpel to remove the
-                very top layer of skin without any harsh chemicals, excessive
-                downtime, or pain.
+              Dermaplaning is an exfoliation treatment that involves gently scraping the face with a medical-grade scalpel to remove the very top layer of skin. The shave removes both dead skin cells and the fine vellus hairs that are known as “peach fuzz,” leaving the surface of the face ultra smooth. By stimulating the development of new skin cells, this type of exfoliation helps new skin rise to the surface. It leaves clients with a more youthful and dewy face without any harsh chemicals, excessive downtime, or pain.
               </p>
 
               <ul className="mb-10">
@@ -539,12 +533,39 @@ const Page = ({ data }) => {
                 </li>
               </ul>
 
-              <p className="font-semibold text-sm text-gray-800">
-                  $130 (60 Minutes)
+              <p className="font-semibold text-sm text-gray-800">$130 (60 Minutes)<br />ADD on just Dermaplaning to Signature Facial + $65 card/$60 cash (Add additional 20-30 Minutes to 60 Minute Signature Facial)
               </p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
-
+            <div className="text-center mt-20">
+              <h2>Dermaplane Facial Add-ons</h2>
+            </div>
+            <div className="mt-20">
+              <div className="mb-20">
+                {" "}
+                <h3>Sauna</h3>
+                <p className="font-semibold text-sm text-gray-800">
+                (NO $5 off with cash)
+                <br />
+                $20 (15 Minute) Sauna Session • $35	(30 Minute) Sauna Session
+                <br />
+                $40 (15 Minute) Couple’s Sauna Session • $70	(30 Minute) Couple’s Sauna Session
+                </p>
+              </div>
+              {/* service sub section */}
+              <div className="mb-20">
+                {" "}
+                <h3>Ionic Body Detox</h3>
+                
+                <p className="font-semibold text-sm text-gray-800">
+                (NO $5 off with cash)
+                <br />
+                $20 (15 Minute) Detox • $35	(30 Minute) Detox
+                <br />
+                $40 (15 Minute) Couple’s Detox • $70	(30 Minute) Couple’s Detox
+                </p>
+              </div>
+              </div>
           </div>
 
         </ScrollContent>
