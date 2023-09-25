@@ -416,7 +416,7 @@ const Page = ({ data }) => {
             <p className="text-small font-medium tracking-wide text-gray-900">
               <span className="italic block">Deep Tissue + $5 </span>
               $80 (1 Hour) • $110 (90 Minutes) • NO TWO HOUR, UNLESS THEY ADD ON 30 MINUTE FOOT
-              MESSAGE TO 90 MINUTE BODY
+              MASSAGE TO 90 MINUTE BODY
             </p>
           </div>
 
@@ -528,10 +528,10 @@ const Page = ({ data }) => {
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               19
             </span>
-            <h3>Add-on to any 60 Minute or 90 Minute Body Massage</h3>
+            {/* <h3>Add-on to any 60 Minute or 90 Minute Body Massage</h3>
             <p className="text-small font-medium tracking-wide text-gray-900 md:mb-[120px]">
               $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
-            </p>
+            </p> */}
             <h3>Add-ons</h3>
             <p className="text-small font-medium tracking-wide text-gray-900">
               <ul>
