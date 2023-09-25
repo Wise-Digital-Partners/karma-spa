@@ -266,8 +266,7 @@ const Page = ({ data }) => {
             <p className="text-small font-medium tracking-wide text-gray-900">
               <span className="italic block">Deep Tissue + $5 </span>
               $80 (60 Minutes) • $110 (90 Minutes) • $140 (2 Hours)<br></br>
-              Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)<br></br>
-              *Couples pricing
+              Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </p>
           </div>
 
@@ -410,13 +409,13 @@ const Page = ({ data }) => {
               adding on a foot massage to the last 30 minutes of your massage. You won’t regret it.{" "}
             </p>
             <br></br>
-            <p>
-              <sm>*Expected mothers must be at least 8 weeks to begin massage therapy*</sm>
-            </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
               <span className="italic block">Deep Tissue + $5 </span>
-              $80 (1 Hour) • $110 (90 Minutes) • NO TWO HOUR, UNLESS THEY ADD ON 30 MINUTE FOOT
-              MASSAGE TO 90 MINUTE BODY
+              <span className="block">
+                *Expected mothers must be at least 8 weeks to begin massage therapy*
+              </span>
+              $80 (1 Hour) • $110 (90 Minutes)
+              <br /> No two hour, unless adding on a 30-minute foot massage to 90-minute body
             </p>
           </div>
 
@@ -535,15 +534,42 @@ const Page = ({ data }) => {
             <h3>Add-ons</h3>
             <p className="text-small font-medium tracking-wide text-gray-900">
               <ul>
-                <li>-Prenatal Add-on +$5</li>
-                <li>-Aromatherapy Add-on +$5</li>
-                <li>-CBD Body Oil Add-on +$15</li>
-                <li>-Hot Stone Add-on +$15</li>
+                <li>-Prenatal +$5</li>
+                <li>-Aromatherapy +$5</li>
+                <li>-CBD Body Oil +$15</li>
+                <li>-Hot Stone +$15</li>
                 <li>-Foot Scrub +$15</li>
-                <li>-Foot Massage (30 Minutes) Add-on +$30</li>
-                <li>-Thai Massage (Stretching) +$5</li>
+                <li>-30 Minute Foot Massage +$30</li>
+                <li>-30 Minute Couple’s Foot Massage +$60</li>
               </ul>
             </p>
+            <div className="mt-20">
+              <div className="mb-20">
+                <h3>Sauna</h3>
+                <span className="font-semibold text-sm text-gray-800 italic">
+                  **No $5 off with cash**
+                </span>
+                <ul className="font-semibold text-sm text-gray-800 list-disc list-inside pl-2">
+                  <li>15 Minute Sauna Session ($20)</li>
+                  <li>15 Minute Couple's Sauna Session ($40)</li>
+                  <li>30 Minute Sauna Session ($35)</li>
+                  <li>30 Minute Couple's Sauna Session ($70)</li>
+                </ul>
+              </div>
+              {/* service sub section */}
+              <div className="mb-20">
+                <h3>Ionic Body Detox</h3>
+                <span className="font-semibold text-sm text-gray-800 italic">
+                  **No $5 off with cash**
+                </span>
+                <ul className="font-semibold text-sm text-gray-800 list-disc list-inside pl-2">
+                  <li>15 Minute Ionic Body Detox ($20)</li>
+                  <li>15 Minute Couple's Ionic Body Detox ($40)</li>
+                  <li>30 Minute Ionic Body Detox ($35)</li>
+                  <li>30 Minute Couple's Ionic Body Detox ($70)</li>
+                </ul>
+              </div>
+            </div>
             {/*<div className="mb-12 lg:mb-24">
                <h3>Sauna</h3>
                <p>**No $5 off with cash**</p>

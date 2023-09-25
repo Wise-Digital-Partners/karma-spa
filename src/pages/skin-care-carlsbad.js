@@ -46,45 +46,28 @@ const Page = ({ data }) => {
       >
         <h1>Carlsbad Skin Care Services</h1>
         <p className="mb-2 md:mb-0">
-          Show yourself some extra love with our skin care services! Stress,
-          free radicals, sun damage, and many other factors impact our skin.
-          Find the right service in Carlsbad for your needs today, whether it’s
-          a facial, waxing session, scrubs, or sauna session.
+          Show yourself some extra love with our skin care services! Stress, free radicals, sun
+          damage, and many other factors impact our skin. Find the right service in Carlsbad for
+          your needs today, whether it’s a facial, waxing session, scrubs, or sauna session.
         </p>
       </HeroSplit>
 
       <ScrollWrapper>
         <ScrollNavigation>
           <li>
-            <AnchorLink
-              to={url + "#section-1"}
-              title="Signature Facial"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-1"} title="Signature Facial" stripHash />
           </li>
           <li>
             <AnchorLink to={url + "#section-2"} title="O2 Facial" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-3"}
-              title="Oxygen Facial"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-3"} title="Oxygen Facial" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-4"}
-              title="HydraFacial"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-4"} title="HydraFacial" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-5"}
-              title="Back Facial"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-5"} title="Back Facial" stripHash />
           </li>
           <li>
             <AnchorLink to={url + "#section-6"} title="Mini Facial" stripHash />
@@ -93,11 +76,7 @@ const Page = ({ data }) => {
             <AnchorLink to={url + "#section-7"} title="Gentleman’s Facial" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-8"}
-              title="Dermaplane Facial"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-8"} title="Dermaplane Facial" stripHash />
           </li>
         </ScrollNavigation>
         <ScrollContent>
@@ -109,9 +88,8 @@ const Page = ({ data }) => {
             <div>
               <h3>Signature Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                Our Signature Facial is customizable to all skin types. It
-                promotes a clear, well-hydrated complexion utilizing all-natural
-                Dr. Schwab products.
+                Our Signature Facial is customizable to all skin types. It promotes a clear,
+                well-hydrated complexion utilizing all-natural Dr. Schwab products.
               </p>{" "}
               <ul className="mb-10">
                 <li>Includes:</li>
@@ -126,13 +104,9 @@ const Page = ({ data }) => {
                 <li>-Toner & Moisturizer</li>
                 <li>-Lip & Eye Treatment</li>
                 <li></li>
-                <li>
-                  *Steam & hot towels are used throughout entire treatment
-                </li>
+                <li>*Steam & hot towels are used throughout entire treatment</li>
               </ul>
-              <p className="font-semibold text-sm text-gray-800">
-                $90 (60 Minutes)
-              </p>
+              <p className="font-semibold text-sm text-gray-800">$90 (60 Minutes)</p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
             {/* SECTION ADDONS  */}
@@ -144,8 +118,7 @@ const Page = ({ data }) => {
                 {" "}
                 <h3>Dermaplaning</h3>
                 <p className="font-semibold text-sm text-gray-800">
-                  +$65 card/$60 cash (Add additional 20-30 Minutes to 60 Minute
-                  Signature Facial)
+                  +$65 card/$60 cash (Add additional 20-30 Minutes to 60 Minute Signature Facial)
                 </p>
               </div>
               {/* service sub section */}
@@ -153,8 +126,11 @@ const Page = ({ data }) => {
                 {" "}
                 <h3>Microdermabrasion</h3>
                 <p>Exfoliating!</p>
-                <p>Performed within the 60-minute Facial. No extra time is added! 
-Can be added to a 30-minute Mini Facial, but client should be informed the cleanse + mask treatment will be drastically shortened!</p>
+                <p>
+                  Performed within the 60-minute Facial. No extra time is added!  Can be added to a
+                  30-minute Mini Facial, but client should be informed the cleanse + mask treatment
+                  will be drastically shortened!
+                </p>
                 <ul className="mb-10">
                   <li className="mb-1.5">Benefits:</li>
                   <li className="mb-1.5">-Fresher looking skin</li>
@@ -176,27 +152,20 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                 {" "}
                 <h3>Pumpkin Peel Enzyme Mask</h3>
                 <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                  This add-on helps drive highly refined extracted ingredients
-                  that have been added to (h2t) Pumpkin Peel (anti-oxidants,
-                  vitamins & nutrients) into the skin. Not for sensitive skin.
+                  This add-on helps drive highly refined extracted ingredients that have been added
+                  to (h2t) Pumpkin Peel (anti-oxidants, vitamins & nutrients) into the skin. Not for
+                  sensitive skin.
                 </p>{" "}
                 <ul className="mb-10">
                   <li className="mb-1.5">Benefits:</li>
                   <li className="mb-1.5">-Exfoliates surface cells</li>
-                  <li className="mb-1.5">
-                    -Helps destroy surface area bacteria
-                  </li>
+                  <li className="mb-1.5">-Helps destroy surface area bacteria</li>
                   <li className="mb-1.5">-Binds moisture into the skin</li>
+                  <li className="mb-1.5">-Softens the appearance of fine lines and wrinkles</li>
+                  <li className="mb-1.5">-Improves texture & pliability of the corneum layer</li>
                   <li className="mb-1.5">
-                    -Softens the appearance of fine lines and wrinkles
-                  </li>
-                  <li className="mb-1.5">
-                    -Improves texture & pliability of the corneum layer
-                  </li>
-                  <li className="mb-1.5">
-                    -Helps drive highly refined extracted ingredients that have
-                    been added to (h2t) Pumpkin Peel (anti-oxidants, vitamins &
-                    nutrients) into the skin
+                    -Helps drive highly refined extracted ingredients that have been added to (h2t)
+                    Pumpkin Peel (anti-oxidants, vitamins & nutrients) into the skin
                   </li>
                 </ul>
                 <p className="font-semibold text-sm text-gray-800">
@@ -217,9 +186,7 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                     -Assists in killing acne causing bacteria under the skin
                   </li>
                   <li className="mb-1.5">-Relieves cystic acne</li>
-                  <li className="mb-1.5">
-                    -Reduces the severity and duration of breakouts
-                  </li>
+                  <li className="mb-1.5">-Reduces the severity and duration of breakouts</li>
                   <li className="mb-1.5">-Shrinks enlarged pores</li>
                   <li className="mb-1.5">-Reduces inflammation</li>
                 </ul>
@@ -233,8 +200,7 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                 {" "}
                 <h3>Extractions</h3>
                 <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                  Using an extraction tool that creates pressure in the area of
-                  the clogged pore!
+                  Using an extraction tool that creates pressure in the area of the clogged pore!
                 </p>{" "}
                 <ul className="mb-10">
                   <li className="mb-1.5">Benefits:</li>
@@ -246,8 +212,7 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                   <li className="mb-1.5">-Clearer and more even complexion</li>
                 </ul>
                 <p className="font-semibold text-sm text-gray-800">
-                  FREE-Included only within the Signature Facial (No Mini
-                  Facial)
+                  FREE-Included only within the Signature Facial (No Mini Facial)
                 </p>
               </div>
               {/* END SERBICE SUB SECTION */}
@@ -256,21 +221,17 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                 {" "}
                 <h3>Anti-Aging Hyaluronic Serum</h3>
                 <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                  Powerful Line Remover and Collagen Booster. Liquid Face Lift
-                  in a Bottle. Our potent serum signals your skin to increase
-                  collagen production for firmer, more youthful looking skin. It
-                  also creates smoother and tighter skin with our powerful
-                  argireline peptide, also known as the natural Botox. No oils,
-                  fragrances, parabens or sulfates. All natural and serums are
-                  never tested on animals.
+                  Powerful Line Remover and Collagen Booster. Liquid Face Lift in a Bottle. Our
+                  potent serum signals your skin to increase collagen production for firmer, more
+                  youthful looking skin. It also creates smoother and tighter skin with our powerful
+                  argireline peptide, also known as the natural Botox. No oils, fragrances, parabens
+                  or sulfates. All natural and serums are never tested on animals.
                 </p>{" "}
                 <ul className="mb-10">
                   <li className="mb-1.5">Benefits:</li>
                   <li className="mb-1.5">-“Liquid face lift in a bottle”</li>
                   <li className="mb-1.5">-Firms, plumps, moisturizes skin</li>
-                  <li className="mb-1.5">
-                    -Powerful argireline peptides (Natural Botox)
-                  </li>
+                  <li className="mb-1.5">-Powerful argireline peptides (Natural Botox)</li>
                 </ul>
                 <p className="font-semibold text-sm text-gray-800">
                   +$10 Cash or Card (NO $5 OFF WITH CASH as it is an add-on)
@@ -288,8 +249,8 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
             <div>
               <h3>O2 Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                Rejuvenate skin with oxygen infusion, plant-derived stem cells,
-                peptides, and a high concentration of enzymatic botanicals.
+                Rejuvenate skin with oxygen infusion, plant-derived stem cells, peptides, and a high
+                concentration of enzymatic botanicals.
               </p>
               <ul className="mb-10">
                 <li className="mb-1.5">Signature Facial that incorporates:</li>
@@ -301,9 +262,7 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                 </li>
               </ul>
 
-              <p className="font-semibold text-sm text-gray-800">
-                $100 (60 Minutes)
-              </p>
+              <p className="font-semibold text-sm text-gray-800">$100 (60 Minutes)</p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
@@ -316,49 +275,40 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
             <div>
               <h3>Oxygen Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                Experience deep exfoliation without the downtime of a chemical
-                peel! This exfoliating facial is <span className="underline">not recommended for sensitive
-                skin types</span>. Choose between <span className="font-bold">NeoBright</span> for a lighting treatment
-                for hyper-pigmentation or <span className="font-bold">NewRevive</span> for rejuvenating treatment
-                for fine lines and wrinkles.
+                Experience deep exfoliation without the downtime of a chemical peel! This
+                exfoliating facial is{" "}
+                <span className="underline">not recommended for sensitive skin types</span>. Choose
+                between <span className="font-bold">NeoBright</span> for a lighting treatment for
+                hyper-pigmentation or <span className="font-bold">NewRevive</span> for rejuvenating
+                treatment for fine lines and wrinkles.
               </p>
               <ul className="mb-10">
                 <li className="mb-1.5">Includes:</li>
                 <li className="mb-1.5">-Cleanse</li>
-                <li className="mb-1.5">
-                  -Exfoliate with Sodium Bicarbonate Tip
-                </li>
-                <li className="mb-1.5">
-                  -Ultrasound for deeper product penetrations
-                </li>
+                <li className="mb-1.5">-Exfoliate with Sodium Bicarbonate Tip</li>
+                <li className="mb-1.5">-Ultrasound for deeper product penetrations</li>
                 <li className="mb-1.5">-Massage</li>
                 <li className="mb-1.5">-Moisturize</li>
-                <li className="mb-1.5">
-                  *Steam & hot towels are used throughout entire treatment
-                </li>
+                <li className="mb-1.5">*Steam & hot towels are used throughout entire treatment</li>
               </ul>
               <p className="font-semibold">
                 NeoBright active ingredients{" "}
                 <span className="text-gray-500 block font-normal">
-                  Azelaic Acid: Evens out skin tone • Kojic Acid: Brightens •
-                  Retinol: Anti-aging
+                  Azelaic Acid: Evens out skin tone • Kojic Acid: Brightens • Retinol: Anti-aging
                 </span>
               </p>
               <p className="font-semibold">
                 NeoRevive active ingredients
                 <span className="text-gray-500 block font-normal">
-                  Hyaluronic acid: Wrinkle reducer • Peptides: Skin repair •
-                  Retinol: Anti-aging
+                  Hyaluronic acid: Wrinkle reducer • Peptides: Skin repair • Retinol: Anti-aging
                 </span>
               </p>
 
-              <p className="font-semibold text-sm text-gray-800">
-                $115 (60 Minutes)
-              </p>
+              <p className="font-semibold text-sm text-gray-800">$115 (60 Minutes)</p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
-            {/* SECTION 4 CONTENT */}
+          {/* SECTION 4 CONTENT */}
           <div id="section-4" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               04
@@ -367,26 +317,21 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
             <div>
               <h3>Hydra-Dermabrasion Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-              Get clearer skin through hydra-dermabrasion, which combines cleansing, exfoliation, extraction, hydration, and antioxidant protection all at once. This treatment is soothing, moisturizing, non-invasive, and non-irritating.
+                Get clearer skin through hydra-dermabrasion, which combines cleansing, exfoliation,
+                extraction, hydration, and antioxidant protection all at once. This treatment is
+                soothing, moisturizing, non-invasive, and non-irritating.
               </p>
               <ul className="mb-10">
                 <li className="mb-1.5">Includes:</li>
                 <li className="mb-1.5">-Cleanse</li>
                 <li className="mb-1.5">-Exfoliation</li>
-                <li className="mb-1.5">
-                  -Hydration and Antioxidant Protection
-                </li>
-                <li className="mb-1.5">
-                  *Steam & hot towels are used throughout entire treatment
-                </li>
+                <li className="mb-1.5">-Hydration and Antioxidant Protection</li>
+                <li className="mb-1.5">*Steam & hot towels are used throughout entire treatment</li>
               </ul>
-              <p className="font-semibold text-sm text-gray-800">
-                $135 (60 Minutes)
-              </p>
+              <p className="font-semibold text-sm text-gray-800">$135 (60 Minutes)</p>
             </div>
-
           </div>
-            {/* END OF SECTION 1 CONTENT */}
+          {/* END OF SECTION 1 CONTENT */}
           <div id="section-5" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               05
@@ -395,7 +340,10 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
             <div>
               <h3>Back Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-              We’ve got your back! Benefit from our signature back facial that utilizes all-natural Dr. Schwab products. Benefits include getting rid of back acne, reducing oiliness, and softening the skin and an overall soothing experience. Consider adding on our Mini Facial to experience 60 minutes of relaxation.
+                We’ve got your back! Benefit from our signature back facial that utilizes
+                all-natural Dr. Schwab products. Benefits include getting rid of back acne, reducing
+                oiliness, and softening the skin and an overall soothing experience. Consider adding
+                on our Mini Facial to experience 60 minutes of relaxation.
               </p>
               <ul className="mb-10">
                 <li className="mb-1.5">-Getting rid of back acne</li>
@@ -412,9 +360,7 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                 <li className="mb-1.5">-Moisturizer</li>
               </ul>
 
-              <p className="font-semibold text-sm text-gray-800">
-                $70 (30 Minutes)
-              </p>
+              <p className="font-semibold text-sm text-gray-800">$70 (30 Minutes)</p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
@@ -427,10 +373,9 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
             <div>
               <h3>Mini Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                A mini facial treatment is an abbreviated version of our
-                Signature Facial. Typically provided in 30 minutes, it’s short
-                enough to complete during a lunch break but long enough to feel
-                luxurious!
+                A mini facial treatment is an abbreviated version of our Signature Facial. Typically
+                provided in 30 minutes, it’s short enough to complete during a lunch break but long
+                enough to feel luxurious!
               </p>
               <ul className="mb-10">
                 <li className="mb-1.5">Includes:</li>
@@ -442,13 +387,9 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                 <li className="mb-1.5">-Sunscreen</li>
                 <li className="mb-1.5">-Toner & Moisturizer</li>
                 <li className="mb-1.5">-Lip & Eye Treatment</li>
-                <li className="mb-1.5">
-                  *Steam & hot towels are used throughout entire treatment
-                </li>
+                <li className="mb-1.5">*Steam & hot towels are used throughout entire treatment</li>
               </ul>
-              <p className="font-semibold text-sm text-gray-800">
-                $60 (30 Minutes)
-              </p>
+              <p className="font-semibold text-sm text-gray-800">$60 (30 Minutes)</p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
@@ -461,9 +402,8 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
             <div>
               <h3>Gentleman’s Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                Men need pampering too! This relaxing treatment helps repair the
-                damage caused by daily shaving, skin sensitivity, dullness, and
-                aging.
+                Men need pampering too! This relaxing treatment helps repair the damage caused by
+                daily shaving, skin sensitivity, dullness, and aging.
               </p>
 
               <ul className="mb-10">
@@ -478,13 +418,9 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                 <li className="mb-1.5">-Sunscreen</li>
                 <li className="mb-1.5">-Toner & Moisturizer</li>
                 <li className="mb-1.5">-Lip & Eye Treatment</li>
-                <li className="mb-1.5">
-                  *Steam & hot towels are used throughout entire treatment
-                </li>
+                <li className="mb-1.5">*Steam & hot towels are used throughout entire treatment</li>
               </ul>
-              <p className="font-semibold text-sm text-gray-800">
-                $90 (60 Minutes)
-              </p>
+              <p className="font-semibold text-sm text-gray-800">$90 (60 Minutes)</p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
@@ -497,25 +433,24 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
             <div>
               <h3>Dermaplane Facial</h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-              Dermaplaning is an exfoliation treatment that involves gently scraping the face with a medical-grade scalpel to remove the very top layer of skin. The shave removes both dead skin cells and the fine vellus hairs that are known as “peach fuzz,” leaving the surface of the face ultra smooth. By stimulating the development of new skin cells, this type of exfoliation helps new skin rise to the surface. It leaves clients with a more youthful and dewy face without any harsh chemicals, excessive downtime, or pain.
+                Dermaplaning is an exfoliation treatment that involves gently scraping the face with
+                a medical-grade scalpel to remove the very top layer of skin. The shave removes both
+                dead skin cells and the fine vellus hairs that are known as “peach fuzz,” leaving
+                the surface of the face ultra smooth. By stimulating the development of new skin
+                cells, this type of exfoliation helps new skin rise to the surface. It leaves
+                clients with a more youthful and dewy face without any harsh chemicals, excessive
+                downtime, or pain.
               </p>
 
               <ul className="mb-10">
                 <li className="mb-1.5">Benefits:</li>
                 <li className="mb-1.5">-Removes dead skin cells</li>
+                <li className="mb-1.5">-Removes fine vellus hairs (peach fuzz)</li>
                 <li className="mb-1.5">
-                  -Removes fine vellus hairs (peach fuzz)
+                  -Leaves the surface of the face ultra-smooth for smoother makeup application
                 </li>
-                <li className="mb-1.5">
-                  -Leaves the surface of the face ultra-smooth for smoother
-                  makeup application
-                </li>
-                <li className="mb-1.5">
-                  -Leaves you with a more youthful and dewy face
-                </li>
-                <li className="mb-1.5">
-                  *Facial hair does NOT grow back thicker or darker
-                </li>
+                <li className="mb-1.5">-Leaves you with a more youthful and dewy face</li>
+                <li className="mb-1.5">*Facial hair does NOT grow back thicker or darker</li>
               </ul>
               <ul className="mb-10">
                 <li className="mb-1.5">Includes:</li>
@@ -528,46 +463,18 @@ Can be added to a 30-minute Mini Facial, but client should be informed the clean
                 <li className="mb-1.5">-Serum x 2</li>
                 <li className="mb-1.5">-Sunscreen</li>
                 <li className="mb-1.5">-Lip & Eye Treatment</li>
-                <li className="mb-1.5">
-                  *Steam & hot towels are used throughout entire treatment
-                </li>
+                <li className="mb-1.5">*Steam & hot towels are used throughout entire treatment</li>
               </ul>
 
-              <p className="font-semibold text-sm text-gray-800">$130 (60 Minutes)<br />ADD on just Dermaplaning to Signature Facial + $65 card/$60 cash (Add additional 20-30 Minutes to 60 Minute Signature Facial)
+              <p className="font-semibold text-sm text-gray-800">
+                $130 (60 Minutes)
+                <br />
+                ADD on just Dermaplaning to Signature Facial + $65 card/$60 cash (Add additional
+                20-30 Minutes to 60 Minute Signature Facial)
               </p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
-            <div className="text-center mt-20">
-              <h2>Dermaplane Facial Add-ons</h2>
-            </div>
-            <div className="mt-20">
-              <div className="mb-20">
-                {" "}
-                <h3>Sauna</h3>
-                <p className="font-semibold text-sm text-gray-800">
-                (NO $5 off with cash)
-                <br />
-                $20 (15 Minute) Sauna Session • $35	(30 Minute) Sauna Session
-                <br />
-                $40 (15 Minute) Couple’s Sauna Session • $70	(30 Minute) Couple’s Sauna Session
-                </p>
-              </div>
-              {/* service sub section */}
-              <div className="mb-20">
-                {" "}
-                <h3>Ionic Body Detox</h3>
-                
-                <p className="font-semibold text-sm text-gray-800">
-                (NO $5 off with cash)
-                <br />
-                $20 (15 Minute) Detox • $35	(30 Minute) Detox
-                <br />
-                $40 (15 Minute) Couple’s Detox • $70	(30 Minute) Couple’s Detox
-                </p>
-              </div>
-              </div>
           </div>
-
         </ScrollContent>
       </ScrollWrapper>
 
@@ -580,19 +487,13 @@ export default Page;
 
 export const query = graphql`
   {
-    openGraphImage: file(
-      relativePath: { eq: "open-graph/facebook/skin-care-facebook.jpg" }
-    ) {
+    openGraphImage: file(relativePath: { eq: "open-graph/facebook/skin-care-facebook.jpg" }) {
       publicURL
     }
-    twitterOpenGraphImage: file(
-      relativePath: { eq: "open-graph/twitter/skin-care-twitter.jpg" }
-    ) {
+    twitterOpenGraphImage: file(relativePath: { eq: "open-graph/twitter/skin-care-twitter.jpg" }) {
       publicURL
     }
-    heroDesktop: file(
-      relativePath: { eq: "services/skin-care/Skin Care.jpg" }
-    ) {
+    heroDesktop: file(relativePath: { eq: "services/skin-care/Skin Care.jpg" }) {
       childImageSharp {
         fixed(width: 1440, height: 1358, quality: 100) {
           ...GatsbyImageSharpFixed_withWebp
