@@ -45,142 +45,75 @@ const Page = ({ data }) => {
       >
         <h1>Carlsbad Massage Therapy</h1>
         <p className="mb-2 md:mb-0">
-          Relax. Reduce pain and stress. Improve circulation and flexibility.
-          Prevent injury and facilitate healing. Massage has many benefits, and
-          we have many options. Your next indulgence awaits with our Carlsbad
-          massage therapy services.
+          Relax. Reduce pain and stress. Improve circulation and flexibility. Prevent injury and
+          facilitate healing. Massage has many benefits, and we have many options. Your next
+          indulgence awaits with our Carlsbad massage therapy services.
+        </p>
+        <p className="mb-2 md:mb-0 mt-6">
+          Disclaimer: Please call us if you think you’ll arrive late for your appointment. We
+          provide a 5-minute grace period, but anything beyond that will shorten your massage time.
+          If you cancel within two hours of your scheduled time slot or do not show up, you will be
+          charged a 50% cancellation fee.
         </p>
       </HeroSplit>
 
       <ScrollWrapper>
         <ScrollNavigation>
           <li>
-            <AnchorLink
-              to={url + "#section-1"}
-              title="Deep Tissue Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-1"} title="Deep Tissue Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-2"}
-              title="Hot Oil Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-2"} title="Hot Oil Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-3"}
-              title="Back & Shoulder Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-3"} title="Back & Shoulder Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-4"}
-              title="Swedish Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-4"} title="Swedish Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-5"}
-              title="Thai Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-5"} title="Thai Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-6"}
-              title="Hot Stone Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-6"} title="Hot Stone Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-7"}
-              title="Sports Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-7"} title="Sports Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-8"}
-              title="Tuina Massage"
-              stripHash
-            />
-          </li>          
-          <li>
-            <AnchorLink
-              to={url + "#section-9"}
-              title="Aromatherapy Massage"
-              stripHash
-            />
-          </li>          
-          <li>
-            <AnchorLink
-              to={url + "#section-10"}
-              title="Acupressure"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-8"} title="Tuina Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-11"}
-              title="Double Indulgence"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-9"} title="Aromatherapy Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-12"}
-              title="Foot & Body Fusion"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-10"} title="Acupressure" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-13"}
-              title="Prenatal Body Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-11"} title="Double Indulgence" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-14"}
-              title="CBD Oil Body Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-12"} title="Foot & Body Fusion" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-15"}
-              title="Ashiatsu Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-13"} title="Prenatal Body Massage" stripHash />
           </li>
           <li>
-            <AnchorLink
-              to={url + "#section-16"}
-              title="Neck & Shoulder Relief"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-14"} title="CBD Oil Body Massage" stripHash />
+          </li>
+          <li>
+            <AnchorLink to={url + "#section-15"} title="Ashiatsu Massage" stripHash />
+          </li>
+          <li>
+            <AnchorLink to={url + "#section-16"} title="Neck & Shoulder Relief" stripHash />
           </li>
 
           <li>
-            <AnchorLink
-              to={url + "#section-17"}
-              title="Chair/Body Massage"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-17"} title="Chair/Body Massage" stripHash />
           </li>
 
           <li>
-            <AnchorLink
-              to={url + "#section-18"}
-              title="Foot Massage al-la-carte"
-              stripHash
-            />
+            <AnchorLink to={url + "#section-18"} title="Foot Massage al-la-carte" stripHash />
           </li>
           <li>
             <AnchorLink to={url + "#section-19"} title="Add-Ons" stripHash />
@@ -193,14 +126,17 @@ const Page = ({ data }) => {
             </span>
             <h3>Deep Tissue Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Firm pressure with amazing benefits!
-             </p>
+              Firm pressure with amazing benefits!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Slow, deep strokes reduce inflammation and tension in muscle or tissue. This massage is particularly helpful for chronic aches and pains. If you have a stiff neck and upper back, low back pain, leg muscle tightness, or sore shoulders—and you’re not a massage first-timer—this is for you.
+              Slow, deep strokes reduce inflammation and tension in muscle or tissue. This massage
+              is particularly helpful for chronic aches and pains. If you have a stiff neck and
+              upper back, low back pain, leg muscle tightness, or sore shoulders—and you’re not a
+              massage first-timer—this is for you.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$80 (60 Minutes) • $110 (90 Minutes) • $140 (2 Hours)<br></br>
-Couples: $160 (60 Minutes) •$220 (90 Minutes) •$280 (2 Hours)
+              $80 (60 Minutes) • $110 (90 Minutes) • $140 (2 Hours)<br></br>
+              Couples: $160 (60 Minutes) •$220 (90 Minutes) •$280 (2 Hours)
             </p>
           </div>
 
@@ -210,14 +146,17 @@ Couples: $160 (60 Minutes) •$220 (90 Minutes) •$280 (2 Hours)
             </span>
             <h3>Hot Oil Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Reduce tension and swelling in the muscles!
-             </p>
+              Reduce tension and swelling in the muscles!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Relieve stress and strain after a busy workday with a soothing and relaxing hot oil massage. Hot oil massage improves circulation and brings oxygenated blood to the roots. Choose from a Swedish or Deep Tissue massage, and we’ll take care of the rest.
+              Relieve stress and strain after a busy workday with a soothing and relaxing hot oil
+              massage. Hot oil massage improves circulation and brings oxygenated blood to the
+              roots. Choose from a Swedish or Deep Tissue massage, and we’ll take care of the rest.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-  $75 (60 Minutes) • $105(90 Minutes) • $135 (2 Hours)<br></br>
-Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $75 (60 Minutes) • $105(90 Minutes) • $135 (2 Hours)<br></br>
+              Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>
 
@@ -227,18 +166,22 @@ Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </span>
             <h3>Back & Shoulder Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Too much computer?
-             </p>
+              Too much computer?
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Need to relieve stress or tension in your back, neck, and shoulders? This type of massage therapy is for you. Relax and ease tension in the areas where muscle problems most occur. Anyone with buildup due to stress, computer work, or everyday life will benefit from this massage. 
+              Need to relieve stress or tension in your back, neck, and shoulders? This type of
+              massage therapy is for you. Relax and ease tension in the areas where muscle problems
+              most occur. Anyone with buildup due to stress, computer work, or everyday life will
+              benefit from this massage. 
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
               {/* $25 (15 Minutes)
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      $45 (30 Minutes) */}
-$75 (60 Minutes) • $105(90 Minutes) • $135 (2 Hours)<br></br>
-Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $75 (60 Minutes) • $105(90 Minutes) • $135 (2 Hours)<br></br>
+              Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>
 
@@ -248,14 +191,17 @@ Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </span>
             <h3>Swedish Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Lighter pressure for easy relaxation!
-             </p>
+              Lighter pressure for easy relaxation!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            New to massage? With its lighter pressure and longer strokes, Swedish massage is the most common and best-known type of Western massage. It relaxes the entire body and reduces tension. If it’s your first time or you don’t get massages often, Swedish massage is perfect for you.
+              New to massage? With its lighter pressure and longer strokes, Swedish massage is the
+              most common and best-known type of Western massage. It relaxes the entire body and
+              reduces tension. If it’s your first time or you don’t get massages often, Swedish
+              massage is perfect for you.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-  $75 (60 Minutes) • $105(90 Minutes) • $140 (2 Hours)<br></br>
-Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
+              $75 (60 Minutes) • $105(90 Minutes) • $140 (2 Hours)<br></br>
+              Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </p>
           </div>
 
@@ -265,14 +211,17 @@ Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </span>
             <h3>Thai Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Yoga without the work!
-             </p>
+              Yoga without the work!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Thai massage is like doing yoga but in massage form. Your massage therapist will use their hands, knees, legs, and feet to move you into a series of yoga-like stretches. Thai massage is more energizing and rigorous than more classic forms of massage, and your body will love you for it.
+              Thai massage is like doing yoga but in massage form. Your massage therapist will use
+              their hands, knees, legs, and feet to move you into a series of yoga-like stretches.
+              Thai massage is more energizing and rigorous than more classic forms of massage, and
+              your body will love you for it.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$80 (60 Minutes) • $110(90 Minutes) • $140 (2 Hours)<br></br>
-Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
+              $80 (60 Minutes) • $110(90 Minutes) • $140 (2 Hours)<br></br>
+              Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </p>
           </div>
 
@@ -282,14 +231,19 @@ Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </span>
             <h3>Hot Stone Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Our most popular modality!
-             </p>
+              Our most popular modality!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Our therapists use smooth, water-heated stones to warm up tight muscles to allow relaxation and to work deeper more quickly without the pain of firm pressure. We start with Swedish massage on your back and we gradually incorporate the hot stones for a customized massage throughout the entire body. It’s a unique, rejuvenating experience and something different than the standard full body massage.
+              Our therapists use smooth, water-heated stones to warm up tight muscles to allow
+              relaxation and to work deeper more quickly without the pain of firm pressure. We start
+              with Swedish massage on your back and we gradually incorporate the hot stones for a
+              customized massage throughout the entire body. It’s a unique, rejuvenating experience
+              and something different than the standard full body massage.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$90 (60 Minutes) • $120 (90 Minutes) • $150 (2 Hours)<br></br>
-Couples: $180 (60 Minutes) • $240 (90 Minutes) • $300 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $90 (60 Minutes) • $120 (90 Minutes) • $150 (2 Hours)<br></br>
+              Couples: $180 (60 Minutes) • $240 (90 Minutes) • $300 (2 Hours)
             </p>
           </div>
 
@@ -298,16 +252,22 @@ Couples: $180 (60 Minutes) • $240 (90 Minutes) • $300 (2 Hours)
               07
             </span>
             <h3>Sports Massage</h3>
-            
+
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Perfect for athletes!
-             </p>
+              Perfect for athletes!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Sports massage was developed to help athletes prepare their bodies for optimal performance, recover after a big event, or function well during training. It emphasizes prevention and healing of injuries to the muscles and tendons. Our therapists generally incorporate stretching and concentrate on a specific problem area per your request.
+              Sports massage was developed to help athletes prepare their bodies for optimal
+              performance, recover after a big event, or function well during training. It
+              emphasizes prevention and healing of injuries to the muscles and tendons. Our
+              therapists generally incorporate stretching and concentrate on a specific problem area
+              per your request.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>
-Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $80 (60 Minutes) • $110 (90 Minutes) • $140 (2 Hours)<br></br>
+              Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)<br></br>
+              *Couples pricing
             </p>
           </div>
 
@@ -317,13 +277,18 @@ Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </span>
             <h3>Tuina Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Chinese massage without oil or lotion!             </p>
-             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-             Our massage therapist, while avoiding oil or lotion, will brush, knead, roll/press, and rub the areas between each of the joints, to attempt to open the body’s defensive chi and get the energy moving in the muscles. This is recommended for our most experienced massage clients.
-             </p>
+              Chinese massage without oil or lotion!{" "}
+            </p>
+            <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
+              Our massage therapist, while avoiding oil or lotion, will brush, knead, roll/press,
+              and rub the areas between each of the joints, to attempt to open the body’s defensive
+              chi and get the energy moving in the muscles. This is recommended for our most
+              experienced massage clients.
+            </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>
-Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>
+              Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>
 
@@ -333,10 +298,13 @@ Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </span>
             <h3>Aromatherapy Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Enhance your massage with essential oils!
-             </p>
+              Enhance your massage with essential oils!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Choose from our relaxing Swedish or Deep Tissue Massage that incorporates scented essential oils from a diffuser for the purpose of altering one’s mood, cognitive, psychological, or physical well-being. Choose your essential oil aromatherapy upon check in.
+              Choose from our relaxing Swedish or Deep Tissue Massage that incorporates scented
+              essential oils from a diffuser for the purpose of altering one’s mood, cognitive,
+              psychological, or physical well-being. Choose your essential oil aromatherapy upon
+              check in.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
               {/* $75 (1 Hour)
@@ -356,8 +324,9 @@ Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      $270 (2 Hours) */}
-$80 (60 Minutes) • $110 (90 Minutes) • $140 (2 Hours)<br></br>
-Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $80 (60 Minutes) • $110 (90 Minutes) • $140 (2 Hours)<br></br>
+              Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </p>
           </div>
 
@@ -367,14 +336,18 @@ Couples: $160 (60 Minutes) • $220 (90 Minutes) • $280 (2 Hours)
             </span>
             <h3>Acupressure</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Acupuncture without the needles!
-             </p>
+              Acupuncture without the needles!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Acupressure (also called pressure acupuncture) has been used for thousands of years in China, but you can get all its benefits right here. Your massage therapist will gently apply pressure to special acupressure points throughout the body to promote total relaxation and wellness.
+              Acupressure (also called pressure acupuncture) has been used for thousands of years in
+              China, but you can get all its benefits right here. Your massage therapist will gently
+              apply pressure to special acupressure points throughout the body to promote total
+              relaxation and wellness.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>
-Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>
+              Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>
 
@@ -384,14 +357,18 @@ Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </span>
             <h3>Double Indulgence</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Two therapists, four hands!
-             </p>
+              Two therapists, four hands!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Four-handed massage involves two therapists working on you at the same time, mirroring each other’s movements. This type of massage is a must for the most experienced client as well as those wanting to indulge in an unforgettable journey in massage. Give it a try and experience ultimate relaxation.
+              Four-handed massage involves two therapists working on you at the same time, mirroring
+              each other’s movements. This type of massage is a must for the most experienced client
+              as well as those wanting to indulge in an unforgettable journey in massage. Give it a
+              try and experience ultimate relaxation.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$150 (1 Hour) • $210 (90 Minutes) NO TWO HOURS<br></br>
-Couples: $300 (60 Minutes) • $420 (90 Minutes) NO TWO HOURS
+              <span className="italic block">Deep Tissue + $5 </span>
+              $150 (1 Hour) • $210 (90 Minutes) NO TWO HOURS<br></br>
+              Couples: $300 (60 Minutes) • $420 (90 Minutes) NO TWO HOURS
             </p>
           </div>
 
@@ -401,15 +378,19 @@ Couples: $300 (60 Minutes) • $420 (90 Minutes) NO TWO HOURS
             </span>
             <h3>Foot & Body Fusion</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Relax from head to toe!
-             </p>
+              Relax from head to toe!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Soothe your aching feet in a relaxing foot soak while your head, shoulders, back, hands, and feet are massaged to help you relax and relieve tension and stress. This massage is designed to pamper and purify, with special focus on the body areas that receive the hardest stress in daily life. Performed with clothes-on in a foot reflexology lounge chair.
+              Soothe your aching feet in a relaxing foot soak while your head, shoulders, back,
+              hands, and feet are massaged to help you relax and relieve tension and stress. This
+              massage is designed to pamper and purify, with special focus on the body areas that
+              receive the hardest stress in daily life. Performed with clothes-on in a foot
+              reflexology lounge chair.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$65 (1 Hour) • $95 (90 Minutes) NO TWO HOURS<br></br>
-Prenatal: $70 (1 Hour) • $100 (90 Minutes) NO TWO HOURS<br></br>
-Couples: $130 (60 Minutes) • $190 (90 Minutes) NO TWO HOURS
+              $65 (1 Hour) • $95 (90 Minutes) NO TWO HOURS<br></br>
+              Prenatal: $70 (1 Hour) • $100 (90 Minutes) NO TWO HOURS<br></br>
+              Couples: $130 (60 Minutes) • $190 (90 Minutes) NO TWO HOURS
             </p>
           </div>
 
@@ -419,20 +400,23 @@ Couples: $130 (60 Minutes) • $190 (90 Minutes) NO TWO HOURS
             </span>
             <h3>Prenatal Body Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] ">
-            Let us relieve some of your physical discomfort!
-             </p>
+              Let us relieve some of your physical discomfort!
+            </p>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            The recommended side-lying position for expectant mothers helps minimize risk to the mother and offers maximum safety for both mother and baby. While lying on either the right or left side optimizes maternal cardiac function and oxygen delivery to the fetus. We provide a pregnancy pillow for extra support to mother and baby. Consider adding on a foot massage to the last 30 minutes of your massage. You won’t regret it.{" "}
+              The recommended side-lying position for expectant mothers helps minimize risk to the
+              mother and offers maximum safety for both mother and baby. While lying on either the
+              right or left side optimizes maternal cardiac function and oxygen delivery to the
+              fetus. We provide a pregnancy pillow for extra support to mother and baby. Consider
+              adding on a foot massage to the last 30 minutes of your massage. You won’t regret it.{" "}
             </p>
             <br></br>
             <p>
-              <sm>
-                *Expected mothers must be at least 8 weeks to begin massage
-                therapy*
-              </sm>
+              <sm>*Expected mothers must be at least 8 weeks to begin massage therapy*</sm>
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$80 (1 Hour) • $110 (90 Minutes) •  NO TWO HOUR, UNLESS THEY ADD ON 30 MINUTE FOOT MESSAGE TO 90 MINUTE BODY
+              <span className="italic block">Deep Tissue + $5 </span>
+              $80 (1 Hour) • $110 (90 Minutes) • NO TWO HOUR, UNLESS THEY ADD ON 30 MINUTE FOOT
+              MESSAGE TO 90 MINUTE BODY
             </p>
           </div>
 
@@ -442,7 +426,10 @@ $80 (1 Hour) • $110 (90 Minutes) •  NO TWO HOUR, UNLESS THEY ADD ON 30 MINUT
             </span>
             <h3>CBD Oil Body Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            CBD massage oil contains hemp which conditions the skin making it supple and soft. Not only does this help you feel better and more relaxed during and after the massage, but it can also help with skin conditions such as eczema, acne, psoriasis or even just dry skin.
+              CBD massage oil contains hemp which conditions the skin making it supple and soft. Not
+              only does this help you feel better and more relaxed during and after the massage, but
+              it can also help with skin conditions such as eczema, acne, psoriasis or even just dry
+              skin.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
               {/* $75 (1 Hour)
@@ -462,7 +449,9 @@ $80 (1 Hour) • $110 (90 Minutes) •  NO TWO HOUR, UNLESS THEY ADD ON 30 MINUT
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      $270 (2 Hours) */}
-$90 (60 Minutes) • $115 (90 Minutes) •  $150 (2 Hours) <br></br>Couples: $180 (60 Minutes) • $230 (90 Minutes) • $300 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $90 (60 Minutes) • $115 (90 Minutes) • $150 (2 Hours) <br></br>Couples: $180 (60
+              Minutes) • $230 (90 Minutes) • $300 (2 Hours)
             </p>
           </div>
 
@@ -472,7 +461,8 @@ $90 (60 Minutes) • $115 (90 Minutes) •  $150 (2 Hours) <br></br>Couples: $18
             </span>
             <h3>Ashiatsu Massage</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Traditional Chinese Massage, using the bars attached to ceiling, they walk on your back.
+              Traditional Chinese Massage, using the bars attached to ceiling, they walk on your
+              back.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
               {/* $60 (1 Hour)
@@ -486,8 +476,9 @@ $90 (60 Minutes) • $115 (90 Minutes) •  $150 (2 Hours) <br></br>Couples: $18
                      <br className="block lg:hidden" />
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      $160 (90 Minutes) */}
-              $75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>Couples: $150
-              (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
+              <span className="italic block">Deep Tissue + $5 </span>
+              $75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>Couples: $150 (60
+              Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>
 
@@ -497,42 +488,41 @@ $90 (60 Minutes) • $115 (90 Minutes) •  $150 (2 Hours) <br></br>Couples: $18
             </span>
             <h3>Neck & Shoulder Relief</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-            Performed clothes-on in the massage chair where therapist stands behind client while they are sitting upright in chair. Have therapist prepare massage chair BEFORE taking client back to room.
+              Performed clothes-on in the massage chair where therapist stands behind client while
+              they are sitting upright in chair.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$30 (15 Minutes)<br></br>Couples: $60 (15 Minutes)
+              $30 (15 Minutes)<br></br>Couples: $60 (15 Minutes)
             </p>
           </div>
-
 
           <div id="section-17" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               17
             </span>
             <h3>Chair/Body Massage</h3>
-            <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">“Chair” is always clothes-on, and you have the option (ask at booking) to receive the massage in our foot massage room while lying face down or in the chair.
+            <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
+              “Chair” is always clothes-on, and you have the option (ask at booking) to receive the
+              massage in our foot massage room while lying face down or in the chair.
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-            $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
+              $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
             </p>
-                       
           </div>
-
 
           <div id="section-18" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               18
             </span>
             <h3>30 Minute Foot Massage al-la-carte</h3>
-            <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">Foot massage improves circulation, stimulates muscles, reduces tension, and eases foot pain. Plus, it’s just plain ol’ relaxing. 
+            <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
+              Foot massage improves circulation, stimulates muscles, reduces tension, and eases foot
+              pain. Plus, it’s just plain ol’ relaxing. 
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
-$50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
+              $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
             </p>
-                      
           </div>
-
-
 
           <div id="section-19" className="mb-20 lg:mb-40">
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
@@ -540,7 +530,8 @@ $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
             </span>
             <h3>Add-on to any 60 Minute or 90 Minute Body Massage</h3>
             <p className="text-small font-medium tracking-wide text-gray-900 md:mb-[120px]">
-$50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)</p>
+              $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)
+            </p>
             <h3>Add-ons</h3>
             <p className="text-small font-medium tracking-wide text-gray-900">
               <ul>
@@ -548,7 +539,7 @@ $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)</p>
                 <li>-Aromatherapy Add-on +$5</li>
                 <li>-CBD Body Oil Add-on +$15</li>
                 <li>-Hot Stone Add-on +$15</li>
-                <li>-Foot Scrub +$5</li>
+                <li>-Foot Scrub +$15</li>
                 <li>-Foot Massage (30 Minutes) Add-on +$30</li>
                 <li>-Thai Massage (Stretching) +$5</li>
               </ul>
@@ -574,7 +565,6 @@ $50 (30 Minutes)<br></br>Couples: $100 (30 Minutes)</p>
                  <li>30 Minute Couple’s Detox $70</li>
                </ul>
                     </div> */}
-                    
           </div>
         </ScrollContent>
       </ScrollWrapper>
@@ -598,18 +588,14 @@ export const query = graphql`
     ) {
       publicURL
     }
-    heroDesktop: file(
-      relativePath: { eq: "services/massage/Massage Services.jpg" }
-    ) {
+    heroDesktop: file(relativePath: { eq: "services/massage/Massage Services.jpg" }) {
       childImageSharp {
         fixed(width: 1440, height: 1358, quality: 100) {
           ...GatsbyImageSharpFixed_withWebp
         }
       }
     }
-    heroMobile: file(
-      relativePath: { eq: "services/massage/Massage Services.jpg" }
-    ) {
+    heroMobile: file(relativePath: { eq: "services/massage/Massage Services.jpg" }) {
       childImageSharp {
         fixed(width: 828, height: 956, quality: 100) {
           ...GatsbyImageSharpFixed_withWebp
