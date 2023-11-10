@@ -449,8 +449,8 @@ const Page = ({ data }) => {
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      $270 (2 Hours) */}
               <span className="italic block">Deep Tissue + $5 </span>
-              $90 (60 Minutes) • $115 (90 Minutes) • $150 (2 Hours) <br></br>Couples: $180 (60
-              Minutes) • $230 (90 Minutes) • $300 (2 Hours)
+              $90 (60 Minutes) • $120 (90 Minutes) • $150 (2 Hours) <br></br>Couples: $180 (60
+              Minutes) • $240 (90 Minutes) • $300 (2 Hours)
             </p>
           </div>
 
