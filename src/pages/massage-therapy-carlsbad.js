@@ -113,7 +113,7 @@ const Page = ({ data }) => {
           </li>
 
           <li>
-            <AnchorLink to={url + "#section-18"} title="Foot Massage al-la-carte" stripHash />
+            <AnchorLink to={url + "#section-18"} title="Foot Massage a-la-carte" stripHash />
           </li>
           <li>
             <AnchorLink to={url + "#section-19"} title="Add-Ons" stripHash />
@@ -513,7 +513,7 @@ const Page = ({ data }) => {
             <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               18
             </span>
-            <h3>30 Minute Foot Massage al-la-carte</h3>
+            <h3>30 Minute Foot Massage a-la-carte</h3>
             <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
               Foot massage improves circulation, stimulates muscles, reduces tension, and eases foot
               pain. Plus, it’s just plain ol’ relaxing. 
