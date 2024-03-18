@@ -25,7 +25,7 @@ const Page = ({ data }) => {
     <Layout>
       <SearchEngineOptimization
         title="Carlsbad Massage Packages | Karma Spa"
-        description="Karma Spa's San Diego massage packages bring you affordable indulgence. Get the relaxation you need at our Hillcrest or Carlsbad locations."
+        description="Get the most out of your relaxation journey with our massage packages at Karma Spa in Carlsbad! Choose the one that best fits you. Learn more here!"
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />

@@ -24,7 +24,7 @@ const Page = ({ data }) => {
    return (
      <Layout>
        <SearchEngineOptimization
-         title="Hillcrest Massage Therapy Services | Karma Spa"
+         title="Hillcrest Massage Spa in San Diego | Karma Spa"
          description="Ready for top massage services in San Diego? Karma Spa offers a wide variety of massages at its Hillcrest & Carlsbad locations. Book today!"
          openGraphImage={data.openGraphImage.publicURL}
          twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}

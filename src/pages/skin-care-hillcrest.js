@@ -26,7 +26,7 @@ const Page = ({ data }) => {
     <Layout>
       <SearchEngineOptimization
         title="Hillcrest Skin Care Services | Karma Spa"
-        description="Karma Spa offers San Diego skin care services at Hillcrest & Carlsbad locations. Book a facial, waxing session, scrubs, or sauna session today!"
+        description="Indulge in premium skin care services at Karma Spa in Hillcrest. Experience rejuvenating facials and personalized treatments tailored to your needs. Book today!"
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
