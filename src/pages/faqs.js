@@ -38,7 +38,7 @@ const Page = () => {
                      />
                      <Accordion
                         title="I’m new to massage. What should I choose?"
-                        content="<p>We recommend the <a href='#'>Swedish massage</a> to first timers.</p>"
+                        content="<p>We recommend the <a class='!text-gray-700' href='https://www.karmamassagespa.com/massage-therapy-hillcrest/'>Swedish massage</a> to first timers.</p>"
                      />
                      <Accordion
                         title="Are there add-ons available for massage services?"

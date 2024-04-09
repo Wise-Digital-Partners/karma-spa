@@ -43,8 +43,8 @@ const Page = ({ data }) => {
          >
             <h1>About Us</h1>
             <p className="mb-0">
-               Our mission is your relaxation. At Karma Spa, we offer “Affordable Indulgence” at our two massage spa locations in Hillcrest and
-               Carlsbad. We offer a wide variety of services and packages to bring you great value and refreshment.
+               Our mission is your relaxation. At Karma Spa, we offer “Affordable Indulgence” at our two massage spa locations in <a className="text-gray-700" href="https://www.karmamassagespa.com/hillcrest-massage/">Hillcrest</a> and
+               <a className="text-gray-700" href="https://www.karmamassagespa.com/carlsbad-massage/">Carlsbad</a>. We offer a wide variety of services and packages to bring you great value and refreshment.
             </p>
             {/* <div className="flex gap-x-6 text-center pt-8 justify-items-center md:justify-start">
                <p>

@@ -105,7 +105,7 @@ const Page = ({ data }) => {
                   <div className="md:col-start-1 md:col-end-7 md:pr-12">
                      <h1>Best Hillcrest Massage Spa in San Diego</h1>
                      <p className="mb-0">
-                     Welcome to Karma Spa, the relaxing paradise you’ve been dreaming of. From Thai and deep tissue to hot stone, prenatal, and everything in between, our well-versed massage therapists are here to melt away your stress. For ultimate relaxation, combine a rejuvenating massage with our assortment of skin care services and aesthetic treatments. When you’re ready for affordable indulgence in Hillcrest, we’ll be here.
+                     Welcome to Karma Spa, the relaxing paradise you’ve been dreaming of. From Thai and deep tissue to hot stone, prenatal, and everything in between, our well-versed massage therapists are here to melt away your stress. For ultimate relaxation, combine a rejuvenating massage with our assortment of <a className="text-gray-700" href="https://www.karmamassagespa.com/skin-care-hillcrest/">skin care services</a> and aesthetic treatments. When you’re ready for affordable indulgence in Hillcrest, we’ll be here.
                      </p>
                   </div>
                   <div className="md:col-end-13 md:col-span-6">

@@ -22,7 +22,7 @@ const Post = ({ data }) => {
             content="                        
                 <p>If you’ve had a massage before, your masseuse has likely encouraged you to slam water like it’s your job right after. But why? During a massage, many toxins you’ve been harboring are released. Great! Right? While it’s wonderful that your body is purging harmful toxins, they have to be released somewhere—and it’s believed to be right into your bloodstream. It’s no reason to run and hide though (and never have a massage again—blasphemy!). Instead, it’s best to chug water post-massage to avoid falling ill.</p>
 
-                <p>Need more reasoning or want to learn more? Karma Spa has you covered.</p>
+                <p>Need more reasoning or want to learn more? <a class='!text-gray-700' href='https://www.karmamassagespa.com/'>Karma Spa</a> has you covered.</p>
 
                 <h2>Here’s why you should hydrate post-massage:</h2>
 

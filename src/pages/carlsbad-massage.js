@@ -106,8 +106,8 @@ const Page = ({ data }) => {
                      <h1>Best Carlsbad Massage Spa in San Diego</h1>
                      <p className="mb-0">
                         Karma Spa is your ticket to relaxation in Carlsbad. Our massage therapists are well-versed in over a dozen different kinds of
-                        massage, including deep tissue, Thai, couples massage, and more. But massage is just the beginning. Enjoy our assortment of
-                        skin care services and aesthetic treatments, or combine services with our popular packages. Let’s face it—you need a break.
+                        massage, including deep tissue, Thai, couples massage, and more. But massage is just the beginning. Enjoy our assortment of {" "}
+                        <a className="text-gray-700" href="https://www.karmamassagespa.com/skin-care-carlsbad/">skin care services</a> and aesthetic treatments, or combine services with our popular packages. Let’s face it—you need a break.
                         Affordable indulgence is right in your backyard.
                      </p>
                   </div>
