@@ -89,7 +89,7 @@ const Page = ({ data }) => {
             <h3 className="mb-4">The President Package</h3>
 
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
-              Experience the benefits of massage therapy and body detox in one session.
+              Experience the benefits of massage therapy and body detox in one session. Package includes.
             </p>
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">Includes:</p>
 

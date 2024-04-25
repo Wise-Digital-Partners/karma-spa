@@ -212,7 +212,7 @@ $110 (60 Minutes)
                 </li>
               </ul>
               <p className="font-semibold text-sm text-gray-800">
-                $135 (60 Minutes)
+                $150 (60 Minutes)
               </p>
             </div>
 

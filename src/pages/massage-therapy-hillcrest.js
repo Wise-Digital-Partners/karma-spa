@@ -162,7 +162,7 @@ const Page = ({ data }) => {
            <li>
              <AnchorLink
                to={url + "#section-16"}
-               title="CBD Body Massage"
+               title="Pain Relief Infused Oil Massage"
                stripHash
              />
            </li>
@@ -322,7 +322,7 @@ const Page = ({ data }) => {
                $75 (60 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $105 (90 Minutes)
+               $110 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
                $150 (2 Hours)
@@ -332,7 +332,7 @@ const Page = ({ data }) => {
                $150 (60 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $210 (90 Minutes)
+               $220 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
                $300 (2 Hours)
@@ -349,23 +349,23 @@ const Page = ({ data }) => {
                they walk on your back.
              </p>
              <p className="text-small font-medium tracking-wide text-gray-900">
-               $70 (1 Hour)
+               $75 (60 minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $100 (90 Minutes)
+               $105 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $130 (2 Hours)
+               $145 (2 Hours)
                <br />
                <br className="block lg:hidden" />
                Couples: <br className="block lg:hidden" />
-               $140 (1 Hour)
+               $150 (60 minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $200 (90 Minutes)
+               $220 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $260 (2 Hours)
+               $290 (2 Hours)
              </p>
            </div>
 
@@ -427,17 +427,17 @@ const Page = ({ data }) => {
                $110 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $160 (2 Hours)
+               $150 (2 Hours)
                <br />
                <br className="block lg:hidden" />
                Couples: <br className="block lg:hidden" />
                $160 (60 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $220 (90 Minutes)
+               $230 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $320 (2 Hours)
+               $300 (2 Hours)
              </p>
            </div>
 
@@ -627,20 +627,20 @@ const Page = ({ data }) => {
                $80 (60 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $120 (90 Minutes)
+               $115 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $165 (2 Hours)
+               $150 (2 Hours)
                <br />
                <br className="block lg:hidden" />
                Couples: <br className="block lg:hidden" />
-               $180 (60 Minutes)
+               $160 (60 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $240 (90 Minutes)
+               $230 (90 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $330 (2 Hours)
+               $300 (2 Hours)
              </p>
            </div>
 
@@ -685,13 +685,11 @@ const Page = ({ data }) => {
              <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
                16
              </span>
-             <h3>CBD Body Massage</h3>
+             <h3>Pain Relief Infused Oil Massage</h3>
              <p>
-               CBD massage oil contains hemp which conditions the skin making it
-               supple and soft. Not only does this help you feel better and more
-               relaxed during and after the massage, but it can also help with
-               skin conditions such as eczema, acne, psoriasis or even just dry
-               skin.
+              Eucalyptus or lavender infused oil conditions the skin, making it supple and soft. 
+              Not only does this help you feel better and more relaxed during and after the massage, 
+              but it can also help with skin conditions such as eczema, acne, psoriasis, or even just dry skin.
              </p>
              <p className="text-small font-medium tracking-wide text-gray-900">
                $90 (60 Minutes)
@@ -727,24 +725,26 @@ const Page = ({ data }) => {
                tension, and eases foot pain. Plus, it’s just plain ol’ relaxing.
              </p>
              <p className="text-small font-medium tracking-wide text-gray-900">
+               $50 (30 minutes)
+               <span className="hidden lg:inline lg:mx-1">•</span>
                $65 (1 Hour)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $100 (90 Minutes) NO 2 HOURS
+               $95 (90 Minutes) NO 2 HOURS
                <br className="block lg:hidden" />
                <br />
                Prenatal: <br className="block lg:hidden" />
                $70 (1 Hour)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $105 (90 Minutes) NO 2 HOURS
+               $100 (90 Minutes) NO 2 HOURS
                <br className="block lg:hidden" />
                <br />
                Couples: <br className="block lg:hidden" />
                $130 (60 Minutes)
                <br className="block lg:hidden" />
                <span className="hidden lg:inline lg:mx-1">•</span>
-               $200 (90 Minutes) NO 2 HOURS
+               $190 (90 Minutes) NO 2 HOURS
                <br className="block lg:hidden" />
              </p>
            </div>
@@ -756,11 +756,13 @@ const Page = ({ data }) => {
              <div className="mb-12 lg:mb-24">
                <h3>Add-Ons</h3>
                <p className="text-small font-medium tracking-wide text-gray-900">
+                 • Sports Add-on +$5
+                 <br />
                  • Prenatal Add-on +$5
                  <br />
                  • Aromatherapy Add-on +$5
                  <br />
-                 • CBD Body Oil Add-on +$15
+                 • Pain Relief Oil Add-on +$15
                  <br />
                  • Hot Stone Add-on +$15
                  <br />

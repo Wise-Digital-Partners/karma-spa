@@ -76,7 +76,7 @@ const Page = ({ data }) => {
               Experience the benefits of massage therapy and body detox in one session.
             </p>
             <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-              <i className="fas fa-tag text-primary_400 mr-2"></i>$160
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$160 ($320 for couples)
             </span>
             <ul className="styled-list mb-8">
               <li className="text-gray-600">60 Minute Foot &amp; Body Fusion (Clothes-on)</li>
@@ -96,7 +96,7 @@ const Page = ({ data }) => {
               Ease your stress with a massage & sauna or steam session.
             </p>
             <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-              <i className="fas fa-tag text-primary_400 mr-2"></i>$100
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$100 ($200 for couples)
             </span>
             <ul className="styled-list mb-8">
               <li className="text-gray-600">15 Minute Ionic Body Detox</li>
@@ -112,7 +112,7 @@ const Page = ({ data }) => {
               Make room in your busy schedule for some pampering.
             </p>
             <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
-              <i className="fas fa-tag text-primary_400 mr-2"></i>$145
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$145 ($290 for couples)
             </span>
             <ul className="styled-list mb-8">
               <li className="text-gray-600">15 Minute Ionic Body Detox</li>
