@@ -1,5 +1,5 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Script } from "gatsby";
 import Img from "gatsby-image";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
@@ -217,6 +217,24 @@ const Footer = () => {
          <ModalChooseLocation />
          <ModalHillcrest />
          <ModalCarlsbad />
+         <Script
+            id="boulevard-overlay"
+            dangerouslySetInnerHTML={{
+               __html: `(function (a) {
+                     var b = {
+                     businessId: '07049247-5a21-4080-8101-abaa68be0edd',
+                     };
+                     var c = a.createElement('script');
+                     var d = a.querySelector('script');
+                     c.src = 'https://static.joinboulevard.com/injector.min.js';
+                     c.async = true;
+                     c.onload = function () {
+                     blvd.init(b);
+                     };
+                     d.parentNode.insertBefore(c, d);
+                     })(document);`,
+            }}
+         />
       </div>
    );
 };
