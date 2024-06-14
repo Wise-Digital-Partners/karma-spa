@@ -141,6 +141,22 @@ export default class Form extends Component {
                   </label>
                   <textarea className="textarea" name="message" onChange={this.handleChange} id="message" rows="4" required={true} />
                </div>
+               <div className="field">
+               <label className="relative mb-2 cursor-pointer text-xs">
+                  <input type="checkbox" className="checkbox" name="disclaimer1" required={true} />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By providing a telephone number and submitting the form, you are consenting to be contacted by SMS text message from Karma Spa. Message frequency may vary. Message & data rates may apply. Reply STOP to opt out of further messaging. Reply HELP for more information.
+                  </label>
+               </div>
+               <div className="field">
+               <label className="relative mb-2 cursor-pointer text-xs">
+                  <input type="checkbox" className="checkbox" name="disclaimer2"  required={true} />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By entering your phone number, you are agreeing to receive text messages from us. Message rates may apply. You can reply STOP to opt out.
+                  </label>
+                 
+               </div>
+
+
+               
                <div className="mt-2">
                   <ButtonSolid as="button" type="submit" text="Submit" />
                </div>
