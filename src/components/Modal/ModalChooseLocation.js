@@ -108,7 +108,7 @@ const Modal = () => {
                         <div className="w-full md:w-auto" onClick={closeClickHandler}>
                            <ButtonSolid
                               className="w-full md:w-auto"
-                              href="#book-now"
+                              href="https://go.booker.com/location/karmaspa/service-menu"
                               //target="_blank"
                               rel="noopener noreferrer"
                               text="Hillcrest"
