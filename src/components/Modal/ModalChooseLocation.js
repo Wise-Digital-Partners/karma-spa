@@ -124,7 +124,7 @@ const Modal = () => {
                            />
                         </div>
                         
-                     </div>
+                     {/* </div>
                      <div className="field mt-[30px]">
                <label className="relative mb-2 cursor-pointer text-xs">
                   <input type="checkbox" className="checkbox" name="disclaimer1" required={true} />
@@ -137,7 +137,7 @@ const Modal = () => {
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By entering your phone number, you are agreeing to receive text messages from us. Message rates may apply. You can reply STOP to opt out.
                   </label>
                  
-               </div>
+               </div> */}
                      <i
                         className="close fal fa-times absolute top-0 right-0 mr-8 mt-8 md:mr-12 md:mt-12 text-2xl text-black hover:text-primary_400 focus:text-primary_400 active:text-primary_400 cursor-pointer transition-all duration-300 ease-linear"
                         data-modal-close
