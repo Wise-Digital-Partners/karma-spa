@@ -56,7 +56,7 @@
     "analyze": "npm run analyze:prettier",
     "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
     "fix": "npm run fix:prettier",
-    "build": "tgatsby build ",
+    "build": "gatsby build ",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
