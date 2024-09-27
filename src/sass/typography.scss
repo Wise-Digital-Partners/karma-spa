@@ -1,81 +1,81 @@
 body {
-   @apply font-body text-gray-500 antialiased;
+  @apply font-body text-gray-500 antialiased;
 }
 
 h1,
 .heading-one {
-   @screen md {
-      @apply text-6xl mb-8;
-   }
-   @apply font-heading text-mobile6xl leading-tight font-semibold text-gray-800 mb-6;
+  @screen md {
+    @apply text-6xl mb-8;
+  }
+  @apply font-heading text-mobile6xl leading-tight font-semibold text-gray-800 mb-6;
 }
 
 h2,
 .heading-two {
-   @screen md {
-      @apply text-5xl mb-4;
-   }
-   @apply font-heading text-mobile5xl leading-tight font-semibold text-gray-800 mb-4;
+  @screen md {
+    @apply text-5xl mb-4;
+  }
+  @apply font-heading text-mobile5xl leading-tight font-semibold text-gray-800 mb-4;
 }
 
 h3,
 .heading-three {
-   @screen md {
-      @apply text-4xl mb-6;
-   }
-   @apply font-heading text-mobile4xl leading-tight font-semibold text-gray-800 mb-4;
+  @screen md {
+    @apply text-4xl mb-6;
+  }
+  @apply font-heading text-mobile4xl leading-tight font-semibold text-gray-800 mb-4;
 }
 
 h4,
 .heading-four {
-   @screen md {
-      @apply text-3xl mb-4;
-   }
-   @apply font-heading text-mobile3xl leading-tight font-semibold text-gray-800 mb-4;
+  @screen md {
+    @apply text-3xl mb-4;
+  }
+  @apply font-heading text-mobile3xl leading-tight font-semibold text-gray-800 mb-4;
 }
 
 h5,
 .heading-five {
-   @screen md {
-      @apply text-2xl mb-4;
-   }
-   @apply font-heading text-mobile2xl leading-tight font-semibold text-gray-800 mb-4;
+  @screen md {
+    @apply text-2xl mb-4;
+  }
+  @apply font-heading text-mobile2xl leading-tight font-semibold text-gray-800 mb-4;
 }
 
 h6,
 .heading-six {
-   @screen md {
-      @apply text-xl mb-4;
-   }
-   @apply font-heading text-mobilexl leading-tight font-semibold text-gray-800 mb-4;
+  @screen md {
+    @apply text-xl mb-4;
+  }
+  @apply font-heading text-mobilexl leading-tight font-semibold text-gray-800 mb-4;
 }
 
 p {
-   @apply text-base leading-relaxed mb-8;
+  @apply text-base leading-relaxed mb-8;
 }
 
 .text-2xlarge {
-   @apply text-2xl leading-10;
+  @apply text-2xl leading-10;
 }
 
 .text-xlarge {
-   @apply text-xl leading-8;
+  @apply text-xl leading-8;
 }
 
 .text-large {
-   @apply text-lg leading-7;
+  @apply text-lg leading-7;
 }
 
 .text-medium {
-   @apply text-md leading-6;
+  @apply text-md leading-6;
 }
 
 .text-small {
-   @apply text-sm leading-6;
+  @apply text-sm leading-6;
 }
 
 .text-xsmall {
-   @apply text-xs leading-5;
+  @apply text-xs leading-5;
 }
 
 // .decorative-text {
@@ -93,3 +93,20 @@ p {
 //         }
 //     }
 // }
+.privacy-policy {
+  p {
+    @apply mb-4;
+
+    a {
+      @apply text-black;
+    }
+  }
+
+  ul {
+    @apply list-disc ml-4 mb-4;
+
+    li {
+      @apply mb-2;
+    }
+  }
+}
