@@ -131,7 +131,7 @@ const Page = ({ data }) => {
               $75 (60 Minutes)
               <br className="block lg:hidden" />
               <span className="hidden lg:inline lg:mx-1">•</span>
-              $105 (90 Minutes)
+              $110 (90 Minutes)
               <br className="block lg:hidden" />
               <span className="hidden lg:inline lg:mx-1">•</span>
               $150 (2 Hours)
@@ -164,7 +164,7 @@ const Page = ({ data }) => {
               $75 (60 Minutes)
               <br className="block lg:hidden" />
               <span className="hidden lg:inline lg:mx-1">•</span>
-              $105 (90 Minutes)
+              $110 (90 Minutes)
               <br className="block lg:hidden" />
               <span className="hidden lg:inline lg:mx-1">•</span>
               $150 (2 Hours)
@@ -287,7 +287,7 @@ const Page = ({ data }) => {
               $75 (60 minutes)
               <br className="block lg:hidden" />
               <span className="hidden lg:inline lg:mx-1">•</span>
-              $105 (90 Minutes)
+              $110 (90 Minutes)
               <br className="block lg:hidden" />
               <span className="hidden lg:inline lg:mx-1">•</span>
               $145 (2 Hours)

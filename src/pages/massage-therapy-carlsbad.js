@@ -180,7 +180,7 @@ const Page = ({ data }) => {
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      $45 (30 Minutes) */}
               <span className="italic block">Deep Tissue + $5 </span>
-              $75 (60 Minutes) • $105(90 Minutes) • $135 (2 Hours)<br></br>
+              $75 (60 Minutes) • $110 (90 Minutes) • $135 (2 Hours)<br></br>
               Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>
@@ -345,7 +345,7 @@ const Page = ({ data }) => {
             </p>
             <p className="text-small font-medium tracking-wide text-gray-900">
               <span className="italic block">Deep Tissue + $5 </span>
-              $75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>
+              $75 (60 Minutes) • $110 (90 Minutes) • $135 (2 Hours)<br></br>
               Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>
@@ -476,7 +476,7 @@ const Page = ({ data }) => {
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      $160 (90 Minutes) */}
               <span className="italic block">Deep Tissue + $5 </span>
-              $75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>Couples: $150 (60
+              $75 (60 Minutes) • $110 (90 Minutes) • $135 (2 Hours)<br></br>Couples: $150 (60
               Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>

@@ -62,9 +62,9 @@ const Page = ({ data }) => {
           <li>
             <AnchorLink to={url + "#section-3"} title="The CEO Package" stripHash />
           </li>
-          <li>
+          {/* <li>
             <AnchorLink to={url + "#section-4"} title="The Premier Package" stripHash />
-          </li>
+          </li> */}
           <li>
             <AnchorLink to={url + "#section-5"} title="The Royal Package" stripHash />
           </li>
@@ -122,7 +122,7 @@ const Page = ({ data }) => {
             </ul>
           </div>
 
-          <div id="section-4" className="mb-20 lg:mb-40">
+          {/* <div id="section-4" className="mb-20 lg:mb-40">
             <h3 className="mb-1">The Premier Package</h3>
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
               Want a well-rounded massage experience? The Premier Package is for you.
@@ -141,7 +141,7 @@ const Page = ({ data }) => {
               </li>
               <li className="text-gray-600">15 Minute Ionic Body Detox</li>
             </ul>
-          </div>
+          </div> */}
 
           <div id="section-5" className="mb-20 lg:mb-40">
             <h3 className="mb-1">The Royal Package</h3>

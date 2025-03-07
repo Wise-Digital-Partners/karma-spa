@@ -78,12 +78,15 @@ const Page = ({ data }) => {
           <li>
             <AnchorLink to={url + "#section-8"} title="Dermaplane Facial" stripHash />
           </li>
+          <li>
+            <AnchorLink to={url + "#section-9"} title="Nano Needling" stripHash />
+          </li>
         </ScrollNavigation>
         <ScrollContent>
           <div id="section-1" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               01
-            </span>
+            </span> */}
             {/* SECTION 1 CONTENT */}
             <div>
               <h3>Signature Facial</h3>
@@ -242,9 +245,9 @@ const Page = ({ data }) => {
           </div>
 
           <div id="section-2" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               02
-            </span>
+            </span> */}
             {/* SECTION 1 CONTENT */}
             <div>
               <h3>O2 Facial</h3>
@@ -268,9 +271,9 @@ const Page = ({ data }) => {
           </div>
 
           <div id="section-3" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               03
-            </span>
+            </span> */}
             {/* SECTION 1 CONTENT */}
             <div>
               <h3>Oxygen Facial</h3>
@@ -310,9 +313,9 @@ const Page = ({ data }) => {
           </div>
           {/* SECTION 4 CONTENT */}
           <div id="section-4" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               04
-            </span>
+            </span> */}
 
             <div>
               <h3>Hydra-Dermabrasion Facial</h3>
@@ -333,9 +336,9 @@ const Page = ({ data }) => {
           </div>
           {/* END OF SECTION 1 CONTENT */}
           <div id="section-5" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               05
-            </span>
+            </span> */}
             {/* SECTION 1 CONTENT */}
             <div>
               <h3>Back Facial</h3>
@@ -366,9 +369,9 @@ const Page = ({ data }) => {
           </div>
 
           <div id="section-6" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               06
-            </span>
+            </span> */}
             {/* SECTION 1 CONTENT */}
             <div>
               <h3>Mini Facial</h3>
@@ -395,9 +398,9 @@ const Page = ({ data }) => {
           </div>
 
           <div id="section-7" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               07
-            </span>
+            </span> */}
             {/* SECTION 1 CONTENT */}
             <div>
               <h3>Gentleman’s Facial</h3>
@@ -426,9 +429,9 @@ const Page = ({ data }) => {
           </div>
 
           <div id="section-8" className="mb-20 lg:mb-40">
-            <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
               08
-            </span>
+            </span> */}
             {/* SECTION 1 CONTENT */}
             <div>
               <h3>Dermaplane Facial</h3>
@@ -471,6 +474,27 @@ const Page = ({ data }) => {
                 <br />
                 ADD on just Dermaplaning to Signature Facial + $65 card/$60 cash (Add additional
                 20-30 Minutes to 60 Minute Signature Facial)
+              </p>
+            </div>
+            {/* END OF SECTION 1 CONTENT */}
+          </div>
+          <div id="section-9" className="mb-20 lg:mb-40">
+            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
+              08
+            </span> */}
+            {/* SECTION 1 CONTENT */}
+            <div>
+              <h3>Nano Needling</h3>
+              <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
+                Nano needling is a minimally invasive skincare treatment that uses ultra-fine
+                needles to create micro-injuries, stimulating collagen and elastin production. This
+                promotes smoother, firmer skin with reduced fine lines, scars, and pores.
+              </p>
+              <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
+                With minimal pain and downtime, nano needling enhances the absorption of serums,
+                improving their effectiveness. It’s a highly effective treatment for rejuvenating
+                skin and addressing a variety of concerns like acne scars, hyperpigmentation, and
+                skin texture.
               </p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
