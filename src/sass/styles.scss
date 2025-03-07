@@ -2,9 +2,10 @@
 @tailwind components;
 
 // Custom
-@import '../sass/global.scss';
-@import '../sass/typography.scss';
-@import '../sass/layout.scss';
-@import '../sass/forms.scss';
+@import "../sass/global.scss";
+@import "../sass/typography.scss";
+@import "../sass/layout.scss";
+@import "../sass/forms.scss";
+@import "../components/Repeating/weekly-specials.scss";
 
 @tailwind utilities;

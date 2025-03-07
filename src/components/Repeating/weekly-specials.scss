@@ -1,0 +1,130 @@
+.conditions-slider {
+  display: grid !important;
+  grid-template-columns: 160px auto;
+  grid-template-rows: 1fr 50px;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.conditions-slider .slick-list {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding-left: 30%;
+
+  @media (max-width: 1024px) {
+    padding-left: 20%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+}
+
+.conditions-slider .slick-list {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding-left: 23%;
+
+  @media (max-width: 1024px) {
+    padding-left: 30%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  @media (max-width: 768px) {
+    padding-left: 20%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .slick-active .slick-current {
+    height: 50%;
+  }
+
+  .slick-track {
+    @media (max-width: 600px) {
+      .slick-slide {
+        > div > div > div > div {
+          opacity: 0;
+          transition: 0.3s;
+        }
+
+        > div > div {
+          border-radius: 20px;
+        }
+
+        > div > div > img {
+          margin: 55px 0px 0px 0px;
+          height: 204px;
+          transition: 0.3s;
+          object-fit: cover;
+        }
+      }
+
+      .slick-current {
+        > div > div > div > div {
+          opacity: 1;
+          transition: 0.3s;
+        }
+
+        > div > div > img {
+          margin-top: 0px;
+          height: 320px;
+          transition: 0.3s;
+        }
+      }
+      // .slick-current {
+      //   > div > div > div {
+      //     div:nth-child(1) > div {
+      //       height: 300px;
+      //       transition: 0.3s;
+      //       border-radius: 75px;
+      //     }
+      //     div:nth-child(2) {
+      //       opacity: 1;
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+.conditions-dots {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.conditions-dots li {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  cursor: pointer;
+  p {
+    color: #666 !important;
+    font-weight: 700;
+    opacity: 0.8;
+  }
+}
+
+.conditions-dots li.slick-active {
+  p {
+    font-weight: 700;
+    color: #f3ad51 !important;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+}
