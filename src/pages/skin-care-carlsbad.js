@@ -496,6 +496,7 @@ const Page = ({ data }) => {
                 skin and addressing a variety of concerns like acne scars, hyperpigmentation, and
                 skin texture.
               </p>
+              <p className="font-semibold text-sm text-gray-800">$175</p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>

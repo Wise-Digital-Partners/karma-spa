@@ -127,7 +127,9 @@ const Page = ({ data }) => {
               When you need executive treatment, look no further. Our First Lady package delivers
               the ultimate renewal experience:
             </p>
-
+            <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$185{" "}
+            </span>
             <ul className="styled-list mb-8">
               <li className="text-gray-600">60 Minute Signature Facial</li>
               <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
