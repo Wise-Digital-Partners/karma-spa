@@ -252,7 +252,7 @@ const Page = ({ data }) => {
             </span> */}
             {/* SECTION 1 CONTENT */}
             <div>
-              <h3>Dermaplane Express:</h3>
+              <h3>Nano Needling : </h3>
               <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
                 Is a minimally invasive skincare treatment that uses ultra-fine needles to create
                 micro-injuries, stimulating collagen and elastin production. This promotes smoother,

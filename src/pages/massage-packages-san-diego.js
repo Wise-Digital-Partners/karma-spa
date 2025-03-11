@@ -62,9 +62,9 @@ const Page = ({ data }) => {
           <li>
             <AnchorLink to={url + "#section-3"} title="The CEO Package" stripHash />
           </li>
-          {/* <li>
-            <AnchorLink to={url + "#section-4"} title="The Premier Package" stripHash />
-          </li> */}
+          <li>
+            <AnchorLink to={url + "#section-4"} title="The First Lady Package" stripHash />
+          </li>
           <li>
             <AnchorLink to={url + "#section-5"} title="The Royal Package" stripHash />
           </li>
@@ -121,7 +121,20 @@ const Page = ({ data }) => {
               <li className="text-gray-600">15 Minute Sauna Session</li>
             </ul>
           </div>
+          <div id="section-4" className="mb-20 lg:mb-40">
+            <h3 className="mb-1">First Lady Package</h3>
+            <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+              When you need executive treatment, look no further. Our First Lady package delivers
+              the ultimate renewal experience:
+            </p>
 
+            <ul className="styled-list mb-8">
+              <li className="text-gray-600">60 Minute Signature Facial</li>
+              <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
+              <li className="text-gray-600">15 Minute Sauna</li>
+              <li className="text-gray-600">15 Minute Detox</li>
+            </ul>
+          </div>
           {/* <div id="section-4" className="mb-20 lg:mb-40">
             <h3 className="mb-1">The Premier Package</h3>
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
