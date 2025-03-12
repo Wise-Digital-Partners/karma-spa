@@ -68,6 +68,9 @@ const Page = ({ data }) => {
           <li>
             <AnchorLink to={url + "#section-5"} title="The Royal Package" stripHash />
           </li>
+          <li>
+            <AnchorLink to={url + "#section-6"} title="Spa Specials" stripHash />
+          </li>
         </ScrollNavigation>
         <ScrollContent>
           <div id="section-1" className="mb-20 lg:mb-40">
@@ -173,6 +176,47 @@ const Page = ({ data }) => {
               </li>
               <li className="text-gray-600">Hot Towels</li>
               <li className="text-gray-600">15 Minute Sauna Session</li>
+            </ul>
+          </div>
+          <div id="section-6" className="mb-20 lg:mb-40">
+            <h3 className="mb-4">Spa Specials</h3>
+            <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+              (Must Pay Cash)
+            </p>
+
+            <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">Includes:</p>
+            <ul className="styled-list mb-8 items-start">
+              <li className="text-gray-600 ">
+                {" "}
+                <div>
+                  <p className="font-semibold block mb-1">Military Special 10% off Monday-Friday</p>{" "}
+                  <p className="mb-0">
+                    Active and retired military only. No dependents (Ex: Children/Spouses)
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <ul className="styled-list mb-8 items-start">
+              <li className="text-gray-600 ">
+                {" "}
+                <div>
+                  <p className="font-semibold block mb-1">
+                    Early Bird Special $10 off Monday-Thursday 10am-12pm
+                  </p>{" "}
+                  <p className="mb-0">Must book before 12pm</p>
+                </div>
+              </li>
+            </ul>
+
+            <ul className="styled-list mb-8 items-start">
+              <li className="text-gray-600 ">
+                {" "}
+                <div>
+                  <p className="font-semibold block mb-1">First-time Customer Special $10 off</p>{" "}
+                  <p className="mb-0">60 Minutes, 90 Minutes or 2 Hour Body Massage</p>
+                </div>
+              </li>
             </ul>
           </div>
         </ScrollContent>
