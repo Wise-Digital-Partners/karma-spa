@@ -78,9 +78,6 @@ const Page = ({ data }) => {
           <li>
             <AnchorLink to={url + "#section-8"} title="Dermaplane Facial" stripHash />
           </li>
-          <li>
-            <AnchorLink to={url + "#section-9"} title="Nano Needling" stripHash />
-          </li>
         </ScrollNavigation>
         <ScrollContent>
           <div id="section-1" className="mb-20 lg:mb-40">
@@ -475,28 +472,6 @@ const Page = ({ data }) => {
                 ADD on just Dermaplaning to Signature Facial + $65 card/$60 cash (Add additional
                 20-30 Minutes to 60 Minute Signature Facial)
               </p>
-            </div>
-            {/* END OF SECTION 1 CONTENT */}
-          </div>
-          <div id="section-9" className="mb-20 lg:mb-40">
-            {/* <span className="text-xs text-gray-900 font-bold tracking-widest block mb-6 lg:mb-8">
-              08
-            </span> */}
-            {/* SECTION 1 CONTENT */}
-            <div>
-              <h3>Nano Needling</h3>
-              <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                Nano needling is a minimally invasive skincare treatment that uses ultra-fine
-                needles to create micro-injuries, stimulating collagen and elastin production. This
-                promotes smoother, firmer skin with reduced fine lines, scars, and pores.
-              </p>
-              <p className="font-heading text-2xl text-gray-800 leading-[30px] font-light">
-                With minimal pain and downtime, nano needling enhances the absorption of serums,
-                improving their effectiveness. It’s a highly effective treatment for rejuvenating
-                skin and addressing a variety of concerns like acne scars, hyperpigmentation, and
-                skin texture.
-              </p>
-              <p className="font-semibold text-sm text-gray-800">$175</p>
             </div>
             {/* END OF SECTION 1 CONTENT */}
           </div>
