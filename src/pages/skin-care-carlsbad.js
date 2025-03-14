@@ -78,6 +78,9 @@ const Page = ({ data }) => {
           <li>
             <AnchorLink to={url + "#section-8"} title="Dermaplane Facial" stripHash />
           </li>
+          <li>
+            <AnchorLink to={url + "#section-9"} title="Dermaplane Express" stripHash />
+          </li>
         </ScrollNavigation>
         <ScrollContent>
           <div id="section-1" className="mb-20 lg:mb-40">
@@ -472,8 +475,18 @@ const Page = ({ data }) => {
                 ADD on just Dermaplaning to Signature Facial + $65 card/$60 cash (Add additional
                 20-30 Minutes to 60 Minute Signature Facial)
               </p>
+              {/* END OF SECTION 1 CONTENT */}
             </div>
-            {/* END OF SECTION 1 CONTENT */}
+          </div>
+          <div id="section-9" className="mb-20 lg:mb-40">
+            <h3>Dermaplane Express:</h3>
+            <ul className="mb-10">
+              <li className="mb-1.5">Includes:</li>
+              <li className="mb-1.5">-Skin Analysis</li>
+              <li className="mb-1.5">-Dermaplane</li>
+              <li className="mb-1.5">-Moisturizer</li>
+              <li className="mb-1.5">-Sunscreen</li>
+            </ul>
           </div>
         </ScrollContent>
       </ScrollWrapper>

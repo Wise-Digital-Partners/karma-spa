@@ -43,7 +43,7 @@ const Page = ({ data }) => {
         minHeightDesktop="680px"
         minHeightMobile="480px"
       >
-        <h1>Carlsbad Massage Therapy</h1>
+        <h1>Acupuncture without the needles!</h1>
         <p className="mb-2 md:mb-0">
           Relax. Reduce pain and stress. Improve circulation and flexibility. Prevent injury and
           facilitate healing. Massage has many benefits, and we have many options. Your next
@@ -180,7 +180,7 @@ const Page = ({ data }) => {
                      <span className="hidden lg:inline lg:mx-1">•</span>
                      $45 (30 Minutes) */}
               <span className="italic block">Deep Tissue + $5 </span>
-              $75 (60 Minutes) • $105(90 Minutes) • $135 (2 Hours)<br></br>
+              $75 (60 Minutes) • $105 (90 Minutes) • $135 (2 Hours)<br></br>
               Couples: $150 (60 Minutes) • $210 (90 Minutes) • $270 (2 Hours)
             </p>
           </div>

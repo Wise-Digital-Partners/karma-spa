@@ -187,11 +187,12 @@ const Page = ({ data }) => {
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">Includes:</p>
             <ul className="styled-list mb-8 items-start">
               <li className="text-gray-600 ">
-                {" "}
                 <div>
-                  <p className="font-semibold block mb-1">Military Special 10% off Monday-Friday</p>{" "}
+                  <p className="font-semibold block mb-1">Military Mondays</p>
+                  <p className="mb-0">$10 off any service 1 hour or more</p>
                   <p className="mb-0">
-                    Active and retired military only. No dependents (Ex: Children/Spouses)
+                    Active or retired military only. Must show ID. Special does not apply to
+                    spouses, children, or other family members/friends.
                   </p>
                 </div>
               </li>
@@ -199,22 +200,44 @@ const Page = ({ data }) => {
 
             <ul className="styled-list mb-8 items-start">
               <li className="text-gray-600 ">
-                {" "}
                 <div>
-                  <p className="font-semibold block mb-1">
-                    Early Bird Special $10 off Monday-Thursday 10am-12pm
-                  </p>{" "}
-                  <p className="mb-0">Must book before 12pm</p>
+                  <p className="font-semibold block mb-1">Serenity Tuesdays</p>
+                  <p className="mb-0">$10 off all packages</p>
                 </div>
               </li>
             </ul>
 
             <ul className="styled-list mb-8 items-start">
               <li className="text-gray-600 ">
-                {" "}
                 <div>
-                  <p className="font-semibold block mb-1">First-time Customer Special $10 off</p>{" "}
-                  <p className="mb-0">60 Minutes, 90 Minutes or 2 Hour Body Massage</p>
+                  <p className="font-semibold block mb-1">Wellness Wednesdays</p>
+                  <p className="mb-0">
+                    $20 off any 60 Minute, 90 Minute, or 2 Hour Massage between 10 AM - 4 PM
+                  </p>
+                  <p className="mb-0">Must book before 4 PM</p>
+                </div>
+              </li>
+            </ul>
+
+            <ul className="styled-list mb-8 items-start">
+              <li className="text-gray-600 ">
+                <div>
+                  <p className="font-semibold block mb-1">Therapeutic Thursdays</p>
+                  <p className="mb-0">
+                    $15 off any 60 Minute, 90 Minute, or 2 Hour Couple's Massages between 11 AM - 5
+                    PM
+                  </p>
+                  <p className="mb-0">Must book before 5pm.</p>
+                </div>
+              </li>
+            </ul>
+
+            <ul className="styled-list mb-8 items-start">
+              <li className="text-gray-600 ">
+                <div>
+                  <p className="font-semibold block mb-1">Perfect Glow</p>
+                  <p className="mb-0">$20 off any facial 60 minute or longer</p>
+                  <p className="mb-0">Available Monday-Thursday.</p>
                 </div>
               </li>
             </ul>

@@ -207,8 +207,8 @@ const WeeklySpecials = ({ className }) => {
             Bliss on a Budget: Our Weekly Specials
           </h2>
           <p className="slider-section-custom-text lg:max-w-1/2">
-            *All specials are cash only. Cannot be combined with other offers. Hillcrest location
-            only.
+            *Available exclusively at our Hillcrest location. Cash payment required. Not valid with
+            other promotions.
           </p>
           {/* <Button
             {...mainButton}
