@@ -7,6 +7,7 @@ import ModalContact from "../Modal/ModalContact";
 import ModalChooseLocation from "../Modal/ModalChooseLocation";
 import ModalHillcrest from "../Modal/ModalHillcrest";
 import ModalCarlsbad from "../Modal/ModalCarlsbad";
+import ModalPromotion from "../Modal/ModalPromotion";
 
 const Footer = () => {
   const getYear = () => {
@@ -263,6 +264,7 @@ const Footer = () => {
 
       <ModalContact />
       <ModalChooseLocation />
+      <ModalPromotion />
       <ModalHillcrest />
       <ModalCarlsbad />
       <Script

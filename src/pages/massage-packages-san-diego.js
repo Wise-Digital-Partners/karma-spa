@@ -67,9 +67,18 @@ const Page = ({ data }) => {
           </li>
           <li>
             <AnchorLink to={url + "#section-5"} title="The Royal Package" stripHash />
+          </li>{" "}
+          <li>
+            <AnchorLink to={url + "#section-6"} title="Head-to-Glow Package" stripHash />
+          </li>{" "}
+          <li>
+            <AnchorLink to={url + "#section-7"} title="Revive & Renew Package" stripHash />
+          </li>{" "}
+          <li>
+            <AnchorLink to={url + "#section-8"} title="Ultimate Karma Package" stripHash />
           </li>
           <li>
-            <AnchorLink to={url + "#section-6"} title="Spa Specials" stripHash />
+            <AnchorLink to={url + "#section-9"} title="Spa Specials" stripHash />
           </li>
         </ScrollNavigation>
         <ScrollContent>
@@ -178,7 +187,54 @@ const Page = ({ data }) => {
               <li className="text-gray-600">15 Minute Sauna Session</li>
             </ul>
           </div>
+
           <div id="section-6" className="mb-20 lg:mb-40">
+            <h3 className="mb-1">Head-to-Glow Package</h3>
+            <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+              A relaxing two-hour escape that’ll leave you glowing from the inside out.
+            </p>
+            <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$165{" "}
+            </span>
+            <ul className="styled-list mb-8">
+              <li className="text-gray-600">60 Minute Scalp Rejuvenation</li>
+              <li className="text-gray-600">60 Minute Signature Facial</li>
+            </ul>
+          </div>
+          <div id="section-7" className="mb-20 lg:mb-40">
+            <h3 className="mb-1">Revive & Renew Package</h3>
+            <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+              Nearly three hours for the ultimate reboot—because you deserve more than just a quick
+              break.
+            </p>
+            <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$200{" "}
+            </span>
+            <ul className="styled-list mb-8">
+              <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
+              <li className="text-gray-600">60 Minute Scalp Rejuvenation</li>
+              <li className="text-gray-600">30 Minute Foot Massage</li>
+              <li className="text-gray-600">15 Minute Detox</li>
+            </ul>
+          </div>
+          <div id="section-8" className="mb-20 lg:mb-40">
+            <h3 className="mb-1">Ultimate Karma Package</h3>
+            <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
+              Four hours of good vibes and deep relaxation.
+            </p>
+            <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$270{" "}
+            </span>
+            <ul className="styled-list mb-8">
+              <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
+              <li className="text-gray-600">60 Minute Scalp Rejuvenation</li>
+              <li className="text-gray-600">60 Minute Signature Facial</li>
+              <li className="text-gray-600">30 Minute Foot Massage</li>
+              <li className="text-gray-600">15 Minute Sauna</li>
+              <li className="text-gray-600">15 Minute Detox</li>
+            </ul>
+          </div>
+          <div id="section-9" className="mb-20 lg:mb-40">
             <h3 className="mb-4">Spa Specials</h3>
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
               (Must Pay Cash)
