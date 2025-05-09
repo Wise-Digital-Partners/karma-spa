@@ -116,15 +116,18 @@ const Modal = () => {
           <div
             className="overlay fixed flex items-center justify-center top-0 right-0 left-0 bottom-0 bg-black bg-opacity-75 outline-none"
             tabIndex="-1"
-            onClick={closeClickHandler}
-            data-modal-close
+            // onClick={closeClickHandler}
+            data-micromodal-close
           >
             <div
               className="content-wrapper bg-white w-full  overflow-auto mx-4 my-10 max-w-[1110px] lg:mx-auto "
               role="dialog"
               aria-modal="true"
             >
-              <div className="flex flex-col-reverse lg:grid grid-cols-[384px_auto] ">
+              <div
+                className="flex flex-col-reverse lg:grid grid-cols-[384px_auto] "
+                aria-modal="true"
+              >
                 <Img
                   fluid={data.desktopImage.childImageSharp.fluid}
                   priority={true}
