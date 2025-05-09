@@ -137,7 +137,7 @@ const Modal = () => {
                 />
                 <div className="p-16 w-full text-[#666] font-heading ">
                   <div className="text-[36px] font-bold text-[#1A1A1A]">
-                    Make Mother’s Day Unforgettable
+                    Make Mother&apos;s Day Unforgettable
                   </div>
                   <div className="text-[30px] ">
                     <p className="text-[30px]">

@@ -181,7 +181,7 @@ const Page = ({ data }) => {
             <ul className="styled-list mb-8">
               <li className="text-gray-600">15 Minute Ionic Body Detox</li>
               <li className="text-gray-600">
-                60 Minute Double Indulgence (2 Therapists, 4 Hands – Deep Tissue or Swedish)
+                60 Minute Double Indulgence (2 Therapists, 4 Hands - Deep Tissue or Swedish)
               </li>
               <li className="text-gray-600">Hot Towels</li>
               <li className="text-gray-600">15 Minute Sauna Session</li>
@@ -191,7 +191,7 @@ const Page = ({ data }) => {
           <div id="section-6" className="mb-20 lg:mb-40">
             <h3 className="mb-1">Head-to-Glow Package</h3>
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
-              A relaxing two-hour escape that’ll leave you glowing from the inside out.
+              A relaxing two-hour escape that&apos;ll leave you glowing from the inside out.
             </p>
             <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
               <i className="fas fa-tag text-primary_400 mr-2"></i>$165{" "}
