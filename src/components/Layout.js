@@ -10,12 +10,11 @@ const Layout = ({ children, headerStyle, headerLinkColor, headerHasBorder }) => 
   const [bodyOffset, setBodyOffset] = useState(0);
   const location = useLocation();
 
-  useEffect(() => {
-    // if (location.pathname !== "/massage-packages-san-diego/") {
-    if (location.pathname == "/") {
-      MicroModal.show("modal-promotion");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (location.pathname == "/") {
+  //     MicroModal.show("modal-promotion");
+  //   }
+  // }, []);
 
   return (
     <div>
