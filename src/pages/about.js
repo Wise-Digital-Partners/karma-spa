@@ -106,7 +106,7 @@ const Page = ({ data }) => {
                         </p>
 
                         <ButtonSolid
-                           href="https://go.booker.com/location/karmaspa/service-menu"
+                           href="https://login.meevo.com/KarmaRelaxSpa/ob?locationId=203929"
                            target="_blank"
                            rel="noopener noreferrer"
                            text="Book Online"

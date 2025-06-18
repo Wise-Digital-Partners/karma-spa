@@ -50,7 +50,7 @@ const Page = ({ data }) => {
             <h1>Hillcrest Massage</h1>
             <div className="block mt-5 lg:hidden">
                <ButtonSolid
-                  href="https://go.booker.com/location/karmaspa/service-menu"
+                  href="https://login.meevo.com/KarmaRelaxSpa/ob?locationId=203929"
                   // target="_blank"
                   rel="noopener noreferrer"
                   text="Book Hillcrest"
@@ -89,7 +89,7 @@ const Page = ({ data }) => {
                   <div className="hidden lg:flex h-auto w-px bg-gray-200 bg-opacity-25 order-4"></div>
                   <div className="hidden lg:flex px-8 py-6 order-5">
                      <ButtonSolid
-                        href="https://go.booker.com/location/karmaspa/service-menu"
+                        href="https://login.meevo.com/KarmaRelaxSpa/ob?locationId=203929"
                         //target="_blank"
                         rel="noopener noreferrer"
                         text="Book Hillcrest"

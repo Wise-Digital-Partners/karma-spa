@@ -59,7 +59,7 @@ const Page = ({ data }) => {
           <div className="grid grid-cols-2 gap-x-4 md:gap-x-8 max-w-sm mx-auto">
             <ButtonSolid
               className="is-light w-full md:w-auto"
-              href="https://go.booker.com/location/karmaspa/service-menu"
+              href="https://login.meevo.com/KarmaRelaxSpa/ob?locationId=203929"
               // target="_blank"
               rel="noopener noreferrer"
               text="Hillcrest"
