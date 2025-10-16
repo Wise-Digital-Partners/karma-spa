@@ -68,9 +68,9 @@ const Page = ({ data }) => {
           <li>
             <AnchorLink to={url + "#section-5"} title="The Royal Package" stripHash />
           </li>
-          {/* <li>
+          <li>
             <AnchorLink to={url + "#section-6"} title="The First Lady Package" stripHash />
-          </li> */}
+          </li>
           <li>
             <AnchorLink to={url + "#section-7"} title="The Crown Package" stripHash />
           </li>
@@ -179,22 +179,22 @@ const Page = ({ data }) => {
             </ul>
           </div>
 
-          {/* <div id="section-6" className="mb-20 lg:mb-40">
-            <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-2 mt-4">
-              <i className="fas fa-tag text-primary_400 mr-2"></i>$185
-            </span>
-            <h3 className="mb-4">First Lady Package</h3>
+          <div id="section-6" className="mb-20 lg:mb-40">
+            <h3 className="mb-1">First Lady Package</h3>
             <p className="font-heading text-2xlarge font-light text-gray-900 mb-8">
-              Get pampered from head to toe with two and a half hours of indulgence.
+              When you need executive treatment, look no further. Our First Lady package delivers
+              the ultimate renewal experience:
             </p>
-            <p className="font-heading text-2xlarge font-light text-gray-900 mb-1">Includes:</p>
+            <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-8">
+              <i className="fas fa-tag text-primary_400 mr-2"></i>$185{" "}
+            </span>
             <ul className="styled-list mb-8">
-              <li className="text-gray-600">15 Minute Ionic Body Detox</li>
               <li className="text-gray-600">60 Minute Signature Facial</li>
               <li className="text-gray-600">60 Minute Body Massage (Deep Tissue or Swedish)</li>
               <li className="text-gray-600">15 Minute Sauna</li>
+              <li className="text-gray-600">15 Minute Detox</li>
             </ul>
-          </div> */}
+          </div>
 
           <div id="section-7" className="mb-20 lg:mb-40">
             <span className="inline-flex items-center bg-white rounded text-gray-900 font-medium px-3 py-2 mb-2 mt-4">
