@@ -105,7 +105,7 @@ const Modal = () => {
             >
               <p className="heading-three">Choose Your Location</p>
               <div className="grid grid-cols-2 gap-x-4 md:gap-x-8 mt-12 max-w-sm">
-                <div className="w-full md:w-auto" onClick={closeClickHandler}>
+                {/* <div className="w-full md:w-auto" onClick={closeClickHandler}>
                   <ButtonSolid
                     className="w-full md:w-auto"
                     href="https://login.meevo.com/KarmaRelaxSpa/ob?locationId=203929"
@@ -113,7 +113,7 @@ const Modal = () => {
                     rel="noopener noreferrer"
                     text="Hillcrest"
                   />
-                </div>
+                </div> */}
                 <div className="w-full md:w-auto" onClick={closeClickHandler}>
                   <ButtonSolid
                     className="w-full md:w-auto"

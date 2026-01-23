@@ -73,7 +73,7 @@ export default class Form extends Component {
         (window.dataLayer = window.dataLayer || []),
         window.dataLayer.push({
           event: "contactFormSubmission",
-        })
+        }),
       )
       .catch((error) => alert(error));
   };
@@ -134,7 +134,7 @@ export default class Form extends Component {
             <fieldset>
               <legend className="label">Select a Location</legend>
               <div className="inline-flex flex-col mt-2 mb-1">
-                <label className="relative pl-8 mb-2 cursor-pointer">
+                {/* <label className="relative pl-8 mb-2 cursor-pointer">
                   <input
                     type="radio"
                     name="location"
@@ -144,7 +144,7 @@ export default class Form extends Component {
                   />
                   Hillcrest
                   <span className="radio-checkmark"></span>
-                </label>
+                </label> */}
                 <label className="relative pl-8 mb-2 cursor-pointer">
                   <input
                     type="radio"

@@ -328,7 +328,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
             id="navigation-desktop"
             className="hidden lg:flex lg:items-center lg:justify-end mr-10 space-x-10"
           >
-            <li
+            {/* <li
               className={`is-mega-menu-parent navigation-item static group ${
                 megaMenuHovering1 ? "active" : ""
               }`}
@@ -418,7 +418,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                   </div>
                 </div>
               </div>
-            </li>
+            </li> */}
             <li
               className={`is-mega-menu-parent navigation-item static group ${
                 megaMenuHovering2 ? "active" : ""
@@ -504,11 +504,11 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                 Locations
               </AniLink>
               <ul className="submenu absolute flex flex-col w-auto bg-white shadow-lg px-8 pt-6 pb-10 opacity-0 invisible z-10 transform -translate-x-10 translate-y-12 transition-all duration-300 ease-linear space-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-7">
-                <li className="navigation-item whitespace-nowrap">
+                {/* <li className="navigation-item whitespace-nowrap">
                   <AniLink fade to="/hillcrest-massage/">
                     Hillcrest
                   </AniLink>
-                </li>
+                </li> */}
                 <li className="navigation-item whitespace-nowrap">
                   <AniLink fade to="/carlsbad-massage/">
                     Carlsbad
@@ -578,7 +578,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
               id="offcanvas-navigation"
               className="py-10"
             >
-              <ul id="navigation-mobile" className="mb-16 inline-block">
+              {/* <ul id="navigation-mobile" className="mb-16 inline-block">
                 <li className="flex justify-center navigation-item is-submenu-parent">
                   <Accordion title="Hillcrest Services">
                     <li className="navigation-item">
@@ -720,7 +720,7 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                     </li>
                   </Accordion>
                 </li>
-              </ul>
+              </ul> */}
 
               <ul className="text-center mb-12">
                 <li className="font-heading font-medium mb-5">

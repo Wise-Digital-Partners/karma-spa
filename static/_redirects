@@ -17,3 +17,8 @@ https://karmaspa.wisedigital.dev/* https://www.karmamassagespa.com/:splat 301!
 /massage-packages/ /massage-packages-san-diego/ 301!
 /iv-hydration-therapy/ /iv-hydration-san-diego/ 301!
 /skin-care-services/ /skin-care-hillcrest/ 301!
+/hillcrest-massage/  /carlsbad-massage 310!
+/massage-packages-san-diego/  /carlsbad-massage 310!
+/skin-care-hillcrest/  /carlsbad-massage 310!
+/iv-hydration-san-diego/  /carlsbad-massage 310!
+/massage-therapy-hillcrest/  /carlsbad-massage 310!

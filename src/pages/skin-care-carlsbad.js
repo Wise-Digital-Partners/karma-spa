@@ -44,11 +44,11 @@ const Page = ({ data }) => {
         minHeightDesktop="680px"
         minHeightMobile="480px"
       >
-        <h1>Carlsbad Skin Care Services</h1>
+        <h1>Skin Care Services: Refresh & Renew in Carlsbad</h1>
         <p className="mb-2 md:mb-0">
           Show yourself some extra love with our skin care services! Stress, free radicals, sun
-          damage, and many other factors impact our skin. Find the right service in Carlsbad for
-          your needs today, whether it’s a facial, waxing session, scrubs, or sauna session.
+          damage, and many other factors impact our skin. Find the right service for your needs
+          today, whether it’s a facial, a waxing session, a scrub, or a sauna session.
         </p>
       </HeroSplit>
 

@@ -43,11 +43,11 @@ const Page = ({ data }) => {
         minHeightDesktop="680px"
         minHeightMobile="480px"
       >
-        <h1>Carlsbad Massage Packages</h1>
+        <h1>Massage Packages: Relax & Rejuvenate in Carlsbad</h1>
         <p className="mb-2 md:mb-0">
           Get the most out of your relaxation journey with our massage packages. Experience multiple
           benefits in a single indulgent session that will pamper you properly when you need it
-          most. Our Carlsbad massage spa is ready to deliver.
+          most. Our massage spa is ready to deliver.
         </p>
       </HeroSplit>
 

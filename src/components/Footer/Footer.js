@@ -127,7 +127,7 @@ const Footer = () => {
                            </li>
                         </ul>
                      </div> */}
-              <div>
+              {/* <div>
                 <p className="text-xl md:text-2xl font-heading text-white font-bold mb-4 md:mb-5">
                   San Diego (Hillcrest)
                 </p>
@@ -179,7 +179,7 @@ const Footer = () => {
                     <i className="fab fa-twitter text-white hover:text-white hover:text-opacity-50 text-xl transition-all duration-300 ease-linear"></i>
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div>
                 <p className="text-xl md:text-2xl font-heading text-white font-bold mb-4 md:mb-5">
                   Carlsbad
