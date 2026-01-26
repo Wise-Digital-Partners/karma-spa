@@ -723,14 +723,14 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
               </ul> */}
 
               <ul className="text-center mb-12">
-                <li className="font-heading font-medium mb-5">
+                {/* <li className="font-heading font-medium mb-5">
                   <a
                     className="gtm-phone-number text-gray-700 no-underline"
                     href="tel:+1-619-299-9888"
                   >
                     Hillcrest: <span className="italic">(619) 299-9888</span>
                   </a>
-                </li>
+                </li> */}
                 <li className="font-heading font-medium">
                   <a
                     className="gtm-phone-number text-gray-700 no-underline"
@@ -741,12 +741,12 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
                 </li>
               </ul>
               <div className="grid grid-col-1 gap-y-5">
-                <ButtonSolid
+                {/* <ButtonSolid
                   href="https://login.meevo.com/KarmaRelaxSpa/ob?locationId=203929"
                   target="_blank"
                   rel="noopener noreferrer"
                   text="Book San Diego"
-                />
+                /> */}
                 <ButtonSolid
                   href="https://go.booker.com/location/karmarelaxationspa2/service-menu"
                   target="_blank"

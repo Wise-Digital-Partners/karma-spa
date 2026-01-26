@@ -103,7 +103,7 @@ const Modal = () => {
               role="dialog"
               aria-modal="true"
             >
-              <p className="heading-three">Choose Your Location</p>
+              {/* <p className="heading-three">Choose Your Location</p> */}
               <div className="grid grid-cols-2 gap-x-4 md:gap-x-8 mt-12 max-w-sm">
                 {/* <div className="w-full md:w-auto" onClick={closeClickHandler}>
                   <ButtonSolid
