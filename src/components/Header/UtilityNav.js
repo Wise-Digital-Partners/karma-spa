@@ -4,9 +4,13 @@ const UtilityNav = () => {
   return (
     <div id="utlity-navigation" className="bg-gray-100 py-2">
       <div className="container flex items-center gap-x-2 justify-around">
-        <div>
+        <div className="font-heading text-gray-700">
           Scheduling An Appointment at our Hillcrest Location? Please Visit:
-          <a href="https://www.karma-wellness.com/" target="_blank" className="ml-2">
+          <a
+            href="https://www.karma-wellness.com/"
+            target="_blank"
+            className="ml-2 hover:text-black"
+          >
             https://www.karma-wellness.com/
           </a>
         </div>
