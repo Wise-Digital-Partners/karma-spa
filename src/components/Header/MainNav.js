@@ -561,7 +561,13 @@ const MainNav = ({ scrolled, headerStyle, headerLinkColor, headerHasBorder, offc
             </li>
           </ul>
           <div className="hidden lg:inline-block items-center">
-            <ButtonSolid data="modal-choose-location" text="Book Appointment" />
+            <ButtonSolid
+              // data="modal-choose-location"
+              text="Book Appointment"
+              href="https://go.booker.com/location/karmarelaxationspa2/service-menu"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
           </div>
 
           <div className="lg:hidden" ref={node}>

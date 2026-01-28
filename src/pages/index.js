@@ -87,7 +87,14 @@ const Page = ({ data }) => {
                 care services —or save money with a package that pampers you in style. Book your
                 appointment today!
               </p>
-              <ButtonSolid as="button" data="modal-choose-location" text="Book Appointment" />
+              <ButtonSolid
+                // as="button"
+                // data="modal-choose-location"
+                text="Book Appointment"
+                href="https://go.booker.com/location/karmarelaxationspa2/service-menu"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
             </div>
             <div className="md:col-end-13 md:col-span-6">
               <Img fluid={introImages} alt="Massage Spa in San Diego & Carlsbad" />
