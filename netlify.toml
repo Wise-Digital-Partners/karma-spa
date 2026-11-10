@@ -1,0 +1,3 @@
+# Use Sharp's compatible prebuilt libvips instead of the build image's global copy.
+[build.environment]
+  SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
