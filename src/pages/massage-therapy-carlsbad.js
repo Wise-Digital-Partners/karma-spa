@@ -545,13 +545,28 @@ const Page = ({ data }) => {
             </p>
             <div className="mt-20">
               <div className="mb-20">
-                <h3>Sauna</h3>
+                <h3>Traditional Sauna</h3>
                 <span className="font-semibold text-sm text-gray-800 italic">
                   **No $5 off with cash**
                 </span>
                 <ul className="font-semibold text-sm text-gray-800 list-disc list-inside pl-2">
                   <li>15 Minute Sauna Session ($20)</li>
                   <li>15 Minute Couple's Sauna Session ($40)</li>
+                  <li>30 Minute Sauna Session ($35)</li>
+                  <li>30 Minute Couple's Sauna Session ($70)</li>
+                </ul>
+              </div>
+              <div className="mb-20">
+                <h3>Infrared Sauna</h3>
+                <p className="text-small font-medium tracking-wide text-gray-900">
+                  <a href="https://youtu.be/vzAuORz99LM" target="_blank" rel="noopener noreferrer">
+                    Learn more about our infrared sauna here
+                  </a>
+                </p>
+                <span className="font-semibold text-sm text-gray-800 italic">
+                  **No $5 off with cash**
+                </span>
+                <ul className="font-semibold text-sm text-gray-800 list-disc list-inside pl-2">
                   <li>30 Minute Sauna Session ($35)</li>
                   <li>30 Minute Couple's Sauna Session ($70)</li>
                 </ul>
