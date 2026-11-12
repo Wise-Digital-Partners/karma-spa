@@ -9,25 +9,25 @@ import ReviewsGrid from "../components/Reviews/ReviewsGrid";
 // import ButtonWithIcon from "../Button/ButtonWithIcon";
 
 const Page = ({ data }) => {
-     const heroImages = [
-       data.heroDesktop.childImageSharp.fixed,
-       {
-         ...data.heroDesktop.childImageSharp.fixed,
-         media: `(max-width: 767px)`,
-       },
-     ];
+  const heroImages = [
+    data.heroDesktop.childImageSharp.fixed,
+    {
+      ...data.heroDesktop.childImageSharp.fixed,
+      media: `(max-width: 767px)`,
+    },
+  ];
 
-    //  const mapImages = [
-    //    data.mapDesktop.childImageSharp.fluid,
-    //    {
-    //      ...data.mapMobile.childImageSharp.fluid,
-    //      media: `(max-width: 767px)`,
-    //    },
-    //  ];
+  //  const mapImages = [
+  //    data.mapDesktop.childImageSharp.fluid,
+  //    {
+  //      ...data.mapMobile.childImageSharp.fluid,
+  //      media: `(max-width: 767px)`,
+  //    },
+  //  ];
   return (
     <Layout headerHasBorder={true}>
       <SearchEngineOptimization
-        title="Reviews | Karma Spa | San Diego & Carlsbad Massage"
+        title="Reviews"
         description="Discover authentic & insightful reviews on a wide range of services & experiences. Get valuable feedback to make informed decisions. Explore our reviews today!"
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
@@ -43,7 +43,6 @@ const Page = ({ data }) => {
         minHeightMobile="480px"
       >
         <h1>From Our Customers</h1>
-    
       </Hero>
 
       <section className="pt-16 md:pt-24 pb-22 md:pb-16">

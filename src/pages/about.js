@@ -22,8 +22,8 @@ const Page = ({ data }) => {
   return (
     <Layout headerLinkColor="black">
       <SearchEngineOptimization
-        title="About Karma Spa | Massage Spa in San Diego & Carlsbad"
-        description="Karma Spa offers you affordable indulgence in two San Diego locations: Hillcrest and Carlsbad. Learn more about our massage spas. Book today!"
+        title="About Karma Spa"
+        description="Karma Spa offers you affordable indulgence in our Hillcrest location convenient to San Diego. Learn more about our massage spa. Book today!"
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -43,13 +43,16 @@ const Page = ({ data }) => {
       >
         <h1>About Us</h1>
         <p className="mb-0">
-          Our mission is your relaxation. At Karma Spa, we offer “Affordable Indulgence” at our
-          massage spa in{" "}
-          <a className="text-gray-700" href="https://www.karmamassagespa.com/carlsbad-massage/">
+          Our mission is your relaxation. At Karma Spa, we offer “Affordable
+          Indulgence” at our massage spa in{" "}
+          <a
+            className="text-gray-700"
+            href="https://www.karmamassagespa.com/carlsbad-massage/"
+          >
             Carlsbad
           </a>
-          . We offer a wide variety of services and packages to bring you great value and
-          refreshment.
+          . We offer a wide variety of services and packages to bring you great
+          value and refreshment.
         </p>
         {/* <div className="flex gap-x-6 text-center pt-8 justify-items-center md:justify-start">
                <p>
@@ -126,9 +129,10 @@ const Page = ({ data }) => {
           <header className="max-w-2xl mb-10 md:mb-16">
             <h2>Your Carlsbad Massage Spa</h2>
             <p>
-              Our 5,000 sq ft facility features 16 massage rooms, including dedicated rooms for
-              couples massage. We also have a spacious waiting area, both an infrared and
-              traditional sauna, and two Vichy shower rooms. Above all, we bring you deep relaxation
+              Our 5,000 sq ft facility features 16 massage rooms, including
+              dedicated rooms for couples massage. We also have a spacious
+              waiting area, both an infrared and traditional sauna, and two
+              Vichy shower rooms. Above all, we bring you deep relaxation
               through our skilled massage therapists and popular spa packages.
             </p>
           </header>
@@ -150,7 +154,9 @@ const Page = ({ data }) => {
 
                 <div className="flex items-center mb-2">
                   <i className="far fa-phone-alt text-black text-2xl mr-3"></i>
-                  <span className="font-heading text-2xlarge text-gray-900">Phone</span>
+                  <span className="font-heading text-2xlarge text-gray-900">
+                    Phone
+                  </span>
                 </div>
                 <p className="mb-4 md:mb-12">
                   Call:{" "}
@@ -165,10 +171,14 @@ const Page = ({ data }) => {
 
                 <div className="flex items-center mb-2">
                   <i className="far fa-envelope text-black text-2xl mr-3"></i>
-                  <span className="font-heading text-2xlarge text-gray-900">Email</span>
+                  <span className="font-heading text-2xlarge text-gray-900">
+                    Email
+                  </span>
                 </div>
                 <p className="mb-8 md:mb-12">
-                  <a href="mailto:carlsbad@karmamassagespa.com">carlsbad@karmamassagespa.com</a>
+                  <a href="mailto:carlsbad@karmamassagespa.com">
+                    carlsbad@karmamassagespa.com
+                  </a>
                 </p>
 
                 <ButtonSolid
@@ -194,10 +204,14 @@ export default Page;
 
 export const query = graphql`
   {
-    openGraphImage: file(relativePath: { eq: "open-graph/facebook/about-facebook.jpg" }) {
+    openGraphImage: file(
+      relativePath: { eq: "open-graph/facebook/about-facebook.jpg" }
+    ) {
       publicURL
     }
-    twitterOpenGraphImage: file(relativePath: { eq: "open-graph/twitter/about-twitter.jpg" }) {
+    twitterOpenGraphImage: file(
+      relativePath: { eq: "open-graph/twitter/about-twitter.jpg" }
+    ) {
       publicURL
     }
     heroDesktop: file(relativePath: { eq: "about/about-us-hero.jpg" }) {
@@ -214,28 +228,36 @@ export const query = graphql`
         }
       }
     }
-    sanDiegoMapDesktop: file(relativePath: { eq: "about/san-diego-map-desktop.jpg" }) {
+    sanDiegoMapDesktop: file(
+      relativePath: { eq: "about/san-diego-map-desktop.jpg" }
+    ) {
       childImageSharp {
         fluid(maxWidth: 1440, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    sanDiegoMapMobile: file(relativePath: { eq: "about/san-diego-map-mobile.jpg" }) {
+    sanDiegoMapMobile: file(
+      relativePath: { eq: "about/san-diego-map-mobile.jpg" }
+    ) {
       childImageSharp {
         fluid(maxWidth: 732, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    carlsbadMapDesktop: file(relativePath: { eq: "about/carlsbad-map-desktop.jpg" }) {
+    carlsbadMapDesktop: file(
+      relativePath: { eq: "about/carlsbad-map-desktop.jpg" }
+    ) {
       childImageSharp {
         fluid(maxWidth: 1440, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    carlsbadMapMobile: file(relativePath: { eq: "about/carlsbad-map-mobile.jpg" }) {
+    carlsbadMapMobile: file(
+      relativePath: { eq: "about/carlsbad-map-mobile.jpg" }
+    ) {
       childImageSharp {
         fluid(maxWidth: 732, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp

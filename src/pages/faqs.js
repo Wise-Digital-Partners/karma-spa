@@ -11,7 +11,7 @@ const Page = () => {
   return (
     <Layout headerLinkColor="black">
       <SearchEngineOptimization
-        title="FAQs | Karma Spa | San Diego & Carlsbad Massage"
+        title="FAQs"
         description="Why is Karma Spa a top massage spa in San Diego County? Get answers to this and more questions on our FAQs page. Book an appointment today!"
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
@@ -38,7 +38,7 @@ const Page = () => {
               />
               <Accordion
                 title="I’m new to massage. What should I choose?"
-                content="<p>We recommend the <a class='!text-gray-700' href='https://www.karmamassagespa.com/massage-therapy-hillcrest/'>Swedish massage</a> to first timers.</p>"
+                content="<p>We recommend the <a class='!text-gray-700' href='/massage-therapy-carlsbad/'>Swedish massage</a> to first timers.</p>"
               />
               <Accordion
                 title="Are there add-ons available for massage services?"
@@ -46,12 +46,12 @@ const Page = () => {
               />
               <Accordion
                 title="What are your packages?"
-                content="<p>We have a wide variety of packages depending on your needs! Packages vary in length and type of services. Learn more about our packages <a href='/massage-packages/'>here</a>.</p>"
+                content="<p>We have a wide variety of packages depending on your needs! Packages vary in length and type of services. Learn more about our packages <a href='/massage-packages-carlsbad/'>here</a>.</p>"
               />
 
               <Accordion
                 title="Tell me more about your skin care services."
-                content="<p>We offer facials (Carlsbad), waxing (Carlsbad), scrubs, and sauna or steam (Hillcrest) room sessions as part of our skin care services. Learn more about each service <a href='/skin-care-services/'>here</a>.</p>"
+                content="<p>We offer facials, waxing, scrubs and sauna sessions as part of our skin care services. Learn more about each service <a href='/skin-care-carlsbad/'>here</a>.</p>"
               />
               <Accordion
                 title="How much should I tip for a massage?"
@@ -65,7 +65,10 @@ const Page = () => {
 						Text: <a href='sms:+1-760-729-9889'>760-729-9889</a><br/>
 						Email: <a href='mailto:carlsbad@karmamassagespa.com'>carlsbad@karmamassagespa.com</a></p>"
               />
-              <Accordion title="Can I request a specific therapist? " content="<p>Yes.</p>" />
+              <Accordion
+                title="Can I request a specific therapist? "
+                content="<p>Yes.</p>"
+              />
               <Accordion
                 title="What if I have to cancel my appointment?"
                 content="<p>Oh no! We understand that life happens. To cancel your appointment or to reschedule, please reach out to the location you booked with.</p>
@@ -85,7 +88,7 @@ const Page = () => {
               />
               <Accordion
                 title="Do you offer memberships?"
-                content="<p>We offer two membership plans to bring you free massages and monthly specials for members only. As a member you can also earn points for each $1 spent. <a href='/massage-membership/'>Basic</a> membership is $35/year and comes with member-only monthly specials. <a href='/massage-packages/'>VIP membership</a> is $60/month and comes with a free basic body massage.</p>"
+                content="<p>We offer <a href='/massage-membership/'>two membership plans</a> to bring you free massages and monthly specials for members only. As a member you can also earn points for each $1 spent. <a href='/massage-membership/'>Basic</a> membership is $40/year and comes with member-only monthly specials. VIP membership is $65/month and comes with a free basic body massage.</p>"
               />
               <Accordion
                 title="Do you sell gift cards?"

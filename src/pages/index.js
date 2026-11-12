@@ -32,10 +32,14 @@ const Page = ({ data }) => {
   ];
 
   return (
-    <Layout headerStyle="overlap" headerLinkColor="white" headerHasBorder={true}>
+    <Layout
+      headerStyle="overlap"
+      headerLinkColor="white"
+      headerHasBorder={true}
+    >
       <SearchEngineOptimization
-        title="Massage San Diego & Carlsbad | Karma Spa"
-        description="Karma Spa is a top San Diego massage spa with Hillcrest & Carlsbad locations. Try our massage packages & skin care services. Enjoy affordable indulgence!"
+        title="Massage San Diego & Carlsbad"
+        description="Karma Spa is a top San Diego massage spa located in Carlsbad. Try our massage packages & skin care services. Enjoy affordable indulgence!"
         openGraphImage={data.openGraphImage.publicURL}
         twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -81,11 +85,12 @@ const Page = ({ data }) => {
             <div className="md:col-start-1 md:col-end-7 md:pr-16">
               <h1>Massage Spa in Carlsbad</h1>
               <p>
-                Ready to relax? See why Karma Spa is one of the best massage spas in Carlsbad. We
-                offer over a dozen massage styles to suit your tastes. But massage is just the
-                beginning. Make the most of our day spa experience with quality massage and skin
-                care services —or save money with a package that pampers you in style. Book your
-                appointment today!
+                Ready to relax? See why Karma Spa is one of the best massage
+                spas in Carlsbad. We offer over a dozen massage styles to suit
+                your tastes. But massage is just the beginning. Make the most of
+                our day spa experience with quality massage and skin care
+                services —or save money with a package that pampers you in
+                style. Book your appointment today!
               </p>
               <ButtonSolid
                 // as="button"
@@ -97,7 +102,10 @@ const Page = ({ data }) => {
               />
             </div>
             <div className="md:col-end-13 md:col-span-6">
-              <Img fluid={introImages} alt="Massage Spa in San Diego & Carlsbad" />
+              <Img
+                fluid={introImages}
+                alt="Massage Spa in San Diego & Carlsbad"
+              />
             </div>
           </div>
         </div>
@@ -122,10 +130,14 @@ export default Page;
 
 export const query = graphql`
   {
-    openGraphImage: file(relativePath: { eq: "open-graph/facebook/homepage-facebook.jpg" }) {
+    openGraphImage: file(
+      relativePath: { eq: "open-graph/facebook/homepage-facebook.jpg" }
+    ) {
       publicURL
     }
-    twitterOpenGraphImage: file(relativePath: { eq: "open-graph/twitter/homepage-twitter.jpg" }) {
+    twitterOpenGraphImage: file(
+      relativePath: { eq: "open-graph/twitter/homepage-twitter.jpg" }
+    ) {
       publicURL
     }
     heroDesktop: file(relativePath: { eq: "home/hero-desktop.jpg" }) {
